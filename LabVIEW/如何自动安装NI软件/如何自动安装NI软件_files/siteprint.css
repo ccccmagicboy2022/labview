@@ -1,0 +1,65 @@
+/*@import "/css/global/us/thecore.css";
+@import "/css/global/us/antiquatedjunk.css";
+*/
+body{background-color:#fff;font-size:12px;font-family:Arial, Helvetica, sans-serif;padding:0;margin:0 0 0 9px;}
+p,td,select,input,textarea{font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+ul,ol,li{font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+th{text-align:left;}
+sup{font-size:10px;}
+pre{font-family:Courier, fixed-width;font-weight:normal;color:#000;}
+em{font-style:italic;}
+h1{font-size:22px;color:#000;margin:8px 0 0;font-family:"Arial Narrow", sans-serif;}
+h2{font-size:18px;color:#000;margin:6px 0 0;}
+h3{font-size:12px;color:#000;margin:4px 0 0;}
+h4{margin:2px 0;}
+
+h2.alt, h2.hw, .hw h2, .alt h2{border-bottom:solid 5px #065fa3;font-size:12px;font-family:Arial, Helvetica, sans-serif;padding:4px;margin:2px 0 3px;}
+h2.sw, .sw h2{border-bottom:solid 5px #ffbb00;font-size:12px;font-family:Arial, Helvetica, sans-serif;padding:4px;margin:2px 0 3px;}
+h2.generic, h2.assistance, h2.distinct{border-bottom:solid 5px #e5e5e5;font-size:12px;font-family:Arial, Helvetica, sans-serif;padding:4px;margin:2px 0 3px;}
+
+h3.hw{border-bottom:solid 1px #065fa3;font-size:12px;font-family:Arial, Helvetica, sans-serif;margin-top:10px;padding:4px;}
+h3.sw{border-bottom:solid 1px #ffbb00;font-size:12px;font-family:Arial, Helvetica, sans-serif;margin-top:10px;padding:4px;}
+
+caption{text-align:left;padding:3px;font-weight:bold;}
+form{padding:0;margin:0;}
+#pagearea ul{margin:10px 0;padding:0;list-style-type:none;}
+#pagearea ul li{background:url(/images/global/us/bullet_nopad.gif) no-repeat 3px -1px;padding-left:14px;line-height:1.2;margin-bottom:6px;font-size:12px;font-family:Arial, Helvetica, sans-serif;}
+#pagearea ul li ul{margin:5px 0;}
+#pagearea ul li ul li{background:url(/images/global/us/bullet_sub.gif) no-repeat 3px -3px;}
+#pagearea ul li ul li ul li{background:url(/images/global/us/bullet_subsub.gif) no-repeat 3px -3px;}
+#pagearea ul li ol li, #pagearea ul li ul li ol li{background-image:none;}
+
+a:link{color:#065fa3;text-decoration:none;}
+a:visited{color:#884488;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+
+/*  */
+#hierarchynavigation, #search, #sitenavigation, #utilityBarRight, #breadcrumb, #locale{display:none;}
+body{padding:0;margin:0;}
+#wrapper{width:100%;}
+#bodyarea{width:650px;}
+
+#contentarea #amp-nav a, #contentarea #amp-nav ul li{display:none;}
+#contentarea #amp-nav ul li.on a{padding:5px 15px 4px 6px;}
+#addtocart, #requestquote, #addToPartsList{display:none;}
+.areaclosed{display:block;page-break-before:always;}
+
+#contentarea .content{width:552px;}
+#contentarea .content h3{clear:both;}
+
+#contentarea.ltbright .content, #contentarea.ltbleft .content{width:362px;float:left;}
+#contentarea.ltbleft .content{margin-left:15px;}
+
+.copyright{display:block;}
+
+/* Case Studies */
+#galleryarea{float:right;width:274px;padding:10px;background-color:#f2f2f2;margin:0 0 10px 10px;}
+.divider{border-top:1px solid #666;padding-top:5px;margin-top:5px;}
+.pullquote{padding:20px;border-bottom:1px solid #065fa3;}
+.pullquote p{color:#065fa3;font-size:22px;font-family:"Arial Narrow", sans-serif;padding:0;margin:0;}
+.imagelink{text-align:right;}
+.docdetails a{display:none;}
+.browseall{display:none;}
+.authorinfo{line-height:1.5;}
+.document #contentarea .content{width:752px;}

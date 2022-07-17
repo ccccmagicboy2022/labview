@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=us-ascii">
+<link rel="stylesheet" type="text/css" href="visa_server_setup_files/siteprint.css" media="print">
+<title>How Do I Control My VISA Device from Another Computer? - National Instruments</title>
+<link rel="stylesheet" type="text/css" href="visa_server_setup_files/site.css"> 
+
+
+
+ 
+
+<script language="javascript" type="text/javascript" src="visa_server_setup_files/resistance_is_futile.js"></script>
+
+<link rel="canonical" href="http://digital.ni.com/public.nsf/allkb/F3AB0B5D7DBA367C86257982005BBF2C"><meta name="Section" content="Support">
+<meta name="ContentClass" content="Technical">
+<meta name="ContentType" content="KnowledgeBase">
+<meta name="DocType" content="InstallConfig">
+<meta name="Language" scheme="rfc3066" content="en">
+<meta name="Date" scheme="iso8601" content="2012-01-11">
+<meta name="UpdateDate" scheme="iso8601" content="2012-01-13">
+<meta name="ShortTitle" content="How Do I Control My VISA Device from Another Computer?">
+<meta name="Description" content="I want to control a VISA device from a remote computer. How can I do this?">
+<meta name="Keywords" content="visa client,share,resource,visa server,remote device,setup,VISA run-time,remote control">
+<meta name="DocumentID" content="5TA9M9HB">
+<meta name="ProductCategories" content="1640">
+<meta name="nigen1" content="1640"><!--software categories-->
+<meta name="nigen2" content=""><!--hardware categories-->
+<meta name="nigen3" content="">
+<meta name="NiBoosts" content="UD:2012-01-13,RV:0,RN:0,RA:0,RD:null">
+<!--for parametric search-->
+<meta name="classification" content="InstallConfig">
+<meta name="LanguageType" content="English">
+<meta name="hardwareFamily" content="">
+<meta name="hardwareCategory" content="">
+<meta name="hardware" content="">
+<meta name="allsoftware" content="1640,5492">
+<meta name="daterange" content="lastyear,last6month,last3month">
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+function FormatAndSend(){
+
+	var frm = document.search2
+	var temp = "";
+
+	frm.query.value = replaceChars(frm.query.value);
+	frm.query1.value = replaceChars(frm.query1.value);
+		
+	if (frm.query1.value=="")
+		{return false;}
+	else {
+			temp = frm.query1.value + "&lang=" + frm.lang.value;
+			frm.query.value = temp;
+			return true;
+}
+}
+function replaceChars (textstring) {
+// function replaces ampersands with "AND"
+ 	tempstring = "";
+ 		for (i=0; i < textstring.length; i++) {
+  			tempchar = textstring.charAt(i);
+  			 if (tempchar == "&") {
+   				tempstring += "AND";
+  			}
+  			else {
+   				tempstring += tempchar;
+  			}
+ 		}
+ 	return tempstring;
+}
+
+// -->
+</script>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+function validate(){
+	var test;
+	var field1 = document.suppfeed.valueanalysis;
+//	var field2 = document.suppfeed.comments;
+	var field3 = document.suppfeed.emailadd;
+	for(var i=0;i<field1.length;i++){
+		if (field1[i].checked){
+			test="test"}
+	}
+//	if((field2.value != "Document needs work? Please tell us why.") & (field2.value !="")){
+//		test = "test"}
+	for (var i=0;i<field3.length;i++){
+		if (field3[i].checked){
+			test="test"}
+	}
+	if(test=="test"){
+		document.suppfeed.submit();
+		return;} 
+	else {
+		alert("Please fill out one or more fields before clicking the Submit button.");
+	return;}
+}
+
+// -->
+</script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+ 
+ 
+<a name="top"> </a>
+<div id="wrapper">
+	<a name="top"></a>
+	<a href="http://www.ni.com/"><img src="visa_server_setup_files/logo.gif" alt="NI Home" id="logo" border="0" height="64" width="157"></a>
+	     <div id="search" class="noindex">
+          
+          <form name="search" action="http://search.ni.com/nisearch/app/main"><a href="http://sine.ni.com/apps/utf8/nios.store?action=view_cart" rel="nofollow"><img src="visa_server_setup_files/cart.gif" alt="Cart" border="0"> Cart</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.ni.com/help/">Help</a>&nbsp;&nbsp; <input name="q" size="16" maxlength="254" value="Search" onclick="this.value='';" class="mainsearchinputbox" type="text">&nbsp;<input src="visa_server_setup_files/cta_arrow.gif" class="topalign" type="image"></form>
+          <!--NOTES_FORM_TAG2-->
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="noindex">
+	<map name="globalnav"> 
+	<area shape="rect" alt="Academic" coords="557,0,627,20" href="http://www.ni.com/academic/"> 
+	<area shape="rect" alt="Company" coords="684,0,751,20" href="http://www.ni.com/company/"> 
+	<area shape="rect" alt="Events" coords="629,0,682,20" href="http://www.ni.com/events/"> 
+	<area shape="rect" alt="NI Developer Zone" coords="441,0,555,20" href="http://zone.ni.com/"> 
+	<area shape="rect" alt="Support" coords="378,0,439,20" href="http://www.ni.com/support/"> 
+	<area shape="rect" alt="Solutions" coords="307,0,376,20" href="http://www.ni.com/solutions/"> 
+	<area shape="rect" alt="Products &amp; Services" coords="180,0,305,20" href="http://www.ni.com/products/"> 
+	<area shape="rect" alt="Contact NI" coords="91,0,179,20" href="http://sine.ni.com/apps/utf8/nicc.call_me" rel="nofollow"> 
+	<area shape="rect" alt="MyNI" coords="0,0,90,20" href="http://www.ni.com/myni/" rel="nofollow"> 
+	</map>
+	</div>
+<script language="javascript" type="text/javascript" charset="utf-8" src="visa_server_setup_files/headerWidget.js"></script>
+	<div id="headerWidgetOutput" class="noindex">
+		<script type="text/javascript" charset="utf-8" src="visa_server_setup_files/ss"></script>&#24744;&#22909;&#65292;&#23828; &#24013;&#12290;<a href="http://tesla.ni.com/niwcf/logout?notMe=true">&#65288;&#30331;&#20986;&#65289;</a> 
+	</div>
+	<div id="sitenavigation" class="noindex"><img src="visa_server_setup_files/support1_on.gif" alt="" usemap="#globalnav" border="0" height="20" width="752"></div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+ <div id="bodycontainer">
+		<div id="hierarchynavigation" class="noindex">
+			<ul>
+		<li><a href="http://www.ni.com/support" class="haschildren">Support</a>
+<ul><li><a href="http://www.ni.com/support/product_support.htm">Product-Specific Support</a>
+</li><li><a href="http://www.ni.com/drivers/">Drivers and Updates</a>
+</li><li><a href="http://www.ni.com/support/reference.htm">Product Reference</a>
+</li><li><a href="http://www.ni.com/kb/" id="final">KnowledgeBase</a>
+</li><li><a href="http://digital.ni.com/src.nsf/default?openform">Services Resource Center</a>
+</li><li><a href="http://www.ni.com/support/trouble.htm">Troubleshooting</a>
+</li><li><a href="http://www.ni.com/support/utilities.htm">Support Utilities</a>
+</li><li><a href="http://sine.ni.com/niforum/niforum?requireLogin=False&amp;forumDU=http://forums.ni.com/">Discussion Forums</a>
+</li><li><a href="http://www.ni.com/gettingstarted/">Getting Started with NI Products</a>
+</li><li><a href="http://www.ni.com/downloads/">Download NI Software Products</a>
+</li></ul></li>	    	<li id="request_support"><a href="http://www.ni.com/ask/"><strong>Request Support</strong><br>from an engineer</a></li>
+
+
+
+
+
+
+
+
+
+
+
+			</ul>
+		</div>
+		<div id="primarycontentcontainer"> 
+ 		<div id="breadcrumbcontainer" class="noindex">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr valign="top">
+					<td id="breadcrumb"> <a href="http://www.ni.com/">NI&nbsp;Home</a> &gt; <a href="http://www.ni.com/support">Support</a> &gt; KnowledgeBase</td>
+					<td id="locale">
+
+
+      <script language="JavaScript">
+       <!--
+       function LinkSelect(form, sel) {
+       adrs = sel.options[sel.selectedIndex].value;
+       if (adrs != "-" ) location.href = adrs;
+       }
+       // -->
+    </script>
+    <form method="post" name="link">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="selLink" onchange="LinkSelect(this.form, this)">
+     <option value="-" selected="selected">English
+    
+    </option></select>
+    </form>
+<script language="JavaScript">document.write('<form method=post name="DominoForm1" action="' + document.forms[0].action + '">'); </script><form method="post" name="DominoForm1" action="http://search.ni.com/nisearch/app/main">
+ 					</form></td>
+				</tr>
+			</tbody></table>
+		</div>
+		<table id="junktable" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr valign="top">
+				<td>
+				<div id="pagearea">
+ 
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+	<td nowrap="nowrap"><span style="color: #E67A3C"><strong>This Document is not yet Rated</strong></span></td>
+	<td nowrap="nowrap">&nbsp;<span style="font-size: 9pt"><a href="#rank">Rate this Document</a></span></td>
+  </tr>
+</tbody></table><p></p><h1>How Do I Control My VISA Device from Another Computer?</h1><p></p>
+<strong>Primary Software:</strong>   Driver Software&gt;&gt;NI-VISA<br>
+<strong>Primary Software Version:</strong>   1.1<br>
+<strong>Primary Software Fixed Version:</strong>    N/A<br>
+<strong>Secondary Software:</strong>   N/A<br>
+<table>
+    <tbody><tr>
+        <td colspan="50" class="linebuffer" valign="bottom">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr>
+                    <td class="tablegbg"><img src="visa_server_setup_files/invis.gif" alt="" border="0" height="1" width="10"></td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr> 
+</tbody></table><br>
+<strong>Problem:</strong>    <br>I want to control a VISA device from a remote computer. How can I do this?<br><br>
+<strong>Solution:</strong>    <br><strong>Note:</strong> You must have NI-VISA Run-Time&nbsp;installed in order to use the NI-VISA server and client.&nbsp; Go to <a href="http://www.ni.com/drivers/">ni.com/drivers</a> and search for "Visa Run-Time" to find the latest and previous version of this application. <br><br><strong>Server Setup:</strong> <br><br>1.
+ Open Measurement &amp; Automation Explorer and navigate to Tools&nbsp;&#187;
+ NI-VISA &#187;&nbsp;VISA Options.&nbsp; You should see this selection tree. 
+Select VISA Server, it is marked by the red box in the image. <br><br><img alt="" src="visa_server_setup_files/Menu%2520for%2520Visa%2520Server.JPG"> <br><br>2.&nbsp;
+ In the server options that is now open, if you want the VISA server to 
+run on startup you should enable the checkbox located in the red box in 
+the image below.&nbsp;&nbsp;Now&nbsp;press the Start Server now button, 
+shown in the&nbsp;blue box in the image below. <br><br><img alt="" src="visa_server_setup_files/VISA%2520Server%2520Options%25201.JPG" width="500"> <br><br>3.&nbsp;
+ If you are running Windows 7, you will probably recieve this 
+message.&nbsp; Make sure to allow the server to access your network by 
+pressing the Allow Access button. You can also enable the check boxes if
+ you want this computer to allow access to the server over public or 
+private networks. <br><br><img alt="" src="visa_server_setup_files/Windows%2520Security.JPG" width="500"> <br><br>4.
+ Now you need to configure access to your VISA server.&nbsp; Select the 
+Security sub-option from the left hand menu, Security is located under 
+the VISA Server option.&nbsp; If you want to allow access to this 
+computer's VISA server from any remote computer you can add a wildcard 
+'*' to the remote access list.&nbsp; The picture below shows a VISA 
+server configured to allow access&nbsp;from any remote computer.&nbsp; 
+The permission selector that is greyed out is set to "Access only" for 
+the wildcard entry.&nbsp; <br><br>You can also add remote machines by IP address or DNS Name <br><br><img alt="" src="visa_server_setup_files/Full%2520Access.JPG" width="500"> <br><br>5.
+ Once you have configured your remote access list.&nbsp; Then click the 
+save button in the upper left hand part of the window. Your computer is 
+now configured to share its VISA resources at the address 
+visa://&lt;machine name&gt;/&lt;resource name&gt;. <br><br><img alt="" src="visa_server_setup_files/save%2520visa.JPG" width="500"> <br><br><strong>Client Setup:</strong> <br><br>1.&nbsp; In order to use the VISA client you must have the VISA run-time engine installed. <br><br>2. After you have verified you have the necessary software, launch Measurement &amp; Automation Explorer. <br><br>3.
+ Open the VISA Interactive Control window by going to Tools&nbsp;&#187; 
+NI-VISA&nbsp;&#187; VISA Interactive Control.&nbsp; Below is a screenshot of 
+the window that will pop up. <br><br><img alt="" src="visa_server_setup_files/visa%2520interactive%2520control.JPG" width="500"> <br><br>4.
+ In the "Machine:" text box enter the name or IP address of your VISA 
+server, or you can use the drop down to target a machine on your local 
+network that MAX has already found.&nbsp; The list of resources should 
+refresh, and you can double click a resource to bring up a test panel 
+window.&nbsp; The address of the resource can be used by VISA methods to
+ open and control the remote resource, as shown below. <br><br><img alt="" src="visa_server_setup_files/visa%2520read%2520write.gif" width="500"><br><br>
+<strong>Related Links:</strong>   <br><a href="http://digital.ni.com/manuals.nsf/websearch/7C5065A3B69F2A32862578D8006D3FC7">NI-VISA Help</a><br>
+<a href="http://digital.ni.com/public.nsf/allkb/800ECE62BA6DE9BE8625762700022A9D?OpenDocument">AE KnowledgeBase 512IJ9WQ:&nbsp;"No Access Permissions" Error When Starting VISA Remote Server</a>&nbsp;<br><br>
+<strong>Attachments:</strong>   <br><br><br><!----><br><br>
+<table>
+    <tbody><tr>
+        <td colspan="50" class="linebuffer" valign="bottom">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr>
+                    <td class="tablegbg"><img src="visa_server_setup_files/invis.gif" alt="" border="0" height="1" width="10"></td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr> 
+</tbody></table><br>
+<strong>Report Date:</strong>   01/11/2012<br>
+<strong>Last Updated:</strong>   01/13/2012<br>
+<strong>Document ID:</strong>   5TA9M9HB<br>
+<br>
+<script language="javascript">
+function comments() {
+	var com_URL = "";
+	window.location = com_URL;
+}
+</script>
+<a name="rank">
+<table class="clearbg" border="0" cellpadding="0" cellspacing="0" width="350" align="center">
+	     <form name="suppfeed" action="/public.nsf/websearch/F3AB0B5D7DBA367C86257982005BBF2C?SaveDocument&amp;node=" method="POST" class="globalbg"></form>
+                 <tbody><tr>
+          <td nowrap="nowrap" valign="top" width="90"><span style="font-size: 8pt"><strong>Your Feedback!</strong></span></td>
+          <td colspan="5" nowrap="nowrap" valign="top" align="center"><span style="font-size: 8pt"><img alt="poor" src="visa_server_setup_files/arrow_poor.gif" border="0" height="7" width="4">&nbsp;Poor&nbsp;&nbsp;|&nbsp;&nbsp;Excellent&nbsp;<img alt="excellent" src="visa_server_setup_files/arrow_excellent.gif" border="0" height="7" width="4"></span></td>
+         <td width="1"><img src="visa_server_setup_files/invis.gif" border="0" height="1" width="1"></td>
+          <td>&nbsp;</td>
+          <td valign="top" align="center"><span style="font-size: 8pt">Yes</span></td>
+          <td valign="top" align="center"><span style="font-size: 8pt">No</span></td>
+		</tr>
+        <tr>
+          <td valign="top">
+            <table class="globalbg" border="0" cellpadding="1" cellspacing="0" width="100%">
+               <tbody><tr>
+                <td>
+                  <table class="clearbg" border="0" cellpadding="0" cellspacing="0" width="100%">
+                     <tbody><tr>
+                      <td height="19" nowrap="nowrap"><span style="font-size: 8pt">&nbsp;Document Quality?&nbsp;</span></td>
+					</tr>
+				  </tbody></table>
+				</td>
+			  </tr>
+			</tbody></table>
+		  </td>
+          <td class="globalbg" valign="center" align="center"><input value="1" name="valueanalysis" type="radio"></td>
+          <td class="globalbg" valign="center" align="center"><input value="2" name="valueanalysis" type="radio"></td>
+          <td class="globalbg" valign="center" align="center"><input value="3" name="valueanalysis" type="radio"></td>
+          <td class="globalbg" valign="center" align="center"><input value="4" name="valueanalysis" type="radio"></td>
+          <td class="globalbg" valign="center" align="center"><input value="5" name="valueanalysis" type="radio"></td>
+          <td width="1"><img alt="" src="visa_server_setup_files/invis.gif" border="0" height="1" width="1"></td>
+          <td>
+            <table class="globalbg" border="0" cellpadding="1" cellspacing="0" width="100%">
+              <tbody><tr>
+                <td>
+                  <table class="clearbg" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                      <td height="19" nowrap="nowrap"><span style="font-size: 8pt">&nbsp;Answered Your Question?&nbsp;</span></td>
+					</tr>
+				  </tbody></table>
+				</td>
+			  </tr>
+			</tbody></table>
+		  </td>
+          <td class="globalbg" valign="center" align="center"><input value="yes" name="emailadd" type="radio"></td>
+          <td class="globalbg" valign="center" align="center"><input value="no" name="emailadd" type="radio"></td>
+		</tr>
+        <tr><td valign="top">&nbsp;</td>
+          <td valign="top" align="center"><span style="font-size: 8pt">1</span></td>
+          <td valign="top" align="center"><span style="font-size: 8pt">2</span></td>
+          <td valign="top" align="center"><span style="font-size: 8pt">3</span></td>
+          <td valign="top" align="center"><span style="font-size: 8pt">4</span></td>
+          <td valign="top" align="center"><span style="font-size: 8pt">5</span></td>
+        </tr><tr>
+          <td colspan="10"><span class="query" style="font-size: 8pt"><textarea name="comments" rows="3" cols="44">Document needs work? Please tell us why.</textarea></span></td>
+          </tr><tr>
+          <td colspan="10" align="left">
+            <table class="clearbg" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody><tr><td width="75%"><span style="font-size: 8pt">Please <a href="http://sine.ni.com/apps/we/nicc.call_me">Contact NI</a> for all product and support inquiries.</span></td><td colspan="2" align="right"><a href="javascript:validate()"><img alt="submit" src="visa_server_setup_files/submit.gif" border="0"></a></td>
+			  </tr>
+			</tbody></table>
+		  </td>
+		</tr>
+	
+</tbody></table><form>
+  
+ 				</form></a></div><a name="rank">
+				</a></td>
+				<td>
+				<div id="tertiarynavigation" class="noindex">
+ 
+  
+ 					</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+		<div class="clearfloat">&nbsp;</div>
+	</div>
+	<div id="footer" class="noindex">
+		<a href="http://www.ni.com/profile/" rel="nofollow">My Profile</a> | <a href="http://www.ni.com/rss/" rel="nofollow">RSS</a> | <a href="http://www.ni.com/legal/privacy/unitedstates/us/" rel="nofollow">Privacy</a> | <a href="http://www.ni.com/legal/" rel="nofollow">Legal</a> | <a href="http://sine.ni.com/apps/utf8/nicc.call_me" rel="nofollow">Contact NI</a> <span class="copyright">&#169; 2012 National Instruments Corporation.  All rights reserved.</span> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<script language="javascript" type="text/javascript">
+var subject = "Link to National Instruments Web Site";
+var bodytext = encodeURI(window.location.href); 
+document.write('<a href=\"mailto:?subject=' + subject + '&body=' + bodytext + '\">'); 
+document.write('<img src="/images/global/us/email.gif" border="0" alt="E-Mail this Page"> E-Mail this Page</a>');
+</script><a href="mailto:?subject=Link%20to%20National%20Instruments%20Web%20Site&amp;body=http://digital.ni.com/public.nsf/allkb/F3AB0B5D7DBA367C86257982005BBF2C"><img src="visa_server_setup_files/email.gif" alt="E-Mail this Page" border="0"> E-Mail this Page</a>
+	</div>
+</div>
+<script language="JavaScript" src="visa_server_setup_files/tag-footer.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+ 
+<noscript>
+</body>
+</html>
+</noscript></body></html>

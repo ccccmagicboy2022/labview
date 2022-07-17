@@ -1,0 +1,13 @@
+if (typeof(headerWidgetPreOp) == 'function') {eval('headerWidgetPreOp()'); } // end if
+// ****Header Widget Output****
+var headerWidgetUserInfo = new Object();
+headerWidgetUserInfo.firstName = '巍';
+headerWidgetUserInfo.lastName = '崔';
+headerWidgetUserInfo.email = 'cuiwei1982@gmail.com';
+headerWidgetUserInfo.country = 'CN';
+headerWidgetUserInfo.language = 'zh';
+headerWidgetUserInfo.message = 'welcome';
+headerWidgetUserInfo.server = 'tesla.ni.com';
+var headerWidgetLoaded = true;
+
+if (typeof(headerWidgetPostOp) == 'function') {eval('headerWidgetPostOp()'); } // end if
