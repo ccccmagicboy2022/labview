@@ -1,0 +1,34 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="NI-Reports" displayname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41007">
+NI-Reports:  このタイプのレポートを作成するには、LabVIEW Report Generation（レポート生成）ツールキット（Microsoft Office用）をインストールする必要があります。ツールキットは、ライセンスがアクティブ化されているか評価モードである必要があります。
+</nierror>
+<nierror code="-41006">
+NI-Reports:  レポートタイプはこのプラットフォームではサポートされていません。
+</nierror>
+<nierror code="-41005">
+NI-Reports:  無効な余白設定
+</nierror>
+<nierror code="-41004">
+NI-Reports:  印刷エラー
+</nierror>
+<nierror code="-41003">
+NI-Reports:  ファイルを開くときにエラーが発生しました。
+</nierror>
+<nierror code="-41002">
+NI-Reports:  無効なプリンタ名です。
+</nierror>
+<nierror code="-41001">
+NI-Reports:  メモリが不足しています。
+</nierror>
+<nierror code="-41000">
+NI-Reports:  不明なエラー
+</nierror>
+<nierror code="41000">
+NI-Reports:  現在のレポートタイプに有効でない関数を使用しようとしました。
+</nierror>
+</nidocument>

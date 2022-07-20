@@ -1,0 +1,1019 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Analysis" displayname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23096">
+Analysis:  小数点が多すぎます。
+</nierror>
+<nierror code="-23095">
+Analysis:  関数が無効です。
+</nierror>
+<nierror code="-23094">
+Analysis:  関数表現が不完全です。
+</nierror>
+<nierror code="-23093">
+Analysis:  式が不完全です。
+</nierror>
+<nierror code="-23092">
+Analysis:  変数出力でエラーが発生しました。
+</nierror>
+<nierror code="-23091">
+Analysis:  変数または数値に矛盾があります。
+</nierror>
+<nierror code="-23090">
+Analysis:  複数の変数が含まれています。
+</nierror>
+<nierror code="-23089">
+Analysis:  変数が含まれています。
+</nierror>
+<nierror code="-23088">
+Analysis:  変数名が正しくありません。
+</nierror>
+<nierror code="-23087">
+Analysis:  式に不正な文字または未定義の変数があります。
+</nierror>
+<nierror code="-23086">
+Analysis:  関数呼び出しが正しくありません。
+</nierror>
+<nierror code="-23085">
+Analysis:  番号形式が正しくありません。
+</nierror>
+<nierror code="-23084">
+Analysis:  小数点数が正しくありません。
+</nierror>
+<nierror code="-23083">
+Analysis:  終りの部分で括弧に問題があります。
+</nierror>
+<nierror code="-23082">
+Analysis:  始めの部分で括弧に問題があります。
+</nierror>
+<nierror code="-23081">
+Analysis:  括弧に問題があります。
+</nierror>
+<nierror code="-23055">
+Analysis:  範囲外の引数[0,1)エラーが発生しました。
+</nierror>
+<nierror code="-23054">
+Analysis:  固有変数でありません。
+</nierror>
+<nierror code="-23053">
+Analysis:  信号長が2の累乗でなく、4以上です。
+</nierror>
+<nierror code="-23052">
+Analysis:  信号長が素数でなく、5以上です。
+</nierror>
+<nierror code="-23051">
+Analysis:  信号の長さは2の累乗でありません。
+</nierror>
+<nierror code="-23050">
+Analysis:  信号の長さは数値の倍数でありません。
+</nierror>
+<nierror code="-23049">
+Analysis:  ウィンドウの幅が無効です。
+</nierror>
+<nierror code="-23048">
+Analysis:  時間増分が無効です。
+</nierror>
+<nierror code="-23047">
+Analysis:  引数は範囲外[0,100]です。
+</nierror>
+<nierror code="-23046">
+Analysis:  空の配列です。
+</nierror>
+<nierror code="-23045">
+Analysis:  nはkよりも小さい値です。
+</nierror>
+<nierror code="-23044">
+Analysis:  範囲外の引数[0,1]エラーが発生しました。
+</nierror>
+<nierror code="-23043">
+Analysis:  範囲外の引数(0,1]エラーが発生しました。
+</nierror>
+<nierror code="-23042">
+Analysis:  負の引数です。
+</nierror>
+<nierror code="-23041">
+Analysis:  正確に2つの変数でありません。
+</nierror>
+<nierror code="-23040">
+Analysis:  導関数が範囲外です。
+</nierror>
+<nierror code="-23039">
+Analysis:  パラメータに問題があります。
+</nierror>
+<nierror code="-23038">
+Analysis:  式に変数がありません。
+</nierror>
+<nierror code="-23037">
+Analysis:  正確に2つの関数でありません。
+</nierror>
+<nierror code="-23036">
+Analysis:  パラメータが異なります。
+</nierror>
+<nierror code="-23035">
+Analysis:  正数以外の数値です。
+</nierror>
+<nierror code="-23034">
+Analysis:  不良なシステムです。
+</nierror>
+<nierror code="-23033">
+Analysis:  ベクトルに異なる次元があるか、空のベクトルです。
+</nierror>
+<nierror code="-23032">
+Analysis:  最大値は存在しません。
+</nierror>
+<nierror code="-23031">
+Analysis:  有効なポイントがありません。
+</nierror>
+<nierror code="-23030">
+Analysis:  m >= n >= 0 の条件に違反しているか、導関数の行列の次元が正しくありません。
+</nierror>
+<nierror code="-23029">
+Analysis:  「レーベンバーグ・マルカート」VIが失敗しました。
+</nierror>
+<nierror code="-23028">
+Analysis:  モデル方程式が正しくありません。
+</nierror>
+<nierror code="-23027">
+Analysis:  正確に1つの変数ではありません。
+</nierror>
+<nierror code="-23026">
+Analysis:  最適値が見つかりません。
+</nierror>
+<nierror code="-23025">
+Analysis:  3つの組み合わせ(a、b、c)が無効です。
+</nierror>
+<nierror code="-23024">
+Analysis:  ルートが見つかりません。
+</nierror>
+<nierror code="-23023">
+Analysis:  開始の次元が正しくありません。
+</nierror>
+<nierror code="-23022">
+Analysis:  正でない精度または正でないデルタx(h)です。
+</nierror>
+<nierror code="-23021">
+Analysis:  両方の関数値に同じ符号が付いています。
+</nierror>
+<nierror code="-23020">
+Analysis:  左のポイントは右のポイントよりも大きいです。
+</nierror>
+<nierror code="-23019">
+Analysis:  右のポイントがルートです。
+</nierror>
+<nierror code="-23018">
+Analysis:  左のポイントがルートです。
+</nierror>
+<nierror code="-23017">
+Analysis:  複数のルートです。
+</nierror>
+<nierror code="-23016">
+Analysis:  単数の固有ベクトル行列です。
+</nierror>
+<nierror code="-23015">
+Analysis:  X0が空です。
+</nierror>
+<nierror code="-23014">
+Analysis:  AとX0の次元が異なります。
+</nierror>
+<nierror code="-23013">
+Analysis:  行列ベクトル競合が発生しました。
+</nierror>
+<nierror code="-23012">
+Analysis:  精度が非正数です。
+</nierror>
+<nierror code="-23011">
+Analysis:  ステップレートが不正数です。
+</nierror>
+<nierror code="-23010">
+Analysis:  キャッシュ・カープ法の入力が正しくありません。
+</nierror>
+<nierror code="-23009">
+Analysis:  ルンゲ・クッタ法の入力が正しくありません。
+</nierror>
+<nierror code="-23008">
+Analysis:  オイラー法の入力が正しくありません。
+</nierror>
+<nierror code="-23007">
+Analysis:  グラフファイルではありません。
+</nierror>
+<nierror code="-23006">
+Analysis:  有効なパスではありません。
+</nierror>
+<nierror code="-23005">
+Analysis:  距離が負数です。
+</nierror>
+<nierror code="-23004">
+Analysis:  カラーパレット数が範囲外です。
+</nierror>
+<nierror code="-23003">
+Analysis:  輪郭数が範囲外です。
+</nierror>
+<nierror code="-23002">
+Analysis:  関数、変数、座標間の不一致があります。
+</nierror>
+<nierror code="-23001">
+Analysis:  パーサーの構文エラーです。
+</nierror>
+<nierror code="-23000">
+Analysis:  工学数学のエラーコードの開始です。
+</nierror>
+<nierror code="-20999">
+Analysis:  アルゴリズムに深刻な問題があります。ナショナルインスツルメンツの技術サポートに連絡してください。
+</nierror>
+<nierror code="-20699">
+Analysis:  ウェーブレットフィルタバンクのデータフィルタの形式が無効です。
+</nierror>
+<nierror code="-20698">
+Analysis:  ウェーブレットフィルタバンクのデータファイルが開けません。
+</nierror>
+<nierror code="-20697">
+Analysis:  ウェーブレットパケットセッションまたはハンドルは、ツリー全体を参照する必要があります。
+</nierror>
+<nierror code="-20696">
+Analysis:  ウェーブレットパケットセッションまたはハンドルが無効であるか、その参照先データスぺースに必要な情報が含まれていません。
+</nierror>
+<nierror code="-20695">
+Analysis:  ウェーブレット係数の次元が無効です。
+</nierror>
+<nierror code="-20694">
+Analysis:  最適パスを検索する任意パラメータが無効です。
+</nierror>
+<nierror code="-20693">
+Analysis:  トレンドレベルはゼロ以上1.0以下である必要があります。
+</nierror>
+<nierror code="-20692">
+Analysis:  タイムステップは0より大きくなければなりません。
+</nierror>
+<nierror code="-20691">
+Analysis:  ノードは、端子ノードである必要があります。
+</nierror>
+<nierror code="-20690">
+Analysis:  ノードを端子ノードであることは許可されません。
+</nierror>
+<nierror code="-20689">
+Analysis:  パスまたはノード文字列には、"0"または"1"だけが含まれている必要があります。
+</nierror>
+<nierror code="-20688">
+Analysis:  解析フィルタまたは合成フィルタの長さは、0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20687">
+Analysis:  マザーウェーブレット計算の高精度化レベルはゼロよりも大きくなければなりません。
+</nierror>
+<nierror code="-20686">
+Analysis:  シフトは0または1である必要があります。
+</nierror>
+<nierror code="-20685">
+Analysis:  シフトはゼロ以上で、デシメーション係数または補間係数よりも小さくなければなりません。
+</nierror>
+<nierror code="-20684">
+Analysis:  補間係数は2以上である必要があります。
+</nierror>
+<nierror code="-20683">
+Analysis:  デシメーション係数は2以上でなければなりません。
+</nierror>
+<nierror code="-20682">
+Analysis:  ウェーブレット分解のスケールはゼロより大きくなければなりません。
+</nierror>
+<nierror code="-20681">
+Analysis:  ウェーブレットタイプの選択が無効です。
+</nierror>
+<nierror code="-20665">
+Analysis:  最大次数は初期次数よりも大きく、入力信号の長さの3分の2よりも大きい必要があります。
+</nierror>
+<nierror code="-20664">
+Analysis:  初期次数は1以上である必要があります。
+</nierror>
+<nierror code="-20663">
+Analysis:  AR次数は複素正弦波数以上である必要があります。
+</nierror>
+<nierror code="-20662">
+Analysis:  複素正弦波数はゼロよりも大きく、入力信号の長さの3分の2よりも大きくなければなりません。
+</nierror>
+<nierror code="-20661">
+Analysis:  ARモデルの次数はゼロよりも大きく、入力信号の長さの3分の2よりも大きくなければなりません。
+</nierror>
+<nierror code="-20644">
+Analysis:  Refnumに格納されている2D配列の指標が範囲外です。
+</nierror>
+<nierror code="-20643">
+Analysis:  Refnumはこの操作をサポートしていません。
+</nierror>
+<nierror code="-20642">
+Analysis:  Refnumが無効です。
+</nierror>
+<nierror code="-20641">
+Analysis:  Refnumの作成に失敗しました。
+</nierror>
+<nierror code="-20630">
+Analysis:  周波数情報のパラメータは、これ以降の計算に対して無効です。
+</nierror>
+<nierror code="-20629">
+Analysis:  窓情報のパラメータは、これ以降の計算に対して無効です。
+</nierror>
+<nierror code="-20628">
+Analysis:  カーネルの次元はゼロよりも大きく、2の累乗である必要があります。 カーネルの列サイズは2^(ceil(log2(Ls-1)))である必要があります。ここで、Lは入力信号の長さです。
+</nierror>
+<nierror code="-20627">
+Analysis:  ガウシアン窓の分散値はゼロよりも大きくなければなりません。
+</nierror>
+<nierror code="-20626">
+Analysis:  窓のサイズはゼロよりも大きくなければなりません。
+</nierror>
+<nierror code="-20625">
+Analysis:  項目数はゼロよりも大きくなければなりません。
+</nierror>
+<nierror code="-20624">
+Analysis:  オーバーサンプリングレートは1以上である必要があります。
+</nierror>
+<nierror code="-20623">
+Analysis:  次数は0以上である必要があります。
+</nierror>
+<nierror code="-20622">
+Analysis:  時間間隔は2の累乗である必要があります。
+</nierror>
+<nierror code="-20621">
+Analysis:  時間間隔はゼロよりも大きくなければなりません。
+</nierror>
+<nierror code="-20604">
+Analysis:  列挙体データタイプパラメータの選択が無効です。
+</nierror>
+<nierror code="-20603">
+Analysis:  周波数ビンの数はゼロよりも大きく、2の累乗である必要があります。
+</nierror>
+<nierror code="-20602">
+Analysis:  サンプルレートは0より大きくなければなりません。
+</nierror>
+<nierror code="-20601">
+Analysis:  入力信号が空です。
+</nierror>
+<nierror code="-20511">
+Analysis:  CVIは要求されたミューテックスを作成できませんでした。
+</nierror>
+<nierror code="-20510">
+Analysis:  指定された関数がDLL内に見つかりませんでした。
+</nierror>
+<nierror code="-20509">
+Analysis:  CVIはスペクトル計測ツールキットのDLLをロードできませんでした。
+</nierror>
+<nierror code="-20508">
+Analysis:  SMTセッションハンドルが無効です。
+</nierror>
+<nierror code="-20507">
+Analysis:  正しくない平均タイプが指定されました。
+</nierror>
+<nierror code="-20506">
+Analysis:  入力スペクトルデータのタイプが正しくありません。
+</nierror>
+<nierror code="-20505">
+Analysis:  FFTビンまたはRBWを指定する必要があります。
+</nierror>
+<nierror code="-20504">
+Analysis:  サンプル周波数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20503">
+Analysis:  内部バッファは入力データによりオーバーフローしています。
+</nierror>
+<nierror code="-20502">
+Analysis:  FFTサイズは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20501">
+Analysis:  ズーム係数は1以上である必要があります。
+</nierror>
+<nierror code="-20337">
+Analysis:  指定されたタイムスタンプは制限範囲を超えた時間です。
+</nierror>
+<nierror code="-20336">
+Analysis:  リミット仕様クラスタに含まれているX配列の値は、単調に増加していません。
+</nierror>
+<nierror code="-20335">
+Analysis:  波形は連続的でありません。
+</nierror>
+<nierror code="-20334">
+Analysis:  波形のタイムスタンプが最長の波形の継続時間の10倍以上の間隔で区切られているため、波形を整列することができません。
+</nierror>
+<nierror code="-20333">
+Analysis:  2つの波形のサンプルがクロック入力位相でない場合、これらの波形を同じdtで整列できません。
+</nierror>
+<nierror code="-20332">
+Analysis:  内部エラー: スレッド属性値は0以下です。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20331">
+Analysis:  内部エラー: 発呼者VIブロックダイアグラムの変更によるためか、パラメータストラクチャポインタがNullです。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20330">
+Analysis:  内部エラー: 発呼者VIブロックダイアグラムの変更によるためか、結果のポインタがNullです。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20329">
+Analysis:  内部エラー: 発呼者VIブロックダイアグラムの変更によるためか、カーソルストラクチャポインタがNullです。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20328">
+Analysis:  低メモリの可能性により測定コードのクリティカルセクションの初期化に失敗しました。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20327">
+Analysis:  低メモリの可能性により計測コードに例外が発生しました。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20326">
+Analysis:  立上り時間または立下り時間がゼロであるため、スルーレートが無限大です。
+</nierror>
+<nierror code="-20325">
+Analysis:  内部エラー: 測定IDが無効です。 詳細については、ナショナルインスツルメンツの技術サポートまでお問い合わせください。
+</nierror>
+<nierror code="-20324">
+Analysis:  内部エラー: 2つの測定値に対して同じID番号が使用されています。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20323">
+Analysis:  エッジ数、パルス数、またはサイクルパラメータは0以上である必要があります。
+</nierror>
+<nierror code="-20322">
+Analysis:  内部エラー: 属性番号は有効なパラメータを参照していません。 内部エラー: 属性番号は有効なパラメータを基準としていません。<b>基準レベル</b>、<b>%レベル設定</b>、<b>状態設定</b>入力を確認してください。
+</nierror>
+<nierror code="-20321">
+Analysis:  内部エラー: 計測セッションハンドルは無効です。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20320">
+Analysis:  内部エラー: 要求された計測は利用できません。 問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-20319">
+Analysis:  波形周期が短すぎるため、測定を実行できません。
+</nierror>
+<nierror code="-20318">
+Analysis:  結果は数値以外（NaN）の値または無限値ではありません。
+</nierror>
+<nierror code="-20317">
+Analysis:  ヒストグラムのサイズパラメータ値は0以下です。
+</nierror>
+<nierror code="-20316">
+Analysis:  不正なパーセント入力メソッドのパラメータです。 <b>メソッド</b>列挙体タイプ入力を確認してください。
+</nierror>
+<nierror code="-20315">
+Analysis:  波形のdtパラメータは0以下です。
+</nierror>
+<nierror code="-20314">
+Analysis:  基準レベル単位パラメータが無効です。 <b>基準単位</b>入力を確認してください。
+</nierror>
+<nierror code="-20313">
+Analysis:  基準レベルは必要条件を満たしていません。
+</nierror>
+<nierror code="-20312">
+Analysis:  入力波形サイズはゼロです。
+</nierror>
+<nierror code="-20311">
+Analysis:  波形測定を実行するのに十分なメモリがありません。
+</nierror>
+<nierror code="-20310">
+Analysis:  この計測を実行するには信号波形に十分なエッジがありません。 エッジとは最低および最高基準レベルの交点として定義されます。 信号長、基準レベル、および基準レベル単位を確認して下さい。
+</nierror>
+<nierror code="-20309">
+Analysis:  波形の振幅はゼロであるため、ヒストグラムメソッドは使用できません。
+</nierror>
+<nierror code="-20308">
+Analysis:  波形と中間基準レベルには、この測定を行うのに十分な回数の交差がありませんでした。 信号長、基準レベル、および基準レベル単位を確認して下さい。
+</nierror>
+<nierror code="-20307">
+Analysis:  周波数は（サンプリングレート）/サンプルの倍数ではありません。
+</nierror>
+<nierror code="-20306">
+Analysis:  2つの時間信号波形に異なるdtが含まれています。
+</nierror>
+<nierror code="-20305">
+Analysis:  2つの時間信号波形に異なる数のデータポイントが含まれています。
+</nierror>
+<nierror code="-20304">
+Analysis:  時間信号波形の最低1つには、平均プロセスを続行するための正しいdtが含まれていません。
+</nierror>
+<nierror code="-20303">
+Analysis:  時間信号波形の最低1つに正しい数のデータポイントが含まれていないため、平均化プロセスを続行できません。
+</nierror>
+<nierror code="-20302">
+Analysis:  時間信号波形に平均プロセスを継続するための正しいdtが含まれていません。
+</nierror>
+<nierror code="-20301">
+Analysis:  時間信号波形に平均化プロセスを続行するための正しい数のデータポイントが含まれていません。
+</nierror>
+<nierror code="-20207">
+Analysis:  上限が下限より小さい値です。
+</nierror>
+<nierror code="-20206">
+Analysis:  シフト: nは負数です。
+</nierror>
+<nierror code="-20205">
+Analysis:  サンプルの長さがウィンドウ幅よりも小さい値です。
+</nierror>
+<nierror code="-20204">
+Analysis:  ウィンドウ幅が正数ではありません。
+</nierror>
+<nierror code="-20203">
+Analysis:  時間間隔が正数ではありません。
+</nierror>
+<nierror code="-20202">
+Analysis:  サンプルの長さが負数です。
+</nierror>
+<nierror code="-20201">
+Analysis:  サンプルの長さが正数ではありません。
+</nierror>
+<nierror code="-20165">
+Analysis:  初期状態はPDEクラス入力と競合します。
+</nierror>
+<nierror code="-20164">
+Analysis:  境界条件はPDEクラス入力と競合します。
+</nierror>
+<nierror code="-20163">
+Analysis:  領域はPDEクラス入力と競合します。
+</nierror>
+<nierror code="-20162">
+Analysis:  PDEの右側はクラス入力と競合します。
+</nierror>
+<nierror code="-20161">
+Analysis:  等式はPDEクラス入力と競合します。
+</nierror>
+<nierror code="-20158">
+Analysis:  PDEの初期状態のサイズは領域のグリッドサイズと互換性がありません。
+</nierror>
+<nierror code="-20157">
+Analysis:  PDEの境界条件のサイズは領域のグリッドサイズと互換性がありません。
+</nierror>
+<nierror code="-20156">
+Analysis:  PDEの右側のサイズは領域のグリッドサイズと互換性がありません。
+</nierror>
+<nierror code="-20155">
+Analysis:  多角形領域の境界ポイント数は3以上でなければなりません。
+</nierror>
+<nierror code="-20154">
+Analysis:  多角形領域のグリッドポイント数は0です。
+</nierror>
+<nierror code="-20153">
+Analysis:  空間ポイント数は3以上でなければなりません。
+</nierror>
+<nierror code="-20152">
+Analysis:  時間ポイント数は2以上でなければなりません。
+</nierror>
+<nierror code="-20151">
+Analysis:  最終または終了点は初期または開始点より大きくなければなりません。
+</nierror>
+<nierror code="-20145">
+Analysis:  各独立変数には従属変数と同じ数の値が必要です。
+</nierror>
+<nierror code="-20144">
+Analysis:  補間サイズは、データサイズ以上である必要があります。
+</nierror>
+<nierror code="-20143">
+Analysis:  入力値は、そのドメインの許容範囲外にあります。
+</nierror>
+<nierror code="-20142">
+Analysis:  補間（xi, yi, ...）のドメインの場所の次元数およびサイズは同じである必要があります。
+</nierror>
+<nierror code="-20141">
+Analysis:  入力は0以外の値でなければなりません。
+</nierror>
+<nierror code="-20140">
+Analysis:  入力は1以上である必要があります。
+</nierror>
+<nierror code="-20131">
+Analysis:  次数は度以下でなければなりません。
+</nierror>
+<nierror code="-20130">
+Analysis:  入力は素数ではありません。
+</nierror>
+<nierror code="-20129">
+Analysis:  入力配列のサイズは、基数の累乗ではありません。
+</nierror>
+<nierror code="-20128">
+Analysis:  アダマール行列のサイズは必要条件を満たしていません。 有効なサイズは2^k、12*2^k、およびk > 0の場合20*2^kです。
+</nierror>
+<nierror code="-20127">
+Analysis:  サンプル数は不明パラメータ数より少ないです。
+</nierror>
+<nierror code="-20126">
+Analysis:  解析ワークスペースで指定されたルーチンを実行するのに十分なメモリ領域がありません。
+</nierror>
+<nierror code="-20125">
+Analysis:  解析ワークスペースのロックを解除できません。
+</nierror>
+<nierror code="-20124">
+Analysis:  解析ワークスペースがロックされています。
+</nierror>
+<nierror code="-20123">
+Analysis:  解析ワークスペースが空でありません。
+</nierror>
+<nierror code="-20122">
+Analysis:  解析ワークスペースが空です。
+</nierror>
+<nierror code="-20121">
+Analysis:  解析ワークスペースは既に有効にされています。
+</nierror>
+<nierror code="-20120">
+Analysis:  解析ワークスペースのサイズは既に設定されています。
+</nierror>
+<nierror code="-20119">
+Analysis:  サンプル数が3と等しくありません。
+</nierror>
+<nierror code="-20118">
+Analysis:  入力は1より大きく、-1未満です。
+</nierror>
+<nierror code="-20117">
+Analysis:  有意水準が見つかりません。
+</nierror>
+<nierror code="-20116">
+Analysis:  実行可能なソリューションが見つかりません。
+</nierror>
+<nierror code="-20115">
+Analysis:  FFTサイズは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20114">
+Analysis:  「多項式実0(複数)カウンタ（Polynomial Real Zeros Counter）」VIに配線されている開始値は終了値よりも大きい値です。
+</nierror>
+<nierror code="-20113">
+Analysis:  「多項式実ゼロ（複数）カウンタ（Polynomial Real Zeros Counter）」VIに配線されている終了値は平方根値です。
+</nierror>
+<nierror code="-20112">
+Analysis:  「多項式実ゼロ（複数）カウンタ（Polynomial Real Zeros Counter）」VIに配線された開始値は平方根値です。
+</nierror>
+<nierror code="-20111">
+Analysis:  入力多項式係数はすべてゼロです。
+</nierror>
+<nierror code="-20108">
+Analysis:  入力された多角形は、凸形か複雑です。
+</nierror>
+<nierror code="-20107">
+Analysis:  数値は範囲外です。 有効範囲は[0, pi]です。
+</nierror>
+<nierror code="-20106">
+Analysis:  数値は範囲外です。 有効範囲は[0, pi/2]です。
+</nierror>
+<nierror code="-20105">
+Analysis:  数値は範囲外です。  有効範囲は [0, 1]です。
+</nierror>
+<nierror code="-20104">
+Analysis:  入力パラメータには、最低1つのNaN要素があります。
+</nierror>
+<nierror code="-20103">
+Analysis:  次数は0以上である必要があります。
+</nierror>
+<nierror code="-20102">
+Analysis:  シフトは、|シフト| < サンプルの条件を満たす必要があります。
+</nierror>
+<nierror code="-20101">
+Analysis:  パラメータの最大値は、パラメータの最小値より大きい必要があります。
+</nierror>
+<nierror code="-20099">
+Analysis:  AR次数は複素正弦波数以上である必要があります。
+</nierror>
+<nierror code="-20098">
+Analysis:  AR次数はサンプル数の2/3以下である必要があります。
+</nierror>
+<nierror code="-20097">
+Analysis:  複素正弦波の数はサンプル数の2/3を超えることはできません。
+</nierror>
+<nierror code="-20096">
+Analysis:  AR次数は0より大きくなければなりません
+</nierror>
+<nierror code="-20095">
+Analysis:  複素正弦波の数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20094">
+Analysis:  初期または最終状態の配列サイズが正しくありません。
+</nierror>
+<nierror code="-20093">
+Analysis:  dtは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20092">
+Analysis:  双対関数は存在しません。
+</nierror>
+<nierror code="-20091">
+Analysis:  ガボール係数配列の次元が正しくありません。
+</nierror>
+<nierror code="-20090">
+Analysis:  ガボールスペクトログラムの次数は0以上でなければなりません。
+</nierror>
+<nierror code="-20089">
+Analysis:  オーバサンプリングレート（N/dM）は1以上である必要があります。
+</nierror>
+<nierror code="-20088">
+Analysis:  解析または合成ウィンドウの長さは、周波数ビン数（N）で均等に除算することが可能でなければなりません。Nは、2の累乗である必要があります。
+</nierror>
+<nierror code="-20087">
+Analysis:  解析または合成ウィンドウの長さは、ガボール時間サンプリングインターバル（dM）で均等に除算することが可能でなければなりません。
+</nierror>
+<nierror code="-20086">
+Analysis:  ウィンドウの長さは2より大きく、2の累乗でなければなりません。
+</nierror>
+<nierror code="-20085">
+Analysis:  入力配列とそのヒルベルト変換のサイズは等しくなければなりません。
+</nierror>
+<nierror code="-20084">
+Analysis:  時間増分は、（ウィンドウの長さ）/4以下でなければなりません。
+</nierror>
+<nierror code="-20083">
+Analysis:  ウィンドウの長さは4より大きく、2の累乗でなければなりません。
+</nierror>
+<nierror code="-20082">
+Analysis:  時間増分は、dM以下でなければなりません。
+</nierror>
+<nierror code="-20081">
+Analysis:  dNまたは時間間隔はゼロより大きくなければなりません。
+</nierror>
+<nierror code="-20080">
+Analysis:  時間増分は、（ウィンドウの長さ）/16より大きくなければなりません。
+</nierror>
+<nierror code="-20079">
+Analysis:  シードが無効です。
+</nierror>
+<nierror code="-20078">
+Analysis:  この機能性はこのプラットフォームでサポートされていません。
+</nierror>
+<nierror code="-20077">
+Analysis:  時間ポイントは昇順ではありません。
+</nierror>
+<nierror code="-20076">
+Analysis:  リサンプルポイントは入力信号の後の信号で計算できません。
+</nierror>
+<nierror code="-20075">
+Analysis:  フィルタバッファがオーバーフローしました。
+</nierror>
+<nierror code="-20074">
+Analysis:  固有値が並べ替えられたことにより、いくつかの複素値が変更されました。
+</nierror>
+<nierror code="-20073">
+Analysis:  一部の固有値が近すぎるため並べ替えることができません。
+</nierror>
+<nierror code="-20072">
+Analysis:  入力行列の対数は計算することができません。
+</nierror>
+<nierror code="-20071">
+Analysis:  入力行列は正定値ではありません。
+</nierror>
+<nierror code="-20070">
+Analysis:  行列は同じサイズでなければなりません。
+</nierror>
+<nierror code="-20069">
+Analysis:  サンプル数は4以上でなければなりません。
+</nierror>
+<nierror code="-20068">
+Analysis:  入力パラメータには、Inf、NaN、DBL_MAX、またはDBL_MINのうち最低1つの要素があります。
+</nierror>
+<nierror code="-20067">
+Analysis:  入力基本周波数またはサンプリングレートは0に等しい必要があります。
+</nierror>
+<nierror code="-20066">
+Analysis:  IIRフィルタ構造にある情報が正しくありません。
+</nierror>
+<nierror code="-20065">
+Analysis:  ベクトル内の要素すべてを0にすることはできません。
+</nierror>
+<nierror code="-20064">
+Analysis:  この関数の内部メモリの状態は正しく初期化されませんでした。
+</nierror>
+<nierror code="-20063">
+Analysis:  多項係数が無効です。
+</nierror>
+<nierror code="-20062">
+Analysis:  最大反復数を超えています。
+</nierror>
+<nierror code="-20061">
+Analysis:  選択は無効です。
+</nierror>
+<nierror code="-20060">
+Analysis:  0での除算エラーが発生しました。
+</nierror>
+<nierror code="-20059">
+Analysis:  負数のエラーが発生しました。
+</nierror>
+<nierror code="-20058">
+Analysis:  従属変数または次元数が無効です。
+</nierror>
+<nierror code="-20057">
+Analysis:  β関数のパラメータは、0 < p < 1 の条件を満たす必要があります。
+</nierror>
+<nierror code="-20056">
+Analysis:  分割表に負の値があります。
+</nierror>
+<nierror code="-20055">
+Analysis:  カテゴリまたはサンプル数は、1より大きい値である必要があります。
+</nierror>
+<nierror code="-20054">
+Analysis:  確率は0以上で1未満でなければなりません。
+</nierror>
+<nierror code="-20053">
+Analysis:  確率は0以上で1未満でなければなりません。
+</nierror>
+<nierror code="-20052">
+Analysis:  自由度は0よりも大きく、入力シーケンスの長さよりも小さい必要があります。
+</nierror>
+<nierror code="-20051">
+Analysis:  X行列の最初の列内のすべての値は1である必要があります。
+</nierror>
+<nierror code="-20050">
+Analysis:  補間関数の要求された値に極があります。
+</nierror>
+<nierror code="-20049">
+Analysis:  x値は特異値である必要があります。
+</nierror>
+<nierror code="-20048">
+Analysis:  固定効果モデルが必要となる際、変量効果モデルが要求されました。
+</nierror>
+<nierror code="-20047">
+Analysis:  データが非平衡です。 すべてのセルに同じ数の観測値が入っている必要があります。
+</nierror>
+<nierror code="-20046">
+Analysis:  計算中にオーバーフローが発生しました。
+</nierror>
+<nierror code="-20045">
+Analysis:  データポイントの合計数は、各レベルに各セルの観測数を乗算した結果と等しい必要があります。
+</nierror>
+<nierror code="-20044">
+Analysis:  因数のあるレベルでゼロ観測が行われました。
+</nierror>
+<nierror code="-20043">
+Analysis:  因数のレベルは、一部のデータの許容範囲外にあります。
+</nierror>
+<nierror code="-20042">
+Analysis:  レベル数が範囲外です。
+</nierror>
+<nierror code="-20041">
+Analysis:  因数のレベルは、一部のデータの許容範囲外にあります。
+</nierror>
+<nierror code="-20040">
+Analysis:  入力行列は正方行列でなければなりません。
+</nierror>
+<nierror code="-20039">
+Analysis:  最初の行列の列数が2番目の行列またはベクトルの行数と等しくありません。
+</nierror>
+<nierror code="-20038">
+Analysis:  間隔の数は0より大きくなければなりません。
+</nierror>
+<nierror code="-20037">
+Analysis:  Y値配列のデータポイント数は、次数より大きくなければなりません。
+</nierror>
+<nierror code="-20036">
+Analysis:  Y値配列の要素は、0以外の数値で、すべて正数または負数である必要があります。
+</nierror>
+<nierror code="-20035">
+Analysis:  標準偏差は、正規化を行うために0より大きくなければなりません。
+</nierror>
+<nierror code="-20034">
+Analysis:  係数の数は、このフィルタ処理のために偶数でなければなりません。
+</nierror>
+<nierror code="-20033">
+Analysis:  係数の数は、このフィルタ処理のために奇数でなければなりません。
+</nierror>
+<nierror code="-20032">
+Analysis:  フィルタの左の階数は0以上でなければなりません。
+フィルタの右の階数はサイズより小さくなければなりません。
+</nierror>
+<nierror code="-20031">
+Analysis:  フィルタは指定された入力値で設計できません。
+</nierror>
+<nierror code="-20030">
+Analysis:  リーク係数、リーク、ステップサイズパラメータuは、0≦リーク≦u の条件を満たさなければなりません。
+</nierror>
+<nierror code="-20029">
+Analysis:  ステップサイズ uは、0≦u≦0.1 という条件を満たす必要があります。
+</nierror>
+<nierror code="-20028">
+Analysis:  減衰値はリプル振幅よりも大きくなければなりません。
+</nierror>
+<nierror code="-20027">
+Analysis:  最終値は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20026">
+Analysis:  幅は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20025">
+Analysis:  減衰値は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20024">
+Analysis:  リプル振幅は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20023">
+Analysis:  0≦f_low≦f_high≦fs/2 という条件を満たさなければなりません。
+</nierror>
+<nierror code="-20022">
+Analysis:  デシメーション因数は、0より大きくサンプル数以下でなければなりません。
+</nierror>
+<nierror code="-20021">
+Analysis:  次数は0より大きい必要があります。
+</nierror>
+<nierror code="-20020">
+Analysis:  カットオフ周波数fcは、0≦fc≦fs/2 という条件を満たす必要があります。
+</nierror>
+<nierror code="-20019">
+Analysis:  上の値は下の値以上でなければなりません。
+</nierror>
+<nierror code="-20018">
+Analysis:  0≦(指標 + 長さ) < サンプル という条件を満たさなくてはなりません。
+</nierror>
+<nierror code="-20017">
+Analysis:  0≦指標 < サンプル という条件を満たさなくてはなりません。
+</nierror>
+<nierror code="-20016">
+Analysis:  dtは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-20015">
+Analysis:  dtは0以上でなければなりません。
+</nierror>
+<nierror code="-20014">
+Analysis:  0≦(遅延 + 幅) < サンプル という条件を満たさなくてはなりません。
+</nierror>
+<nierror code="-20013">
+Analysis:  0 < 幅 < サンプル の条件を満たす必要があります。
+</nierror>
+<nierror code="-20012">
+Analysis:  サイクル数は、0より大きく、サンプル数以下でなければなりません。
+</nierror>
+<nierror code="-20011">
+Analysis:  デューティサイクルは、0以上100以下（0≦デューティーサイクル≦100）でなければなりません。
+</nierror>
+<nierror code="-20010">
+Analysis:  最大変換サイズの許容範囲を超えています。
+</nierror>
+<nierror code="-20009">
+Analysis:  入力配列のサイズは、サイズ = 2^m、0 < m < 23 の条件を満たす必要があります。
+</nierror>
+<nierror code="-20008">
+Analysis:  入力配列にこの関数のための正しいデータ数が含まれていません。
+</nierror>
+<nierror code="-20007">
+Analysis:  サンプル数は3以上でなければなりません。
+</nierror>
+<nierror code="-20006">
+Analysis:  サンプル数は2以上でなければなりません。
+</nierror>
+<nierror code="-20005">
+Analysis:  サンプル数は1以上でなければなりません。
+</nierror>
+<nierror code="-20004">
+Analysis:  サンプル数は0以上でなければなりません。
+</nierror>
+<nierror code="-20003">
+Analysis:  サンプル数は、0より大きくなければなりません。
+</nierror>
+<nierror code="-20002">
+Analysis:  入力シーケンスは、同じサイズでなければなりません。
+</nierror>
+<nierror code="-20001">
+Analysis:  指定されたルーチンを実行するのに十分なメモリがありません。
+</nierror>
+<nierror code="20001">
+Analysis:  行列の階数が欠如しています。
+</nierror>
+<nierror code="20002">
+Analysis:  サンプル数は1以上でなければなりません。
+</nierror>
+<nierror code="20003">
+Analysis:  行列は単数です。
+</nierror>
+<nierror code="20004">
+Analysis:  行列またはベクトルは同じサイズではありません。
+</nierror>
+<nierror code="20005">
+Analysis:  LabVIEWは一般化固有値を並べ替えることができません。
+</nierror>
+<nierror code="20006">
+Analysis:  計算結果が不正確である可能性があります。
+</nierror>
+<nierror code="20007">
+Analysis:  入力は無効なコレスキー因子分解です。
+</nierror>
+<nierror code="20008">
+Analysis:  ダウンデートされた行列は正定値ではありません。
+</nierror>
+<nierror code="20010">
+Analysis:  入力配列のサイズが指定された条件を満たしていません。
+</nierror>
+<nierror code="20011">
+Analysis:  入力標準偏差は無効です。
+</nierror>
+<nierror code="20012">
+Analysis:  入力多項式が空です。
+</nierror>
+<nierror code="20020">
+Analysis:  一部の周波数はナイキスト基準に違反しています。
+</nierror>
+<nierror code="20021">
+Analysis:  ステートレベルの測定が不正確な可能性があります。この場合、他の測定も不正確になります。
+</nierror>
+<nierror code="20030">
+Analysis:  入力行列には、InfまたはNaNのうち最低1つの要素があります。
+</nierror>
+<nierror code="20031">
+Analysis:  次数が上限を超えています。
+</nierror>
+<nierror code="20307">
+Analysis:  周波数は（サンプルレート）/サンプルの最も近い倍数値に強制変換されました。
+</nierror>
+<nierror code="20334">
+Analysis:  波形は重複していません。
+</nierror>
+<nierror code="20351">
+Analysis:  平均パラメータの変更に反応して平均化プロセスが自動的に再起動しました。
+</nierror>
+<nierror code="20352">
+Analysis:  現在の波形と前回の波形は連続的でありません。
+</nierror>
+<nierror code="20353">
+Analysis:  現在のdtと前回のdtが等しくありません。
+</nierror>
+</nidocument>

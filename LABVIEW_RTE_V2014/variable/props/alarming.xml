@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<var-prop-group name="Alarming" lib="LabVIEW">
+	<var-prop name="HiHi:Enabled" type="boolean"/>
+	<var-prop name="HiHi:Name" type="string"/>
+	<var-prop name="HiHi:Limit" type="double"/>
+	<var-prop name="HiHi:Deadband" type="double"/>
+	<var-prop name="HiHi:Priority" type="int"/>
+	<var-prop-enum name="HiHi:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="HiHi:Area" type="string"/>
+	<var-prop name="HiHi:Description" type="string"/>
+	<var-prop name="HiHi:AllowLog" type="boolean"/>
+	<var-prop name="Hi:Enabled" type="boolean"/>
+	<var-prop name="Hi:Name" type="string"/>
+	<var-prop name="Hi:Limit" type="double"/>
+	<var-prop name="Hi:Deadband" type="double"/>
+	<var-prop name="Hi:Priority" type="int"/>
+	<var-prop-enum name="Hi:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="Hi:Area" type="string"/>
+	<var-prop name="Hi:Description" type="string"/>
+	<var-prop name="Hi:AllowLog" type="boolean"/>
+	<var-prop name="Lo:Enabled" type="boolean"/>
+	<var-prop name="Lo:Name" type="string"/>
+	<var-prop name="Lo:Limit" type="double"/>
+	<var-prop name="Lo:Deadband" type="double"/>
+	<var-prop name="Lo:Priority" type="int"/>
+	<var-prop-enum name="Lo:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="Lo:Area" type="string"/>
+	<var-prop name="Lo:Description" type="string"/>
+	<var-prop name="Lo:AllowLog" type="boolean"/>
+	<var-prop name="LoLo:Enabled" type="boolean"/>
+	<var-prop name="LoLo:Name" type="string"/>
+	<var-prop name="LoLo:Limit" type="double"/>
+	<var-prop name="LoLo:Deadband" type="double"/>
+	<var-prop name="LoLo:Priority" type="int"/>
+	<var-prop-enum name="LoLo:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="LoLo:Area" type="string"/>
+	<var-prop name="LoLo:Description" type="string"/>
+	<var-prop name="LoLo:AllowLog" type="boolean"/>
+	<var-prop name="BitArray:Enabled" type="boolean"/>
+	<var-prop name="BitArray:Name" type="string"/>
+	<var-prop name="BitArray:InvertMask" type="uint"/>
+	<var-prop name="BitArray:SelectMask" type="uint"/>
+	<var-prop-enum name="BitArray:AlarmOn">
+		<var-prop-enum-value>Any</var-prop-enum-value>
+		<var-prop-enum-value>All</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="BitArray:Priority" type="int"/>
+	<var-prop-enum name="BitArray:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="BitArray:Area" type="string"/>
+	<var-prop name="BitArray:Description" type="string"/>
+	<var-prop name="BitArray:AllowLog" type="boolean"/>
+	<var-prop name="Boolean:Enabled" type="boolean"/>
+	<var-prop name="Boolean:Name" type="string"/>
+	<var-prop-enum name="Boolean:AlarmOn">
+		<var-prop-enum-value>Low</var-prop-enum-value>
+		<var-prop-enum-value>High</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="Boolean:Priority" type="int"/>
+	<var-prop-enum name="Boolean:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="Boolean:Area" type="string"/>
+	<var-prop name="Boolean:Description" type="string"/>
+	<var-prop name="Boolean:AllowLog" type="boolean"/>
+	<var-prop name="Custom:Enabled" type="boolean"/>
+	<var-prop name="Custom:Name" type="string"/>
+	<var-prop name="Custom:VIPath" type="string"/>
+	<var-prop name="Custom:Priority" type="int"/>
+	<var-prop-enum name="Custom:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="Custom:Area" type="string"/>
+	<var-prop name="Custom:Description" type="string"/>
+	<var-prop name="Custom:AllowLog" type="boolean"/>
+	<var-prop name="Status:Enabled" type="boolean"/>
+	<var-prop name="Status:Name" type="string"/>
+	<var-prop name="Status:Priority" type="int"/>
+	<var-prop-enum name="Status:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="Status:Area" type="string"/>
+	<var-prop name="Status:Description" type="string"/>
+	<var-prop name="Status:AllowLog" type="boolean"/>
+	<var-prop name="ROC:Enabled" type="boolean"/>
+	<var-prop name="ROC:Name" type="string"/>
+	<var-prop name="ROC:ROCChange" type="double"/>
+	<var-prop name="ROC:ROCTime" type="int"/>
+	<var-prop name="ROC:Priority" type="int"/>
+	<var-prop-enum name="ROC:AckType">
+		<var-prop-enum-value>Auto</var-prop-enum-value>
+		<var-prop-enum-value>User</var-prop-enum-value>
+		<var-prop-enum-value>Each Occurrence</var-prop-enum-value>
+	</var-prop-enum>
+	<var-prop name="ROC:Area" type="string"/>
+	<var-prop name="ROC:Description" type="string"/>
+	<var-prop name="ROC:AllowLog" type="boolean"/>
+	<var-prop name="EventOnDataChange" type="boolean"/>
+	<var-prop name="EventOnUserInputOnly" type="boolean"/>
+</var-prop-group>

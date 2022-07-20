@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<var-type name="RSI" id="ni.variable.RSI" lib="LabVIEW">
+  <var-cxt>RSI</var-cxt>
+  <var-property-groups required="Industrial" optional="Scaling, Description" />
+  <var-mapping mapped="ni.variable.IO">
+    <property-value name="Industrial:Mode" value="1" />
+    <property-value name="Industrial:RSI" value="true" />
+    <var-attr id="ni.variable.NetworkPublished" default-value="true" mutable="true">
+      <var-attr-manager />
+    </var-attr>
+    <var-attr id="ni.variable.Timestamped" default-value="false" mutable="true">
+      <var-attr-manager />
+    </var-attr>
+    <var-attr id="ni.variable.Description" default-value="true" mutable="false">
+      <var-attr-conf-page lib="vshared" class="ni.variable.dialog.RSIPage" />
+    </var-attr>
+  </var-mapping>
+</var-type>

@@ -1,0 +1,22 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Measure" displayname="Measure">
+</nifamily>
+</nicomment>
+<nierror code="-2101">
+Measure:  아날로그 출력 채널 문자열이 여러 아날로그 출력 채널을 나타냅니다. 측정할 때 각 아날로그 출력 채널 문자열에 단지 하나의 아날로그 출력 채널이 필요합니다.
+</nierror>
+<nierror code="-2004">
+Measure:  Excel의 메모리가 소진되었습니다.  더 작은 범위를 사용하십시오.
+</nierror>
+<nierror code="-2003">
+Measure:  태스크 설정에서 지정한 범위가 유효하지 않습니다.
+</nierror>
+<nierror code="-2002">
+Measure:  태스크 설정에서 지정한 작업 공간이 존재하지 않습니다.
+</nierror>
+<nierror code="-2001">
+Measure:  태스크를 찾을 수 없습니다.
+</nierror>
+</nidocument>

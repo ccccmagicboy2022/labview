@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Real-Time Features" lib="LabVIEW">
+  <var-prop name="ApplyNetworkConfig" type="boolean" />
+  <var-prop name="UseBuffering" type="boolean" />
+  <var-prop name="BufferLength" type="int" />
+  <var-prop name="ArrayLength" type="int" />
+  <var-prop name="DatapointsInWaveform" type="int" />
+</var-prop-group>

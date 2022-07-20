@@ -1,0 +1,841 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Control Design and Simulation" displayname="Control Design and Simulation">
+</nifamily>
+</nicomment>
+<nierror code="-41813">
+Control Design and Simulation:  PID 이득의 안정적인 세트 내의 내부 포인트 세트가 비어 있습니다. PID 문제가 풀 수 없는 선형 부등식을 포함하거나 수치 검색에서 충분히 해결되지 않을 수 있습니다.
+</nierror>
+<nierror code="-41812">
+Control Design and Simulation:  PID 이득의 안정적인 세트의 내부 포인트가 실행 불가능합니다.
+</nierror>
+<nierror code="-41811">
+Control Design and Simulation:  K3 간격이 실행 불가능하기 때문에 PID 이득의 안정적인 세트가 비어 있습니다.
+</nierror>
+<nierror code="-41804">
+Control Design and Simulation:  입력 모델의 분모의 차수가 분자보다 커야 합니다.
+</nierror>
+<nierror code="-41803">
+Control Design and Simulation:  입력 상태 공간 모델이 SISO이어야 합니다.
+</nierror>
+<nierror code="-41802">
+Control Design and Simulation:  이 VI의 입력은 시간 지연이 없는 이산 모델이어야 합니다.  대신에 모델 내에 시간 지연을 포함하십시오.
+</nierror>
+<nierror code="-41801">
+Control Design and Simulation:  이 VI의 입력은 시간 지연이 없는 이산 모델이어야 합니다.  입력 모델을 이산 형태로 변환하십시오.
+</nierror>
+<nierror code="-41706">
+Control Design and Simulation:  첫번째 모델의 입력과 출력 개수가 두번째 모델의 입력과 출력 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41705">
+Control Design and Simulation:  전달 함수 모델의 병렬 상호 접속이 같은 전달 지연을 가지고 있어야 합니다.
+</nierror>
+<nierror code="-41704">
+Control Design and Simulation:  첫번째 모델의 입력(열) 개수가 두번째 모델의 출력(행) 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41703">
+Control Design and Simulation:  전달 함수의 분모가 제로와 같을 수 없습니다.
+</nierror>
+<nierror code="-41702">
+Control Design and Simulation:  적어도 한 개의 지연이 제로보다 작습니다.
+</nierror>
+<nierror code="-41701">
+Control Design and Simulation:  분모가 한 개의 원소를 가져야 합니다.
+</nierror>
+<nierror code="-41700">
+Control Design and Simulation:  분자가 한 개의 원소를 가져야 합니다.
+</nierror>
+<nierror code="-41699">
+Control Design and Simulation:  행렬 R이 주어지지 않았습니다.
+</nierror>
+<nierror code="-41698">
+Control Design and Simulation:  w의 차원이 확률적 상태 공간 모델의 차원과 일치하지 않습니다.
+</nierror>
+<nierror code="-41697">
+Control Design and Simulation:  v의 차원이 확률적 상태 공간 모델의 차원과 일치하지 않습니다.
+</nierror>
+<nierror code="-41696">
+Control Design and Simulation:  교차공분산 행렬이 적절한 차원을 가지고 있지 않습니다.
+</nierror>
+<nierror code="-41695">
+Control Design and Simulation:  교차공분산 행렬이 유효하지 않습니다. 복합 자기공분산 및 교차공분산 행렬은 양의 준정부호이어야 합니다.
+</nierror>
+<nierror code="-41694">
+Control Design and Simulation:  E{v}의 행 개수가 적절한 차원이 아닙니다. E{v}의 차원이 출력 개수와 같아야 합니다.
+</nierror>
+<nierror code="-41693">
+Control Design and Simulation:  E{w}의 행 개수가 적절한 차원이 아닙니다. E{w}의 차원이 G의 열 개수와 같아야 합니다.
+</nierror>
+<nierror code="-41692">
+Control Design and Simulation:  공분산 행렬의 차원이 부적절합니다.
+</nierror>
+<nierror code="-41691">
+Control Design and Simulation:  공분산 행렬이 양의 준정부호가 아닙니다.
+</nierror>
+<nierror code="-41690">
+Control Design and Simulation:  N이 유효하지 않습니다. [Q N; N' R]의 행렬이 양의 준정부호이어야 합니다.
+</nierror>
+<nierror code="-41689">
+Control Design and Simulation:  (Ahat, B)의 쌍이 안정화될 수 없습니다.
+</nierror>
+<nierror code="-41688">
+Control Design and Simulation:  R 행렬의 차원이 입력 개수/B 행렬의 열 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41687">
+Control Design and Simulation:  R 행렬이 양의 정부호가 아닙니다.
+</nierror>
+<nierror code="-41686">
+Control Design and Simulation:  R 행렬이 대칭 행렬이 아닙니다.
+</nierror>
+<nierror code="-41685">
+Control Design and Simulation:  Q 행렬이 대칭 행렬이 아닙니다.
+</nierror>
+<nierror code="-41684">
+Control Design and Simulation:  공분산 행렬이 대칭 행렬이 아닙니다.
+</nierror>
+<nierror code="-41683">
+Control Design and Simulation:  컨트롤러가 독립적인 설정이 아닙니다.
+</nierror>
+<nierror code="-41682">
+Control Design and Simulation:  행렬 Q가 양의 준정부호가 아닙니다.
+</nierror>
+<nierror code="-41681">
+Control Design and Simulation:  이득의 행 개수가 시스템 모델의 출력 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41680">
+Control Design and Simulation:  이득의 열 개수가 시스템 입력 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41679">
+Control Design and Simulation:  시스템 모델이 입력을 가지고 있지 않습니다.
+</nierror>
+<nierror code="-41678">
+Control Design and Simulation:  입력, 출력, 또는 상태 벡터에서 지정한 인덱스가 최대 시스템 차원보다 큽니다.
+</nierror>
+<nierror code="-41677">
+Control Design and Simulation:  필요한 시스템 행렬 D가 주어지지 않았습니다.
+</nierror>
+<nierror code="-41676">
+Control Design and Simulation:  필요한 시스템 행렬 C가 주어지지 않았습니다.
+</nierror>
+<nierror code="-41675">
+Control Design and Simulation:  필요한 시스템 행렬 B가 주어지지 않았습니다.
+</nierror>
+<nierror code="-41674">
+Control Design and Simulation:  필요한 시스템 행렬 A가 주어지지 않았습니다.
+</nierror>
+<nierror code="-41673">
+Control Design and Simulation:  행렬 R과 Q의 열 개수가 Lyapunov 식에서 같아야 합니다.
+</nierror>
+<nierror code="-41672">
+Control Design and Simulation:  행렬 P와 Q의 행 개수가 Lyapunov 식에서 같아야 합니다.
+</nierror>
+<nierror code="-41671">
+Control Design and Simulation:  행렬 R은 Lyapunov 식에서 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41670">
+Control Design and Simulation:  행렬 P는 Lyapunov 식에서 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41669">
+Control Design and Simulation:  Ackermann은 단일 출력 시스템 모델에서만 유효합니다. Observer 이득의 경우, C는 한 개의 행만 가져야 합니다.
+</nierror>
+<nierror code="-41668">
+Control Design and Simulation:  시스템 모델이 단일 출력이 아닙니다.
+</nierror>
+<nierror code="-41667">
+Control Design and Simulation:  시스템 모델이 단일 입력이 아닙니다.
+</nierror>
+<nierror code="-41666">
+Control Design and Simulation:  D의 행 개수가 출력의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41665">
+Control Design and Simulation:  D의 열 개수가 입력의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41664">
+Control Design and Simulation:  레귤레이터 이득 K의 열 개수가 상태(state)의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41663">
+Control Design and Simulation:  레귤레이터 이득 K의 행 개수가 입력의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41662">
+Control Design and Simulation:  N의 행 개수가 노이즈 벡터 w (Nw)의 차원과 같지 않습니다.
+</nierror>
+<nierror code="-41661">
+Control Design and Simulation:  N의 열 개수가 출력의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41660">
+Control Design and Simulation:  R의 차원이 시스템 모델의 출력 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41659">
+Control Design and Simulation:  N의 행 개수가 출력의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41658">
+Control Design and Simulation:  A가 조건이 충분치 않습니다. 그 역행렬을 계산할 수 없습니다.
+</nierror>
+<nierror code="-41657">
+Control Design and Simulation:  시스템 모델이 한계적으로 안정(marginally stable)하지 않습니다.
+</nierror>
+<nierror code="-41656">
+Control Design and Simulation:  시스템 모델이 안정(stable)하지 않습니다.
+</nierror>
+<nierror code="-41655">
+Control Design and Simulation:  [A B] 또는 [A C]의 쌍이 각각 제어가능(controllable) 또는 관측가능(observable)하지 않습니다.
+</nierror>
+<nierror code="-41654">
+Control Design and Simulation:  H의 행 개수가 출력의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41653">
+Control Design and Simulation:  G의 행 개수가 시스템 모델의 상태 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41652">
+Control Design and Simulation:  G와 H의 열 개수가 같아야 합니다.
+</nierror>
+<nierror code="-41651">
+Control Design and Simulation:  Q의 차원이 프로세스 노이즈의 차원과 같지 않습니다.
+</nierror>
+<nierror code="-41650">
+Control Design and Simulation:  Q의 차원이 출력 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41649">
+Control Design and Simulation:  복합 noise 공분산 행렬, [G O; H I]*[Q N; N' R]*[G O; H I]이 양의 준정부호가 아닙니다.
+</nierror>
+<nierror code="-41648">
+Control Design and Simulation:  Noise 공분산 행렬이 양의 정부호가 아닙니다.
+</nierror>
+<nierror code="-41647">
+Control Design and Simulation:  Kalman 이득의 열 개수, L이 시스템 모델의 출력 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41646">
+Control Design and Simulation:  Kalman 이득의 행 개수, L이 시스템 모델의 상태(state) 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41645">
+Control Design and Simulation:  샘플링 타임이 같지 않습니다.
+</nierror>
+<nierror code="-41644">
+Control Design and Simulation:  해밀토니안 행렬이 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41643">
+Control Design and Simulation:  시스템 모델이 관측가능(observable)하지 않아서 행렬 변환 T를 계산할 수 없습니다.
+</nierror>
+<nierror code="-41642">
+Control Design and Simulation:  N의 열 개수가 입력 개수/B의 열 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41641">
+Control Design and Simulation:  N의 행 개수가 A의 상태/차원 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41640">
+Control Design and Simulation:  행렬 R이 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41639">
+Control Design and Simulation:  컨트롤 가중치 행렬 R이 양의 정부호이어야 하고 입력 개수와 같은 차원이어야 합니다.
+</nierror>
+<nierror code="-41638">
+Control Design and Simulation:  행렬 Q가 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41637">
+Control Design and Simulation:  Q의 차원이 상태 개수인 A의 차원과 같지 않습니다.
+</nierror>
+<nierror code="-41636">
+Control Design and Simulation:  C의 열 개수가 상태의 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41635">
+Control Design and Simulation:  행렬 A가 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41634">
+Control Design and Simulation:  시스템 모델이 제어가능(controllable)하지 않아서 행렬 변환 T를 계산할 수 없습니다.
+</nierror>
+<nierror code="-41633">
+Control Design and Simulation:  폐루프 극점의 개수가 행렬 A의 열 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41632">
+Control Design and Simulation:  Ackermann은 단일 입력 시스템 모델에서만 유효합니다. 컨트롤러 이득의 경우, B는 한 개의 열만 가져야 합니다.
+</nierror>
+<nierror code="-41631">
+Control Design and Simulation:  B의 행 개수가 상태 개수를 나타내는 A 차원과 같지 않습니다.
+</nierror>
+<nierror code="-41630">
+Control Design and Simulation:  한 개 이상의 복소수 값이 켤레 복소수를 가지고 있지 않습니다.
+</nierror>
+<nierror code="-41629">
+Control Design and Simulation:  행렬 Q가 주어지지 않았습니다.
+</nierror>
+<nierror code="-41628">
+Control Design and Simulation:  (Ahat, B1)의 쌍이 안정화될 수 없습니다.
+</nierror>
+<nierror code="-41627">
+Control Design and Simulation:  (C1, Ahat)의 쌍을 관측할 수 없습니다.
+</nierror>
+<nierror code="-41626">
+Control Design and Simulation:  [Qbar - Nbar.inv(Rbar).Nbar'] 행렬이 양의 준정부호가 아니기 때문에 Nbar는 유효하지 않습니다.
+</nierror>
+<nierror code="-41625">
+Control Design and Simulation:  Rbar가 양의 정부호가 아닙니다.
+</nierror>
+<nierror code="-41624">
+Control Design and Simulation:  R 행렬이 양의 준정부호가 아닙니다.
+</nierror>
+<nierror code="-41623">
+Control Design and Simulation:  변환 행렬을 가역할 수 없습니다.
+</nierror>
+<nierror code="-41578">
+Control Design and Simulation:  최종 제약 조건 개수가 제약 변수 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41577">
+Control Design and Simulation:  초기 제약 조건 개수가 제약 변수 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41576">
+Control Design and Simulation:  가중치 인자 벡터의 크기가 상응하는 가중치 벡터의 크기와 일치하지 않습니다.
+</nierror>
+<nierror code="-41575">
+Control Design and Simulation:  비용 함수의 가중치 행렬 중 적어도 한 개가 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41574">
+Control Design and Simulation:  비용 함수의 입력 변경 가중치 행렬의 크기가 컨트롤러 모델의 입력 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41573">
+Control Design and Simulation:  비용 함수의 입력 가중치 행렬의 크기가 컨트롤러 모델의 입력 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41572">
+Control Design and Simulation:  비용 함수의 출력 가중치 행렬의 크기가 컨트롤러 모델의 출력 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41571">
+Control Design and Simulation:  모델 예상 컨트롤러(model predictive controller)를 초기화하는데 사용한 초기 조건이 컨트롤의 모델 시스템 행렬의 차원과 일치해야 합니다.
+</nierror>
+<nierror code="-41570">
+Control Design and Simulation:  입력 주파수 벡터가 반드시 제로보다 커야 합니다.
+</nierror>
+<nierror code="-41569">
+Control Design and Simulation:  폐루프 전달 함수를 계산할 수 없습니다.
+</nierror>
+<nierror code="-41568">
+Control Design and Simulation:  초기 조건 벡터의 원소 개수가 시스템 모델의 출력 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41567">
+Control Design and Simulation:  시간 벡터의 크기가 너무 큽니다.
+</nierror>
+<nierror code="-41566">
+Control Design and Simulation:  초기 주파수가 최종 주파수보다 더 큽니다. 초기 주파수가 최종 주파수보다 작아야 합니다.
+</nierror>
+<nierror code="-41565">
+Control Design and Simulation:  초기 이득이 최종 이득보다 작아야 합니다.
+</nierror>
+<nierror code="-41564">
+Control Design and Simulation:  dB 드롭이 음의 값이어야 합니다.
+</nierror>
+<nierror code="-41563">
+Control Design and Simulation:  주파수 벡터와 응답 벡터의 크기가 같지 않습니다.
+</nierror>
+<nierror code="-41562">
+Control Design and Simulation:  보간 주파수가 주파수의 범위 내에 있지 않습니다.
+</nierror>
+<nierror code="-41561">
+Control Design and Simulation:  가우스 화이트 노이즈 행렬이 양의 준정부호 행렬이어야 하고 시스템에 대한 입력 개수와 같은 행 개수를 가져야 합니다.
+</nierror>
+<nierror code="-41560">
+Control Design and Simulation:  시스템 모델이 직접적인 피드스루(feedthrough)로 인해 무한 공분산을 갖습니다.
+</nierror>
+<nierror code="-41559">
+Control Design and Simulation:  상태 공분산 행렬이 음의 고유값을 가지고 있습니다.
+</nierror>
+<nierror code="-41558">
+Control Design and Simulation:  적용된 입력의 개수가 시스템 모델의 입력 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41557">
+Control Design and Simulation:  초기 상태(state)의 개수가 시스템 모델의 상태(state) 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41556">
+Control Design and Simulation:  모든 웨이브폼은 같은 dt와 t0를 가지고 있어야 합니다.
+</nierror>
+<nierror code="-41555">
+Control Design and Simulation:  이산 시스템 모델의 시간 간격(dt)과 샘플링 시간은 같아야 합니다.
+</nierror>
+<nierror code="-41554">
+Control Design and Simulation:  시간 간격(dt)이 최종 시간(tf)보다 작아야 합니다.
+</nierror>
+<nierror code="-41553">
+Control Design and Simulation:  시간 간격(dt)은 반드시 제로보다 커야 합니다.
+</nierror>
+<nierror code="-41552">
+Control Design and Simulation:  초기 시간(t0)은 반드시 제로보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-41551">
+Control Design and Simulation:  최종 시간(tf)이 초기 시간(t0)보다 커야 합니다.
+</nierror>
+<nierror code="-41550">
+Control Design and Simulation:  입력 시스템 모델이 단일 입력, 단일 출력(SISO) 모델이어야 합니다.
+</nierror>
+<nierror code="-41529">
+Control Design and Simulation:  샘플링 시간을 정의되지 않음(-1)으로 설정할 수 없습니다.
+</nierror>
+<nierror code="-41528">
+Control Design and Simulation:  행렬 지수 계산이 오버플로우되었습니다.
+</nierror>
+<nierror code="-41527">
+Control Design and Simulation:  모델이 0에 이산 극점을 가지고 있습니다.
+</nierror>
+<nierror code="-41526">
+Control Design and Simulation:  모델이 6보다 큰 중복도를 가진 1에 극점이 있습니다.
+</nierror>
+<nierror code="-41525">
+Control Design and Simulation:  모델이 2보다 큰 중복도를 가진 음의 실수 극점이 있습니다.
+</nierror>
+<nierror code="-41524">
+Control Design and Simulation:  샘플링 시간이 0보다 커야 합니다.
+</nierror>
+<nierror code="-41523">
+Control Design and Simulation:  상호연결된 모델 사이에 반복된 연결이 있습니다.
+</nierror>
+<nierror code="-41522">
+Control Design and Simulation:  이 함수를 수행하려면 시스템 모델의 분모의 차수가 분자의 차수보다 커야 합니다.
+</nierror>
+<nierror code="-41521">
+Control Design and Simulation:  시스템 모델이 지연을 가지고 있습니다.
+</nierror>
+<nierror code="-41520">
+Control Design and Simulation:  시스템 모델이 전달 지연을 가지고 있습니다.
+</nierror>
+<nierror code="-41519">
+Control Design and Simulation:  시스템 모델이 출력 지연을 가지고 있습니다.
+</nierror>
+<nierror code="-41518">
+Control Design and Simulation:  시스템 모델이 입력 지연을 가지고 있습니다.
+</nierror>
+<nierror code="-41517">
+Control Design and Simulation:  시스템 모델이 2차 시스템 모델이어야 합니다.
+</nierror>
+<nierror code="-41516">
+Control Design and Simulation:  시스템 모델이 정방 행렬이 아닙니다.
+</nierror>
+<nierror code="-41515">
+Control Design and Simulation:  변수 이름이 알파벳 순서로 시작해야 합니다.
+</nierror>
+<nierror code="-41514">
+Control Design and Simulation:  이 변환의 샘플링 시간이 잘못된 조건의 시스템 모델을 생성합니다.
+</nierror>
+<nierror code="-41513">
+Control Design and Simulation:  주파수가 0보다 커야 합니다.
+</nierror>
+<nierror code="-41512">
+Control Design and Simulation:  다항식의 차수가 0보다 커야 합니다.
+</nierror>
+<nierror code="-41511">
+Control Design and Simulation:  시스템 모델이 연속 형태이어야 합니다.
+</nierror>
+<nierror code="-41510">
+Control Design and Simulation:  시스템 모델이 이산 형태이어야 합니다.
+</nierror>
+<nierror code="-41509">
+Control Design and Simulation:  출력 지연 벡터의 차원이 시스템 모델의 출력 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41508">
+Control Design and Simulation:  입력 지연의 차원이 시스템 모델의 입력 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41507">
+Control Design and Simulation:  입력/출력 지연 행렬의 차원이 시스템 모델의 입력 및 출력의 개수와 같아야 합니다.
+</nierror>
+<nierror code="-41506">
+Control Design and Simulation:  이산 시스템 모델에서 지연이 정수이어야 합니다.
+</nierror>
+<nierror code="-41505">
+Control Design and Simulation:  입력 또는 출력의 개수가 시스템 모델의 전체 입력 또는 출력을 초과합니다.
+</nierror>
+<nierror code="-41504">
+Control Design and Simulation:  기존 시스템 모델의 출력 개수가 제공된 시스템 모델의 출력 개수와 같지 않습니다. 각 시스템 모델의 행렬 C와 D의 차원이 적합해야 합니다.
+</nierror>
+<nierror code="-41503">
+Control Design and Simulation:  기존 시스템 모델의 입력 개수가 새 시스템 모델의 입력 개수와 같지 않습니다. 각 시스템 모델의 행렬 B와 D의 차원이 적합해야 합니다.
+</nierror>
+<nierror code="-41502">
+Control Design and Simulation:  기존 시스템 모델의 상태 개수가 제공된 시스템 모델의 상태 개수와 같지 않습니다. 각 모델의 행렬 A의 차원이 적합해야 합니다.
+</nierror>
+<nierror code="-41501">
+Control Design and Simulation:  시스템 모델이 이산 형태입니다.
+</nierror>
+<nierror code="-41500">
+Control Design and Simulation:  샘플링 시간이 음의 값이 될 수 없습니다.
+</nierror>
+<nierror code="-2391">
+Control Design and Simulation:  모델 파라미터에 쓰는데 실패했습니다.
+</nierror>
+<nierror code="-2390">
+Control Design and Simulation:  모델 파라미터를 읽는데 실패했습니다.
+</nierror>
+<nierror code="-2389">
+Control Design and Simulation:  지정된 모델 파라미터의 소스가 연결된 터미널이기 때문에 이 파라미터를 읽거나 파라미터에 쓸 수 없습니다.  파라미터를 읽거나 파라미터에 쓰려면 소스를 <B>설정 대화 상자</B>로 바꾸거나, 터미널을 연결하는 와이어를 제거하십시오.
+</nierror>
+<nierror code="-2388">
+Control Design and Simulation:  지정한 경로에 파라미터가 존재하지 않습니다. 파라미터에 유효한 경로를 지정하십시오.
+</nierror>
+<nierror code="-2387">
+Control Design and Simulation:  실행 중이지 않거나, 실행 예약되지 않은 VI의 모델 계층 구조에 있는 모델 파라미터를 설정했습니다.  모델 파라미터가 있는 모델 계층구조를 변경하면, LabVIEW는 이 설정을 삭제합니다.  설정을 유지하려면, 모델 계층구조를 포함하는 VI가 실행 중이거나 모델 파라미터에 접근할 때 실행되도록 예약되어 있는지 확인하십시오.
+</nierror>
+<nierror code="-2386">
+Control Design and Simulation:  현재 타겟은 [Access Model Hierarchy] 함수를 지원하지 않습니다.
+</nierror>
+<nierror code="-2385">
+Control Design and Simulation:  제약 조건 입력 벡터의 차원이 내부 출력 벡터의 차원과 일치하지 않습니다.
+</nierror>
+<nierror code="-2384">
+Control Design and Simulation:  초기 상태 벡터와 초기 미분 벡터의 차원이 일치하지 않습니다.
+</nierror>
+<nierror code="-2383">
+Control Design and Simulation:  사용자 지정 ODE 해답기의 공유 라이브러리가 콜백 함수를 찾지 못합니다.
+</nierror>
+<nierror code="-2382">
+Control Design and Simulation:  LabVIEW Control Design and Simulation Module이 사용자 지정 ODE 해답기의 공유 라이브러리를 로드할 수 없습니다.
+</nierror>
+<nierror code="-2381">
+Control Design and Simulation:  선형 시불변(LTI) 모델의 분자와 분모에 있는 다항식 차수는 0보다 커야 합니다.
+</nierror>
+<nierror code="-2380">
+Control Design and Simulation:  다중 입력 다중 출력(MIMO) 선형 시불변(LTI) 모델의 차원은 0보다 커야 합니다.
+</nierror>
+<nierror code="-2379">
+Control Design and Simulation:  시뮬레이션의 최종 시간은 NaN가 될 수 없습니다.
+</nierror>
+<nierror code="-2378">
+Control Design and Simulation:  시간 지연은 반드시 제로보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-2377">
+Control Design and Simulation:  LabVIEW Control Design and Simulation Module이 상태 공간, 전달 함수, 영점-극점-이득 모델 데이터 타입에서 지정하는 지연 프로퍼티를 무시합니다.
+</nierror>
+<nierror code="-2376">
+Control Design and Simulation:  전송 지연이 정확성을 갖지 않고 설정되었습니다. 정확성을 필요로 하면, 시뮬레이션의 최종 시간이나 또는 전송 지연을 최대한 연장하기 위해 유한한 값을 선택하십시오.
+</nierror>
+<nierror code="-2375">
+Control Design and Simulation:  Configure Simulation Parameters 대화 상자의 Timing Parameters 페이지에서 Auto Period 확인란에 확인 표시가 되어 있습니다. 그러나 샘플 간격 크기가 소스 클럭 주기의 배수가 아닙니다.
+</nierror>
+<nierror code="-2374">
+Control Design and Simulation:  음의 슬루 속도는 양의 슬루 속도보다 작거나 같아야 합니다.
+</nierror>
+<nierror code="-2373">
+Control Design and Simulation:  이 임베디드 디바이스에 설치한 LabVIEW 버전은 단지 Simulation Loop의 1 kHz 타이밍 소스만을 지원합니다.
+</nierror>
+<nierror code="-2372">
+Control Design and Simulation:  Lookup Table (LUT)의 테이블 인덱스가 감소되는 것이 아닙니다.
+</nierror>
+<nierror code="-2371">
+Control Design and Simulation:  각 이산 함수의 이산 샘플 주기는 시뮬레이션의 전체적인 이산 구간 간격의 정수배이어야 합니다.
+</nierror>
+<nierror code="-2370">
+Control Design and Simulation:  단일 입력 단일 출력(SISO) 상태 공간(state-space) 모델은 한 개의 열을 가진 B 행렬과 한 개의 행을 가진 C 행렬, 및 한 개의 원소를 가진 D 행렬을 필요로 합니다.
+</nierror>
+<nierror code="-2369">
+Control Design and Simulation:  지정한 모델은 직접적인 피드스루(Feedthrough)를 필요로 합니다.  이 함수의 설정 대화 상자를 열고 Feedthrough 파라미터를 Direct로 설정하십시오.
+</nierror>
+<nierror code="-2367">
+Control Design and Simulation:  외부 모델에 상응하는 공유 라이브러리가 에러를 반환했습니다.
+</nierror>
+<nierror code="-2366">
+Control Design and Simulation:  외부 모델 함수가 에러를 반환하였습니다.
+</nierror>
+<nierror code="-2365">
+Control Design and Simulation:  선형 시불변(LTI) 모델의 차수는 이전 반복과 같은 차수를 유지해야 합니다.
+</nierror>
+<nierror code="-2364">
+Control Design and Simulation:  다중 입력 다중 출력(MIMO) 선형 시불변(LTI) 모델의 차원은 이전 반복과 같은 차원을 유지해야 합니다.
+</nierror>
+<nierror code="-2363">
+Control Design and Simulation:  간접적인 피드스루를 가진 상태 공간 모델은 비어있거나 제로 D 행렬을 필요로 합니다.
+</nierror>
+<nierror code="-2362">
+Control Design and Simulation:  채널 개수가 부등 제약 개수와 일치해야 합니다.
+</nierror>
+<nierror code="-2361">
+Control Design and Simulation:  충분하지 못한 사용자 정의 참조 포인트 개수.
+</nierror>
+<nierror code="-2360">
+Control Design and Simulation:  Discrete States Only ODE 해답기를 사용하려면 시뮬레이션 다이어그램은 어떤 연속 함수도 가지고 있어서는 안됩니다.
+</nierror>
+<nierror code="-2359">
+Control Design and Simulation:  이산 간격 크기는 연속 간격 크기의 정수배이어야 합니다.
+</nierror>
+<nierror code="-2358">
+Control Design and Simulation:  이산 함수는 연속 모델을 받을 수 없습니다.
+</nierror>
+<nierror code="-2357">
+Control Design and Simulation:  연속 함수는 이산 모델을 받을 수 없습니다.
+</nierror>
+<nierror code="-2356">
+Control Design and Simulation:  샘플 주기(초)가 -1 또는 양수이어야 합니다.  샘플 주기(초)가 양의 값이면 샘플 skew(초)는 0보다 크거나 같아야 하고 샘플 주기(초)보다 작아야 합니다.
+</nierror>
+<nierror code="-2355">
+Control Design and Simulation:  최근 데이터 함수의 부분제거 파라미터의 값은 1보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-2354">
+Control Design and Simulation:  입력 배열의 원소 개수가 이득 행렬의 열 개수와 같지 않습니다.
+</nierror>
+<nierror code="-2353">
+Control Design and Simulation:  시뮬레이션이 실행 중일 때 최대 지연 시간을 변경할 수 없습니다.
+</nierror>
+<nierror code="-2352">
+Control Design and Simulation:  지연은 지정된 최대 지연 값보다 작거나 같아야 합니다.
+</nierror>
+<nierror code="-2351">
+Control Design and Simulation:  지정된 파라미터는 벡터입니다.  벡터 값을 입력하십시오.
+</nierror>
+<nierror code="-2350">
+Control Design and Simulation:  지정된 파라미터는 스칼라입니다.  스칼라 값을 입력하십시오.
+</nierror>
+<nierror code="-2349">
+Control Design and Simulation:  파라미터 이름이 주어진 파라미터 리스트에 없습니다.
+</nierror>
+<nierror code="-2348">
+Control Design and Simulation:  주어진 상태 미분(State Derivative) 파라미터가 지정된 서브시스템과 호환되지 않습니다. 파라미터 이름 (및, 벡터의 경우, 파라미터 크기)가 서브시스템과 일치하는지 확인하십시오.
+</nierror>
+<nierror code="-2347">
+Control Design and Simulation:  주어진 출력(Output) 파라미터가 지정된 서브시스템과 호환되지 않습니다. 파라미터 이름 (및, 벡터의 경우, 파라미터 크기)가 서브시스템과 일치하는지 확인하십시오.
+</nierror>
+<nierror code="-2346">
+Control Design and Simulation:  주어진 입력(Input) 파라미터가 지정된 서브시스템과 호환되지 않습니다. 파라미터 이름 (및, 벡터의 경우, 파라미터 크기)가 서브시스템과 일치하는지 확인하십시오.
+</nierror>
+<nierror code="-2345">
+Control Design and Simulation:  주어진 상태(State) 파라미터가 지정된 서브시스템과 호환되지 않습니다. 파라미터 이름 (및, 벡터의 경우, 파라미터 크기)가 서브시스템과 일치하는지 확인하십시오.
+</nierror>
+<nierror code="-2344">
+Control Design and Simulation:  주어진 output 파라미터가 지정된 서브시스템과 호환되지 않습니다.  파라미터 이름 (및, 벡터의 경우, 파라미터 크기)가 서브시스템과 일치하는지 확인하십시오.
+</nierror>
+<nierror code="-2343">
+Control Design and Simulation:  주어진 input 파라미터가 지정된 서브시스템과 호환되지 않습니다.  파라미터 이름 (및, 벡터의 경우, 파라미터 크기)가 서브시스템과 일치하는지 확인하십시오.
+</nierror>
+<nierror code="-2342">
+Control Design and Simulation:  주어진 state 파라미터가 지정된 서브시스템과 호환되지 않습니다.  파라미터 이름 (및, 벡터의 경우, 파라미터 크기)가 서브시스템과 일치하는지 확인하십시오.
+</nierror>
+<nierror code="-2341">
+Control Design and Simulation:  시뮬레이션의 초기 시간은 최종 시간보다 더 크거나 같을 수 없습니다.
+</nierror>
+<nierror code="-2340">
+Control Design and Simulation:  선형화 과정에서 내부 에러를 감지했습니다.
+</nierror>
+<nierror code="-2339">
+Control Design and Simulation:  선택한 해답기가 내부 함수를 처리할 수 없습니다.
+</nierror>
+<nierror code="-2338">
+Control Design and Simulation:  ODE 해답기가 내부 에러를 감지했습니다.
+</nierror>
+<nierror code="-2337">
+Control Design and Simulation:  시뮬레이션 서브시스템만 선형화할 수 있습니다.
+</nierror>
+<nierror code="-2336">
+Control Design and Simulation:  시뮬레이션 다이어그램이 ODE 해답기에 NaN을 반환하였습니다.
+</nierror>
+<nierror code="-2335">
+Control Design and Simulation:  시뮬레이션 다이어그램은 ODE 해답기에 무한대를 반환하였습니다.
+</nierror>
+<nierror code="-2334">
+Control Design and Simulation:  ODE 해답기에서 오버플로우가 발생했습니다.
+</nierror>
+<nierror code="-2333">
+Control Design and Simulation:  간격 크기는 최소 간격과 최대 간격 크기 사이여야 합니다.
+</nierror>
+<nierror code="-2332">
+Control Design and Simulation:  최소 간격 크기는 반드시 최대 시간 간격 크기보다 작거나 같아야 합니다.
+</nierror>
+<nierror code="-2331">
+Control Design and Simulation:  절대 허용오차와 상대 허용오차가 모두 0이 될 수 없습니다.
+</nierror>
+<nierror code="-2330">
+Control Design and Simulation:  이산 간격 크기는 간격 크기의 정수배이어야 합니다.
+</nierror>
+<nierror code="-2329">
+Control Design and Simulation:  시뮬레이션 시간 간격 크기가 제로일 수 없습니다.
+</nierror>
+<nierror code="-2328">
+Control Design and Simulation:  시뮬레이션 서브시스템에서만 Linearize Subsystem 대화 상자를 사용할 수 있습니다.
+</nierror>
+<nierror code="-2327">
+Control Design and Simulation:  프로젝트 탐색기의 내 컴퓨터 아래에서 VI를 생성한 경우에만, 서브 시스템 선형화 대화 상자를 사용할 수 있습니다.
+</nierror>
+<nierror code="-2326">
+Control Design and Simulation:  LabVIEW Control Design and Simulation Module 내에서 내부 에러가 발생했습니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-2325">
+Control Design and Simulation:  ODE 해답기가 최소 시간 간격 크기에서 수렴하지 않았습니다.
+</nierror>
+<nierror code="-2324">
+Control Design and Simulation:  최소 시간 간격을 사용하는 ODE 해답기가 에러 허용오차 범위를 벗어납니다 .
+</nierror>
+<nierror code="-2323">
+Control Design and Simulation:  시뮬레이션 시간 간격 크기가 0보다 커야 합니다.
+</nierror>
+<nierror code="-2322">
+Control Design and Simulation:  이산 지연은 0보다 크고 최대 지연보다 작거나 같아야 합니다. 최대 지연이 -1과 같은 경우, 시뮬레이션 시작 시 지연이 시뮬레이션 도중 최대 지연으로 사용됩니다.
+</nierror>
+<nierror code="-2321">
+Control Design and Simulation:  샘플 속도 제수가 음의 수이거나 0입니다. 샘플 속도 제수를 0보다 크게 지정해야 합니다.
+</nierror>
+<nierror code="-2320">
+Control Design and Simulation:  이 중급의 해답기 계산이 실행되지 않았습니다.
+</nierror>
+<nierror code="-2319">
+Control Design and Simulation:  Lookup 테이블 (LUT)의 배열 차원이 일치하지 않습니다.
+</nierror>
+<nierror code="-2318">
+Control Design and Simulation:  이 함수의 파라미터 벡터의 차원이 일치하지 않습니다.
+</nierror>
+<nierror code="-2317">
+Control Design and Simulation:  지정된 이산 적분 방법과 일치하지 않는 피드스루(feedthrough) 동작을 선택했습니다.
+</nierror>
+<nierror code="-2316">
+Control Design and Simulation:  분자의 차수가 분모의 차수보다 작거나 같아야 합니다.
+</nierror>
+<nierror code="-2315">
+Control Design and Simulation:  Zero-Pole-Gain 함수의 복소수 엔트리가 켤레 복소수와 일치해야 합니다.
+</nierror>
+<nierror code="-2314">
+Control Design and Simulation:  간접적인 피드스루(feedthrough) 동작을 가진 전달 함수의 경우, 분자 항의 차수가 분모 항의 차수보다 엄격히 작아야 합니다.
+</nierror>
+<nierror code="-2313">
+Control Design and Simulation:  초기 조건 벡터의 크기가 맞지 않습니다.
+</nierror>
+<nierror code="-2312">
+Control Design and Simulation:  입력 벡터의 크기가 MIMO 시스템에서 맞지 않습니다.
+</nierror>
+<nierror code="-2311">
+Control Design and Simulation:  Simulation Loop의 이전 반복으로부터 모델의 차수가 변경되지 않아야 합니다.
+</nierror>
+<nierror code="-2310">
+Control Design and Simulation:  행렬 A, B, C, D의 차원이 서로 일치하지 않습니다.
+</nierror>
+<nierror code="-2309">
+Control Design and Simulation:  이 함수의 주기는 제로보다 커야 합니다.
+</nierror>
+<nierror code="-2308">
+Control Design and Simulation:  주기 점유율이 0%와 100% 사이에 있어야 합니다.
+</nierror>
+<nierror code="-2307">
+Control Design and Simulation:  보조 서브단계에서 단계별 해답기를 평가합니다.
+</nierror>
+<nierror code="-2306">
+Control Design and Simulation:  이 함수의 주파수가 제로보다 커야 합니다.
+</nierror>
+<nierror code="-2305">
+Control Design and Simulation:  Chirp Signal 함수의 타겟 시간이 시뮬레이션 초기 시간보다 커야 합니다.
+</nierror>
+<nierror code="-2304">
+Control Design and Simulation:  Saturation 함수의 상위 리미트가 하위 리미트보다 크거나 또는 같아야 합니다.
+</nierror>
+<nierror code="-2303">
+Control Design and Simulation:  Relay 함수의 스위치 연결 포인트가 스위치 연결해제 포인트보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-2302">
+Control Design and Simulation:  Quantizer 함수의 양자화 간격이 0보다 커야 합니다.
+</nierror>
+<nierror code="-2301">
+Control Design and Simulation:  Simulation Model Converter가 내용을 적절히 변환하는데 실패했습니다.
+</nierror>
+<nierror code="-2300">
+Control Design and Simulation:  유효하지 않은 SimX 노드 참조.
+</nierror>
+<nierror code="2345">
+Control Design and Simulation:  Trim 함수가 변수에 적용되는 특정 제약 조건을 충족시키지 못했습니다.
+</nierror>
+<nierror code="41500">
+Control Design and Simulation:  이 VI는 지연을 가진 시스템 모델을 지원하지 않습니다. 지연 정보가 무시되었습니다.
+</nierror>
+<nierror code="41501">
+Control Design and Simulation:  시스템 모델이 전달 지연을 가지고 있습니다.
+</nierror>
+<nierror code="41502">
+Control Design and Simulation:  시스템 모델이 입력 지연을 가지고 있습니다.
+</nierror>
+<nierror code="41503">
+Control Design and Simulation:  시스템 모델이 출력 지연을 가지고 있습니다.
+</nierror>
+<nierror code="41504">
+Control Design and Simulation:  지연 정보가 무시되었습니다.
+</nierror>
+<nierror code="41505">
+Control Design and Simulation:  시스템 모델의 분자의 차수가 분모의 차수보다 큽니다.
+</nierror>
+<nierror code="41506">
+Control Design and Simulation:  이산화 프로세스에서 소수 부분 지연이 무시되었습니다.
+</nierror>
+<nierror code="41507">
+Control Design and Simulation:  두번째 시스템 모델이 정의되어 있지 않아서 두번째 커넥터가 무시되었습니다.
+</nierror>
+<nierror code="41508">
+Control Design and Simulation:  전달 지연 행렬의 구성요소가 모두 배포되지 않았을 수 있습니다. 잔류 전달 지연 행렬에 0이 아닌 원소가 있습니다.
+</nierror>
+<nierror code="41509">
+Control Design and Simulation:  변환된 모델의 조건 인덱스가 낮은데 이것은 이 방법이 부정확한 변환이라는 것을 나타냅니다. 다른 변환 방법을 고려해 보십시오.
+</nierror>
+<nierror code="41510">
+Control Design and Simulation:  안정한(stable) 연속 모델이 이산 등가 모델로 변환되었을 때 불안정한(unstable) 상태가 되었습니다. 일치하는 주파수가 안정한 연속 모델이 안정한 이산 등가 모델로 변환하려면 pi/T보다 작아야 합니다.
+</nierror>
+<nierror code="41511">
+Control Design and Simulation:  안정한(stable) 이산 모델이 연속 등가 모델로 변환되었을 때 불안정한(unstable) 상태가 되었습니다. 일치하는 주파수가 안정한 이산 모델이 안정한 연속 등가 모델로 변환하려면 pi/T보다 작아야 합니다.
+</nierror>
+<nierror code="41550">
+Control Design and Simulation:  위상 여유가 무한대입니다.
+</nierror>
+<nierror code="41551">
+Control Design and Simulation:  이득 여유가 무한대입니다.
+</nierror>
+<nierror code="41552">
+Control Design and Simulation:  크기가 주어진 dB 값 아래로 떨어지지 않습니다.
+</nierror>
+<nierror code="41553">
+Control Design and Simulation:  실제 최종 시간(tf)이 제공된 값과 다릅니다.
+</nierror>
+<nierror code="41554">
+Control Design and Simulation:  시스템 모델이 안정(stable)하지 않으므로 2 노름이 무한대입니다.
+</nierror>
+<nierror code="41555">
+Control Design and Simulation:  시스템 모델이 한계적으로 안정(marginally stable)한 상태이므로 무한대 노름이 무한대입니다.
+</nierror>
+<nierror code="41556">
+Control Design and Simulation:  이 VI는 큰 이득 값에 대해 폐루프 근을 플롯하지 못했습니다.
+</nierror>
+<nierror code="41557">
+Control Design and Simulation:  최종 주파수가 이산 시스템 모델의 나이퀴스트 주파수와 같도록 감소되었습니다.
+</nierror>
+<nierror code="41558">
+Control Design and Simulation:  주어진 시간 간격(dt)과 벡터 크기 한계가 최종 시간의 이상적인 값을 줄이도록 만들었습니다.
+</nierror>
+<nierror code="41559">
+Control Design and Simulation:  시간 간격(dt)이 이상적이지 않습니다.
+</nierror>
+<nierror code="41560">
+Control Design and Simulation:  초기 조건이 무시되었습니다.
+</nierror>
+<nierror code="41561">
+Control Design and Simulation:  초기 조건이 무시되었습니다.
+</nierror>
+<nierror code="41562">
+Control Design and Simulation:  시스템 모델이 직접적인 피드스루(feedthrough)로 인해 무한 공분산을 갖습니다.
+</nierror>
+<nierror code="41627">
+Control Design and Simulation:  (C1, Ahat)의 쌍을 관측할 수 없습니다.
+</nierror>
+<nierror code="41628">
+Control Design and Simulation:  (Ahat, B1)의 쌍이 안정화될 수 없습니다.
+</nierror>
+<nierror code="41630">
+Control Design and Simulation:  행렬 Q와 R이 제로 노름에 가깝습니다.
+</nierror>
+<nierror code="41631">
+Control Design and Simulation:  시스템 모델이 지정된 상태를 가지고 있지 않습니다.
+</nierror>
+<nierror code="41632">
+Control Design and Simulation:  시스템 모델이 지정된 입력을 가지고 있지 않습니다.
+</nierror>
+<nierror code="41633">
+Control Design and Simulation:  시스템 모델이 지정된 출력을 가지고 있지 않습니다.
+</nierror>
+<nierror code="41634">
+Control Design and Simulation:  측정된 출력과 알고 있는/처리되는 입력 값을 무시했습니다.
+</nierror>
+<nierror code="41635">
+Control Design and Simulation:  사용자 정의된 임계점을 초과했습니다. Control Design and Simulation Module에서는 요청한 위치에 극점을 놓을 수 없습니다.
+</nierror>
+<nierror code="41689">
+Control Design and Simulation:  (Ahat, B)의 쌍이 안정화될 수 없습니다.
+</nierror>
+<nierror code="41729">
+Control Design and Simulation:  이 VI는 분자가 0이기 때문에 분모를 1로 변경하였습니다.
+</nierror>
+<nierror code="41799">
+Control Design and Simulation:  플롯을 생성할 때 유효한 입력 또는 출력을 무시하였습니다.
+</nierror>
+</nidocument>

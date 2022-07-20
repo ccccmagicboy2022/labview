@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ks_c_5601-1987" standalone="no"?>
+<NILVWSPostInstallerScript>
+	<VI name="Prompt for Credentials.vi">
+		<string name="Title">NI 인증 로그인</string>
+		<string name="Username">사용자 이름</string>
+		<string name="Password">암호</string>
+		<string name="OK">확인</string>
+		<string name="Cancel">취소</string>
+	</VI>
+	<VI name="install.vi">
+		<string name="Label">웹 서비스 %s 설치 중</string>
+	</VI>
+	<VI name="uninstall.vi">
+		<string name="Label">웹 서비스 %s 설치 제거 중</string>
+	</VI>
+</NILVWSPostInstallerScript>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<NILVWSPostInstallerScript>
+	<VI name="Prompt for Credentials.vi">
+		<string name="Title">NI-Auth登录</string>
+		<string name="Username">用户名</string>
+		<string name="Password">密码</string>
+		<string name="OK">确定</string>
+		<string name="Cancel">取消</string>
+	</VI>
+	<VI name="install.vi">
+		<string name="Label">正在安装web服务%s</string>
+	</VI>
+	<VI name="uninstall.vi">
+		<string name="Label">正在卸载web服务%s</string>
+	</VI>
+</NILVWSPostInstallerScript>

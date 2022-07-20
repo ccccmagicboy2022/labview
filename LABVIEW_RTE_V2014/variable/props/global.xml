@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Global" lib="LabVIEW">
+    <var-prop name="EnableTimestamp" type="boolean" />
+</var-prop-group>

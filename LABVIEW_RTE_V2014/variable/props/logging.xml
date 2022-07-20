@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Logging" lib="LabVIEW">
+	<var-prop name="LogEvents" type="boolean" />
+	<var-prop name="LogData" type="boolean" />	
+	<var-prop name="TimeRes" type="double" />	
+	<var-prop name="ValueRes" type="double" />
+	<var-prop name="Deadband" type="double" />
+	<var-prop-enum name="LogFormat">
+        <var-prop-enum-value>String</var-prop-enum-value>
+        <var-prop-enum-value>DSC 7.1 Text</var-prop-enum-value>
+        <var-prop-enum-value>DSC 7.1 Blob</var-prop-enum-value>
+    </var-prop-enum>
+</var-prop-group>

@@ -1,0 +1,841 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Control Design and Simulation" displayname="Control Design and Simulation">
+</nifamily>
+</nicomment>
+<nierror code="-41813">
+Control Design and Simulation:  PID增益稳定集合中的内部点集合为空。PID问题可能为：不可解的线性不等式；精度不足以支持数值搜索。
+</nierror>
+<nierror code="-41812">
+Control Design and Simulation:  PID增益稳定集合的内部点不可行。
+</nierror>
+<nierror code="-41811">
+Control Design and Simulation:  K3间隔不可行，因此PID增益稳定集合为空。
+</nierror>
+<nierror code="-41804">
+Control Design and Simulation:  输入模型必须是合适的。
+</nierror>
+<nierror code="-41803">
+Control Design and Simulation:  输入状态空间模型必须为SISO。
+</nierror>
+<nierror code="-41802">
+Control Design and Simulation:  该VI的输入必须是不带时间延迟的离散模型。对于延迟，将其并入模型。
+</nierror>
+<nierror code="-41801">
+Control Design and Simulation:  该VI的输入必须是不带时间延迟的离散模型。将输入模型转换为离散形式。
+</nierror>
+<nierror code="-41706">
+Control Design and Simulation:  第一个模型的输入输出数量与第二个模型的输入输出数量不匹配。
+</nierror>
+<nierror code="-41705">
+Control Design and Simulation:  带传递函数模型的并行互联必须包含相同的传输延迟。
+</nierror>
+<nierror code="-41704">
+Control Design and Simulation:  第一个模型的输入（列）数量不等于第二个模型的输出（行）数量。
+</nierror>
+<nierror code="-41703">
+Control Design and Simulation:  传递函数的分母不能等于零。
+</nierror>
+<nierror code="-41702">
+Control Design and Simulation:  至少一个延迟小于零。
+</nierror>
+<nierror code="-41701">
+Control Design and Simulation:  分母必须包含一个元素。
+</nierror>
+<nierror code="-41700">
+Control Design and Simulation:  分子必须包含一个元素。
+</nierror>
+<nierror code="-41699">
+Control Design and Simulation:  未提供矩阵R。
+</nierror>
+<nierror code="-41698">
+Control Design and Simulation:  w的维数与随机状态空间模型的维数不一致。
+</nierror>
+<nierror code="-41697">
+Control Design and Simulation:  v的维数与随机状态空间模型的维数不一致。
+</nierror>
+<nierror code="-41696">
+Control Design and Simulation:  互协方差矩阵的维数不正确。
+</nierror>
+<nierror code="-41695">
+Control Design and Simulation:  互协方差矩阵是无效的。复合自协方差和互协方差必须是半正定的。
+</nierror>
+<nierror code="-41694">
+Control Design and Simulation:  E{v}的行数不正确。E{v}的维数应该等于输出数量。
+</nierror>
+<nierror code="-41693">
+Control Design and Simulation:  E{w}的行数不正确。E{w}的维数应该等于G的列数。
+</nierror>
+<nierror code="-41692">
+Control Design and Simulation:  协方差矩阵的维数不正确。
+</nierror>
+<nierror code="-41691">
+Control Design and Simulation:  协方差矩阵不是半正定的。
+</nierror>
+<nierror code="-41690">
+Control Design and Simulation:  N是无效的。矩阵[Q N; N' R]必须是半正定的。
+</nierror>
+<nierror code="-41689">
+Control Design and Simulation:  (Ahat, B)对是不可稳定的。
+</nierror>
+<nierror code="-41688">
+Control Design and Simulation:  矩阵R的维数不等于举证B的列数（相当于输入数量）。
+</nierror>
+<nierror code="-41687">
+Control Design and Simulation:  矩阵R不是正定的。
+</nierror>
+<nierror code="-41686">
+Control Design and Simulation:  矩阵R不是对称的。
+</nierror>
+<nierror code="-41685">
+Control Design and Simulation:  矩阵Q不是对称的。
+</nierror>
+<nierror code="-41684">
+Control Design and Simulation:  协方差矩阵不是对称的。
+</nierror>
+<nierror code="-41683">
+Control Design and Simulation:  控制器不在独立配置中。
+</nierror>
+<nierror code="-41682">
+Control Design and Simulation:  矩阵Q不是半正定的。
+</nierror>
+<nierror code="-41681">
+Control Design and Simulation:  增益的行数不等于系统的输出数量。
+</nierror>
+<nierror code="-41680">
+Control Design and Simulation:  增益的列数不等于系统的输入数量。
+</nierror>
+<nierror code="-41679">
+Control Design and Simulation:  系统模型没有输入。
+</nierror>
+<nierror code="-41678">
+Control Design and Simulation:  设定的输入/输出/状态向量索引已超过系统维数最大值。
+</nierror>
+<nierror code="-41677">
+Control Design and Simulation:  未提供系统矩阵D（必需）。
+</nierror>
+<nierror code="-41676">
+Control Design and Simulation:  未提供系统矩阵C（必需）。
+</nierror>
+<nierror code="-41675">
+Control Design and Simulation:  未提供系统矩阵B（必需）。
+</nierror>
+<nierror code="-41674">
+Control Design and Simulation:  未提供系统矩阵A（必需）。
+</nierror>
+<nierror code="-41673">
+Control Design and Simulation:  Lyapunov方程中矩阵R和Q的列数必须相等。
+</nierror>
+<nierror code="-41672">
+Control Design and Simulation:  Lyapunov方程中矩阵P和Q的行数必须相等。
+</nierror>
+<nierror code="-41671">
+Control Design and Simulation:  Lyapunov方程中的矩阵R不是方阵。
+</nierror>
+<nierror code="-41670">
+Control Design and Simulation:  Lyapunov方程中的矩阵P不是方阵。
+</nierror>
+<nierror code="-41669">
+Control Design and Simulation:  Ackermann仅对单输出系统模型有效。为观测器增益，C必须包含一个行。
+</nierror>
+<nierror code="-41668">
+Control Design and Simulation:  系统模型不是单输出的。
+</nierror>
+<nierror code="-41667">
+Control Design and Simulation:  系统模型不是单输入的。
+</nierror>
+<nierror code="-41666">
+Control Design and Simulation:  D的行数不等于输出数量。
+</nierror>
+<nierror code="-41665">
+Control Design and Simulation:  D的列数不等于输入数量
+</nierror>
+<nierror code="-41664">
+Control Design and Simulation:  调节器增益K的列数不等于状态数量。
+</nierror>
+<nierror code="-41663">
+Control Design and Simulation:  调节器增益K的行数不等于输入数量。
+</nierror>
+<nierror code="-41662">
+Control Design and Simulation:  N的行数不等于噪声向量w的维数(Nw)。
+</nierror>
+<nierror code="-41661">
+Control Design and Simulation:  N的列数不等于输出数量。
+</nierror>
+<nierror code="-41660">
+Control Design and Simulation:  R的维数不等于系统模型的输出数量。
+</nierror>
+<nierror code="-41659">
+Control Design and Simulation:  N的行数不等于输出数量。
+</nierror>
+<nierror code="-41658">
+Control Design and Simulation:  A是病态的。无法计算其逆矩阵。
+</nierror>
+<nierror code="-41657">
+Control Design and Simulation:  系统模型是临界稳定的。
+</nierror>
+<nierror code="-41656">
+Control Design and Simulation:  系统模型不稳定。
+</nierror>
+<nierror code="-41655">
+Control Design and Simulation:  [A B]或[A C]对不可控制或不可观测。
+</nierror>
+<nierror code="-41654">
+Control Design and Simulation:  H的行数不等于输出数量。
+</nierror>
+<nierror code="-41653">
+Control Design and Simulation:  G的行数不等于系统模型的状态数量。
+</nierror>
+<nierror code="-41652">
+Control Design and Simulation:  G和H的列数必须相等。
+</nierror>
+<nierror code="-41651">
+Control Design and Simulation:  Q的维数不等于过程噪声的维数。
+</nierror>
+<nierror code="-41650">
+Control Design and Simulation:  Q的维数不等于输出数量。
+</nierror>
+<nierror code="-41649">
+Control Design and Simulation:  复合噪声协方差[G O; H I]*[Q N; N' R]*[G O; H I]不是半正定的。
+</nierror>
+<nierror code="-41648">
+Control Design and Simulation:  噪声协方差矩阵不是正定的。
+</nierror>
+<nierror code="-41647">
+Control Design and Simulation:  Kalman增益L的列数不等于系统模型的输出数量。
+</nierror>
+<nierror code="-41646">
+Control Design and Simulation:  Kalman增益L的行数不等于系统模型的状态数量。
+</nierror>
+<nierror code="-41645">
+Control Design and Simulation:  采样时间值不同。
+</nierror>
+<nierror code="-41644">
+Control Design and Simulation:  Hamiltonian矩阵不是方阵。
+</nierror>
+<nierror code="-41643">
+Control Design and Simulation:  系统模型不可观测，因此无法计算矩阵变换T。
+</nierror>
+<nierror code="-41642">
+Control Design and Simulation:  N的列数不等于B的列数（相当于输入数量）。
+</nierror>
+<nierror code="-41641">
+Control Design and Simulation:  N的行数不等于A的维数（相当于状态数量）。
+</nierror>
+<nierror code="-41640">
+Control Design and Simulation:  矩阵R不是方阵。
+</nierror>
+<nierror code="-41639">
+Control Design and Simulation:  控制加权矩阵R必须是正定的，且维数必须等于输入数量。
+</nierror>
+<nierror code="-41638">
+Control Design and Simulation:  矩阵Q不是方阵。
+</nierror>
+<nierror code="-41637">
+Control Design and Simulation:  Q的维数不等于A的维数（相当于状态数量）。
+</nierror>
+<nierror code="-41636">
+Control Design and Simulation:  C的列数不等于状态数量。
+</nierror>
+<nierror code="-41635">
+Control Design and Simulation:  矩阵A不是方阵。
+</nierror>
+<nierror code="-41634">
+Control Design and Simulation:  系统模型不可控制，因此无法计算矩阵变换T。
+</nierror>
+<nierror code="-41633">
+Control Design and Simulation:  闭环极点数量不等于矩阵A的列数。
+</nierror>
+<nierror code="-41632">
+Control Design and Simulation:  Ackermann仅对单输入系统模型有效。为控制器增益，B必须包含一个列。
+</nierror>
+<nierror code="-41631">
+Control Design and Simulation:  B的行数不等于A的维数（也相当于状态数量）。
+</nierror>
+<nierror code="-41630">
+Control Design and Simulation:  一个或多个复数没有复共轭。
+</nierror>
+<nierror code="-41629">
+Control Design and Simulation:  未提供矩阵Q。
+</nierror>
+<nierror code="-41628">
+Control Design and Simulation:  (Ahat, B1)对是不可稳定的。
+</nierror>
+<nierror code="-41627">
+Control Design and Simulation:  (C1, Ahat)对是不可检测的。
+</nierror>
+<nierror code="-41626">
+Control Design and Simulation:  矩阵[Qbar - Nbar.inv(Rbar).Nbar']不是半正定的，因此Nbar是无效的。
+</nierror>
+<nierror code="-41625">
+Control Design and Simulation:  Rbar不是正定的。
+</nierror>
+<nierror code="-41624">
+Control Design and Simulation:  矩阵R不是半正定的。
+</nierror>
+<nierror code="-41623">
+Control Design and Simulation:  变换矩阵是不可逆的。
+</nierror>
+<nierror code="-41578">
+Control Design and Simulation:  最终约束的数量与约束变量的数量不匹配。
+</nierror>
+<nierror code="-41577">
+Control Design and Simulation:  初始约束的数量与约束变量的数量不匹配。
+</nierror>
+<nierror code="-41576">
+Control Design and Simulation:  权重因子向量的大小与相应权重矩阵的大小不匹配。
+</nierror>
+<nierror code="-41575">
+Control Design and Simulation:  代价函数中至少有一个权重矩阵非方阵。
+</nierror>
+<nierror code="-41574">
+Control Design and Simulation:  代价函数的输入变化权重矩阵的大小与控制器模型的输入数量不匹配。
+</nierror>
+<nierror code="-41573">
+Control Design and Simulation:  代价函数的输入权重矩阵的大小与控制器模型的输入数量不匹配。
+</nierror>
+<nierror code="-41572">
+Control Design and Simulation:  代价函数的输出权重矩阵的大小与控制器模型的输出数量不匹配。
+</nierror>
+<nierror code="-41571">
+Control Design and Simulation:  用于对模型预测控制器进行初始化的初始条件与该控制器中模型系统矩阵的维数不匹配。
+</nierror>
+<nierror code="-41570">
+Control Design and Simulation:  输入频率向量必须大于0。
+</nierror>
+<nierror code="-41569">
+Control Design and Simulation:  无法计算闭环传递函数。
+</nierror>
+<nierror code="-41568">
+Control Design and Simulation:  初始条件向量的元素数量与系统模型的输出数量不匹配。
+</nierror>
+<nierror code="-41567">
+Control Design and Simulation:  时间向量的大小太大。
+</nierror>
+<nierror code="-41566">
+Control Design and Simulation:  初始频率必须大于最终频率。初始频率必须小于最终频率。
+</nierror>
+<nierror code="-41565">
+Control Design and Simulation:  初始增益必须小于最终增益。
+</nierror>
+<nierror code="-41564">
+Control Design and Simulation:  dB drop的值必须为负。
+</nierror>
+<nierror code="-41563">
+Control Design and Simulation:  频率向量和响应向量的大小不相等。
+</nierror>
+<nierror code="-41562">
+Control Design and Simulation:  插值频率不在频率范围之内。
+</nierror>
+<nierror code="-41561">
+Control Design and Simulation:  高斯白噪声矩阵必须为半正定矩阵，且行数必须等于系统的输入数量。
+</nierror>
+<nierror code="-41560">
+Control Design and Simulation:  系统模型直接馈通，因此包含无限协方差。
+</nierror>
+<nierror code="-41559">
+Control Design and Simulation:  状态协方差矩阵包含负特征值。
+</nierror>
+<nierror code="-41558">
+Control Design and Simulation:  应用输入的数量与系统模型的输入数量不匹配。
+</nierror>
+<nierror code="-41557">
+Control Design and Simulation:  初始状态的数量与系统模型的状态数量不匹配。
+</nierror>
+<nierror code="-41556">
+Control Design and Simulation:  所有波形必须包含相同的dt和d0。
+</nierror>
+<nierror code="-41555">
+Control Design and Simulation:  离散系统模型的时间步长(dt)和采样时间必须相等。
+</nierror>
+<nierror code="-41554">
+Control Design and Simulation:  时间步长(dt)必须小于最终时间(tf)。
+</nierror>
+<nierror code="-41553">
+Control Design and Simulation:  时间步长(dt)必须大于零。
+</nierror>
+<nierror code="-41552">
+Control Design and Simulation:  初始时间(t0)必须大于或等于0。
+</nierror>
+<nierror code="-41551">
+Control Design and Simulation:  最终时间(tf)必须大于初始时间(t0)。
+</nierror>
+<nierror code="-41550">
+Control Design and Simulation:  输入系统模型必须是单输入单输出(SISO)模型。
+</nierror>
+<nierror code="-41529">
+Control Design and Simulation:  采样时间不能为未定义(-1)。
+</nierror>
+<nierror code="-41528">
+Control Design and Simulation:  矩阵指数计算溢出。
+</nierror>
+<nierror code="-41527">
+Control Design and Simulation:  模型在零处有离散极点。
+</nierror>
+<nierror code="-41526">
+Control Design and Simulation:  模型在1处有个极点，其重数大于6。
+</nierror>
+<nierror code="-41525">
+Control Design and Simulation:  模型包含一个负的实极点，其重数大于2。
+</nierror>
+<nierror code="-41524">
+Control Design and Simulation:  采样时间必须大于0。
+</nierror>
+<nierror code="-41523">
+Control Design and Simulation:  互联模型之间存在重复连接。
+</nierror>
+<nierror code="-41522">
+Control Design and Simulation:  系统模型不适合执行该函数。
+</nierror>
+<nierror code="-41521">
+Control Design and Simulation:  系统模型存在延迟。
+</nierror>
+<nierror code="-41520">
+Control Design and Simulation:  系统模型存在传输延迟。
+</nierror>
+<nierror code="-41519">
+Control Design and Simulation:  系统模型存在输出延迟。
+</nierror>
+<nierror code="-41518">
+Control Design and Simulation:  系统模型存在输入延迟。
+</nierror>
+<nierror code="-41517">
+Control Design and Simulation:  系统模型必须是2阶系统模型。
+</nierror>
+<nierror code="-41516">
+Control Design and Simulation:  系统模型非方。
+</nierror>
+<nierror code="-41515">
+Control Design and Simulation:  所有变量名称必须以字母作为开头。
+</nierror>
+<nierror code="-41514">
+Control Design and Simulation:  变换的采样时间不合适，得到糟糕的系统模型。
+</nierror>
+<nierror code="-41513">
+Control Design and Simulation:  频率必须大于0。
+</nierror>
+<nierror code="-41512">
+Control Design and Simulation:  多项式阶数必须大于零。
+</nierror>
+<nierror code="-41511">
+Control Design and Simulation:  系统模型必须是连续的。
+</nierror>
+<nierror code="-41510">
+Control Design and Simulation:  系统模型必须是离散的。
+</nierror>
+<nierror code="-41509">
+Control Design and Simulation:  输出延迟向量的维数不等于系统模型的输出数量。
+</nierror>
+<nierror code="-41508">
+Control Design and Simulation:  输入延迟的维数不等于系统模型的输入数量。
+</nierror>
+<nierror code="-41507">
+Control Design and Simulation:  输入/输出延迟矩阵的维数必须等于系统模型的输入和输出数量。
+</nierror>
+<nierror code="-41506">
+Control Design and Simulation:  离散系统中延迟必须为整数。
+</nierror>
+<nierror code="-41505">
+Control Design and Simulation:  输入和输出数量超过系统模型的输入输出总数。
+</nierror>
+<nierror code="-41504">
+Control Design and Simulation:  现有系统模型的输出数量不等于提供系统模型的输出数量。各系统模型中矩阵C和D的维数必须兼容。
+</nierror>
+<nierror code="-41503">
+Control Design and Simulation:  现有系统模型的输入数量不等于新系统模型的输入数量。各系统模型中矩阵B和D的维数必须兼容。
+</nierror>
+<nierror code="-41502">
+Control Design and Simulation:  现有系统模型的状态数量不等于提供系统模型的状态数量。各模型中矩阵A的维数必须兼容。
+</nierror>
+<nierror code="-41501">
+Control Design and Simulation:  系统模型是离散的。
+</nierror>
+<nierror code="-41500">
+Control Design and Simulation:  采样时间不能为负数。
+</nierror>
+<nierror code="-2391">
+Control Design and Simulation:  写入模型参数失败。
+</nierror>
+<nierror code="-2390">
+Control Design and Simulation:  读取模型参数失败。
+</nierror>
+<nierror code="-2389">
+Control Design and Simulation:  模型参数的源是已连线的接线端，因此无法读写指定的模型参数。如需读写该参数，请将参数的源更改为<B>配置对话框</B>或者删除与接线端相连的连线。
+</nierror>
+<nierror code="-2388">
+Control Design and Simulation:  设定的路径下不存在参数。请检查并确保参数路径有效。
+</nierror>
+<nierror code="-2387">
+Control Design and Simulation:  VI模型层次结构中已配置的模型参数可能不能运行或者未被保留为运行。如修改包含该模型参数的模型层次结构，LabVIEW将放弃配置。如需保留配置，请确保访问模型参数时包含该模型层次结构的VI已运行或保留为运行。
+</nierror>
+<nierror code="-2386">
+Control Design and Simulation:  当前终端不支持访问模型层次结构函数。
+</nierror>
+<nierror code="-2385">
+Control Design and Simulation:  约束输入向量与隐输出向量维数不匹配。
+</nierror>
+<nierror code="-2384">
+Control Design and Simulation:  初始状态向量与初始导数向量维数不匹配
+</nierror>
+<nierror code="-2383">
+Control Design and Simulation:  用于自定义ODE求解的共享库缺少回调函数。
+</nierror>
+<nierror code="-2382">
+Control Design and Simulation:  LabVIEW Control Design and Simulation模块无法加载用于ODE求解的共享库。
+</nierror>
+<nierror code="-2381">
+Control Design and Simulation:  线性时不变(LTI)模型的分子和分母的多项式阶数必须大于零。
+</nierror>
+<nierror code="-2380">
+Control Design and Simulation:  多入多出(MIMO)线性时不变(LTI)模型的维数必须大于零。
+</nierror>
+<nierror code="-2379">
+Control Design and Simulation:  仿真的结束时间不能等于NaN。
+</nierror>
+<nierror code="-2378">
+Control Design and Simulation:  延时必须大于或等于0。
+</nierror>
+<nierror code="-2377">
+Control Design and Simulation:  LabVIEW Control Design and Simulation模块将忽略在状态空间、传递函数或零点-极点-增益模型数据类型中指定的延迟属性。
+</nierror>
+<nierror code="-2376">
+Control Design and Simulation:  传输延迟通过非确定性方式配置。在要求确定性的情况下，可选择将仿真的结束时间设为有限值，或将传输延迟块的最大延迟设为有限值。
+</nierror>
+<nierror code="-2375">
+Control Design and Simulation:  配置仿真参数对话框的定时参数页中自动周期复选框已被勾选。但步长不是源时钟周期的整数倍。
+</nierror>
+<nierror code="-2374">
+Control Design and Simulation:  负边沿斜率必须小于或等于正边沿斜率。
+</nierror>
+<nierror code="-2373">
+Control Design and Simulation:  用于该嵌入式设备的LabVIEW版本仅支持仿真循环的1 kHz定时源。
+</nierror>
+<nierror code="-2372">
+Control Design and Simulation:  查找表（LUT）的索引表必须为非递减。
+</nierror>
+<nierror code="-2371">
+Control Design and Simulation:  每个离散函数的离散采样周期必须为仿真的离散步长的整数倍。
+</nierror>
+<nierror code="-2370">
+Control Design and Simulation:  单入单出(SISO)的状态空间模型需要仅包含一列的B矩阵、仅包含一行的C矩阵和仅包含一个元素的D矩阵。
+</nierror>
+<nierror code="-2369">
+Control Design and Simulation:  所指定模型要求直接馈通。打开该函数的配置对话框，将“执行模式”（Execution Mode）参数设置为“直接”（Direct）。
+</nierror>
+<nierror code="-2367">
+Control Design and Simulation:  对应外部模型的共享库返回一个错误。
+</nierror>
+<nierror code="-2366">
+Control Design and Simulation:  外部模型函数返回一个错误。
+</nierror>
+<nierror code="-2365">
+Control Design and Simulation:  线性定常（LTI）模型的阶数必须与前一次迭代相同。
+</nierror>
+<nierror code="-2364">
+Control Design and Simulation:  多入多出（MIMO）线性定常（LTI）模型的维数必须与前一次迭代相同。
+</nierror>
+<nierror code="-2363">
+Control Design and Simulation:  对于间接馈通的状态空间模型，必须要求是空矩阵或零维矩阵。
+</nierror>
+<nierror code="-2362">
+Control Design and Simulation:  通道数量必须等于不等式数量。
+</nierror>
+<nierror code="-2361">
+Control Design and Simulation:  用户定义的参考点数量不足。
+</nierror>
+<nierror code="-2360">
+Control Design and Simulation:  如需使用仅离散状态ODE计算器，仿真程序框图无法包括任何连续函数。
+</nierror>
+<nierror code="-2359">
+Control Design and Simulation:  离散步长必须为连续步长的整数倍。
+</nierror>
+<nierror code="-2358">
+Control Design and Simulation:  离散函数无法接受连续模型。
+</nierror>
+<nierror code="-2357">
+Control Design and Simulation:  连续函数无法接受离散模型。
+</nierror>
+<nierror code="-2356">
+Control Design and Simulation:  采样周期（秒）必须为-1或正数。如采样周期（秒）为正数，采样偏度（秒）必须大于等于0或者小于采样周期（秒）。
+</nierror>
+<nierror code="-2355">
+Control Design and Simulation:  收集器函数的降采样参数的值必须大于等于1。
+</nierror>
+<nierror code="-2354">
+Control Design and Simulation:  输入数组的元素数量和收益矩阵的列数不相等 。
+</nierror>
+<nierror code="-2353">
+Control Design and Simulation:  当模拟模块运行时，不能更改最大延迟的值。
+</nierror>
+<nierror code="-2352">
+Control Design and Simulation:  延时必须小于等于指定的最大延时。
+</nierror>
+<nierror code="-2351">
+Control Design and Simulation:  指定参数是一个向量。输入向量值。
+</nierror>
+<nierror code="-2350">
+Control Design and Simulation:  指定参数是一个标量。输入标量值。
+</nierror>
+<nierror code="-2349">
+Control Design and Simulation:  参数名称不在指定参数列表中。
+</nierror>
+<nierror code="-2348">
+Control Design and Simulation:  给定状态导数与指定子系统不兼容。确保参数名称（以及向量情况中的参数大小）与子系统匹配。
+</nierror>
+<nierror code="-2347">
+Control Design and Simulation:  给定输出参数与指定子系统不兼容。确保参数名称（以及向量情况中的参数大小）与子系统匹配。
+</nierror>
+<nierror code="-2346">
+Control Design and Simulation:  给定输入参数与指定子系统不兼容。确保参数名称（以及向量情况中的参数大小）与子系统匹配。
+</nierror>
+<nierror code="-2345">
+Control Design and Simulation:  给定状态参数与指定子系统不兼容。确保参数名称（以及向量情况中的参数大小）与子系统匹配。
+</nierror>
+<nierror code="-2344">
+Control Design and Simulation:  给定输出参数与指定子系统不兼容。确保参数名称（以及向量情况中的参数大小）与子系统匹配。
+</nierror>
+<nierror code="-2343">
+Control Design and Simulation:  给定输入参数与指定子系统不兼容。确保参数名称（以及向量情况中的参数大小）与子系统匹配。
+</nierror>
+<nierror code="-2342">
+Control Design and Simulation:  给定状态参数与指定子系统不兼容。确保参数名称（以及向量情况中的参数大小）与子系统匹配。
+</nierror>
+<nierror code="-2341">
+Control Design and Simulation:  仿真开始时间不能大于等于结束时间。
+</nierror>
+<nierror code="-2340">
+Control Design and Simulation:  线性化器发现内部错误。
+</nierror>
+<nierror code="-2339">
+Control Design and Simulation:  所选求解器不能处理隐函数。
+</nierror>
+<nierror code="-2338">
+Control Design and Simulation:  ODE计算器发现内部错误。
+</nierror>
+<nierror code="-2337">
+Control Design and Simulation:  仅可线性化仿真子系统。
+</nierror>
+<nierror code="-2336">
+Control Design and Simulation:  仿真框图向ODE计算器返回NaN。
+</nierror>
+<nierror code="-2335">
+Control Design and Simulation:  仿真框图向ODE计算器返回Inf。
+</nierror>
+<nierror code="-2334">
+Control Design and Simulation:  ODE计算器发生溢出。
+</nierror>
+<nierror code="-2333">
+Control Design and Simulation:  步长必须界于最小和最大步长之间。
+</nierror>
+<nierror code="-2332">
+Control Design and Simulation:  步长最小值必须小于等于步长最大值。
+</nierror>
+<nierror code="-2331">
+Control Design and Simulation:  绝对容忍度和相对容忍度不同时为0。
+</nierror>
+<nierror code="-2330">
+Control Design and Simulation:  离散步长必须是步长的整数倍。
+</nierror>
+<nierror code="-2329">
+Control Design and Simulation:  仿真步长不能为0。
+</nierror>
+<nierror code="-2328">
+Control Design and Simulation:  线性化子系统对话框仅可用于仿真子系统。
+</nierror>
+<nierror code="-2327">
+Control Design and Simulation:  仅当在项目浏览器的“我的电脑”下创建VI时，可使用线性子系统对话框。
+</nierror>
+<nierror code="-2326">
+Control Design and Simulation:  LabVIEW Control Design and Simulation模块出现内部错误。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-2325">
+Control Design and Simulation:  按最小步长，ODE计算器无法收敛。
+</nierror>
+<nierror code="-2324">
+Control Design and Simulation:  按最小步长，ODE计算器无法满足误差宽容度。
+</nierror>
+<nierror code="-2323">
+Control Design and Simulation:  仿真步长必须大于0。
+</nierror>
+<nierror code="-2322">
+Control Design and Simulation:  离散时延必须大于零且小于等于最大时延。如最大时延等于-1，则仿真过程中的开始时延将被作为最大时延。
+</nierror>
+<nierror code="-2321">
+Control Design and Simulation:  采样率约数为负或为0。必须指定大于零的采样率除数。
+</nierror>
+<nierror code="-2320">
+Control Design and Simulation:  不应该执行这个中间求解过程。
+</nierror>
+<nierror code="-2319">
+Control Design and Simulation:  查找表格的数组的维数不一致。
+</nierror>
+<nierror code="-2318">
+Control Design and Simulation:  该函数的参数向量的维数不匹配。
+</nierror>
+<nierror code="-2317">
+Control Design and Simulation:  所选馈通方式与指定离散化积分方法冲突。
+</nierror>
+<nierror code="-2316">
+Control Design and Simulation:  分子阶数必须不小于分母阶数。
+</nierror>
+<nierror code="-2315">
+Control Design and Simulation:  必须用复数共轭匹配零点-极点-增益函数的复共轭。
+</nierror>
+<nierror code="-2314">
+Control Design and Simulation:  对于间接馈通的转移函数而言，分子的阶数必须严格小于分母的阶数。
+</nierror>
+<nierror code="-2313">
+Control Design and Simulation:  初始条件向量的大小不正确。
+</nierror>
+<nierror code="-2312">
+Control Design and Simulation:  输入向量的大小对于MIMO系统不正确。
+</nierror>
+<nierror code="-2311">
+Control Design and Simulation:  模型的阶数应保持与仿真循环的前一次迭代相同。
+</nierror>
+<nierror code="-2310">
+Control Design and Simulation:  矩阵A、B、C和D的维数不一致。
+</nierror>
+<nierror code="-2309">
+Control Design and Simulation:  该函数的周期必须大于零。
+</nierror>
+<nierror code="-2308">
+Control Design and Simulation:  占空比必须位于0%和100%之间。
+</nierror>
+<nierror code="-2307">
+Control Design and Simulation:  在较低子步骤上求一个单步的解。
+</nierror>
+<nierror code="-2306">
+Control Design and Simulation:  该函数的频率必须大于零。
+</nierror>
+<nierror code="-2305">
+Control Design and Simulation:  Chirp信号函数的目标时间必须大于仿真开始时间。
+</nierror>
+<nierror code="-2304">
+Control Design and Simulation:  Saturation函数的上限必须大于等于下限。
+</nierror>
+<nierror code="-2303">
+Control Design and Simulation:  继电器函数的接通点必须大于等于断开点。
+</nierror>
+<nierror code="-2302">
+Control Design and Simulation:  Quantizer函数的量化间隔必须大于零。
+</nierror>
+<nierror code="-2301">
+Control Design and Simulation:  仿真模型转换器解析表达式出错。
+</nierror>
+<nierror code="-2300">
+Control Design and Simulation:  无效SimX节点引用。
+</nierror>
+<nierror code="2345">
+Control Design and Simulation:  Trim函数不符合变量的特定约束。
+</nierror>
+<nierror code="41500">
+Control Design and Simulation:  VI不支持包含延迟的系统模型。延迟信息已被忽略。
+</nierror>
+<nierror code="41501">
+Control Design and Simulation:  系统模型存在传输延迟。
+</nierror>
+<nierror code="41502">
+Control Design and Simulation:  系统模型存在输入延迟。
+</nierror>
+<nierror code="41503">
+Control Design and Simulation:  系统模型存在输出延迟。
+</nierror>
+<nierror code="41504">
+Control Design and Simulation:  延迟信息已被忽略。
+</nierror>
+<nierror code="41505">
+Control Design and Simulation:  系统模型不合适。
+</nierror>
+<nierror code="41506">
+Control Design and Simulation:  离散过程的非整数延迟已被忽略。
+</nierror>
+<nierror code="41507">
+Control Design and Simulation:  第二个系统模型未定义，因此第二个连接器已被忽略。
+</nierror>
+<nierror code="41508">
+Control Design and Simulation:  无法分配传输延迟矩阵的某些分量。残差传输延迟矩阵包含非零元素。
+</nierror>
+<nierror code="41509">
+Control Design and Simulation:  转换后的模型条件指标低，表明该方法得到不精确的转换。可换用其他转换方法。
+</nierror>
+<nierror code="41510">
+Control Design and Simulation:  转换稳定连续模型后得到不稳定离散等效模型。匹配频率的值必须小于pi/T，才能将稳定连续模型转换为稳定离散等效模型。
+</nierror>
+<nierror code="41511">
+Control Design and Simulation:  转换稳定离散模型后得到不稳定连续等效模型。匹配频率的值必须小于pi/T，才能将稳定离散模型转换为稳定连续等效模型。
+</nierror>
+<nierror code="41550">
+Control Design and Simulation:  相位边际是无穷的。
+</nierror>
+<nierror code="41551">
+Control Design and Simulation:  增益边际是无穷的。
+</nierror>
+<nierror code="41552">
+Control Design and Simulation:  幅度未降低至给定db值之下。
+</nierror>
+<nierror code="41553">
+Control Design and Simulation:  实际最终时间(tf)与提供的值不同。
+</nierror>
+<nierror code="41554">
+Control Design and Simulation:  系统模型不稳定，因此2-范数是无穷的。
+</nierror>
+<nierror code="41555">
+Control Design and Simulation:  系统模型临界稳定，因此无穷范数是无穷的。
+</nierror>
+<nierror code="41556">
+Control Design and Simulation:  VI没有为大增益值绘制闭环极点。
+</nierror>
+<nierror code="41557">
+Control Design and Simulation:  最终频率被降低至离散系统模型的Nyquist频率。
+</nierror>
+<nierror code="41558">
+Control Design and Simulation:  给定的时间步长(dt)和向量大小限制导致最终时间比理想值小。
+</nierror>
+<nierror code="41559">
+Control Design and Simulation:  时间步长(dt)不理想。
+</nierror>
+<nierror code="41560">
+Control Design and Simulation:  初始条件被忽略。
+</nierror>
+<nierror code="41561">
+Control Design and Simulation:  初始条件被忽略。
+</nierror>
+<nierror code="41562">
+Control Design and Simulation:  系统模型直接馈通，因此包含无限协方差。
+</nierror>
+<nierror code="41627">
+Control Design and Simulation:  (C1, Ahat)对是不可检测的。
+</nierror>
+<nierror code="41628">
+Control Design and Simulation:  (Ahat, B1)对是不可稳定的。
+</nierror>
+<nierror code="41630">
+Control Design and Simulation:  矩阵Q和/或矩阵R接近于零范数。
+</nierror>
+<nierror code="41631">
+Control Design and Simulation:  系统模型无指定状态。
+</nierror>
+<nierror code="41632">
+Control Design and Simulation:  系统模型无指定输入。
+</nierror>
+<nierror code="41633">
+Control Design and Simulation:  系统模型无指定输出。
+</nierror>
+<nierror code="41634">
+Control Design and Simulation:  已忽略测量到的输出和已知/已操控的输入。
+</nierror>
+<nierror code="41635">
+Control Design and Simulation:  已超出用户定义的阈值。Control Design and Simulation模块无法将极点放在请求的位置。
+</nierror>
+<nierror code="41689">
+Control Design and Simulation:  (Ahat, B)对是不可稳定的。
+</nierror>
+<nierror code="41729">
+Control Design and Simulation:  分子为0，因此该VI将分母更改为1。
+</nierror>
+<nierror code="41799">
+Control Design and Simulation:  生成图形时已忽略无效的输入和输出。
+</nierror>
+</nidocument>

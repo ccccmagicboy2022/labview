@@ -1,0 +1,283 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="OS and Network Services" displayname="OS and Network Services">
+</nifamily>
+</nicomment>
+<nierror code="-1967370240">
+OS and Network Services:  (Hex 0x8ABC5000) Interner Netzwerfehler
+</nierror>
+<nierror code="-1967370239">
+OS and Network Services:  (Hex 0x8ABC5001) Speicherüberlauf bei der Ausführung der angegebenen Netzwerkoperation.
+</nierror>
+<nierror code="-1967370238">
+OS and Network Services:  (Hex 0x8ABC5002) Die Applikation hat die Anzahl der zur Verfügung stehenden PSP-Handles überschritten
+</nierror>
+<nierror code="-1967370237">
+OS and Network Services:  (Hex 0x8ABC5003) Die Verbindung zum Server ist unterbrochen worden.
+</nierror>
+<nierror code="-1967370236">
+OS and Network Services:  (Hex 0x8ABC5004) Der Netzwerk-Übertragungspuffer ist voll.
+</nierror>
+<nierror code="-1967370235">
+OS and Network Services:  (Hex 0x8ABC5005) Die angegebene Operation wird vom Server nicht unterstützt.
+</nierror>
+<nierror code="-1967370234">
+OS and Network Services:  (Hex 0x8ABC5006) Der Server konnte die Bindung eines TCP-Ports nicht ausführen.
+</nierror>
+<nierror code="-1967370233">
+OS and Network Services:  (Hex 0x8ABC5007) Die Operation ist fehlgeschlagen, weil die Netzwerkschicht sich im Prozess der Abschaltung befindet.
+</nierror>
+<nierror code="-1967370232">
+OS and Network Services:  (Hex 0x8ABC5008) Eine asynchrone Operation konnte von der Netzwerkschicht nicht eingerichtet werden.
+</nierror>
+<nierror code="-1967370231">
+OS and Network Services:  (Hex 0x8ABC5009) Der Server unterstützt das angegebene Datenformat nicht.
+</nierror>
+<nierror code="-1967370224">
+OS and Network Services:  (Hex 0x8ABC5010) Service-Registrierung fehlgeschlagen. Ein Dienst dieses Namens wurde bereits registriert.
+</nierror>
+<nierror code="-1967362047">
+OS and Network Services:  (Hex 0x8ABC7001) Installierte Bibliothek hat die falsche Versionsnummer.
+</nierror>
+<nierror code="-1967362046">
+OS and Network Services:  (Hex 0x8ABC7002) Client hat versucht eine Funktion einer nicht registrierten Bibliothek aufzurufen.
+</nierror>
+<nierror code="-1967362045">
+OS and Network Services:  (Hex 0x8ABC7003) Operation hat Zeitbegrenzung überschritten.
+</nierror>
+<nierror code="-1967362044">
+OS and Network Services:  (Hex 0x8ABC7004) Syntax-Fehler.
+</nierror>
+<nierror code="-1967362043">
+OS and Network Services:  (Hex 0x8ABC7005) Stack übergelaufen.
+</nierror>
+<nierror code="-1967362042">
+OS and Network Services:  (Hex 0x8ABC7006) Dienst kann nicht gestartet werden.
+</nierror>
+<nierror code="-1967362041">
+OS and Network Services:  (Hex 0x8ABC7007) Außerhalb des Bereichs.
+</nierror>
+<nierror code="-1967362040">
+OS and Network Services:  (Hex 0x8ABC7008) Objekt nicht gefunden.
+</nierror>
+<nierror code="-1967362039">
+OS and Network Services:  (Hex 0x8ABC7009) Objekt existiert bereits.
+</nierror>
+<nierror code="-1967362038">
+OS and Network Services:  (Hex 0x8ABC700A) Objekt nicht gefunden.  Bitte prüfen Sie, ob der angegebene Name oder die angegebene URL für das Objekt existiert. Das Objekt sollte ein Computer, ein Prozess, eine Umgebungsvariable, eine Citadel-Datenbank oder eine NI-Domain sein.
+</nierror>
+<nierror code="-1967362037">
+OS and Network Services:  (Hex 0x8ABC700B) Das Objekt oder Kollektion ist nicht leer.
+</nierror>
+<nierror code="-1967362036">
+OS and Network Services:  (Hex 0x8ABC700C) Client hat versucht eine Registrierungsfunktion mehrfach aufzurufen.
+</nierror>
+<nierror code="-1967362035">
+OS and Network Services:  (Hex 0x8ABC700D) Ungültiger Ergebnistyp.
+</nierror>
+<nierror code="-1967362034">
+OS and Network Services:  (Hex 0x8ABC700E) Ungültige Operation.
+</nierror>
+<nierror code="-1967362033">
+OS and Network Services:  (Hex 0x8ABC700F) Ungültige Argumente.
+</nierror>
+<nierror code="-1967362032">
+OS and Network Services:  (Hex 0x8ABC7010) Initialisierung fehlgeschlagen.
+</nierror>
+<nierror code="-1967362031">
+OS and Network Services:  (Hex 0x8ABC7011) Dateischreiboperation fehlgeschlagen.
+</nierror>
+<nierror code="-1967362030">
+OS and Network Services:  (Hex 0x8ABC7012) Dateileseoperation fehlgeschlagen.
+</nierror>
+<nierror code="-1967362029">
+OS and Network Services:  (Hex 0x8ABC7013) Dateiende.
+</nierror>
+<nierror code="-1967362028">
+OS and Network Services:  (Hex 0x8ABC7014) Deserialisierung fehlgeschlagen.
+</nierror>
+<nierror code="-1967362027">
+OS and Network Services:  (Hex 0x8ABC7015) Anforderung kann nicht abgeschlossen werden. Verbindung fehlgeschlagen.
+</nierror>
+<nierror code="-1967362026">
+OS and Network Services:  (Hex 0x8ABC7016) Operation abgebrochen.
+</nierror>
+<nierror code="-1967362025">
+OS and Network Services:  (Hex 0x8ABC7017) Pufferüberlauf.
+</nierror>
+<nierror code="-1967362024">
+OS and Network Services:  (Hex 0x8ABC7018) Versuch der Servicezuweisung zu Logos Classified Ads fehlgeschlagen.
+</nierror>
+<nierror code="-1967362023">
+OS and Network Services:  (Hex 0x8ABC7019) Zugriff verweigert
+</nierror>
+<nierror code="-1967362022">
+OS and Network Services:  (Hex 0x8ABC701A) Puffer leergelaufen.
+</nierror>
+<nierror code="-1967362021">
+OS and Network Services:  (Hex 0x8ABC701B) Datei existiert bereits.
+</nierror>
+<nierror code="-1967362020">
+OS and Network Services:  (Hex 0x8ABC701C) Die übergebene Referenz ist ungültig.
+</nierror>
+<nierror code="-1967362019">
+OS and Network Services:  (Hex 0x8ABC701D) Es wurde eine NULL-Referenz am Eingang übergeben.
+</nierror>
+<nierror code="-1967362016">
+OS and Network Services:  (Hex 0x8ABC7020) Unerwarteter OS-Ausnahmefehler aufgetreten.
+</nierror>
+<nierror code="-1967362015">
+OS and Network Services:  (Hex 0x8ABC7021) Laden der Bibliothek fehlgeschlagen.
+</nierror>
+<nierror code="-1967362014">
+OS and Network Services:  (Hex 0x8ABC7022) Klasse nicht gefunden.
+</nierror>
+<nierror code="-1967362013">
+OS and Network Services:  (Hex 0x8ABC7023) Kein bekannter Wert.
+</nierror>
+<nierror code="-1967362012">
+OS and Network Services:  (Hex 0x8ABC7024) Ungültige Ländereinstellung.
+</nierror>
+<nierror code="-1967362000">
+OS and Network Services:  (Hex 0x8ABC7030) Ungültige UTF8-Codierung.
+</nierror>
+<nierror code="-1967361999">
+OS and Network Services:  (Hex 0x8ABC7031) Nicht genügend gemeinsamer genutzter Speicher (Shared Memory) für Citadel vorhanden.
+</nierror>
+<nierror code="-1967361998">
+OS and Network Services:  (Hex 0x8ABC7032) Schlecht formatierter GUID-String.
+</nierror>
+<nierror code="-1967361997">
+OS and Network Services:  (Hex 0x8ABC7033) Der Datentyp der Umgebungsvariablen unterstützt den angegebenen Eigenschaftswert nicht. Weitere Informationen zum Festlegen von unterstützten Umgebungsvariableneigenschaften finden Sie in der LabVIEW-Hilfe.
+</nierror>
+<nierror code="-1967361996">
+OS and Network Services:  (Hex 0x8ABC7034) Konvertierung nicht möglich.
+</nierror>
+<nierror code="-1967361995">
+OS and Network Services:  (Hex 0x8ABC7035) Im gemeinsam genutzten Speicher wurden Fehler erkannt.
+</nierror>
+<nierror code="-1967357951">
+OS and Network Services:  (Hex 0x8ABC8001) Die Engine für Netzwerkvariablen wurde nicht für die Verwendung von MXS eingerichtet. Dies sollte geschehen, wenn der Dienst zum ersten Mal ausgeführt wird. Dieser Fehler tritt meistens auf, wenn der Computer nach einer Installation nicht neu gestartet wird. Stellen Sie sicher, dass der Dienst für die "Netzwerkvariablen-Engine" ausgeführt wird.
+</nierror>
+<nierror code="-1967357950">
+OS and Network Services:  (Hex 0x8ABC8002) Der I\O-Server wurde nicht in MXS eingerichtet. Dies geschieht, wenn der Dienst für die "Netzwerkvariablen-Engine" das erste Mal gestartet wird. Stellen Sie sicher, dass der Dienst für die "Netzwerkvariablen-Engine" ausgeführt wird.
+</nierror>
+<nierror code="-1967357949">
+OS and Network Services:  (Hex 0x8ABC8003) Kann den Measurement & Automation Explorer nicht auf die Netzwerkvariablen-Engine abfragen. Vergewissern Sie sich, dass die Netzwerkvariablen-Engine (die Support für Netzwerk-Umgebungsvariablen installiert) auf dem Real-Time-System vorhanden ist und eine gültige Netzwerkverbindung besteht.
+</nierror>
+<nierror code="-1967345663">
+OS and Network Services:  (Hex 0x8ABCB001) Allgemeiner Sicherheitsfehler.
+</nierror>
+<nierror code="-1967345662">
+OS and Network Services:  (Hex 0x8ABCB002) Version wird nicht vom Peer unterstützt.
+</nierror>
+<nierror code="-1967345661">
+OS and Network Services:  (Hex 0x8ABCB003) Benutzerkonto ist gesperrt.
+</nierror>
+<nierror code="-1967345660">
+OS and Network Services:  (Hex 0x8ABCB004) Logos-Session hat Zeitbegrenzung überschritten oder wurde durch einen anderen Anwender abgebrochen.
+</nierror>
+<nierror code="-1967345659">
+OS and Network Services:  (Hex 0x8ABCB005) Angegebener Benutzer existiert nicht.
+</nierror>
+<nierror code="-1967345658">
+OS and Network Services:  (Hex 0x8ABCB006) Angegebene Gruppe existiert nicht.
+</nierror>
+<nierror code="-1967345657">
+OS and Network Services:  (Hex 0x8ABCB007) Doppelter Name.
+</nierror>
+<nierror code="-1967345656">
+OS and Network Services:  (Hex 0x8ABCB008) Nachricht ist fehlerhaft.
+</nierror>
+<nierror code="-1967345655">
+OS and Network Services:  (Hex 0x8ABCB009) Server der Domäne konnte eine Funktion nicht vollständig ausführen.
+</nierror>
+<nierror code="-1967345654">
+OS and Network Services:  (Hex 0x8ABCB00A) Integrierte Identitäten können nicht gelöscht werden.
+</nierror>
+<nierror code="-1967345653">
+OS and Network Services:  (Hex 0x8ABCB00B) Ungültiges Passwort
+</nierror>
+<nierror code="-1967345652">
+OS and Network Services:  (Hex 0x8ABCB00C) Kein lokaler Computer.
+</nierror>
+<nierror code="-1967345651">
+OS and Network Services:  (Hex 0x8ABCB00D) Kein Administrator.
+</nierror>
+<nierror code="-1967345650">
+OS and Network Services:  (Hex 0x8ABCB00E) Domäne ist nicht definiert.
+</nierror>
+<nierror code="-1967345649">
+OS and Network Services:  (Hex 0x8ABCB00F) Domäne besteht bereits.
+</nierror>
+<nierror code="-1967345648">
+OS and Network Services:  (Hex 0x8ABCB010) Passwort ist zu kurz oder zu lang.
+</nierror>
+<nierror code="-1967345647">
+OS and Network Services:  (Hex 0x8ABCB011) Dem Computer wurde kein Zugriff gewährt.
+</nierror>
+<nierror code="-1967345646">
+OS and Network Services:  (Hex 0x8ABCB012) Angeforderte Daten wurden verweigert.
+</nierror>
+<nierror code="-1967345632">
+OS and Network Services:  (Hex 0x8ABCB020) Benutzerkonto kann nicht gesperrt werden.
+</nierror>
+<nierror code="-1967345631">
+OS and Network Services:  (Hex 0x8ABCB021) Zeitüberschreitung bei Netzwerkverbindung.
+</nierror>
+<nierror code="-1967345630">
+OS and Network Services:  (Hex 0x8ABCB022) Datei ist beschädigt.
+</nierror>
+<nierror code="-1967345629">
+OS and Network Services:  (Hex 0x8ABCB023) Netzwerkverbindung wurde getrennt.
+</nierror>
+<nierror code="-1967345628">
+OS and Network Services:  (Hex 0x8ABCB024) Angeforderte Daten wurden nicht gefunden.
+</nierror>
+<nierror code="-1967345627">
+OS and Network Services:  (Hex 0x8ABCB025) Operation wurde durch Benutzer abgebrochen.
+</nierror>
+<nierror code="-1967345626">
+OS and Network Services:  (Hex 0x8ABCB026) Versuch der Servicezuweisung zum NI PSP Service Locator ist fehlgeschlagen.
+</nierror>
+<nierror code="-1967345616">
+OS and Network Services:  (Hex 0x8ABCB030) Größe der Nachricht ist kleiner als ein Block.
+</nierror>
+<nierror code="-1967345615">
+OS and Network Services:  (Hex 0x8ABCB031) Zufallszahl konnte nicht erzeugt werden.
+</nierror>
+<nierror code="-1967345614">
+OS and Network Services:  (Hex 0x8ABCB032) Passwörter stimmen nicht überein.
+</nierror>
+<nierror code="-1967345612">
+OS and Network Services:  (Hex 0x8ABCB034) Passwort ist zu kurz.
+</nierror>
+<nierror code="-1967345611">
+OS and Network Services:  (Hex 0x8ABCB035) Passwort ist zu lang.
+</nierror>
+<nierror code="-1967345610">
+OS and Network Services:  (Hex 0x8ABCB036) Domäne wurde bereits hinzugefügt.
+</nierror>
+<nierror code="-1967345609">
+OS and Network Services:  (Hex 0x8ABCB037) Keine Identitäten mehr.
+</nierror>
+<nierror code="180121600">
+OS and Network Services:  (Hex 0xABC7000) Die Eingangswarteschlange der Netzwerkvariablen-Engine ist zu 90% voll.
+</nierror>
+<nierror code="180121601">
+OS and Network Services:  (Hex 0xABC7001) Die Eingangswarteschlange der Netzwerkvariablen-Engine ist übergelaufen.
+</nierror>
+<nierror code="180121602">
+OS and Network Services:  (Hex 0xABC7002) Der Lesepuffer für die gelesene Variable ist leer. Der letzte bekannte Wert wurde zurückgegeben.
+</nierror>
+<nierror code="180121603">
+OS and Network Services:  (Hex 0xABC7003) Der Schreibpuffer für die Variable ist voll. Die nächste Schreiboperation könnte den Puffer überlaufen lassen.
+</nierror>
+<nierror code="180121604">
+OS and Network Services:  (Hex 0xABC7004) Der Schreibpuffer für die Variable ist übergelaufen. Der älteste Wert des Puffers wurde verworfen.
+</nierror>
+<nierror code="180121605">
+OS and Network Services:  (Hex 0xABC7005) Die Daten der Variablen werden schneller geschrieben als sie übertragen werden können. Dies kann zu Datenverlust führen.
+</nierror>
+</nidocument>

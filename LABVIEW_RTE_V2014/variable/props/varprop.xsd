@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="TypeEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="int" />
+            <xs:enumeration value="uint" />
+            <xs:enumeration value="string" />
+            <xs:enumeration value="boolean" />
+            <xs:enumeration value="double" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="VarPropType">
+        <xs:attribute name="name" type="xs:string" use="required" />
+        <xs:attribute name="type" type="TypeEnum" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="EnumVarPropType">
+        <xs:sequence>
+            <xs:element name="var-prop-enum-value" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="VarPropGroupType">
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:choice>
+                <xs:element name="var-prop" type="VarPropType" />
+                <xs:element name="var-prop-enum" type="EnumVarPropType" />
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required" />
+        <xs:attribute name="lib" type="xs:string" use="optional" />
+    </xs:complexType>
+
+    <xs:element name="var-prop-group" type="VarPropGroupType" />
+</xs:schema>
