@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="ValueType">
+    <xs:attribute name="value" use="required" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="NameValueType">
+    <xs:attribute name="name" use="required" type="xs:string" />
+    <xs:attribute name="value" use="required" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="IdValueType">
+    <xs:attribute name="id" use="required" type="xs:string" />
+    <xs:attribute name="value" use="required" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="ConfPageType">
+    <xs:attribute name="lib" type="xs:string" use="optional" />
+    <xs:attribute name="class" type="xs:string" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="VarAttributeType">
+    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="var-attr-manager" minOccurs="0" maxOccurs="1" type="ConfPageType" />
+      <xs:element name="var-attr-conf-page" minOccurs="0" maxOccurs="1" type="ConfPageType" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required" />
+    <xs:attribute name="default-value" type="xs:boolean" use="required" />
+    <xs:attribute name="mutable" type="xs:boolean" use="required" />
+    <xs:attribute name="depends-on" type="xs:string" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="VarMappingType">
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="property-groups" minOccurs="0" maxOccurs="1" type="ValueType" />
+        <xs:element name="property-value" minOccurs="0" maxOccurs="unbounded" type="NameValueType" />
+        <xs:element name="var-attr" type="VarAttributeType" minOccurs="0" maxOccurs="unbounded" />
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="mapped" type="xs:string" use="required" />
+    <xs:attribute name="fixed" type="xs:boolean" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="PropertyGroupsType">
+    <xs:attribute name="required" type="xs:string" use="required" />
+    <xs:attribute name="optional" type="xs:string" use="optional" />
+    <xs:attribute name="atleast-one" type="xs:string" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="VarIFaceType">
+    <xs:attribute name="iid" type="xs:string" use="required" />
+    <xs:attribute name="class" type="xs:string" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="RootType">
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="var-cxt" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="var-mapping" type="VarMappingType" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="var-property-groups" type="PropertyGroupsType" minOccurs="0" maxOccurs="1" />
+        <xs:element name="var-iface" type="VarIFaceType" minOccurs="0" maxOccurs="unbounded" />
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="id" type="xs:string" use="required" />
+    <xs:attribute name="lib" type="xs:string" use="optional" />
+  </xs:complexType>
+
+  <xs:element name="var-type" type="RootType" />
+
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Measure" familyname="Measure">
+</nifamily>
+</nicomment>
+<nierror code="-2101">
+Mesure: (Hex 0xFFFFF7CB) Une chaîne de voies de sortie analogique contient plusieurs voies de sortie analogique. Measure exige que chaque chaîne de voie de sortie analogique ne contienne qu'une seule voie de sortie analogique.
+</nierror>
+<nierror code="-2004">
+Mesure: (Hex 0xFFFFF82C) Excel est à cours de mémoire.  Utilisez une gamme plus petite.
+</nierror>
+<nierror code="-2003">
+Mesure: (Hex 0xFFFFF82D) La gamme spécifiée dans la configuration de la tâche n'est pas valide.
+</nierror>
+<nierror code="-2002">
+Mesure: (Hex 0xFFFFF82E) La feuille de calcul spécifiée dans la configuration de la tâche n'existe pas.
+</nierror>
+<nierror code="-2001">
+Mesure: (Hex 0xFFFFF82F) Impossible de trouver la tâche.
+</nierror>
+</nidocument>

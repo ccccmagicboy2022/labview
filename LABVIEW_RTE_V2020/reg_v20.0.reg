@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\National Instruments\LabVIEW Run-Time\20.0]
+"Path"="C:\\Program Files\\National Instruments\\Shared\\LabVIEW Run-Time\\2020\\"
+"Version"="20.0.1"
+"VersionString"="2020 SP1"

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Measure" familyname="Measure">
+</nifamily>
+</nicomment>
+<nierror code="-2101">
+Messen: (Hex 0xFFFFF7CB) Ein String zur Benennung eines analoger Ausgabekanals steht für mehrere analoge Ausgabekanäle. Jeder String für analoge Ausgabekanäle darf nur einen analogen Ausgabekanal enthalten.
+</nierror>
+<nierror code="-2004">
+Messen: (Hex 0xFFFFF82C) Excel hat keinen freien Speicher mehr.  Verwenden Sie einen kleineren Bereich.
+</nierror>
+<nierror code="-2003">
+Messen: (Hex 0xFFFFF82D) Der in der Task-Konfiguration spezifizierte Bereich ist nicht gültig.
+</nierror>
+<nierror code="-2002">
+Messen: (Hex 0xFFFFF82E) Das in der Task-Konfiguration spezifizierte Arbeitsblatt existiert nicht.
+</nierror>
+<nierror code="-2001">
+Messen: (Hex 0xFFFFF82F) Task wurde nicht gefunden.
+</nierror>
+</nidocument>

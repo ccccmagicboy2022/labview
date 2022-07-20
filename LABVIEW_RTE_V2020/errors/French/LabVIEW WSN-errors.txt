@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="LabVIEW WSN" familyname="LabVIEW WSN">
+</nifamily>
+</nicomment>
+<nierror code="-25399">
+LabVIEW WSN: (Hex 0xFFFF9CC9) Dernière erreur LV WSN. C'est la fin.
+</nierror>
+<nierror code="-25339">
+LabVIEW WSN: (Hex 0xFFFF9D05) Vous devez activer la puissance du récepteur du port série avant d'appeler cette fonction ; sinon, aucune nouvelle donnée ne pourra être lue.
+</nierror>
+<nierror code="-25338">
+LabVIEW WSN: (Hex 0xFFFF9D06) Le périphérique ne supporte pas la lecture ou l'écriture du nombre d'octets spécifiés à partir du port série en une fois.
+</nierror>
+<nierror code="-25337">
+LabVIEW WSN: (Hex 0xFFFF9D07) Le nombre spécifié d'octets ne peut pas être lu ou écrit dans les délais spécifiés.
+</nierror>
+<nierror code="-25336">
+LabVIEW WSN: (Hex 0xFFFF9D08) La configuration de port série spécifiée n'est pas supportée sur ce périphérique.
+</nierror>
+<nierror code="-25327">
+LabVIEW WSN: (Hex 0xFFFF9D11) RAM utilisateur insuffisante.
+</nierror>
+<nierror code="-25326">
+LabVIEW WSN: (Hex 0xFFFF9D12) Refnum RAM utilisateur non valide.
+</nierror>
+<nierror code="-25325">
+LabVIEW WSN: (Hex 0xFFFF9D13) Échec de vérification de mémoire utilisateur.
+</nierror>
+<nierror code="-25324">
+LabVIEW WSN: (Hex 0xFFFF9D14) Impossible d'écrire dans la mémoire utilisateur.
+</nierror>
+<nierror code="-25323">
+LabVIEW WSN: (Hex 0xFFFF9D15) Impossible d'écrire dans la mémoire utilisateur car l'emplacement n'est pas vide.
+</nierror>
+<nierror code="-25322">
+LabVIEW WSN: (Hex 0xFFFF9D16) Mémoire utilisateur hors limites. L'opération a spécifié un emplacement qui ne se trouve pas dans le secteur mémoire utilisateur.
+</nierror>
+<nierror code="-25321">
+LabVIEW WSN: (Hex 0xFFFF9D17) Le secteur mémoire utilisateur spécifié n'a pas été effacé.
+</nierror>
+<nierror code="-25320">
+LabVIEW WSN: (Hex 0xFFFF9D18) Exception de pointeur Null.
+</nierror>
+<nierror code="-25313">
+LabVIEW WSN: (Hex 0xFFFF9D1F) Erreur interne : défaillance matérielle.
+</nierror>
+<nierror code="-25312">
+LabVIEW WSN: (Hex 0xFFFF9D20) Le nœud n'est pas connecté.
+</nierror>
+<nierror code="-25311">
+LabVIEW WSN: (Hex 0xFFFF9D21) Argument non valide.
+</nierror>
+<nierror code="-25310">
+LabVIEW WSN: (Hex 0xFFFF9D22) Message utilisateur manqué.
+</nierror>
+<nierror code="-25309">
+LabVIEW WSN: (Hex 0xFFFF9D23) Échec de radio : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25308">
+LabVIEW WSN: (Hex 0xFFFF9D24) Échec de mémoire flash : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25307">
+LabVIEW WSN: (Hex 0xFFFF9D25) Débordement de file d'attente de commande : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25306">
+LabVIEW WSN: (Hex 0xFFFF9D26) Échec de ligne de sortie numérique : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25305">
+LabVIEW WSN: (Hex 0xFFFF9D27) Échec de C A/N : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25304">
+LabVIEW WSN: (Hex 0xFFFF9D28) Échec de CSF : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25303">
+LabVIEW WSN: (Hex 0xFFFF9D29) Échec de communication SPI : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25302">
+LabVIEW WSN: (Hex 0xFFFF9D2A) Échec de réception série : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25301">
+LabVIEW WSN: (Hex 0xFFFF9D2B) Échec de transmission série : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25300">
+LabVIEW WSN: (Hex 0xFFFF9D2C) Une erreur interne a eu lieu dans le module LabVIEW Wireless Sensor Network. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25283">
+LabVIEW WSN: (Hex 0xFFFF9D3D) L'ID de nœud n'existe pas dans la table de nœuds de la passerelle.
+</nierror>
+<nierror code="-25282">
+LabVIEW WSN: (Hex 0xFFFF9D3E) Référence de message non valide.
+</nierror>
+<nierror code="-25281">
+LabVIEW WSN: (Hex 0xFFFF9D3F) Référence de nœud non valide.
+</nierror>
+<nierror code="-25280">
+LabVIEW WSN: (Hex 0xFFFF9D40) Référence de passerelle non valide.
+</nierror>
+<nierror code="-25254">
+LabVIEW WSN: (Hex 0xFFFF9D5A) Timeout de la connexion. Il se peut que la passerelle soit dans un mauvais état.
+</nierror>
+<nierror code="-25253">
+LabVIEW WSN: (Hex 0xFFFF9D5B) Enregistrement d'interface double : une erreur interne a eu lieu. Veuillez contacter le service de support technique de National Instruments à ni.com/support.
+</nierror>
+<nierror code="-25252">
+LabVIEW WSN: (Hex 0xFFFF9D5C) La passerelle a reçu des données incompatibles ou corrompues.
+</nierror>
+<nierror code="-25251">
+LabVIEW WSN: (Hex 0xFFFF9D5D) Erreur de mémoire. Impossible de libérer la mémoire utilisée.
+</nierror>
+<nierror code="-25250">
+LabVIEW WSN: (Hex 0xFFFF9D5E) L'allocation de mémoire a échoué.
+</nierror>
+<nierror code="-25230">
+LabVIEW WSN: (Hex 0xFFFF9D72) Le processeur de requêtes n'a pas désérialisé une requête. Cette erreur risque de se produire si les versions de protocole ne sont pas compatibles ou si les données sont corrompues.
+</nierror>
+<nierror code="-25229">
+LabVIEW WSN: (Hex 0xFFFF9D73) Le processeur de requêtes n'a pas désérialisé une requête. Cette erreur risque de se produire si les versions de protocole ne sont pas compatibles.
+</nierror>
+<nierror code="-25228">
+LabVIEW WSN: (Hex 0xFFFF9D74) La requête a été abandonnée à cause d'une exception non gérée.
+</nierror>
+<nierror code="-25227">
+LabVIEW WSN: (Hex 0xFFFF9D75) L'allocation de mémoire a échoué.
+</nierror>
+<nierror code="-25226">
+LabVIEW WSN: (Hex 0xFFFF9D76) L'accès a été refusé au client.
+</nierror>
+<nierror code="-25225">
+LabVIEW WSN: (Hex 0xFFFF9D77) Le client a coupé la connexion.
+</nierror>
+<nierror code="-25224">
+LabVIEW WSN: (Hex 0xFFFF9D78) La communication réseau a échoué.
+</nierror>
+<nierror code="-25223">
+LabVIEW WSN: (Hex 0xFFFF9D79) Timeout de la connexion.
+</nierror>
+<nierror code="-25222">
+LabVIEW WSN: (Hex 0xFFFF9D7A) Impossible de se connecter au service de ce nom.
+</nierror>
+<nierror code="-25221">
+LabVIEW WSN: (Hex 0xFFFF9D7B) Impossible de se connecter à la passerelle de ce nom.
+</nierror>
+<nierror code="-25220">
+LabVIEW WSN: (Hex 0xFFFF9D7C) Erreur de connexion générique.
+</nierror>
+<nierror code="-25200">
+LabVIEW WSN: (Hex 0xFFFF9D90) Première erreur LV WSN
+</nierror>
+<nierror code="21100">
+LabVIEW WSN: (Hex 0x526C) Première mise en garde LV WSN
+</nierror>
+<nierror code="21240">
+LabVIEW WSN: (Hex 0x52F8) Le récepteur du port série a reçu une condition de coupure sur la ligne.
+</nierror>
+<nierror code="21241">
+LabVIEW WSN: (Hex 0x52F9) Le nombre d'octets spécifié a été lu du port série avant que la chaîne de terminaison spécifiée n'ait été détectée.
+</nierror>
+<nierror code="21299">
+LabVIEW WSN: (Hex 0x5333) Dernière mise en garde LV WSN.
+</nierror>
+</nidocument>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<var-type name="RTDSCShared" id="ni.variable.RTDSCShared" lib="LabVIEW">
+  <var-cxt>My Computer</var-cxt>
+  <var-cxt>WES</var-cxt>
+  <var-property-groups required="Network, Real-Time Features" optional="Scaling, Initial Value, Description, Update Deadband" atleast-one="Alarming, Logging, Security" />
+  <var-mapping mapped="ni.variable.NetworkPublished">
+    <var-attr id="ni.variable.NetworkPublished" default-value="true" mutable="false" />
+    <var-attr id="ni.variable.Timestamped" default-value="true" mutable="false" />
+    <var-attr id="ni.variable.Aliased" default-value="false" mutable="true">
+        <var-attr-manager lib="LabVIEW" />
+        <var-attr-conf-page lib="vshared" class="ni.variable.dialog.NetAliasConfPage" />
+    </var-attr>
+  </var-mapping>
+</var-type>

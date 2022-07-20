@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Analysis" familyname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23100">
+Analyse: (Hex 0xFFFFA5C4) Die rechte Seite der Gleichung oder Ungleichung ist nicht konstant.
+</nierror>
+<nierror code="-23099">
+Analyse: (Hex 0xFFFFA5C5) Die Formel ist nicht homogen linear.
+</nierror>
+<nierror code="-23098">
+Analyse: (Hex 0xFFFFA5C6) Die Formel muss ">=" oder "<=" enthalten.
+</nierror>
+<nierror code="-23097">
+Analyse: (Hex 0xFFFFA5C7) Die Formel muss eines der folgenden Symbole enthalten: "=" "> =" "<=" ">" "<".
+</nierror>
+<nierror code="-23096">
+Analyse: (Hex 0xFFFFA5C8) Zu viele Dezimalzeichen.
+</nierror>
+<nierror code="-23095">
+Analyse: (Hex 0xFFFFA5C9) Ist keine gültige Funktion.
+</nierror>
+<nierror code="-23094">
+Analyse: (Hex 0xFFFFA5CA) Der Funktionsausdruck ist unvollständig.
+</nierror>
+<nierror code="-23093">
+Analyse: (Hex 0xFFFFA5CB) Der Ausdruck ist unvollständig.
+</nierror>
+<nierror code="-23092">
+Analyse: (Hex 0xFFFFA5CC) Problem mit Ausgabewert der Variablen.
+</nierror>
+<nierror code="-23091">
+Analyse: (Hex 0xFFFFA5CD) Uneinheitlichkeit in Variablen oder Werten.
+</nierror>
+<nierror code="-23090">
+Analyse: (Hex 0xFFFFA5CE) Enthält mehr als eine Variable.
+</nierror>
+<nierror code="-23089">
+Analyse: (Hex 0xFFFFA5CF) Enthält Variablen.
+</nierror>
+<nierror code="-23088">
+Analyse: (Hex 0xFFFFA5D0) Falscher Variablenname.
+</nierror>
+<nierror code="-23087">
+Analyse: (Hex 0xFFFFA5D1) Die Formel enthält einen unzulässigen Buchstaben oder eine nicht definierte Variable.
+</nierror>
+<nierror code="-23086">
+Analyse: (Hex 0xFFFFA5D2) Falscher Funktionsaufruf.
+</nierror>
+<nierror code="-23085">
+Analyse: (Hex 0xFFFFA5D3) Falsches Zahlenformat.
+</nierror>
+<nierror code="-23084">
+Analyse: (Hex 0xFFFFA5D4) Falsches Dezimalzeichen.
+</nierror>
+<nierror code="-23083">
+Analyse: (Hex 0xFFFFA5D5) Klammerproblem am Ende.
+</nierror>
+<nierror code="-23082">
+Analyse: (Hex 0xFFFFA5D6) Klammerproblem am Anfang.
+</nierror>
+<nierror code="-23081">
+Analyse: (Hex 0xFFFFA5D7) Klammerproblem.
+</nierror>
+<nierror code="-23055">
+Analyse: (Hex 0xFFFFA5F1) Argument liegt nicht im gültigen Bereich [0,1).
+</nierror>
+<nierror code="-23054">
+Analyse: (Hex 0xFFFFA5F2) Variablen nicht eindeutig.
+</nierror>
+<nierror code="-23053">
+Analyse: (Hex 0xFFFFA5F3) Signallänge ist keine Zweier-Potenz und > = 4.
+</nierror>
+<nierror code="-23052">
+Analyse: (Hex 0xFFFFA5F4) Signallänge ist keine Primzahl und > = 5.
+</nierror>
+<nierror code="-23051">
+Analyse: (Hex 0xFFFFA5F5) Signallänge ist keine Potenz von 2.
+</nierror>
+<nierror code="-23050">
+Analyse: (Hex 0xFFFFA5F6) Signallänge ist kein Vielfaches der Zahl.
+</nierror>
+<nierror code="-23049">
+Analyse: (Hex 0xFFFFA5F7) Ungültige Fensterlänge.
+</nierror>
+<nierror code="-23048">
+Analyse: (Hex 0xFFFFA5F8) Ungültiger Delta-t-Wert.
+</nierror>
+<nierror code="-23047">
+Analyse: (Hex 0xFFFFA5F9) Das Argument liegt außerhalb des gültigen Bereichs [0,100].
+</nierror>
+<nierror code="-23046">
+Analyse: (Hex 0xFFFFA5FA) Leeres Array.
+</nierror>
+<nierror code="-23045">
+Analyse: (Hex 0xFFFFA5FB) n < k
+</nierror>
+<nierror code="-23044">
+Analyse: (Hex 0xFFFFA5FC) Das Argument liegt nicht im gültigen Bereich [0,1].
+</nierror>
+<nierror code="-23043">
+Analyse: (Hex 0xFFFFA5FD) Das Argument liegt nicht im gültigen Bereich (0,1].
+</nierror>
+<nierror code="-23042">
+Analyse: (Hex 0xFFFFA5FE) Negatives Argument.
+</nierror>
+<nierror code="-23041">
+Analyse: (Hex 0xFFFFA5FF) Nicht genau zwei Variablen.
+</nierror>
+<nierror code="-23040">
+Analyse: (Hex 0xFFFFA600) Die Ableitung liegt nicht im gültigen Bereich.
+</nierror>
+<nierror code="-23039">
+Analyse: (Hex 0xFFFFA601) Problem mit Parameter.
+</nierror>
+<nierror code="-23038">
+Analyse: (Hex 0xFFFFA602) Keine Variablen im Ausdruck.
+</nierror>
+<nierror code="-23037">
+Analyse: (Hex 0xFFFFA603) Nicht genau zwei Funktionen.
+</nierror>
+<nierror code="-23036">
+Analyse: (Hex 0xFFFFA604) Unterschiedliche Parameter.
+</nierror>
+<nierror code="-23035">
+Analyse: (Hex 0xFFFFA605) Nicht positive Zahl.
+</nierror>
+<nierror code="-23034">
+Analyse: (Hex 0xFFFFA606) Falsch eingerichtetes System.
+</nierror>
+<nierror code="-23033">
+Analyse: (Hex 0xFFFFA607) Vektoren haben unterschiedliche Dimensionen oder sind leer.
+</nierror>
+<nierror code="-23032">
+Analyse: (Hex 0xFFFFA608) Maximum existiert nicht.
+</nierror>
+<nierror code="-23031">
+Analyse: (Hex 0xFFFFA609) Ungültiger Punkt.
+</nierror>
+<nierror code="-23030">
+Analyse: (Hex 0xFFFFA60A) Die Bedingung m > = n > = 0 wurde nicht eingehalten oder die Matrix der Ableitungen hat die falsche Dimension.
+</nierror>
+<nierror code="-23029">
+Analyse: (Hex 0xFFFFA60B) Die Ausführung des Levenberg-Marquardt-VIs ist fehlgeschlagen.
+</nierror>
+<nierror code="-23028">
+Analyse: (Hex 0xFFFFA60C) Falsche Modellgleichung.
+</nierror>
+<nierror code="-23027">
+Analyse: (Hex 0xFFFFA60D) Nicht genau eine Variable.
+</nierror>
+<nierror code="-23026">
+Analyse: (Hex 0xFFFFA60E) Kein Optimum gefunden.
+</nierror>
+<nierror code="-23025">
+Analyse: (Hex 0xFFFFA60F) Ungültiges Tripel (a,b,c).
+</nierror>
+<nierror code="-23024">
+Analyse: (Hex 0xFFFFA610) Keine Nullstelle gefunden.
+</nierror>
+<nierror code="-23023">
+Analyse: (Hex 0xFFFFA611) Falsche Startdimension.
+</nierror>
+<nierror code="-23022">
+Analyse: (Hex 0xFFFFA612) Nicht positive Genauigkeit oder nicht positives Delta x(h).
+</nierror>
+<nierror code="-23021">
+Analyse: (Hex 0xFFFFA613) Beide Funktionswerte haben das gleiche Vorzeichen.
+</nierror>
+<nierror code="-23020">
+Analyse: (Hex 0xFFFFA614) Linker Punkt ist größer als rechter Punkt.
+</nierror>
+<nierror code="-23019">
+Analyse: (Hex 0xFFFFA615) Rechter Punkt ist eine Nullstelle.
+</nierror>
+<nierror code="-23018">
+Analyse: (Hex 0xFFFFA616) Linker Punkt ist eine Nullstelle.
+</nierror>
+<nierror code="-23017">
+Analyse: (Hex 0xFFFFA617) Mehrere Nullstellen.
+</nierror>
+<nierror code="-23016">
+Analyse: (Hex 0xFFFFA618) Singuläre Eigenvektormatrix.
+</nierror>
+<nierror code="-23015">
+Analyse: (Hex 0xFFFFA619) X0 ist leer.
+</nierror>
+<nierror code="-23014">
+Analyse: (Hex 0xFFFFA61A) A und X0 haben unterschiedliche Dimensionen.
+</nierror>
+<nierror code="-23013">
+Analyse: (Hex 0xFFFFA61B) Matrix-Vektor-Konflikt.
+</nierror>
+<nierror code="-23012">
+Analyse: (Hex 0xFFFFA61C) Nicht positive Genauigkeit.
+</nierror>
+<nierror code="-23011">
+Analyse: (Hex 0xFFFFA61D) Nicht positive Schrittweite.
+</nierror>
+<nierror code="-23010">
+Analyse: (Hex 0xFFFFA61E) Fehlerhafte Eingabe (Cash-Karp-Methode).
+</nierror>
+<nierror code="-23009">
+Analyse: (Hex 0xFFFFA61F) Fehlerhafte Eingabe (Runge-Kutta-Methode).
+</nierror>
+<nierror code="-23008">
+Analyse: (Hex 0xFFFFA620) Fehlerhafte Eingabe (Euler-Methode).
+</nierror>
+<nierror code="-23007">
+Analyse: (Hex 0xFFFFA621) Keine Datei mit Graphen.
+</nierror>
+<nierror code="-23006">
+Analyse: (Hex 0xFFFFA622) Ungültiger Pfad.
+</nierror>
+<nierror code="-23005">
+Analyse: (Hex 0xFFFFA623) Negative Entfernung.
+</nierror>
+<nierror code="-23004">
+Analyse: (Hex 0xFFFFA624) Anzahl der Farbpaletten liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-23003">
+Analyse: (Hex 0xFFFFA625) Anzahl der Konturen liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-23002">
+Analyse: (Hex 0xFFFFA626) Abweichungen zwischen Funktion, Variablen und Koordinaten.
+</nierror>
+<nierror code="-23001">
+Analyse: (Hex 0xFFFFA627) Syntaxfehler bei der Auflösung.
+</nierror>
+<nierror code="-23000">
+Analyse: (Hex 0xFFFFA628) Beginn der Fehlercodes zur technischen Mathematik.
+</nierror>
+<nierror code="-20999">
+Analyse: (Hex 0xFFFFADF9) Schwerwiegender Algorithmenfehler. Wenden Sie sich an den Technischen Support von National Instruments.
+</nierror>
+<nierror code="-20699">
+Analyse: (Hex 0xFFFFAF25) Ungültiges Format der Datei mit den Daten für die Wavelet-Filterbank.
+</nierror>
+<nierror code="-20698">
+Analyse: (Hex 0xFFFFAF26) Die Datei mit den Daten für die Wavelet-Filterbank kann nicht geöffnet werden.
+</nierror>
+<nierror code="-20697">
+Analyse: (Hex 0xFFFFAF27) Die Wavelet-Packet-Session oder das Handle muss auf eine komplette Baumstruktur verweisen.
+</nierror>
+<nierror code="-20696">
+Analyse: (Hex 0xFFFFAF28) Die Wavelet-Packet-Session oder das Handle ist ungültig oder der Speicherbereich, auf den es verweist, enthält nicht die notwendigen Daten.
+</nierror>
+<nierror code="-20695">
+Analyse: (Hex 0xFFFFAF29) Wavelet-Koeffizienten haben ungültige Dimensionen.
+</nierror>
+<nierror code="-20694">
+Analyse: (Hex 0xFFFFAF2A) Ungültiger optionaler Parameter für die Suche des optimalen Pfads.
+</nierror>
+<nierror code="-20693">
+Analyse: (Hex 0xFFFFAF2B) Der Parameter "trend level" darf nicht kleiner als 0 und nicht größer als 1,0 sein.
+</nierror>
+<nierror code="-20692">
+Analyse: (Hex 0xFFFFAF2C) Der Parameter "time step" muss größer als 0 sein.
+</nierror>
+<nierror code="-20691">
+Analyse: (Hex 0xFFFFAF2D) Bei dem Knoten muss es sich um einen Endknoten handeln.
+</nierror>
+<nierror code="-20690">
+Analyse: (Hex 0xFFFFAF2E) Der Knoten darf kein Endknoten sein.
+</nierror>
+<nierror code="-20689">
+Analyse: (Hex 0xFFFFAF2F) Der Pfad- oder Knoten-String darf nur "0" oder "1" enthalten.
+</nierror>
+<nierror code="-20688">
+Analyse: (Hex 0xFFFFAF30) Die Länge der Analyse- und Synthesefilter muss größer als 0 sein.
+</nierror>
+<nierror code="-20687">
+Analyse: (Hex 0xFFFFAF31) Der Grad der Zerlegung (refinement level) zur Berechnung des "mother wavelet" muss größer als 0 sein.
+</nierror>
+<nierror code="-20686">
+Analyse: (Hex 0xFFFFAF32) Der Parameter "Shift" muss entweder 0 oder 1 sein.
+</nierror>
+<nierror code="-20685">
+Analyse: (Hex 0xFFFFAF33) "Shift" darf nicht kleiner als 0 sein und muss kleiner als "decimation factor" und "interpolation factor" sein.
+</nierror>
+<nierror code="-20684">
+Analyse: (Hex 0xFFFFAF34) Der Parameter "interpolation factor" muss größer oder gleich 2 sein.
+</nierror>
+<nierror code="-20683">
+Analyse: (Hex 0xFFFFAF35) Der Parameter "decimation factor" muss größer oder gleich 2 sein.
+</nierror>
+<nierror code="-20682">
+Analyse: (Hex 0xFFFFAF36) Der Bereich für die Wavelet-Zerlegung muss größer als 0 sein.
+</nierror>
+<nierror code="-20681">
+Analyse: (Hex 0xFFFFAF37) Ungültiger Wavelet-Typ.
+</nierror>
+<nierror code="-20665">
+Analyse: (Hex 0xFFFFAF47) Der Parameter "largest order" muss größer als der Parameter "initial order" sein und darf zwei Drittel der Länge des Eingangssignals nicht überschreiten.
+</nierror>
+<nierror code="-20664">
+Analyse: (Hex 0xFFFFAF48) Der Parameter "initial order" darf nicht kleiner als 1 sein.
+</nierror>
+<nierror code="-20663">
+Analyse: (Hex 0xFFFFAF49) Die Ordnung des AR-Modells (AR = autoregressiv) muss größer oder gleich der Anzahl der komplexen Sinuskurven sein.
+</nierror>
+<nierror code="-20662">
+Analyse: (Hex 0xFFFFAF4A) Die Anzahl komplexer Sinuskurven muss größer als 0 und kleiner als zwei Drittel der Länge des  Eingangssignals sein.
+</nierror>
+<nierror code="-20661">
+Analyse: (Hex 0xFFFFAF4B) Die Ordnung des AR-Modells (AR = autoregressiv) muss größer als 0 sein und darf zwei Drittel der Länge des Eingangssignals nicht überschreiten.
+</nierror>
+<nierror code="-20644">
+Analyse: (Hex 0xFFFFAF5C) Der Index des in der Referenz gespeicherten 2D-Arrays liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-20643">
+Analyse: (Hex 0xFFFFAF5D) Die Referenz unterstützt diese Operation nicht.
+</nierror>
+<nierror code="-20642">
+Analyse: (Hex 0xFFFFAF5E) Die Referenz ist ungültig.
+</nierror>
+<nierror code="-20641">
+Analyse: (Hex 0xFFFFAF5F) Fehler beim Erstellen der Referenz.
+</nierror>
+<nierror code="-20630">
+Analyse: (Hex 0xFFFFAF6A) Die Parameter mit den Frequenzangaben sind für die weitere Berechnung ungültig.
+</nierror>
+<nierror code="-20629">
+Analyse: (Hex 0xFFFFAF6B) Die Parameter mit den Fensterangaben sind für die weitere Berechnung ungültig.
+</nierror>
+<nierror code="-20628">
+Analyse: (Hex 0xFFFFAF6C) Die Dimensionen des Kernels müssen größer als 0 und eine Zweier-Potenz sein. Die Spaltengröße des Kernels muss 2^(ceil(log2(Ls-1))) sein, wobei Ls die Länge des Eingangssignals ist.
+</nierror>
+<nierror code="-20627">
+Analyse: (Hex 0xFFFFAF6D) Die Varianz des gaußschen Fensters muss größer als 0 sein.
+</nierror>
+<nierror code="-20626">
+Analyse: (Hex 0xFFFFAF6E) Die Größe des Fensters muss größer als 0 sein.
+</nierror>
+<nierror code="-20625">
+Analyse: (Hex 0xFFFFAF6F) Die "number of terms" muss größer als 0 sein.
+</nierror>
+<nierror code="-20624">
+Analyse: (Hex 0xFFFFAF70) Der Wert von "oversampling rate" muss größer oder gleich 1 sein.
+</nierror>
+<nierror code="-20623">
+Analyse: (Hex 0xFFFFAF71) Die Ordnung muss größer oder gleich 0 sein.
+</nierror>
+<nierror code="-20622">
+Analyse: (Hex 0xFFFFAF72) Das Zeitintervall muss eine Zweier-Potenz sein.
+</nierror>
+<nierror code="-20621">
+Analyse: (Hex 0xFFFFAF73) Das Zeitintervall muss größer als 0 sein.
+</nierror>
+<nierror code="-20604">
+Analyse: (Hex 0xFFFFAF84) Die Auswahl für den Parameter mit Enum-Datentyp ist ungültig.
+</nierror>
+<nierror code="-20603">
+Analyse: (Hex 0xFFFFAF85) Die Anzahl der Frequenzintervalle muss größer als 0 und eine Zweier-Potenz sein.
+</nierror>
+<nierror code="-20602">
+Analyse: (Hex 0xFFFFAF86) Die Sample-Rate muss größer als 0 sein.
+</nierror>
+<nierror code="-20601">
+Analyse: (Hex 0xFFFFAF87) Keine Daten im Eingangssignal.
+</nierror>
+<nierror code="-20511">
+Analyse: (Hex 0xFFFFAFE1) CVI konnte den benötigten Mutex nicht erzeugen.
+</nierror>
+<nierror code="-20510">
+Analyse: (Hex 0xFFFFAFE2) CVI konnte die angegebene Funktion nicht in der DLL finden.
+</nierror>
+<nierror code="-20509">
+Analyse: (Hex 0xFFFFAFE3) CVI konnte die DLL des Spectral Measurement Toolsets nicht laden.
+</nierror>
+<nierror code="-20508">
+Analyse: (Hex 0xFFFFAFE4) Ungültiges Handle für SMT-Session.
+</nierror>
+<nierror code="-20507">
+Analyse: (Hex 0xFFFFAFE5) Ungültiger Typ für Bildung des Mittelwerts.
+</nierror>
+<nierror code="-20506">
+Analyse: (Hex 0xFFFFAFE6) Ungültiger Typ der eingehenden Spektrumswerte.
+</nierror>
+<nierror code="-20505">
+Analyse: (Hex 0xFFFFAFE7) Es müssen entweder FFT-Unterteilungen oder eine Auflösebandbreite (RBW) angegeben werden.
+</nierror>
+<nierror code="-20504">
+Analyse: (Hex 0xFFFFAFE8) Die Sample-Frequenz sollte größer als 0 sein.
+</nierror>
+<nierror code="-20503">
+Analyse: (Hex 0xFFFFAFE9) Der interne Puffer ist durch Eingangsdaten übergelaufen.
+</nierror>
+<nierror code="-20502">
+Analyse: (Hex 0xFFFFAFEA) Die FFT-Größe muss größer als 0 sein.
+</nierror>
+<nierror code="-20501">
+Analyse: (Hex 0xFFFFAFEB) Der Zoom-Faktor muss größer als 0 sein.
+</nierror>
+<nierror code="-20337">
+Analyse: (Hex 0xFFFFB08F) Der angegebene Zeitstempel hat das Ende des Bereichs überschritten.
+</nierror>
+<nierror code="-20336">
+Analyse: (Hex 0xFFFFB090) Die Werte des X-Arrays für die Angaben zum Bereich müssen monoton steigend sein.
+</nierror>
+<nierror code="-20335">
+Analyse: (Hex 0xFFFFB091) Signalverläufe sind nicht zusammenhängend.
+</nierror>
+<nierror code="-20334">
+Analyse: (Hex 0xFFFFB092) Signalverläufe, die zeitlich mehr als das zehnfache des längsten Signalverlaufs auseinander liegen, können nicht aneinander ausgerichtet werden.
+</nierror>
+<nierror code="-20333">
+Analyse: (Hex 0xFFFFB093) Zwei Signalverläufe mit dem gleichen dt-Wert können nicht aneinander ausgerichtet werden, wenn die Werte nicht phasengleich erfasst wurden.
+</nierror>
+<nierror code="-20332">
+Analyse: (Hex 0xFFFFB094) Interner Fehler: Der Wert des Thread-Attributs ist kleiner als Null. Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20331">
+Analyse: (Hex 0xFFFFB095) Interner Fehler: Der Strukturzeiger für Parameter ist NULL (wahrscheinlich hervorgerufen durch Änderungen am Blockdiagramm des aufrufenden VIs). Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20330">
+Analyse: (Hex 0xFFFFB096) Interner Fehler: Der Ergebniszeiger ist NULL (wahrscheinlich hervorgerufen durch Änderungen am Blockdiagramm des aufrufenden VIs). Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20329">
+Analyse: (Hex 0xFFFFB097) Interner Fehler: Der Strukturzeiger für den Cursor ist NULL (wahrscheinlich hervorgerufen durch Änderungen am Blockdiagramm des aufrufenden VIs). Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20328">
+Analyse: (Hex 0xFFFFB098) Initialisierung eines kritischen Abschnitts im Code zur Datenerfassung ist fehlgeschlagen, wahrscheinlich infolge fehlender Speicherressourcen. Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20327">
+Analyse: (Hex 0xFFFFB099) Im Code zur Datenerfassung trat ein Ausnahmefehler auf, wahrscheinlich infolge fehlender Speicherressourcen. Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20326">
+Analyse: (Hex 0xFFFFB09A) Die Flankensteilheit ist unendlich, da die Anstiegs- oder Abfallzeit 0 ist.
+</nierror>
+<nierror code="-20325">
+Analyse: (Hex 0xFFFFB09B) Interner Fehler: Ungültige ID für die Messung. Wenden Sie sich an den technischen Support von National Instruments.
+</nierror>
+<nierror code="-20324">
+Analyse: (Hex 0xFFFFB09C) Interner Fehler: Es liegen zwei Messungen mit der gleichen ID vor. Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20323">
+Analyse: (Hex 0xFFFFB09D) Die Werte für Flankenanzahl, Pulsnummer und Periode müssen größer als 0 sein.
+</nierror>
+<nierror code="-20322">
+Analyse: (Hex 0xFFFFB09E) Interner Fehler: Die Attributnummer verweist auf keinen gültigen Parameter. Überprüfen Sie die Eingänge <b>Bezugspegel</b>, <b>Prozentuale Pegeleinstellungen</b> und <b>Pegeleinstellungen</b>.
+</nierror>
+<nierror code="-20321">
+Analyse: (Hex 0xFFFFB09F) Interner Fehler: Session-Handle der Messung ist ungültig. Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20320">
+Analyse: (Hex 0xFFFFB0A0) Interner Fehler: Die gewünschte Messung ist nicht verfügbar. Sollte sich das Problem nicht beheben lassen, setzen Sie sich mit dem technischen Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-20319">
+Analyse: (Hex 0xFFFFB0A1) Die Periodendauer des Signalverlaufs ist zu kurz für die Messung.
+</nierror>
+<nierror code="-20318">
+Analyse: (Hex 0xFFFFB0A2) Das Ergebnis ist keine Zahl (NaN) oder unendlich.
+</nierror>
+<nierror code="-20317">
+Analyse: (Hex 0xFFFFB0A3) Der Parameterwert für die Größe des Histogramms ist kleiner oder gleich 0.
+</nierror>
+<nierror code="-20316">
+Analyse: (Hex 0xFFFFB0A4) Der Parameter der Prozentmethode ist unzulässig. Überprüfen Sie den Enum-Eingang <b>method</b>.
+</nierror>
+<nierror code="-20315">
+Analyse: (Hex 0xFFFFB0A5) Parameter dt des Signalverlaufs ist <= 0.
+</nierror>
+<nierror code="-20314">
+Analyse: (Hex 0xFFFFB0A6) Ungültiger Parameter für die Einheit des Bezugspegels. Überprüfen Sie den Eingang <b>Ref.-Einheiten</b>.
+</nierror>
+<nierror code="-20313">
+Analyse: (Hex 0xFFFFB0A7) Bezugspegel entsprechen nicht den Anforderungen.
+</nierror>
+<nierror code="-20312">
+Analyse: (Hex 0xFFFFB0A8) Die Größe des Signalverlaufs ist 0.
+</nierror>
+<nierror code="-20311">
+Analyse: (Hex 0xFFFFB0A9) Für die Signalvermessung steht nicht genügend Speicherplatz zur Verfügung.
+</nierror>
+<nierror code="-20310">
+Analyse: (Hex 0xFFFFB0AA) Der Signalverlauf enthielt nicht genügend Flanken zur Ausführung dieser Messung. Eine Flanke ist definiert als Übergang zwischen den Signalzuständen "High" und "Low". Überprüfen Sie Signallänge, Bezugspegel und Einheiten der Bezugspegel.
+</nierror>
+<nierror code="-20309">
+Analyse: (Hex 0xFFFFB0AB) Das Histogramm kann nicht verwendet werden, da die Amplitude des Signals Null ist.
+</nierror>
+<nierror code="-20308">
+Analyse: (Hex 0xFFFFB0AC) Das Signal hat den mittleren Pegel nicht oft genug durchschritten, um diese Messung durchführen zu können. Überprüfen Sie Signallänge, Bezugspegel und Einheiten der Bezugspegel.
+</nierror>
+<nierror code="-20307">
+Analyse: (Hex 0xFFFFB0AD) Die Frequenz ist kein Vielfaches von Sample-Rate/Samples.
+</nierror>
+<nierror code="-20306">
+Analyse: (Hex 0xFFFFB0AE) Die beiden Zeitsignalverläufe enthalten unterschiedliche dt-Werte.
+</nierror>
+<nierror code="-20305">
+Analyse: (Hex 0xFFFFB0AF) Die beiden Zeitsignalverläufe enthalten unterschiedlich viele Werte.
+</nierror>
+<nierror code="-20304">
+Analyse: (Hex 0xFFFFB0B0) Mindestens einer der Zeitsignalverläufe enthält nicht den richtigen dt-Wert, um mit der Mittelwertbildung fortzufahren.
+</nierror>
+<nierror code="-20303">
+Analyse: (Hex 0xFFFFB0B1) Mindestens ein Zeitsignalverlauf enthält nicht die erforderliche Werteanzahl, um mit der Mittelung fortzufahren.
+</nierror>
+<nierror code="-20302">
+Analyse: (Hex 0xFFFFB0B2) Der Zeitsignalverlauf enthält einen falschen dt-Wert. Daher kann die Mittelung nicht fortgesetzt werden.
+</nierror>
+<nierror code="-20301">
+Analyse: (Hex 0xFFFFB0B3) Der Zeitsignalverlauf hat zu wenig gültige Werte, um mit der Mittelung fortzufahren.
+</nierror>
+<nierror code="-20207">
+Analyse: (Hex 0xFFFFB111) Die Obergrenze ist kleiner als die Untergrenze.
+</nierror>
+<nierror code="-20206">
+Analyse: (Hex 0xFFFFB112) Delta n ist negativ.
+</nierror>
+<nierror code="-20205">
+Analyse: (Hex 0xFFFFB113) Die Sample-Länge ist kleiner als die Fensterlänge.
+</nierror>
+<nierror code="-20204">
+Analyse: (Hex 0xFFFFB114) Die Fensterlänge ist nicht positiv.
+</nierror>
+<nierror code="-20203">
+Analyse: (Hex 0xFFFFB115) Das Zeitinkrement ist nicht positiv.
+</nierror>
+<nierror code="-20202">
+Analyse: (Hex 0xFFFFB116) Die Sample-Länge ist negativ.
+</nierror>
+<nierror code="-20201">
+Analyse: (Hex 0xFFFFB117) Die Sample-Länge ist nicht positiv.
+</nierror>
+<nierror code="-20167">
+Analyse: (Hex 0xFFFFB139) Die Elemente des Arrays mit den y-Werten müssen entweder alle positiv oder alle negativ sein.
+</nierror>
+<nierror code="-20166">
+Analyse: (Hex 0xFFFFB13A) Die Anzahl der Beobachtungswerte für jede Zelle muss größer oder gleich 2 sein.
+</nierror>
+<nierror code="-20165">
+Analyse: (Hex 0xFFFFB13B) Die Anfangsbedingung entspricht nicht dem PDE-Klasseneingang.
+</nierror>
+<nierror code="-20164">
+Analyse: (Hex 0xFFFFB13C) Die Randbedingung entspricht nicht dem PDE-Klasseneingang.
+</nierror>
+<nierror code="-20163">
+Analyse: (Hex 0xFFFFB13D) Der Bereich entspricht nicht dem PDE-Klasseneingang.
+</nierror>
+<nierror code="-20162">
+Analyse: (Hex 0xFFFFB13E) Die rechte Seite der PDE entspricht nicht dem PDE-Klasseneingang.
+</nierror>
+<nierror code="-20161">
+Analyse: (Hex 0xFFFFB13F) Die Gleichung entspricht nicht dem PDE-Klasseneingang.
+</nierror>
+<nierror code="-20158">
+Analyse: (Hex 0xFFFFB142) Die Größe der Anfangsbedingung der PDE ist nicht kompatibel mit der Gittergröße des Bereichs.
+</nierror>
+<nierror code="-20157">
+Analyse: (Hex 0xFFFFB143) Die Größe der Randbedingung der PDE ist nicht kompatibel mit der Gittergröße des Bereichs.
+</nierror>
+<nierror code="-20156">
+Analyse: (Hex 0xFFFFB144) Die Größe der rechten Seite der PDE ist nicht kompatibel mit der Gittergröße des Bereichs.
+</nierror>
+<nierror code="-20155">
+Analyse: (Hex 0xFFFFB145) Die Anzahl der Randpunkte im polygonalen Bereich muss größer oder gleich 3 sein.
+</nierror>
+<nierror code="-20154">
+Analyse: (Hex 0xFFFFB146) Die Anzahl der Gitterpunkte im polygonalen Bereich ist 0.
+</nierror>
+<nierror code="-20153">
+Analyse: (Hex 0xFFFFB147) Die Anzahl der Raumwerte muss größer oder gleich 3 sein.
+</nierror>
+<nierror code="-20152">
+Analyse: (Hex 0xFFFFB148) Die Anzahl der Zeitwerte muss größer oder gleich 2 sein.
+</nierror>
+<nierror code="-20151">
+Analyse: (Hex 0xFFFFB149) Der Endpunkt muss größer sein als der Startpunkt.
+</nierror>
+<nierror code="-20145">
+Analyse: (Hex 0xFFFFB14F) Jede unabhängige Variable muss die gleiche Anzahl an Werten enthalten wie die abhängige Variable.
+</nierror>
+<nierror code="-20144">
+Analyse: (Hex 0xFFFFB150) Die Interpolationsgröße muss größer oder gleich der Datengröße sein.
+</nierror>
+<nierror code="-20143">
+Analyse: (Hex 0xFFFFB151) Ein Eingangswert liegt außerhalb des zulässigen Bereichs.
+</nierror>
+<nierror code="-20142">
+Analyse: (Hex 0xFFFFB152) Die Positionen im Bereich für die Interpolation (xi, yi, ...) müssen die gleiche Dimension und Größe haben.
+</nierror>
+<nierror code="-20141">
+Analyse: (Hex 0xFFFFB153) Der Eingang muss ungleich 0 sein.
+</nierror>
+<nierror code="-20140">
+Analyse: (Hex 0xFFFFB154) Der Eingang muss größer als 0 sein.
+</nierror>
+<nierror code="-20132">
+Analyse: (Hex 0xFFFFB15C) Die Eingangssignalverläufe haben unterschiedliche t0-Werte.
+</nierror>
+<nierror code="-20131">
+Analyse: (Hex 0xFFFFB15D) Die Ordnung muss kleiner oder gleich dem Grad sein.
+</nierror>
+<nierror code="-20130">
+Analyse: (Hex 0xFFFFB15E) Die Eingabe ist keine Primzahl.
+</nierror>
+<nierror code="-20129">
+Analyse: (Hex 0xFFFFB15F) Die Größe des Eingangs-Arrays ist keine Potenz des Radix.
+</nierror>
+<nierror code="-20128">
+Analyse: (Hex 0xFFFFB160) Die Größe der Hadamard-Matrix erfüllt nicht die Anforderungen. Gültige Größen sind 2^k, 12*2^k und 20*2^k, wobei k > 0 ist.
+</nierror>
+<nierror code="-20127">
+Analyse: (Hex 0xFFFFB161) Die Anzahl der Samples ist kleiner als die Anzahl unbekannter Parameter.
+</nierror>
+<nierror code="-20126">
+Analyse: (Hex 0xFFFFB162) Nicht genügend Speicher zum Ausführen der angegebenen Routine im Analyse-Arbeitsbereich.
+</nierror>
+<nierror code="-20125">
+Analyse: (Hex 0xFFFFB163) Der Analyse-Arbeitsbereich kann nicht freigegeben werden.
+</nierror>
+<nierror code="-20124">
+Analyse: (Hex 0xFFFFB164) Der Analyse-Arbeitsbereich wurde gesperrt.
+</nierror>
+<nierror code="-20123">
+Analyse: (Hex 0xFFFFB165) Der Analyse-Arbeitsbereich ist nicht leer.
+</nierror>
+<nierror code="-20122">
+Analyse: (Hex 0xFFFFB166) Der Analyse-Arbeitsbereich ist leer.
+</nierror>
+<nierror code="-20121">
+Analyse: (Hex 0xFFFFB167) Der Analyse-Arbeitsbereich wurde bereits aktiviert.
+</nierror>
+<nierror code="-20120">
+Analyse: (Hex 0xFFFFB168) Die Größe des Analyse-Arbeitsbereichs wurde bereits eingestellt.
+</nierror>
+<nierror code="-20119">
+Analyse: (Hex 0xFFFFB169) Die Anzahl der Samples ist ungleich 3.
+</nierror>
+<nierror code="-20118">
+Analyse: (Hex 0xFFFFB16A) Der Eingangswert ist größer als 1 oder kleiner als -1.
+</nierror>
+<nierror code="-20117">
+Analyse: (Hex 0xFFFFB16B) Die Signifikanz ging verloren.
+</nierror>
+<nierror code="-20116">
+Analyse: (Hex 0xFFFFB16C) Keine passende Lösung gefunden.
+</nierror>
+<nierror code="-20115">
+Analyse: (Hex 0xFFFFB16D) Die FFT-Größe muss größer als 0 sein.
+</nierror>
+<nierror code="-20114">
+Analyse: (Hex 0xFFFFB16E) Der mit dem VI "Zähler für Nullstellen eines reellen Polynoms" verbundene Startwert ist größer als der Endwert.
+</nierror>
+<nierror code="-20113">
+Analyse: (Hex 0xFFFFB16F) Der Endwert, der mit dem VI "Zähler für Nullstellen eines reellen Polynoms" verbunden ist, ist eine Nullstelle.
+</nierror>
+<nierror code="-20112">
+Analyse: (Hex 0xFFFFB170) Der Startwert, der mit dem VI "Zähler für Nullstellen eines reellen Polynoms" verbunden ist, ist eine Nullstelle.
+</nierror>
+<nierror code="-20111">
+Analyse: (Hex 0xFFFFB171) Die Polynomkoeffizienten am Eingang sind alle 0.
+</nierror>
+<nierror code="-20108">
+Analyse: (Hex 0xFFFFB174) Das Eingangspolygon ist weder konvex noch einfach.
+</nierror>
+<nierror code="-20107">
+Analyse: (Hex 0xFFFFB175) Der Wert liegt außerhalb des gültigen Bereichs. Der gültige Bereich lautet [0, pi].
+</nierror>
+<nierror code="-20106">
+Analyse: (Hex 0xFFFFB176) Der Wert liegt außerhalb des gültigen Bereichs. Der gültige Bereich lautet [0, pi/2].
+</nierror>
+<nierror code="-20105">
+Analyse: (Hex 0xFFFFB177) Der Wert liegt außerhalb des gültigen Bereichs.  Der gültige Bereich lautet [0, 1].
+</nierror>
+<nierror code="-20104">
+Analyse: (Hex 0xFFFFB178) Die Eingangsparameter enthalten mindestens einen Wert, der keine Zahl ist (NaN).
+</nierror>
+<nierror code="-20103">
+Analyse: (Hex 0xFFFFB179) Die Ordnung muss größer oder gleich 0 sein.
+</nierror>
+<nierror code="-20102">
+Analyse: (Hex 0xFFFFB17A) Für die Verschiebung gilt: |Verschiebung| < Samples.
+</nierror>
+<nierror code="-20101">
+Analyse: (Hex 0xFFFFB17B) Der Höchstwert des Parameters muss größer sein als der Mindestwert.
+</nierror>
+<nierror code="-20099">
+Analyse: (Hex 0xFFFFB17D) Die Ordnung des AR-Modells (AR = autoregressiv) muss größer oder gleich der Anzahl der komplexen Sinuskurven sein.
+</nierror>
+<nierror code="-20098">
+Analyse: (Hex 0xFFFFB17E) Die AR-Ordnung darf nicht größer als zwei Drittel der Sample-Anzahl sein.
+</nierror>
+<nierror code="-20097">
+Analyse: (Hex 0xFFFFB17F) Die Anzahl der komplexen Sinuskurven darf nicht größer als zwei Drittel der Sample-Anzahl sein.
+</nierror>
+<nierror code="-20096">
+Analyse: (Hex 0xFFFFB180) Die AR-Ordnung muss > 0 sein.
+</nierror>
+<nierror code="-20095">
+Analyse: (Hex 0xFFFFB181) Die Anzahl der komplexen Sinusformen muss > 0 sein.
+</nierror>
+<nierror code="-20094">
+Analyse: (Hex 0xFFFFB182) Eines der Arrays für die Anfangs- oder Endbedingung hat die falsche Größe.
+</nierror>
+<nierror code="-20093">
+Analyse: (Hex 0xFFFFB183) df muss > 0 sein.
+</nierror>
+<nierror code="-20092">
+Analyse: (Hex 0xFFFFB184) Die duale Funktion existiert nicht.
+</nierror>
+<nierror code="-20091">
+Analyse: (Hex 0xFFFFB185) Das Gaborkoeffizienten-Array hat die falsche Dimensionsanzahl.
+</nierror>
+<nierror code="-20090">
+Analyse: (Hex 0xFFFFB186) Die Ordnung des Gabor-Spektrogramms muss >= 0 sein.
+</nierror>
+<nierror code="-20089">
+Analyse: (Hex 0xFFFFB187) Die Rate für die Überabtastung, N / dM, muss > = 1 sein.
+</nierror>
+<nierror code="-20088">
+Analyse: (Hex 0xFFFFB188) Die Division des Analyse- oder Synthesefensters durch die Anzahl der Frequenzintervalle N muss eine gerade Zahl ergeben. N muss eine Potenz von 2 sein.
+</nierror>
+<nierror code="-20087">
+Analyse: (Hex 0xFFFFB189) Die Division des Analyse- oder Synthesefensters durch das Gabor-Zeitabtastintervall, dM, muss eine gerade Zahl ergeben.
+</nierror>
+<nierror code="-20086">
+Analyse: (Hex 0xFFFFB18A) Fensterlänge muss > 2 und eine Zweier-Potenz sein.
+</nierror>
+<nierror code="-20085">
+Analyse: (Hex 0xFFFFB18B) Die Größe des Eingangs-Arrays und seiner Hilbert-Transformierten muss gleich sein.
+</nierror>
+<nierror code="-20084">
+Analyse: (Hex 0xFFFFB18C) Der dt-Wert darf nicht größer sein als die Fensterlänge/4.
+</nierror>
+<nierror code="-20083">
+Analyse: (Hex 0xFFFFB18D) Fensterlänge muss > 4 und eine Zweier-Potenz sein.
+</nierror>
+<nierror code="-20082">
+Analyse: (Hex 0xFFFFB18E) Der dt-Wert darf nicht größer sein als dM.
+</nierror>
+<nierror code="-20081">
+Analyse: (Hex 0xFFFFB18F) dN oder Zeitintervall muss größer als 0 sein.
+</nierror>
+<nierror code="-20080">
+Analyse: (Hex 0xFFFFB190) Der Zeitschritt muss größer als (Fensterlänge)/16 sein.
+</nierror>
+<nierror code="-20079">
+Analyse: (Hex 0xFFFFB191) Der Startwert ist ungültig.
+</nierror>
+<nierror code="-20078">
+Analyse: (Hex 0xFFFFB192) Diese Funktion wird auf der verwendeten Plattform nicht unterstützt.
+</nierror>
+<nierror code="-20077">
+Analyse: (Hex 0xFFFFB193) Die Zeitwerte sind nicht aufsteigend angeordnet.
+</nierror>
+<nierror code="-20076">
+Analyse: (Hex 0xFFFFB194) Der Punkt für die Neuabtastung kann nicht berechnet werden, wenn das Signal hinter dem Signal am Eingang liegt.
+</nierror>
+<nierror code="-20075">
+Analyse: (Hex 0xFFFFB195) Der Filterpuffer läuft über.
+</nierror>
+<nierror code="-20074">
+Analyse: (Hex 0xFFFFB196) Beim Neuordnen von Eigenwerten können einige komplexe Werte geändert werden.
+</nierror>
+<nierror code="-20073">
+Analyse: (Hex 0xFFFFB197) Die Eigenwerte können nicht neu geordnet werden, da einige zu nahe beieinander liegen.
+</nierror>
+<nierror code="-20072">
+Analyse: (Hex 0xFFFFB198) Der Logarithmus der Eingangsmatrix kann nicht bestimmt werden.
+</nierror>
+<nierror code="-20071">
+Analyse: (Hex 0xFFFFB199) Die Eingangsmatrix ist nicht positiv definit.
+</nierror>
+<nierror code="-20070">
+Analyse: (Hex 0xFFFFB19A) Die Matrizen müssen gleich groß sein.
+</nierror>
+<nierror code="-20069">
+Analyse: (Hex 0xFFFFB19B) Die Anzahl der Samples muss größer oder gleich 4 sein.
+</nierror>
+<nierror code="-20068">
+Analyse: (Hex 0xFFFFB19C) Mindestens ein Element der Eingangsparameter ist "Inf" (Unendlich), "NaN" (keine Zahl), DBL_MAX oder DBL_MIN.
+</nierror>
+<nierror code="-20067">
+Analyse: (Hex 0xFFFFB19D) Entweder die Grundfrequenz oder die Sample-Rate ist 0.
+</nierror>
+<nierror code="-20066">
+Analyse: (Hex 0xFFFFB19E) Die Angaben zur IIR-Filterstruktur sind falsch.
+</nierror>
+<nierror code="-20065">
+Analyse: (Hex 0xFFFFB19F) Die Elemente im Vektor können nicht alle Null sein.
+</nierror>
+<nierror code="-20064">
+Analyse: (Hex 0xFFFFB1A0) Der interne Speicherstatus dieser Funktion wurde nicht ordnungsgemäß initialisiert.
+</nierror>
+<nierror code="-20063">
+Analyse: (Hex 0xFFFFB1A1) Die Polynomkoeffizienten sind ungültig.
+</nierror>
+<nierror code="-20062">
+Analyse: (Hex 0xFFFFB1A2) Die maximale Anzahl von Durchläufen wurde überschritten.
+</nierror>
+<nierror code="-20061">
+Analyse: (Hex 0xFFFFB1A3) Die Auswahl ist ungültig.
+</nierror>
+<nierror code="-20060">
+Analyse: (Hex 0xFFFFB1A4) Fehler: Division durch 0.
+</nierror>
+<nierror code="-20059">
+Analyse: (Hex 0xFFFFB1A5) Fehler: Negative Zahl.
+</nierror>
+<nierror code="-20058">
+Analyse: (Hex 0xFFFFB1A6) Ungültige Anzahl an Dimensionen oder abhängigen Variablen
+</nierror>
+<nierror code="-20057">
+Analyse: (Hex 0xFFFFB1A7) Der Parameter zur Beta-Funktion sollte 0 < p < 1 sein
+</nierror>
+<nierror code="-20056">
+Analyse: (Hex 0xFFFFB1A8) Die Kontingenztabelle enthält eine negative Zahl.
+</nierror>
+<nierror code="-20055">
+Analyse: (Hex 0xFFFFB1A9) Die Anzahl der Kategorien oder Samples muss größer als 1 sein.
+</nierror>
+<nierror code="-20054">
+Analyse: (Hex 0xFFFFB1AA) Die Wahrscheinlichkeit muss größer oder gleich 0 und kleiner als 1 sein.
+</nierror>
+<nierror code="-20053">
+Analyse: (Hex 0xFFFFB1AB) Die Zahl muss zwischen 0 und 1 liegen.
+</nierror>
+<nierror code="-20052">
+Analyse: (Hex 0xFFFFB1AC) Der Freiheitsgrad muss größer als 0 und kleiner als die Länge der Eingangsfolge sein.
+</nierror>
+<nierror code="-20051">
+Analyse: (Hex 0xFFFFB1AD) Alle Werte in der ersten Spalte der X-Matrix müssen 1 lauten.
+</nierror>
+<nierror code="-20050">
+Analyse: (Hex 0xFFFFB1AE) Die interpolierte Funktion hat am angegebenen Wert eine Polstelle.
+</nierror>
+<nierror code="-20049">
+Analyse: (Hex 0xFFFFB1AF) Die x-Werte müssen unterschiedlich sein.
+</nierror>
+<nierror code="-20048">
+Analyse: (Hex 0xFFFFB1B0) Das Random-Effect-Modell gilt in diesem Fall nicht. Es kann nur das Fixed-Effect-Modell ausgewählt werden.
+</nierror>
+<nierror code="-20047">
+Analyse: (Hex 0xFFFFB1B1) Nicht alle benötigten Werte vorhanden. Alle Zellen müssen die gleiche Anzahl an Beobachtungen enthalten.
+</nierror>
+<nierror code="-20046">
+Analyse: (Hex 0xFFFFB1B2) Es trat ein Überlauf in der Berechnung auf.
+</nierror>
+<nierror code="-20045">
+Analyse: (Hex 0xFFFFB1B3) Die Gesamtanzahl der Datenpunkte muss gleich dem Produkt aus jedem Level mit der Anzahl Beobachtungen pro Zelle sein.
+</nierror>
+<nierror code="-20044">
+Analyse: (Hex 0xFFFFB1B4) An einigen Levels eines Faktors wurden null Beobachtungen gemacht.
+</nierror>
+<nierror code="-20043">
+Analyse: (Hex 0xFFFFB1B5) Der Level der Faktoren liegt bei einigen Werten außerhalb des zulässigen Bereichs.
+</nierror>
+<nierror code="-20042">
+Analyse: (Hex 0xFFFFB1B6) Die Anzahl der Level liegt außerhalb des zulässigen Bereichs.
+</nierror>
+<nierror code="-20041">
+Analyse: (Hex 0xFFFFB1B7) Das Gleichungssystem kann nicht gelöst werden, da die Eingangsmatrix singulär ist.
+</nierror>
+<nierror code="-20040">
+Analyse: (Hex 0xFFFFB1B8) Die Eingangsmatrix muss quadratisch sein.
+</nierror>
+<nierror code="-20039">
+Analyse: (Hex 0xFFFFB1B9) Die Anzahl der Spalten in der ersten Matrix stimmt nicht mit der Anzahl der Zeilen in der zweiten Matrix oder dem zweiten Vektor überein.
+</nierror>
+<nierror code="-20038">
+Analyse: (Hex 0xFFFFB1BA) Die Anzahl der Intervalle muss > 0 sein.
+</nierror>
+<nierror code="-20037">
+Analyse: (Hex 0xFFFFB1BB) Die Anzahl der Datenpunkte im Array der Y-Werte muss größer als die Ordnung sein.
+</nierror>
+<nierror code="-20036">
+Analyse: (Hex 0xFFFFB1BC) Die Elemente des Arrays mit den x-Werten müssen entweder alle positiv oder alle negativ sein.
+</nierror>
+<nierror code="-20035">
+Analyse: (Hex 0xFFFFB1BD) Die Standardabweichung muss für die Normalisierung größer als 0 sein.
+</nierror>
+<nierror code="-20034">
+Analyse: (Hex 0xFFFFB1BE) Für diesen Filter muss die Anzahl der Koeffizienten gerade sein.
+</nierror>
+<nierror code="-20033">
+Analyse: (Hex 0xFFFFB1BF) Für diesen Filter muss die Anzahl der Koeffizienten ungerade sein.
+</nierror>
+<nierror code="-20032">
+Analyse: (Hex 0xFFFFB1C0) Die linke Ordnung des Filters muss >= 0 sein.
+Die rechte Ordnung des Filters muss < Größe sein.
+</nierror>
+<nierror code="-20031">
+Analyse: (Hex 0xFFFFB1C1) Der Filter kann mit den angegebenen Eingangswerten nicht erstellt werden.
+</nierror>
+<nierror code="-20030">
+Analyse: (Hex 0xFFFFB1C2) Für den Streuungskoeffizienten, die Streuung und die Schrittweite u gilt: 0 <= Streuung <= u.
+</nierror>
+<nierror code="-20029">
+Analyse: (Hex 0xFFFFB1C3) Für die Schrittweite u gilt:  0 <= u <= 0,1.
+</nierror>
+<nierror code="-20028">
+Analyse: (Hex 0xFFFFB1C4) Der Wert der Dämpfung muss größer als die Welligkeitsamplitude sein.
+</nierror>
+<nierror code="-20027">
+Analyse: (Hex 0xFFFFB1C5) Der Endwert muss > 0 sein.
+</nierror>
+<nierror code="-20026">
+Analyse: (Hex 0xFFFFB1C6) Die Breite muss > 0 sein.
+</nierror>
+<nierror code="-20025">
+Analyse: (Hex 0xFFFFB1C7) Die Dämpfung muss größer als 0 sein.
+</nierror>
+<nierror code="-20024">
+Analyse: (Hex 0xFFFFB1C8) Die Welligkeitsamplitude muss > 0 sein.
+</nierror>
+<nierror code="-20023">
+Analyse: (Hex 0xFFFFB1C9) Folgende Bedingung muss erfüllt sein:  0 < f_low <= f_high <= fs/2.
+</nierror>
+<nierror code="-20022">
+Analyse: (Hex 0xFFFFB1CA) Für den Dezimierungsfaktor gilt: 0 < Dezimierungsfaktor <= Samples.
+</nierror>
+<nierror code="-20021">
+Analyse: (Hex 0xFFFFB1CB) Die Ordnung muss größer als 0 sein.
+</nierror>
+<nierror code="-20020">
+Analyse: (Hex 0xFFFFB1CC) Für die Grenzfrequenz fc gilt: 0 <= fc <= fs/2.
+</nierror>
+<nierror code="-20019">
+Analyse: (Hex 0xFFFFB1CD) Der obere Wert muss kleiner gleich dem unteren Wert sein.
+</nierror>
+<nierror code="-20018">
+Analyse: (Hex 0xFFFFB1CE) Die folgende Bedingung muss erfüllt sein: 0 <= (Index + Länge) < Samples.
+</nierror>
+<nierror code="-20017">
+Analyse: (Hex 0xFFFFB1CF) Die folgende Bedingung muss erfüllt sein: 0 <= Index < Samples.
+</nierror>
+<nierror code="-20016">
+Analyse: (Hex 0xFFFFB1D0) dt muss > 0 sein.
+</nierror>
+<nierror code="-20015">
+Analyse: (Hex 0xFFFFB1D1) dt muss >= 0 sein.
+</nierror>
+<nierror code="-20014">
+Analyse: (Hex 0xFFFFB1D2) Die folgende Bedingung muss erfüllt sein: 0 <= (Impulspause + Impulsdauer) < Samples.
+</nierror>
+<nierror code="-20013">
+Analyse: (Hex 0xFFFFB1D3) Für die Breite gilt: 0 < Breite < Samples.
+</nierror>
+<nierror code="-20012">
+Analyse: (Hex 0xFFFFB1D4) Die Anzahl der Perioden muss > 0 und <= der Anzahl der Samples sein.
+</nierror>
+<nierror code="-20011">
+Analyse: (Hex 0xFFFFB1D5) Der Tastgrad muss gleich sein oder zwischen 0 und 100 fallen: 0 <= Tastgrad <= 100.
+</nierror>
+<nierror code="-20010">
+Analyse: (Hex 0xFFFFB1D6) Die maximal zulässige Größe der Transformierten wurde überschritten.
+</nierror>
+<nierror code="-20009">
+Analyse: (Hex 0xFFFFB1D7) Die Größe des Eingangs-Arrays muss eine Potenz von 2 sein: Größe = 2^m, 0 < m < 23.
+</nierror>
+<nierror code="-20008">
+Analyse: (Hex 0xFFFFB1D8) Das Eingangs-Array enthält für diese Funktion nicht die richtige Anzahl an Werten.
+</nierror>
+<nierror code="-20007">
+Analyse: (Hex 0xFFFFB1D9) Die Anzahl der Samples muss größer oder gleich 3 sein.
+</nierror>
+<nierror code="-20006">
+Analyse: (Hex 0xFFFFB1DA) Die Sample-Anzahl muss >= 2 sein.
+</nierror>
+<nierror code="-20005">
+Analyse: (Hex 0xFFFFB1DB) Die Anzahl der Samples muss größer oder gleich 1 sein.
+</nierror>
+<nierror code="-20004">
+Analyse: (Hex 0xFFFFB1DC) Die Sample-Anzahl muss >= 0 sein.
+</nierror>
+<nierror code="-20003">
+Analyse: (Hex 0xFFFFB1DD) Die Sample-Anzahl muss > 0 sein.
+</nierror>
+<nierror code="-20002">
+Analyse: (Hex 0xFFFFB1DE) Die Folgen müssen die gleiche Größe haben.
+</nierror>
+<nierror code="-20001">
+Analyse: (Hex 0xFFFFB1DF) Nicht genügend Speicherplatz vorhanden.
+</nierror>
+<nierror code="20001">
+Analyse: (Hex 0x4E21) Die Matrix hat nicht den erforderlichen Rang.
+</nierror>
+<nierror code="20002">
+Analyse: (Hex 0x4E22) Die Anzahl der Samples muss größer als 0 sein.
+</nierror>
+<nierror code="20003">
+Analyse: (Hex 0x4E23) Die Matrix ist singulär.
+</nierror>
+<nierror code="20004">
+Analyse: (Hex 0x4E24) Matrizen oder Vektoren haben nicht die gleiche Größe.
+</nierror>
+<nierror code="20005">
+Analyse: (Hex 0x4E25) LabVIEW kann verallgemeinerte Eigenwerte nicht neu anordnen.
+</nierror>
+<nierror code="20006">
+Analyse: (Hex 0x4E26) Das Rechenergebnis ist möglicherweise falsch.
+</nierror>
+<nierror code="20007">
+Analyse: (Hex 0x4E27) Die Eingabe ist keine gültige Cholesky-Faktorisierung.
+</nierror>
+<nierror code="20008">
+Analyse: (Hex 0x4E28) Die Matrix ist nicht positiv definit.
+</nierror>
+<nierror code="20010">
+Analyse: (Hex 0x4E2A) Die Größen der Eingangsmatrizen entsprechen nicht den vorgegebenen Bedingungen.
+</nierror>
+<nierror code="20011">
+Analyse: (Hex 0x4E2B) Die Standardabweichung am Eingang ist ungültig.
+</nierror>
+<nierror code="20012">
+Analyse: (Hex 0x4E2C) Das Eingangspolynom ist leer.
+</nierror>
+<nierror code="20020">
+Analyse: (Hex 0x4E34) Einige Frequenzen verstoßen gegen das Nyquist-Kriterium.
+</nierror>
+<nierror code="20021">
+Analyse: (Hex 0x4E35) Die Messung des Pegels ist möglicherweise ungenau. Das kann zu Ungenauigkeiten bei anderen Messungen führen.
+</nierror>
+<nierror code="20030">
+Analyse: (Hex 0x4E3E) Mindestens ein Element der Eingangsmatrix ist "Inf" (Unendlich) oder "NaN" (keine Zahl).
+</nierror>
+<nierror code="20031">
+Analyse: (Hex 0x4E3F) Die maximal erlaubte Ordnung wurde überschritten.
+</nierror>
+<nierror code="20307">
+Analyse: (Hex 0x4F53) Frequenz wurde auf das nächste Vielfache von Sample-Rate/Samples gesetzt.
+</nierror>
+<nierror code="20334">
+Analyse: (Hex 0x4F6E) Die Signalverläufe überschneiden sich nicht.
+</nierror>
+<nierror code="20351">
+Analyse: (Hex 0x4F7F) Die Mittelwertbildung wurde aufgrund einer Änderung an den Mittelwertbildungsparametern automatisch neu gestartet.
+</nierror>
+<nierror code="20352">
+Analyse: (Hex 0x4F80) Aktueller und vorheriger Signalverlauf sind nicht zusammenhängend.
+</nierror>
+<nierror code="20353">
+Analyse: (Hex 0x4F81) Aktueller und vorheriger dt-Wert stimmen nicht überein.
+</nierror>
+<nierror code="20354">
+Analyse: (Hex 0x4F82) Der Algorithmus stoppt, weil die maximale Anzahl von Iterationen erreicht wurde.
+</nierror>
+</nidocument>

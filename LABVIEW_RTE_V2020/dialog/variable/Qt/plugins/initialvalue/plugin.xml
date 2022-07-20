@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<vdlg-plugin id="ni.variable.InitialValue" lib="vdlgival" >
+    <vdlg-iface iid="ni.variable.dialog.Page" />
+</vdlg-plugin>

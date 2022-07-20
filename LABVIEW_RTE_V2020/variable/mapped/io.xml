@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<var-mapped name="I/O Variable" id="ni.variable.IO">
+  <var-cxt>My Computer</var-cxt>
+  <var-cxt>CE</var-cxt>
+  <var-cxt>WSN</var-cxt>
+  <var-cxt>RSI</var-cxt>
+  <var-attribute>ni.variable.NetworkPublished</var-attribute>
+  <var-attribute>ni.variable.Timestamped</var-attribute>
+</var-mapped>

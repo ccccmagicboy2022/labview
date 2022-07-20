@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Initial Value" lib="LabVIEW">
+    <var-prop name="Value" type="string" />
+</var-prop-group>

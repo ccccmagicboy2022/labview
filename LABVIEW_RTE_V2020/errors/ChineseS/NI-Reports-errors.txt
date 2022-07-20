@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-Reports" familyname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41044">
+NI-Reports: (Hex 0xFFFF5FAC) 指定的模板不是有效的Word文档。
+</nierror>
+<nierror code="-41043">
+NI-Reports: (Hex 0xFFFF5FAD) 超出了最大列数63。
+</nierror>
+<nierror code="-41042">
+NI-Reports: (Hex 0xFFFF5FAE) Word报表函数报告了无效的错误代码。
+</nierror>
+<nierror code="-41041">
+NI-Reports: (Hex 0xFFFF5FAF) 指定的书签出现在无效的位置。
+</nierror>
+<nierror code="-41040">
+NI-Reports: (Hex 0xFFFF5FB0) 指定书签在Word文档中不存在。
+</nierror>
+<nierror code="-41039">
+NI-Reports: (Hex 0xFFFF5FB1) 无法在指定位置插入数据。表格合并不均匀。
+</nierror>
+<nierror code="-41038">
+NI-Reports: (Hex 0xFFFF5FB2) 没有权限打开/创建该文件。检查文件权限设置，并确保没有其他进程正在使用该文件。
+</nierror>
+<nierror code="-41037">
+NI-Reports: (Hex 0xFFFF5FB3) Word报表中发生内部错误。
+</nierror>
+<nierror code="-41036">
+NI-Reports: (Hex 0xFFFF5FB4) 该文件的扩展名有误。只能使用.dotx和.docx文件扩展名。
+</nierror>
+<nierror code="-41035">
+NI-Reports: (Hex 0xFFFF5FB5) 该文件的扩展名有误。只能使用.docx文件扩展名。
+</nierror>
+<nierror code="-41034">
+NI-Reports: (Hex 0xFFFF5FB6) 单元格范围合并不均匀。
+</nierror>
+<nierror code="-41033">
+NI-Reports: (Hex 0xFFFF5FB7) 未找到指定工作表。
+</nierror>
+<nierror code="-41032">
+NI-Reports: (Hex 0xFFFF5FB8) 无效的单元格位置/DefinedName。
+</nierror>
+<nierror code="-41031">
+NI-Reports: (Hex 0xFFFF5FB9) 报表文件的文件扩展名与模板文件不同。
+</nierror>
+<nierror code="-41030">
+NI-Reports: (Hex 0xFFFF5FBA) 该文件的扩展名有误。只能使用文件扩展名.xlsx和.xlsm。
+</nierror>
+<nierror code="-41029">
+NI-Reports: (Hex 0xFFFF5FBB) 指定的模板不是有效的Excel文件。
+</nierror>
+<nierror code="-41028">
+NI-Reports: (Hex 0xFFFF5FBC) 使用了无效的二维数组写入Excel报表。允许的最大大小为16,384列和1,048,576行。
+</nierror>
+<nierror code="-41027">
+NI-Reports: (Hex 0xFFFF5FBD) Excel报表中使用了无效的列名称。
+</nierror>
+<nierror code="-41026">
+NI-Reports: (Hex 0xFFFF5FBE) Excel报表中使用了无效的工作表名称。
+</nierror>
+<nierror code="-41025">
+NI-Reports: (Hex 0xFFFF5FBF) Excel报表中使用了无效的范围。右下角的行和列的值必须大于左上角的值。
+</nierror>
+<nierror code="-41024">
+NI-Reports: (Hex 0xFFFF5FC0) 报表中使用了无效的报表引用。
+</nierror>
+<nierror code="-41023">
+NI-Reports: (Hex 0xFFFF5FC1) 报表中使用了无效/空路径。
+</nierror>
+<nierror code="-41022">
+NI-Reports: (Hex 0xFFFF5FC2) Excel报表中使用了空工作表名称。
+</nierror>
+<nierror code="-41021">
+NI-Reports: (Hex 0xFFFF5FC3) Excel报表中发生内部错误。
+</nierror>
+<nierror code="-41020">
+NI-Reports: (Hex 0xFFFF5FC4) Excel报表函数报告了无效的错误代码。
+</nierror>
+<nierror code="-41007">
+NI-Reports: (Hex 0xFFFF5FD1) 必须安装用于Microsoft Office的LabVIEW Report Generation工具包，才可创建该类型的报表。  安装工具包后还必须激活许可证或者以试用版模式运行。
+</nierror>
+<nierror code="-41006">
+NI-Reports: (Hex 0xFFFF5FD2) 该平台不支持该类型的报表。
+</nierror>
+<nierror code="-41005">
+NI-Reports: (Hex 0xFFFF5FD3) 无效页边距。
+</nierror>
+<nierror code="-41004">
+NI-Reports: (Hex 0xFFFF5FD4) 打印错误
+</nierror>
+<nierror code="-41003">
+NI-Reports: (Hex 0xFFFF5FD5) 打开文件错误。
+</nierror>
+<nierror code="-41002">
+NI-Reports: (Hex 0xFFFF5FD6) 无效的打印机名称。
+</nierror>
+<nierror code="-41001">
+NI-Reports: (Hex 0xFFFF5FD7) 缺少内存。
+</nierror>
+<nierror code="-41000">
+NI-Reports: (Hex 0xFFFF5FD8) 发生未知错误。
+</nierror>
+<nierror code="41000">
+NI-Reports: (Hex 0xA028) 尝试使用对当前报表类型没有任何影响的函数。
+</nierror>
+</nidocument>

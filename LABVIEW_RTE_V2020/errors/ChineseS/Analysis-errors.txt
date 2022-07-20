@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Analysis" familyname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23100">
+分析: (Hex 0xFFFFA5C4) 等式或不等式的右端项不是一个常量。
+</nierror>
+<nierror code="-23099">
+分析: (Hex 0xFFFFA5C5) 公式不是单调线性。
+</nierror>
+<nierror code="-23098">
+分析: (Hex 0xFFFFA5C6) 公式必须包括“>=”或“<=”。
+</nierror>
+<nierror code="-23097">
+分析: (Hex 0xFFFFA5C7) 公式必须包含以下符号：=、>=、<=、>、<。
+</nierror>
+<nierror code="-23096">
+分析: (Hex 0xFFFFA5C8) 小数点过多。
+</nierror>
+<nierror code="-23095">
+分析: (Hex 0xFFFFA5C9) 无效的函数。
+</nierror>
+<nierror code="-23094">
+分析: (Hex 0xFFFFA5CA) 不完整的函数表达式。
+</nierror>
+<nierror code="-23093">
+分析: (Hex 0xFFFFA5CB) 不完整表达式。
+</nierror>
+<nierror code="-23092">
+分析: (Hex 0xFFFFA5CC) 变量输出问题。
+</nierror>
+<nierror code="-23091">
+分析: (Hex 0xFFFFA5CD) 变量或数值不一致。
+</nierror>
+<nierror code="-23090">
+分析: (Hex 0xFFFFA5CE) 包含多于一个变量。
+</nierror>
+<nierror code="-23089">
+分析: (Hex 0xFFFFA5CF) 包含变量。
+</nierror>
+<nierror code="-23088">
+分析: (Hex 0xFFFFA5D0) 错误的变量名。
+</nierror>
+<nierror code="-23087">
+分析: (Hex 0xFFFFA5D1) 公式中存在错误字母或未定义变量。
+</nierror>
+<nierror code="-23086">
+分析: (Hex 0xFFFFA5D2) 函数调用错误。
+</nierror>
+<nierror code="-23085">
+分析: (Hex 0xFFFFA5D3) 错误的数字格式。
+</nierror>
+<nierror code="-23084">
+分析: (Hex 0xFFFFA5D4) 错误的小数点。
+</nierror>
+<nierror code="-23083">
+分析: (Hex 0xFFFFA5D5) 结尾处出现括号问题。
+</nierror>
+<nierror code="-23082">
+分析: (Hex 0xFFFFA5D6) 开始处出现括号问题。
+</nierror>
+<nierror code="-23081">
+分析: (Hex 0xFFFFA5D7) 括号问题。
+</nierror>
+<nierror code="-23055">
+分析: (Hex 0xFFFFA5F1) 参数超出[0,1)范围。
+</nierror>
+<nierror code="-23054">
+分析: (Hex 0xFFFFA5F2) 非唯一变量。
+</nierror>
+<nierror code="-23053">
+分析: (Hex 0xFFFFA5F3) 信号长度必须是2的幂并且大于等于4。
+</nierror>
+<nierror code="-23052">
+分析: (Hex 0xFFFFA5F4) 信号长度必须是大于等于5的质数。
+</nierror>
+<nierror code="-23051">
+分析: (Hex 0xFFFFA5F5) 信号长度不是2的幂。
+</nierror>
+<nierror code="-23050">
+分析: (Hex 0xFFFFA5F6) 信号长度不是数值的倍数。
+</nierror>
+<nierror code="-23049">
+分析: (Hex 0xFFFFA5F7) 无效窗口长度
+</nierror>
+<nierror code="-23048">
+分析: (Hex 0xFFFFA5F8) 无效时间增量。
+</nierror>
+<nierror code="-23047">
+分析: (Hex 0xFFFFA5F9) 参数超出[0,100]范围。
+</nierror>
+<nierror code="-23046">
+分析: (Hex 0xFFFFA5FA) 空数组。
+</nierror>
+<nierror code="-23045">
+分析: (Hex 0xFFFFA5FB) n < k
+</nierror>
+<nierror code="-23044">
+分析: (Hex 0xFFFFA5FC) 参数超出[0,1]范围。
+</nierror>
+<nierror code="-23043">
+分析: (Hex 0xFFFFA5FD) 参数超出(0,1]范围。
+</nierror>
+<nierror code="-23042">
+分析: (Hex 0xFFFFA5FE) 负参数。
+</nierror>
+<nierror code="-23041">
+分析: (Hex 0xFFFFA5FF) 变量数必须为2。
+</nierror>
+<nierror code="-23040">
+分析: (Hex 0xFFFFA600) 导数越界。
+</nierror>
+<nierror code="-23039">
+分析: (Hex 0xFFFFA601) 参数问题。
+</nierror>
+<nierror code="-23038">
+分析: (Hex 0xFFFFA602) 表达式中无变量。
+</nierror>
+<nierror code="-23037">
+分析: (Hex 0xFFFFA603) 函数数量必须为2。
+</nierror>
+<nierror code="-23036">
+分析: (Hex 0xFFFFA604) 参数不同。
+</nierror>
+<nierror code="-23035">
+分析: (Hex 0xFFFFA605) 非正数。
+</nierror>
+<nierror code="-23034">
+分析: (Hex 0xFFFFA606) 病态系统。
+</nierror>
+<nierror code="-23033">
+分析: (Hex 0xFFFFA607) 向量具有不同的维度或空向量。
+</nierror>
+<nierror code="-23032">
+分析: (Hex 0xFFFFA608) 最大值不存在。
+</nierror>
+<nierror code="-23031">
+分析: (Hex 0xFFFFA609) 有效点不存在。
+</nierror>
+<nierror code="-23030">
+分析: (Hex 0xFFFFA60A) 违反条件m >= n >= 0或矩阵导数的维数错误。
+</nierror>
+<nierror code="-23029">
+分析: (Hex 0xFFFFA60B) Levenberg Marquardt VI已失败。
+</nierror>
+<nierror code="-23028">
+分析: (Hex 0xFFFFA60C) 模型方程错误。
+</nierror>
+<nierror code="-23027">
+分析: (Hex 0xFFFFA60D) 变量数必须为1。
+</nierror>
+<nierror code="-23026">
+分析: (Hex 0xFFFFA60E) 未找到最优。
+</nierror>
+<nierror code="-23025">
+分析: (Hex 0xFFFFA60F) 无效的三个点(a,b,c)。
+</nierror>
+<nierror code="-23024">
+分析: (Hex 0xFFFFA610) 未找到根。
+</nierror>
+<nierror code="-23023">
+分析: (Hex 0xFFFFA611) 开始维度错误。
+</nierror>
+<nierror code="-23022">
+分析: (Hex 0xFFFFA612) 非正精度或非正delta x(h)。
+</nierror>
+<nierror code="-23021">
+分析: (Hex 0xFFFFA613) 两个函数值的符号相同。
+</nierror>
+<nierror code="-23020">
+分析: (Hex 0xFFFFA614) 左点大于右点。
+</nierror>
+<nierror code="-23019">
+分析: (Hex 0xFFFFA615) 右点为根。
+</nierror>
+<nierror code="-23018">
+分析: (Hex 0xFFFFA616) 左点为根。
+</nierror>
+<nierror code="-23017">
+分析: (Hex 0xFFFFA617) 多个根。
+</nierror>
+<nierror code="-23016">
+分析: (Hex 0xFFFFA618) 奇异特征向量矩阵。
+</nierror>
+<nierror code="-23015">
+分析: (Hex 0xFFFFA619) 空X0。
+</nierror>
+<nierror code="-23014">
+分析: (Hex 0xFFFFA61A) A和X0维度不同。
+</nierror>
+<nierror code="-23013">
+分析: (Hex 0xFFFFA61B) 矩阵向量冲突。
+</nierror>
+<nierror code="-23012">
+分析: (Hex 0xFFFFA61C) 非正精度。
+</nierror>
+<nierror code="-23011">
+分析: (Hex 0xFFFFA61D) 非正步长。
+</nierror>
+<nierror code="-23010">
+分析: (Hex 0xFFFFA61E) 输入错误，Cash Karp方法。
+</nierror>
+<nierror code="-23009">
+分析: (Hex 0xFFFFA61F) 错误输入，Runge Kutta方法。
+</nierror>
+<nierror code="-23008">
+分析: (Hex 0xFFFFA620) 错误输入，欧拉方法。
+</nierror>
+<nierror code="-23007">
+分析: (Hex 0xFFFFA621) 不是图形文件。
+</nierror>
+<nierror code="-23006">
+分析: (Hex 0xFFFFA622) 无效路径。
+</nierror>
+<nierror code="-23005">
+分析: (Hex 0xFFFFA623) 负距离。
+</nierror>
+<nierror code="-23004">
+分析: (Hex 0xFFFFA624) 颜色选板数量超出范围。
+</nierror>
+<nierror code="-23003">
+分析: (Hex 0xFFFFA625) 等高线数量超出范围。
+</nierror>
+<nierror code="-23002">
+分析: (Hex 0xFFFFA626) 函数、变量和坐标间存在故障。
+</nierror>
+<nierror code="-23001">
+分析: (Hex 0xFFFFA627) 解析器语法错误。
+</nierror>
+<nierror code="-23000">
+分析: (Hex 0xFFFFA628) 工程数学的起始错误代码。
+</nierror>
+<nierror code="-20999">
+分析: (Hex 0xFFFFADF9) 严重的算法错误。请联系NI获取支持。
+</nierror>
+<nierror code="-20699">
+分析: (Hex 0xFFFFAF25) 小波滤波器组的数据文件格式无效。
+</nierror>
+<nierror code="-20698">
+分析: (Hex 0xFFFFAF26) 无法打开小波滤波器组的数据文件。
+</nierror>
+<nierror code="-20697">
+分析: (Hex 0xFFFFAF27) 小波数据包会话句柄或句柄必须指向完整的树。
+</nierror>
+<nierror code="-20696">
+分析: (Hex 0xFFFFAF28) 小波数据包会话句柄或句柄无效，或其引用的数据空间未包含必要信息。
+</nierror>
+<nierror code="-20695">
+分析: (Hex 0xFFFFAF29) 小波系数的维度无效。
+</nierror>
+<nierror code="-20694">
+分析: (Hex 0xFFFFAF2A) 找到最佳路径的可选参数无效。
+</nierror>
+<nierror code="-20693">
+分析: (Hex 0xFFFFAF2B) 趋势水平必须不小于零且不大于1.0。
+</nierror>
+<nierror code="-20692">
+分析: (Hex 0xFFFFAF2C) 时间步长必须大于零。
+</nierror>
+<nierror code="-20691">
+分析: (Hex 0xFFFFAF2D) 节点必须是终端节点。
+</nierror>
+<nierror code="-20690">
+分析: (Hex 0xFFFFAF2E) 节点不能是终端节点。
+</nierror>
+<nierror code="-20689">
+分析: (Hex 0xFFFFAF2F) 路径或节点字符串必须只包含"0"或"1"。
+</nierror>
+<nierror code="-20688">
+分析: (Hex 0xFFFFAF30) 分析滤波器或合成滤波器的长度必须大于零。
+</nierror>
+<nierror code="-20687">
+分析: (Hex 0xFFFFAF31) 用于计算母小波的精确水平必须大于零。
+</nierror>
+<nierror code="-20686">
+分析: (Hex 0xFFFFAF32) 移位必须为0或1。
+</nierror>
+<nierror code="-20685">
+分析: (Hex 0xFFFFAF33) 移位必须大于等于零，小于降采样因子或插值因子。
+</nierror>
+<nierror code="-20684">
+分析: (Hex 0xFFFFAF34) 插值因子必须大于等于2。
+</nierror>
+<nierror code="-20683">
+分析: (Hex 0xFFFFAF35) 降采样因子必须大于等于2。
+</nierror>
+<nierror code="-20682">
+分析: (Hex 0xFFFFAF36) 小波分解的缩放必须大于零。
+</nierror>
+<nierror code="-20681">
+分析: (Hex 0xFFFFAF37) 小波类型的选择无效。
+</nierror>
+<nierror code="-20665">
+分析: (Hex 0xFFFFAF47) 最大阶数必须大于初始阶数，且不得超过输入信号长度的三分之二。
+</nierror>
+<nierror code="-20664">
+分析: (Hex 0xFFFFAF48) 初始阶数不能小于1。
+</nierror>
+<nierror code="-20663">
+分析: (Hex 0xFFFFAF49) AR阶数必须大于等于复正弦曲线数。
+</nierror>
+<nierror code="-20662">
+分析: (Hex 0xFFFFAF4A) 复正弦函数的数量必须大于零并且不大于输入信号长度的三分之二。
+</nierror>
+<nierror code="-20661">
+分析: (Hex 0xFFFFAF4B) AR模型的阶必须大于零并且不大于输入信号长度的三分之二。
+</nierror>
+<nierror code="-20644">
+分析: (Hex 0xFFFFAF5C) 引用句柄中储存的二维数组的索引超出范围。
+</nierror>
+<nierror code="-20643">
+分析: (Hex 0xFFFFAF5D) 引用句柄不支持该运算。
+</nierror>
+<nierror code="-20642">
+分析: (Hex 0xFFFFAF5E) 引用句柄无效。
+</nierror>
+<nierror code="-20641">
+分析: (Hex 0xFFFFAF5F) 创建引用句柄失败。
+</nierror>
+<nierror code="-20630">
+分析: (Hex 0xFFFFAF6A) 频率信息的参数对于进一步的计算无效。
+</nierror>
+<nierror code="-20629">
+分析: (Hex 0xFFFFAF6B) 窗信息的参数对于进一步的计算无效。
+</nierror>
+<nierror code="-20628">
+分析: (Hex 0xFFFFAF6C) 内核的维度必须大于零，且为两个值的幂。内核的列大小必须为2^(ceil(log2(Ls-1)))，其中Ls为输入信号的长度。
+</nierror>
+<nierror code="-20627">
+分析: (Hex 0xFFFFAF6D) 高斯窗的方差必须大于零。
+</nierror>
+<nierror code="-20626">
+分析: (Hex 0xFFFFAF6E) 窗的大小必须大于零。
+</nierror>
+<nierror code="-20625">
+分析: (Hex 0xFFFFAF6F) 项数必须大于等于零。
+</nierror>
+<nierror code="-20624">
+分析: (Hex 0xFFFFAF70) 过采样率必须大于等于1。
+</nierror>
+<nierror code="-20623">
+分析: (Hex 0xFFFFAF71) 阶数必须大于等于零。
+</nierror>
+<nierror code="-20622">
+分析: (Hex 0xFFFFAF72) 时间间隔必须是2的幂。
+</nierror>
+<nierror code="-20621">
+分析: (Hex 0xFFFFAF73) 时间间隔必须大于零。
+</nierror>
+<nierror code="-20604">
+分析: (Hex 0xFFFFAF84) 枚举数据类型参数的选择无效。
+</nierror>
+<nierror code="-20603">
+分析: (Hex 0xFFFFAF85) 频率区间的数量必须大于0，并且是2的幂。
+</nierror>
+<nierror code="-20602">
+分析: (Hex 0xFFFFAF86) 采样率必须大于0。
+</nierror>
+<nierror code="-20601">
+分析: (Hex 0xFFFFAF87) 输入信号为空。
+</nierror>
+<nierror code="-20511">
+分析: (Hex 0xFFFFAFE1) CVI无法创建所需的互斥。
+</nierror>
+<nierror code="-20510">
+分析: (Hex 0xFFFFAFE2) CVI在DLL中找不到指定的函数
+</nierror>
+<nierror code="-20509">
+分析: (Hex 0xFFFFAFE3) CVI无法加载Spectral Measurement Toolset DLL
+</nierror>
+<nierror code="-20508">
+分析: (Hex 0xFFFFAFE4) 无效SMT会话句柄。
+</nierror>
+<nierror code="-20507">
+分析: (Hex 0xFFFFAFE5) 指定的平均类型不正确。
+</nierror>
+<nierror code="-20506">
+分析: (Hex 0xFFFFAFE6) 输入频谱数据类型不正确。
+</nierror>
+<nierror code="-20505">
+分析: (Hex 0xFFFFAFE7) 您必须指定FFT区间或RBW。
+</nierror>
+<nierror code="-20504">
+分析: (Hex 0xFFFFAFE8) 采样频率应该大于0。
+</nierror>
+<nierror code="-20503">
+分析: (Hex 0xFFFFAFE9) 内部缓冲区由于输入数据而溢出。
+</nierror>
+<nierror code="-20502">
+分析: (Hex 0xFFFFAFEA) FFT大小必须大于0。
+</nierror>
+<nierror code="-20501">
+分析: (Hex 0xFFFFAFEB) 缩放因子必须大于0。
+</nierror>
+<nierror code="-20337">
+分析: (Hex 0xFFFFB08F) 指定的时间标识发生在限制结束后。
+</nierror>
+<nierror code="-20336">
+分析: (Hex 0xFFFFB090) Limit Specification簇中包含的X数组的值不会单调递增。
+</nierror>
+<nierror code="-20335">
+分析: (Hex 0xFFFFB091) 波形不连续。
+</nierror>
+<nierror code="-20334">
+分析: (Hex 0xFFFFB092) 由于用超过最长波形持续时间的10倍来分隔时间标识，因此无法对齐这些波形。
+</nierror>
+<nierror code="-20333">
+分析: (Hex 0xFFFFB093) 如果两个波形的采样不是用相位定时，则无法用同一个dt对齐这两个波形。
+</nierror>
+<nierror code="-20332">
+分析: (Hex 0xFFFFB094) 线程属性数小于零。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20331">
+分析: (Hex 0xFFFFB095) 参数结构指针为空，这可能是因为调用VI程序框图的改动。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20330">
+分析: (Hex 0xFFFFB096) 内部错误：结果指针为空，可能是因为调用VI程序框图已改动。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20329">
+分析: (Hex 0xFFFFB097) 内部错误：光标结构指针为空，这可能是因为调用VI程序框图的改动。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20328">
+分析: (Hex 0xFFFFB098) 在测量代码中初始化关键部分失败，可能是由于内存不足。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20327">
+分析: (Hex 0xFFFFB099) 测量代码发生异常，可能是由于内存不足。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20326">
+分析: (Hex 0xFFFFB09A) 上升或下降时间为0，因而回转率为无穷。
+</nierror>
+<nierror code="-20325">
+分析: (Hex 0xFFFFB09B) 内部错误：无效的测量ID号。请联系NI技术支持获取更多信息。
+</nierror>
+<nierror code="-20324">
+分析: (Hex 0xFFFFB09C) 内部错误：两个测量共享同一个ID数。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20323">
+分析: (Hex 0xFFFFB09D) 边数，脉冲数或周期参数值必须大于零。
+</nierror>
+<nierror code="-20322">
+分析: (Hex 0xFFFFB09E) 内部错误：属性数字不是指向一个有效的参数。检查<b>参考电平</b>、<b>百分比电平设置</b>和<b>状态设置</b>输入。
+</nierror>
+<nierror code="-20321">
+分析: (Hex 0xFFFFB09F) 内部错误：该测量会话句柄无效。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20320">
+分析: (Hex 0xFFFFB0A0) 内部错误：所要求的测量不可用。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-20319">
+分析: (Hex 0xFFFFB0A1) 波形的周期太短，无法进行测量。
+</nierror>
+<nierror code="-20318">
+分析: (Hex 0xFFFFB0A2) 结果不是数字(NaN)或无穷大。
+</nierror>
+<nierror code="-20317">
+分析: (Hex 0xFFFFB0A3) 直方图尺寸参数值小于等于零。
+</nierror>
+<nierror code="-20316">
+分析: (Hex 0xFFFFB0A4) 非法百分比方法参数。检查<b>方法</b>枚举型输入。
+</nierror>
+<nierror code="-20315">
+分析: (Hex 0xFFFFB0A5) 波形dt参数小于等于0。
+</nierror>
+<nierror code="-20314">
+分析: (Hex 0xFFFFB0A6) 非法参考水平单位参数。检查<b>参考单位</b>输入。
+</nierror>
+<nierror code="-20313">
+分析: (Hex 0xFFFFB0A7) 参考电平不符合要求。
+</nierror>
+<nierror code="-20312">
+分析: (Hex 0xFFFFB0A8) 输入波形的大小为0。
+</nierror>
+<nierror code="-20311">
+分析: (Hex 0xFFFFB0A9) 没有足够可用内存来进行波形测量。
+</nierror>
+<nierror code="-20310">
+分析: (Hex 0xFFFFB0AA) 由于波形未包含足够多的边，无法执行测量。边定义为波形与低参考电平、高参考电平交点之间的那段信号。请检查信号长度、参考电平和参考电平的单位。
+</nierror>
+<nierror code="-20309">
+分析: (Hex 0xFFFFB0AB) 波形的幅值为0，因而无法使用直方图记录方法。
+</nierror>
+<nierror code="-20308">
+分析: (Hex 0xFFFFB0AC) 该波形没有足够多次穿过中间参考水平来执行这个测量。检查信号长度，参考水平和参考水平单位。
+</nierror>
+<nierror code="-20307">
+分析: (Hex 0xFFFFB0AD) 频率不是（采样率）/采样的倍数。
+</nierror>
+<nierror code="-20306">
+分析: (Hex 0xFFFFB0AE) 两个时间信号波形包含不同的dt。
+</nierror>
+<nierror code="-20305">
+分析: (Hex 0xFFFFB0AF) 两个时间信号波形包含不同数量的数据点。
+</nierror>
+<nierror code="-20304">
+分析: (Hex 0xFFFFB0B0) 至少有一个时间信号波形不包含正确的dt以继续平均过程。
+</nierror>
+<nierror code="-20303">
+分析: (Hex 0xFFFFB0B1) 至少有一个时间信号波形不包含正确数量的数据点以继续平均过程。
+</nierror>
+<nierror code="-20302">
+分析: (Hex 0xFFFFB0B2) 时间信号波形不包含正确的dt以继续平均过程。
+</nierror>
+<nierror code="-20301">
+分析: (Hex 0xFFFFB0B3) 时间信号波形不包含正确数量的数据点以继续平均过程。
+</nierror>
+<nierror code="-20207">
+分析: (Hex 0xFFFFB111) 上限小于下限。
+</nierror>
+<nierror code="-20206">
+分析: (Hex 0xFFFFB112) 移位：n为负数。
+</nierror>
+<nierror code="-20205">
+分析: (Hex 0xFFFFB113) 样本长度小于窗长度。
+</nierror>
+<nierror code="-20204">
+分析: (Hex 0xFFFFB114) 窗长度为非正。
+</nierror>
+<nierror code="-20203">
+分析: (Hex 0xFFFFB115) 时间增量为非正。
+</nierror>
+<nierror code="-20202">
+分析: (Hex 0xFFFFB116) 样本长度为负。
+</nierror>
+<nierror code="-20201">
+分析: (Hex 0xFFFFB117) 样本长度为非正。
+</nierror>
+<nierror code="-20167">
+分析: (Hex 0xFFFFB139) Y值数组的元素必须全为正或全为负。
+</nierror>
+<nierror code="-20166">
+分析: (Hex 0xFFFFB13A) 每个单元格中的观测量必须大于等于2。
+</nierror>
+<nierror code="-20165">
+分析: (Hex 0xFFFFB13B) 初始条件与PDE类输入冲突。
+</nierror>
+<nierror code="-20164">
+分析: (Hex 0xFFFFB13C) 边界条件与PDE类输入冲突。
+</nierror>
+<nierror code="-20163">
+分析: (Hex 0xFFFFB13D) 域与PDE类输入冲突。
+</nierror>
+<nierror code="-20162">
+分析: (Hex 0xFFFFB13E) PDE的右侧与PDE类输入冲突。
+</nierror>
+<nierror code="-20161">
+分析: (Hex 0xFFFFB13F) 方程与PDE类输入冲突。
+</nierror>
+<nierror code="-20158">
+分析: (Hex 0xFFFFB142) PDE初始状态的大小与域上网格的大小不兼容。
+</nierror>
+<nierror code="-20157">
+分析: (Hex 0xFFFFB143) PDE边界状态的大小与域上网格的大小不兼容。
+</nierror>
+<nierror code="-20156">
+分析: (Hex 0xFFFFB144) PDE右侧的大小与域上的网格大小不兼容。
+</nierror>
+<nierror code="-20155">
+分析: (Hex 0xFFFFB145) 在多边形域中，边界点的数量必须大于或等于3。
+</nierror>
+<nierror code="-20154">
+分析: (Hex 0xFFFFB146) 多边形域上的网格点数为0。
+</nierror>
+<nierror code="-20153">
+分析: (Hex 0xFFFFB147) 空间点数必须大于等于3。
+</nierror>
+<nierror code="-20152">
+分析: (Hex 0xFFFFB148) 时间点数必须大于等于2。
+</nierror>
+<nierror code="-20151">
+分析: (Hex 0xFFFFB149) 最终点或终点必须大于初始点或起始点。
+</nierror>
+<nierror code="-20145">
+分析: (Hex 0xFFFFB14F) 每个自变量必须包含与因变量相同数量的值。
+</nierror>
+<nierror code="-20144">
+分析: (Hex 0xFFFFB150) 内插因子必须大于或等于数据大小。
+</nierror>
+<nierror code="-20143">
+分析: (Hex 0xFFFFB151) 输入值超出其可接受的域。
+</nierror>
+<nierror code="-20142">
+分析: (Hex 0xFFFFB152) 插值(xi, yi, ...) 的域位置必须包含相同的维数和大小。
+</nierror>
+<nierror code="-20141">
+分析: (Hex 0xFFFFB153) 输入必须为非零。
+</nierror>
+<nierror code="-20140">
+分析: (Hex 0xFFFFB154) 输入必须大于0。
+</nierror>
+<nierror code="-20132">
+分析: (Hex 0xFFFFB15C) 输入波形有不同的t0。
+</nierror>
+<nierror code="-20131">
+分析: (Hex 0xFFFFB15D) 阶数必须小于等于度。
+</nierror>
+<nierror code="-20130">
+分析: (Hex 0xFFFFB15E) 输入不是质数。
+</nierror>
+<nierror code="-20129">
+分析: (Hex 0xFFFFB15F) 输入数组的大小不是基数的幂。
+</nierror>
+<nierror code="-20128">
+分析: (Hex 0xFFFFB160) Hadamard矩阵的大小不符合大小要求。有效的矩阵大小是2^k、12*2^k、20*2^k，k > 0。
+</nierror>
+<nierror code="-20127">
+分析: (Hex 0xFFFFB161) 样本数小于未知参数的数量。
+</nierror>
+<nierror code="-20126">
+分析: (Hex 0xFFFFB162) 分析工作区中没有足够的空间来执行指定的流程。
+</nierror>
+<nierror code="-20125">
+分析: (Hex 0xFFFFB163) 分析工作区无法解锁。
+</nierror>
+<nierror code="-20124">
+分析: (Hex 0xFFFFB164) 分析工作区已锁定。
+</nierror>
+<nierror code="-20123">
+分析: (Hex 0xFFFFB165) 分析工作区不为空。
+</nierror>
+<nierror code="-20122">
+分析: (Hex 0xFFFFB166) 分析工作区为空。
+</nierror>
+<nierror code="-20121">
+分析: (Hex 0xFFFFB167) 分析工作区已经启用。
+</nierror>
+<nierror code="-20120">
+分析: (Hex 0xFFFFB168) 分析工作空间的大小已经设置完毕。
+</nierror>
+<nierror code="-20119">
+分析: (Hex 0xFFFFB169) 样本数不等于3。
+</nierror>
+<nierror code="-20118">
+分析: (Hex 0xFFFFB16A) 输入大于1或小于-1。
+</nierror>
+<nierror code="-20117">
+分析: (Hex 0xFFFFB16B) 显著性丢失。
+</nierror>
+<nierror code="-20116">
+分析: (Hex 0xFFFFB16C) 找不到可行解决方案
+</nierror>
+<nierror code="-20115">
+分析: (Hex 0xFFFFB16D) FFT大小必须大于0。
+</nierror>
+<nierror code="-20114">
+分析: (Hex 0xFFFFB16E) 连接到多项式实零点个数VI的起始值大于结束值。
+</nierror>
+<nierror code="-20113">
+分析: (Hex 0xFFFFB16F) 连接到多项式实零点个数VI的结束值为根。
+</nierror>
+<nierror code="-20112">
+分析: (Hex 0xFFFFB170) 连接到多项式实零点个数VI的起始值为根。
+</nierror>
+<nierror code="-20111">
+分析: (Hex 0xFFFFB171) 输入多项式系数全为零。
+</nierror>
+<nierror code="-20108">
+分析: (Hex 0xFFFFB174) 输入多边形是非凸的或不简单的。
+</nierror>
+<nierror code="-20107">
+分析: (Hex 0xFFFFB175) 数值超出范围。有效范围是[0, pi]。
+</nierror>
+<nierror code="-20106">
+分析: (Hex 0xFFFFB176) 数值超出范围。有效范围是[0, pi/2]。
+</nierror>
+<nierror code="-20105">
+分析: (Hex 0xFFFFB177) 数值超出范围。有效范围是[0, 1]。
+</nierror>
+<nierror code="-20104">
+分析: (Hex 0xFFFFB178) 输入参数至少有一个NaN元素。
+</nierror>
+<nierror code="-20103">
+分析: (Hex 0xFFFFB179) 阶数必须大于等于零。
+</nierror>
+<nierror code="-20102">
+分析: (Hex 0xFFFFB17A) 移位必须满足|移位| < 采样
+</nierror>
+<nierror code="-20101">
+分析: (Hex 0xFFFFB17B) 参数的最大值必须大于参数的最小值。
+</nierror>
+<nierror code="-20099">
+分析: (Hex 0xFFFFB17D) AR阶数必须大于等于复数正弦曲线的数量。
+</nierror>
+<nierror code="-20098">
+分析: (Hex 0xFFFFB17E) AR阶数不得大于采样数量的三分之二。
+</nierror>
+<nierror code="-20097">
+分析: (Hex 0xFFFFB17F) 复数正弦曲线的数量不能大于采样数量的三分之二。
+</nierror>
+<nierror code="-20096">
+分析: (Hex 0xFFFFB180) AR阶数必须大于0。
+</nierror>
+<nierror code="-20095">
+分析: (Hex 0xFFFFB181) 复数正弦曲线的数量必须大于等于0。
+</nierror>
+<nierror code="-20094">
+分析: (Hex 0xFFFFB182) 初始或最终条件数组的大小不正确。
+</nierror>
+<nierror code="-20093">
+分析: (Hex 0xFFFFB183) df必须大于0。
+</nierror>
+<nierror code="-20092">
+分析: (Hex 0xFFFFB184) 双重功能不存在。
+</nierror>
+<nierror code="-20091">
+分析: (Hex 0xFFFFB185) Gabor系数数组不具有正确的维度。
+</nierror>
+<nierror code="-20090">
+分析: (Hex 0xFFFFB186) Gabor频谱图的阶数必须大于等于0。
+</nierror>
+<nierror code="-20089">
+分析: (Hex 0xFFFFB187) 过采样率N / dM必须大于等于1。
+</nierror>
+<nierror code="-20088">
+分析: (Hex 0xFFFFB188) 分析或合成窗的长度必须可以被频率区间的数量N均匀分割，N必须是2的幂。
+</nierror>
+<nierror code="-20087">
+分析: (Hex 0xFFFFB189) 分析或合成窗的长度必须可以被Gabor时间采样间隔dM均匀分割。
+</nierror>
+<nierror code="-20086">
+分析: (Hex 0xFFFFB18A) 窗长度必须大于2，并且是2的幂。
+</nierror>
+<nierror code="-20085">
+分析: (Hex 0xFFFFB18B) 输入数组及其希尔伯特变换的大小必须相等。
+</nierror>
+<nierror code="-20084">
+分析: (Hex 0xFFFFB18C) 时间增量不能大于（窗长度）/4。
+</nierror>
+<nierror code="-20083">
+分析: (Hex 0xFFFFB18D) 窗长度必须大于4，并且是2的幂。
+</nierror>
+<nierror code="-20082">
+分析: (Hex 0xFFFFB18E) 时间增量不能大于dM。
+</nierror>
+<nierror code="-20081">
+分析: (Hex 0xFFFFB18F) dN或时间间隔必须大于零。
+</nierror>
+<nierror code="-20080">
+分析: (Hex 0xFFFFB190) 时间增量必须大于（窗长度）/16
+</nierror>
+<nierror code="-20079">
+分析: (Hex 0xFFFFB191) 种子无效。
+</nierror>
+<nierror code="-20078">
+分析: (Hex 0xFFFFB192) 该平台不支持该功能。
+</nierror>
+<nierror code="-20077">
+分析: (Hex 0xFFFFB193) 时间点未按按升序排列。
+</nierror>
+<nierror code="-20076">
+分析: (Hex 0xFFFFB194) 重采样点不能用输入信号后面的信号计算出来。
+</nierror>
+<nierror code="-20075">
+分析: (Hex 0xFFFFB195) 滤波器缓冲区溢出。
+</nierror>
+<nierror code="-20074">
+分析: (Hex 0xFFFFB196) 重新排列特征值改变了一些复杂的特征值。
+</nierror>
+<nierror code="-20073">
+分析: (Hex 0xFFFFB197) 特征值无法重新排序，因为其中一些值太近。
+</nierror>
+<nierror code="-20072">
+分析: (Hex 0xFFFFB198) 不能计算输入矩阵的对数。
+</nierror>
+<nierror code="-20071">
+分析: (Hex 0xFFFFB199) 输入矩阵不是正定。
+</nierror>
+<nierror code="-20070">
+分析: (Hex 0xFFFFB19A) 矩阵必须具有相同的大小。
+</nierror>
+<nierror code="-20069">
+分析: (Hex 0xFFFFB19B) 采样数必须大于或等于0。
+</nierror>
+<nierror code="-20068">
+分析: (Hex 0xFFFFB19C) 输入参数至少有一个元素的值为Inf，NaN，DBL_MAX，或DBL_MIN。
+</nierror>
+<nierror code="-20067">
+分析: (Hex 0xFFFFB19D) 输入基频或采样率等于零。
+</nierror>
+<nierror code="-20066">
+分析: (Hex 0xFFFFB19E) IIR滤波器结构信息不正确。
+</nierror>
+<nierror code="-20065">
+分析: (Hex 0xFFFFB19F) 向量中的元素不能全部为0。
+</nierror>
+<nierror code="-20064">
+分析: (Hex 0xFFFFB1A0) 该功能的内部存储器状态未正确初始化。
+</nierror>
+<nierror code="-20063">
+分析: (Hex 0xFFFFB1A1) 多项式的系数无效。
+</nierror>
+<nierror code="-20062">
+分析: (Hex 0xFFFFB1A2) 超过最大迭代次数。
+</nierror>
+<nierror code="-20061">
+分析: (Hex 0xFFFFB1A3) 选择无效。
+</nierror>
+<nierror code="-20060">
+分析: (Hex 0xFFFFB1A4) 除数不能为0。
+</nierror>
+<nierror code="-20059">
+分析: (Hex 0xFFFFB1A5) 负数错误
+</nierror>
+<nierror code="-20058">
+分析: (Hex 0xFFFFB1A6) 维数或因变量数量无效
+</nierror>
+<nierror code="-20057">
+分析: (Hex 0xFFFFB1A7) beta函数的参数应0 < p < 1
+</nierror>
+<nierror code="-20056">
+分析: (Hex 0xFFFFB1A8) 应变表有负数。
+</nierror>
+<nierror code="-20055">
+分析: (Hex 0xFFFFB1A9) 类别或样本的数量必须大于1。
+</nierror>
+<nierror code="-20054">
+分析: (Hex 0xFFFFB1AA) 概率必须大于或等于0并小于1。
+</nierror>
+<nierror code="-20053">
+分析: (Hex 0xFFFFB1AB) 数值必须在0到1之间。
+</nierror>
+<nierror code="-20052">
+分析: (Hex 0xFFFFB1AC) 自由度必须大于零且小于输入序列的长度。
+</nierror>
+<nierror code="-20051">
+分析: (Hex 0xFFFFB1AD) X矩阵第一列中的所有值都必须为1。
+</nierror>
+<nierror code="-20050">
+分析: (Hex 0xFFFFB1AE) 插值函数具有所请求值的极点。
+</nierror>
+<nierror code="-20049">
+分析: (Hex 0xFFFFB1AF) x值必须是不同的。
+</nierror>
+<nierror code="-20048">
+分析: (Hex 0xFFFFB1B0) 当需要固定效应模型时，请求了随机效应模型。
+</nierror>
+<nierror code="-20047">
+分析: (Hex 0xFFFFB1B1) 数据不平衡。所有单元格必须包含相同数量的观察点。
+</nierror>
+<nierror code="-20046">
+分析: (Hex 0xFFFFB1B2) 计算中有溢出。
+</nierror>
+<nierror code="-20045">
+分析: (Hex 0xFFFFB1B3) 数据点的总数必须等于每个层次乘以每个单元的观察点数。
+</nierror>
+<nierror code="-20044">
+分析: (Hex 0xFFFFB1B4) 对某些层次的因数进行0观测。
+</nierror>
+<nierror code="-20043">
+分析: (Hex 0xFFFFB1B5) 因数的层次已超出数据允许的范围。
+</nierror>
+<nierror code="-20042">
+分析: (Hex 0xFFFFB1B6) 层次数量已超出范围。
+</nierror>
+<nierror code="-20041">
+分析: (Hex 0xFFFFB1B7) 由于输入矩阵是奇异的，所以方程组不能解决。
+</nierror>
+<nierror code="-20040">
+分析: (Hex 0xFFFFB1B8) 输入矩阵必须是方阵。
+</nierror>
+<nierror code="-20039">
+分析: (Hex 0xFFFFB1B9) 第一个矩阵中的列数不等于第二个矩阵或向量中的行数。
+</nierror>
+<nierror code="-20038">
+分析: (Hex 0xFFFFB1BA) 间隔数必须大于等于0。
+</nierror>
+<nierror code="-20037">
+分析: (Hex 0xFFFFB1BB) Y值数组中的数据点数必须大于阶数。
+</nierror>
+<nierror code="-20036">
+分析: (Hex 0xFFFFB1BC) X值数组的元素必须全为正或全为负。
+</nierror>
+<nierror code="-20035">
+分析: (Hex 0xFFFFB1BD) 标准差必须大于0才能进行归一化。
+</nierror>
+<nierror code="-20034">
+分析: (Hex 0xFFFFB1BE) 该滤波器的系数数量必须为偶数。
+</nierror>
+<nierror code="-20033">
+分析: (Hex 0xFFFFB1BF) 该滤波器的系数数量必须为奇数。
+</nierror>
+<nierror code="-20032">
+分析: (Hex 0xFFFFB1C0) 滤波器的左阶数必须满足：左阶数≥0。
+滤波器的右阶数必须满足：右阶数<大小。
+</nierror>
+<nierror code="-20031">
+分析: (Hex 0xFFFFB1C1) 滤波器不能用指定的输入值进行设计。
+</nierror>
+<nierror code="-20030">
+分析: (Hex 0xFFFFB1C2) 泄漏系数、泄漏以及步长参数u必须满足：0 <= leak <= u。
+</nierror>
+<nierror code="-20029">
+分析: (Hex 0xFFFFB1C3) 步长u必须满足：0 ≤ u ≤ 0.1。
+</nierror>
+<nierror code="-20028">
+分析: (Hex 0xFFFFB1C4) 衰减值必须大于纹波幅度。
+</nierror>
+<nierror code="-20027">
+分析: (Hex 0xFFFFB1C5) 最终值必须大于0。
+</nierror>
+<nierror code="-20026">
+分析: (Hex 0xFFFFB1C6) 宽度必须大于0。
+</nierror>
+<nierror code="-20025">
+分析: (Hex 0xFFFFB1C7) 衰减必须大于0。
+</nierror>
+<nierror code="-20024">
+分析: (Hex 0xFFFFB1C8) 纹波幅度必须大于0。
+</nierror>
+<nierror code="-20023">
+分析: (Hex 0xFFFFB1C9) 必须满足下列条件：0 < f_low <= f_high <= fs/2。
+</nierror>
+<nierror code="-20022">
+分析: (Hex 0xFFFFB1CA) 降采样因子必须满足：0 <降采样因子 <=采样。
+</nierror>
+<nierror code="-20021">
+分析: (Hex 0xFFFFB1CB) 阶数必须大于0。
+</nierror>
+<nierror code="-20020">
+分析: (Hex 0xFFFFB1CC) 截止频率fc必须满足：0 <= fc <= fs/2。
+</nierror>
+<nierror code="-20019">
+分析: (Hex 0xFFFFB1CD) 较高的值必须大于等于较低的值。
+</nierror>
+<nierror code="-20018">
+分析: (Hex 0xFFFFB1CE) 必须满足下列条件：0 ≤ (索引 + 长度) < 采样。
+</nierror>
+<nierror code="-20017">
+分析: (Hex 0xFFFFB1CF) 必须满足下列条件：0 <=索引 < 采样。
+</nierror>
+<nierror code="-20016">
+分析: (Hex 0xFFFFB1D0) dt必须大于0。
+</nierror>
+<nierror code="-20015">
+分析: (Hex 0xFFFFB1D1) dt必须大于等于0。
+</nierror>
+<nierror code="-20014">
+分析: (Hex 0xFFFFB1D2) 必须满足下列条件：0 <= (延迟 + 宽度) < 采样。
+</nierror>
+<nierror code="-20013">
+分析: (Hex 0xFFFFB1D3) 宽度必须满足0 < 宽度 < 采样。
+</nierror>
+<nierror code="-20012">
+分析: (Hex 0xFFFFB1D4) 周期数必须大于0且小于等于采样数。
+</nierror>
+<nierror code="-20011">
+分析: (Hex 0xFFFFB1D5) 占空比必须等于或介于0到100：0 ≤ 占空比≤ 100。
+</nierror>
+<nierror code="-20010">
+分析: (Hex 0xFFFFB1D6) 已超过最大允许变换大小。
+</nierror>
+<nierror code="-20009">
+分析: (Hex 0xFFFFB1D7) 输入数组的大小必须为2的幂：大小= 2^m, 0 < m < 23。
+</nierror>
+<nierror code="-20008">
+分析: (Hex 0xFFFFB1D8) 输入数组不包含该函数的数据值的正确数量。
+</nierror>
+<nierror code="-20007">
+分析: (Hex 0xFFFFB1D9) 采样数必须大于等于3。
+</nierror>
+<nierror code="-20006">
+分析: (Hex 0xFFFFB1DA) 采样数必须大于等于2。
+</nierror>
+<nierror code="-20005">
+分析: (Hex 0xFFFFB1DB) 采样数必须大于等于1。
+</nierror>
+<nierror code="-20004">
+分析: (Hex 0xFFFFB1DC) 采样数必须大于等于0。
+</nierror>
+<nierror code="-20003">
+分析: (Hex 0xFFFFB1DD) 采样数必须大于0。
+</nierror>
+<nierror code="-20002">
+分析: (Hex 0xFFFFB1DE) 输入序列的大小必须相同。
+</nierror>
+<nierror code="-20001">
+分析: (Hex 0xFFFFB1DF) 没有足够的内存来执行指定的流程。
+</nierror>
+<nierror code="20001">
+分析: (Hex 0x4E21) 矩阵是不满秩的。
+</nierror>
+<nierror code="20002">
+分析: (Hex 0x4E22) 采样数必须大于等于0。
+</nierror>
+<nierror code="20003">
+分析: (Hex 0x4E23) 矩阵是奇异的。
+</nierror>
+<nierror code="20004">
+分析: (Hex 0x4E24) 矩阵或向量不具有相同的大小。
+</nierror>
+<nierror code="20005">
+分析: (Hex 0x4E25) LabVIEW不能重新排序广义特征值。
+</nierror>
+<nierror code="20006">
+分析: (Hex 0x4E26) 计算结果可能不准确。
+</nierror>
+<nierror code="20007">
+分析: (Hex 0x4E27) 输入是无效的Cholesky因式分解。
+</nierror>
+<nierror code="20008">
+分析: (Hex 0x4E28) 矩阵不是正定。
+</nierror>
+<nierror code="20010">
+分析: (Hex 0x4E2A) 输入数组的大小不符合规定的条件。
+</nierror>
+<nierror code="20011">
+分析: (Hex 0x4E2B) 输入标准差无效。
+</nierror>
+<nierror code="20012">
+分析: (Hex 0x4E2C) 输入多项式为空。
+</nierror>
+<nierror code="20020">
+分析: (Hex 0x4E34) 一些频率违反Nyquist标准。
+</nierror>
+<nierror code="20021">
+分析: (Hex 0x4E35) 状态级别的测量可能不准确，这导致其他测量的不准确。
+</nierror>
+<nierror code="20030">
+分析: (Hex 0x4E3E) 输入矩阵具有至少一个值为Inf或NaN的元素。
+</nierror>
+<nierror code="20031">
+分析: (Hex 0x4E3F) 已超过最大允许阶数。
+</nierror>
+<nierror code="20307">
+分析: (Hex 0x4F53) 频率被强制转换为最接近的（采样率）/样本的倍数。
+</nierror>
+<nierror code="20334">
+分析: (Hex 0x4F6E) 波形不重叠。
+</nierror>
+<nierror code="20351">
+分析: (Hex 0x4F7F) 平均过程自动重启，以响应平均参数的变化。
+</nierror>
+<nierror code="20352">
+分析: (Hex 0x4F80) 当前和此前的波形不连续。
+</nierror>
+<nierror code="20353">
+分析: (Hex 0x4F81) 当前dt和此前dt不等。
+</nierror>
+<nierror code="20354">
+分析: (Hex 0x4F82) 该算法由于达到最大循环次数而停止。
+</nierror>
+</nidocument>

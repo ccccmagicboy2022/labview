@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="LabVIEW WSN" familyname="LabVIEW WSN">
+</nifamily>
+</nicomment>
+<nierror code="-25399">
+LabVIEW WSN: (Hex 0xFFFF9CC9) 最后一个LV WSN错误。此路不通。
+</nierror>
+<nierror code="-25339">
+LabVIEW WSN: (Hex 0xFFFF9D05) 在调用此函数之前，您必须启用串行端口接收器电源，否则不能读取新的数据。
+</nierror>
+<nierror code="-25338">
+LabVIEW WSN: (Hex 0xFFFF9D06) 该设备不支持一次性从串行端口读取或写入指定数量的字节。
+</nierror>
+<nierror code="-25337">
+LabVIEW WSN: (Hex 0xFFFF9D07) 指定的字节数无法在指定的超时时间内读取或写入。
+</nierror>
+<nierror code="-25336">
+LabVIEW WSN: (Hex 0xFFFF9D08) 此设备不支持指定的串行端口配置。
+</nierror>
+<nierror code="-25327">
+LabVIEW WSN: (Hex 0xFFFF9D11) 用户RAM不足。
+</nierror>
+<nierror code="-25326">
+LabVIEW WSN: (Hex 0xFFFF9D12) 无效的用户RAM引用句柄。
+</nierror>
+<nierror code="-25325">
+LabVIEW WSN: (Hex 0xFFFF9D13) 验证用户内存失败。
+</nierror>
+<nierror code="-25324">
+LabVIEW WSN: (Hex 0xFFFF9D14) 无法写入用户内存。
+</nierror>
+<nierror code="-25323">
+LabVIEW WSN: (Hex 0xFFFF9D15) 无法写入用户内存，因为该位置不为空。
+</nierror>
+<nierror code="-25322">
+LabVIEW WSN: (Hex 0xFFFF9D16) 用户内存超出界限。该操作指定了用户内存扇区外的位置。
+</nierror>
+<nierror code="-25321">
+LabVIEW WSN: (Hex 0xFFFF9D17) 无法擦除指定的用户内存扇区。
+</nierror>
+<nierror code="-25320">
+LabVIEW WSN: (Hex 0xFFFF9D18) 空指针异常。
+</nierror>
+<nierror code="-25313">
+LabVIEW WSN: (Hex 0xFFFF9D1F) 内部错误：硬件故障。
+</nierror>
+<nierror code="-25312">
+LabVIEW WSN: (Hex 0xFFFF9D20) 未连接节点。
+</nierror>
+<nierror code="-25311">
+LabVIEW WSN: (Hex 0xFFFF9D21) 参数无效。
+</nierror>
+<nierror code="-25310">
+LabVIEW WSN: (Hex 0xFFFF9D22) 用户信息丢失。
+</nierror>
+<nierror code="-25309">
+LabVIEW WSN: (Hex 0xFFFF9D23) 无线故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25308">
+LabVIEW WSN: (Hex 0xFFFF9D24) 闪存故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25307">
+LabVIEW WSN: (Hex 0xFFFF9D25) 命令队列溢出：发生内部错误。请通过ni.com/support联系NI以获取技术支持。
+</nierror>
+<nierror code="-25306">
+LabVIEW WSN: (Hex 0xFFFF9D26) 数字输出线故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25305">
+LabVIEW WSN: (Hex 0xFFFF9D27) ADC故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25304">
+LabVIEW WSN: (Hex 0xFFFF9D28) CJC故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25303">
+LabVIEW WSN: (Hex 0xFFFF9D29) SPI通信失败：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25302">
+LabVIEW WSN: (Hex 0xFFFF9D2A) 串行接收失败：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25301">
+LabVIEW WSN: (Hex 0xFFFF9D2B) 串行传输失败：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25300">
+LabVIEW WSN: (Hex 0xFFFF9D2C) LabVIEW无线传感器网络模块发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25283">
+LabVIEW WSN: (Hex 0xFFFF9D3D) 节点ID不在网关的节点表中。
+</nierror>
+<nierror code="-25282">
+LabVIEW WSN: (Hex 0xFFFF9D3E) 消息引用无效。
+</nierror>
+<nierror code="-25281">
+LabVIEW WSN: (Hex 0xFFFF9D3F) 节点引用无效。
+</nierror>
+<nierror code="-25280">
+LabVIEW WSN: (Hex 0xFFFF9D40) 网关引用无效。
+</nierror>
+<nierror code="-25254">
+LabVIEW WSN: (Hex 0xFFFF9D5A) 连接超时。网关可能处于不良状态。
+</nierror>
+<nierror code="-25253">
+LabVIEW WSN: (Hex 0xFFFF9D5B) 双重界面登录：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25252">
+LabVIEW WSN: (Hex 0xFFFF9D5C) 从网关收到不兼容或已损坏的数据。
+</nierror>
+<nierror code="-25251">
+LabVIEW WSN: (Hex 0xFFFF9D5D) 内存错误。无法释放已用内存。
+</nierror>
+<nierror code="-25250">
+LabVIEW WSN: (Hex 0xFFFF9D5E) 内存分配失败。
+</nierror>
+<nierror code="-25230">
+LabVIEW WSN: (Hex 0xFFFF9D72) 请求处理器无法解序列化请求。如果协议版本不兼容或数据损坏，则可能会发生此错误。
+</nierror>
+<nierror code="-25229">
+LabVIEW WSN: (Hex 0xFFFF9D73) 请求处理器无法解序列化请求。如果协议版本不兼容，则可能会发生此错误。
+</nierror>
+<nierror code="-25228">
+LabVIEW WSN: (Hex 0xFFFF9D74) 请求由于未处理的异常而终止。
+</nierror>
+<nierror code="-25227">
+LabVIEW WSN: (Hex 0xFFFF9D75) 内存分配失败。
+</nierror>
+<nierror code="-25226">
+LabVIEW WSN: (Hex 0xFFFF9D76) 客户端被拒绝访问。
+</nierror>
+<nierror code="-25225">
+LabVIEW WSN: (Hex 0xFFFF9D77) 客户端中止了连接。
+</nierror>
+<nierror code="-25224">
+LabVIEW WSN: (Hex 0xFFFF9D78) 网络通信失败。
+</nierror>
+<nierror code="-25223">
+LabVIEW WSN: (Hex 0xFFFF9D79) 连接超时。
+</nierror>
+<nierror code="-25222">
+LabVIEW WSN: (Hex 0xFFFF9D7A) 无法连接到命名服务。
+</nierror>
+<nierror code="-25221">
+LabVIEW WSN: (Hex 0xFFFF9D7B) 无法连接到命名网关。
+</nierror>
+<nierror code="-25220">
+LabVIEW WSN: (Hex 0xFFFF9D7C) 一般连接错误。
+</nierror>
+<nierror code="-25200">
+LabVIEW WSN: (Hex 0xFFFF9D90) 第一个LV WSN错误
+</nierror>
+<nierror code="21100">
+LabVIEW WSN: (Hex 0x526C) 第一个LV WSN警告
+</nierror>
+<nierror code="21240">
+LabVIEW WSN: (Hex 0x52F8) 串口接收器在线路上接收到中断条件。
+</nierror>
+<nierror code="21241">
+LabVIEW WSN: (Hex 0x52F9) 在检测到指定的终止字符串之前，从串行端口读取指定的字节数。
+</nierror>
+<nierror code="21299">
+LabVIEW WSN: (Hex 0x5333) 最后一个LV WSN警告。
+</nierror>
+</nidocument>
