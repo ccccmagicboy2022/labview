@@ -1,0 +1,1019 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Analysis" displayname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23096">
+Analysis:  너무 많은 소수점.
+</nierror>
+<nierror code="-23095">
+Analysis:  유효한 함수가 아님.
+</nierror>
+<nierror code="-23094">
+Analysis:  불완전한 함수식.
+</nierror>
+<nierror code="-23093">
+Analysis:  불완전한 식.
+</nierror>
+<nierror code="-23092">
+Analysis:  변수 출력 문제.
+</nierror>
+<nierror code="-23091">
+Analysis:  변수나 숫자의 불일치.
+</nierror>
+<nierror code="-23090">
+Analysis:  하나 이상의 변수를 가지고 있습니다.
+</nierror>
+<nierror code="-23089">
+Analysis:  변수를 가지고 있습니다.
+</nierror>
+<nierror code="-23088">
+Analysis:  잘못된 변수 이름.
+</nierror>
+<nierror code="-23087">
+Analysis:  수식에 잘못된 글자나 정의되지 않은 변수가 있습니다.
+</nierror>
+<nierror code="-23086">
+Analysis:  잘못된 함수 호출.
+</nierror>
+<nierror code="-23085">
+Analysis:  잘못된 숫자 포맷.
+</nierror>
+<nierror code="-23084">
+Analysis:  잘못된 소수점.
+</nierror>
+<nierror code="-23083">
+Analysis:  오른쪽에 괄호 문제.
+</nierror>
+<nierror code="-23082">
+Analysis:  왼쪽에 괄호 문제.
+</nierror>
+<nierror code="-23081">
+Analysis:  괄호 문제.
+</nierror>
+<nierror code="-23055">
+Analysis:  범위를 벗어난 인수[0,1).
+</nierror>
+<nierror code="-23054">
+Analysis:  유일한 변수가 아님.
+</nierror>
+<nierror code="-23053">
+Analysis:  신호 길이가 2의 거듭제곱이 아니고 >= 4.
+</nierror>
+<nierror code="-23052">
+Analysis:  신호 길이가 소수가 아니고 >= 5.
+</nierror>
+<nierror code="-23051">
+Analysis:  신호 길이가 2의 거듭제곱이 아님.
+</nierror>
+<nierror code="-23050">
+Analysis:  신호 길이가 숫자의 배수가 아님.
+</nierror>
+<nierror code="-23049">
+Analysis:  유효하지 않은 윈도우 길이.
+</nierror>
+<nierror code="-23048">
+Analysis:  유효하지 않은 증분.
+</nierror>
+<nierror code="-23047">
+Analysis:  인수가 [0,100]의 범위를 벗어났습니다.
+</nierror>
+<nierror code="-23046">
+Analysis:  빈 배열.
+</nierror>
+<nierror code="-23045">
+Analysis:  n < k
+</nierror>
+<nierror code="-23044">
+Analysis:  범위를 벗어난 인수[0,1].
+</nierror>
+<nierror code="-23043">
+Analysis:  범위를 벗어난 인수(0,1].
+</nierror>
+<nierror code="-23042">
+Analysis:  음의 인수.
+</nierror>
+<nierror code="-23041">
+Analysis:  정확히 두 개의 변수가 아님.
+</nierror>
+<nierror code="-23040">
+Analysis:  범위를 벗어난 도함수.
+</nierror>
+<nierror code="-23039">
+Analysis:  파라미터 문제.
+</nierror>
+<nierror code="-23038">
+Analysis:  식에 변수가 없음.
+</nierror>
+<nierror code="-23037">
+Analysis:  정확히 두 개의 함수가 아님.
+</nierror>
+<nierror code="-23036">
+Analysis:  다른 파라미터.
+</nierror>
+<nierror code="-23035">
+Analysis:  양의 값이 아닌 수.
+</nierror>
+<nierror code="-23034">
+Analysis:  잘못된 조건의 시스템.
+</nierror>
+<nierror code="-23033">
+Analysis:  벡터가 다른 차원이나 비어 있는 벡터를 가지고 있습니다.
+</nierror>
+<nierror code="-23032">
+Analysis:  최대값이 존재하지 않습니다.
+</nierror>
+<nierror code="-23031">
+Analysis:  유효한 포인트가 아님.
+</nierror>
+<nierror code="-23030">
+Analysis:  m >= n >= 0을 위반했거나 도함수의 행렬이 잘못된 차원을 가지고 있습니다.
+</nierror>
+<nierror code="-23029">
+Analysis:  레벤버그-마르카토 VI가 실패했습니다.
+</nierror>
+<nierror code="-23028">
+Analysis:  잘못된 모델 방정식.
+</nierror>
+<nierror code="-23027">
+Analysis:  정확히 하나의 변수가 아님.
+</nierror>
+<nierror code="-23026">
+Analysis:  최적값을 찾을 수 없음.
+</nierror>
+<nierror code="-23025">
+Analysis:  유효하지 않은 세 포인트(a, b, c).
+</nierror>
+<nierror code="-23024">
+Analysis:  근을 찾을 수 없음.
+</nierror>
+<nierror code="-23023">
+Analysis:  잘못된 시작 차원.
+</nierror>
+<nierror code="-23022">
+Analysis:  양수가 아닌 정확도나 양수가 아닌 델타 x(h).
+</nierror>
+<nierror code="-23021">
+Analysis:  두 개의 함수값이 같은 부호를 가집니다.
+</nierror>
+<nierror code="-23020">
+Analysis:  오른쪽 포인트보다 더 큰 왼쪽 포인트.
+</nierror>
+<nierror code="-23019">
+Analysis:  오른쪽 포인트는 근입니다.
+</nierror>
+<nierror code="-23018">
+Analysis:  왼쪽 포인트는 근입니다.
+</nierror>
+<nierror code="-23017">
+Analysis:  여러 근.
+</nierror>
+<nierror code="-23016">
+Analysis:  하나의 고유 벡터 행렬.
+</nierror>
+<nierror code="-23015">
+Analysis:  비어있는 X0.
+</nierror>
+<nierror code="-23014">
+Analysis:  A와 X0는 다른 차원을 가집니다.
+</nierror>
+<nierror code="-23013">
+Analysis:  행렬 벡터 충돌.
+</nierror>
+<nierror code="-23012">
+Analysis:  양수가 아닌 정확도.
+</nierror>
+<nierror code="-23011">
+Analysis:  양수가 아닌 단계 속도.
+</nierror>
+<nierror code="-23010">
+Analysis:  잘못된 입력, 캐쉬 카프 메소드.
+</nierror>
+<nierror code="-23009">
+Analysis:  잘못된 입력, 룽게 쿠타 메소드.
+</nierror>
+<nierror code="-23008">
+Analysis:  잘못된 입력, 오일러 방법.
+</nierror>
+<nierror code="-23007">
+Analysis:  그래프 파일이 아님.
+</nierror>
+<nierror code="-23006">
+Analysis:  유효한 경로가 아님.
+</nierror>
+<nierror code="-23005">
+Analysis:  음의 거리.
+</nierror>
+<nierror code="-23004">
+Analysis:  범위를 벗어난 색 팔레트의 수.
+</nierror>
+<nierror code="-23003">
+Analysis:  범위를 벗어난 contour의 수.
+</nierror>
+<nierror code="-23002">
+Analysis:  함수, 변수, 좌표간의 불일치.
+</nierror>
+<nierror code="-23001">
+Analysis:  분석의 구문 에러.
+</nierror>
+<nierror code="-23000">
+Analysis:  공학 수학의 시작 에러 코드.
+</nierror>
+<nierror code="-20999">
+Analysis:  심각한 알고리즘 실패 발생. National Instruments에 문의하십시오.
+</nierror>
+<nierror code="-20699">
+Analysis:  웨이브렛 필터 뱅크의 데이터 파일 포맷이 유효하지 않습니다.
+</nierror>
+<nierror code="-20698">
+Analysis:  웨이브렛 필터 뱅크의 데이터 파일을 열 수 없습니다.
+</nierror>
+<nierror code="-20697">
+Analysis:  웨이브렛 패킷 세션 또는 핸들이 전체 트리를 참조해야 합니다.
+</nierror>
+<nierror code="-20696">
+Analysis:  웨이브렛 패킷 핸들 또는 세션이 유효하지 않거나 참조하는 데이터 공간에 필요한 정보가 있지 않습니다.
+</nierror>
+<nierror code="-20695">
+Analysis:  웨이브렛 계수의 유효하지 않은 차원.
+</nierror>
+<nierror code="-20694">
+Analysis:  최적 경로를 찾는데 유효하지 않은 옵션 파라미터.
+</nierror>
+<nierror code="-20693">
+Analysis:  경향 레벨이 0보다는 작지 않고 1.0을 넘지 않습니다.
+</nierror>
+<nierror code="-20692">
+Analysis:  시간 간격이 반드시 제로보다 커야 합니다.
+</nierror>
+<nierror code="-20691">
+Analysis:  노드는 터미널 노드이어야 합니다.
+</nierror>
+<nierror code="-20690">
+Analysis:  노드가 터미널 노드이어서는 안됩니다.
+</nierror>
+<nierror code="-20689">
+Analysis:  경로 또는 노드 문자열에 "0" 또는 "1"만 있어야 합니다.
+</nierror>
+<nierror code="-20688">
+Analysis:  분석 필터 또는 통합 필터의 길이는 0보다 커야 합니다.
+</nierror>
+<nierror code="-20687">
+Analysis:  상위 웨이브렛을 계산하는 세밀화 레벨은 0보다 커야 합니다.
+</nierror>
+<nierror code="-20686">
+Analysis:  시프트는 0 또는 1이어야 합니다.
+</nierror>
+<nierror code="-20685">
+Analysis:  시프트는 0보다 작지 않고 부분제거 전환율 또는 보간 전환율보다 작지 않습니다.
+</nierror>
+<nierror code="-20684">
+Analysis:  보간 전환율은 반드시 2보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20683">
+Analysis:  부분제거 전환율은 반드시 2보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20682">
+Analysis:  웨이브렛 분해의 스케일은 0보다 커야 합니다.
+</nierror>
+<nierror code="-20681">
+Analysis:  웨이브렛 타입의 선택이 유효하지 않습니다.
+</nierror>
+<nierror code="-20665">
+Analysis:  가장 큰 차수는 초기 차수보다 더 커야 하고 입력 신호 길이의 2/3보다 더 크면 안됩니다.
+</nierror>
+<nierror code="-20664">
+Analysis:  초기 차수는 1보다 더 작으면 안됩니다.
+</nierror>
+<nierror code="-20663">
+Analysis:  AR 차수는 복소수 삼각함수의 개수보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20662">
+Analysis:  복소수 삼각함수의 개수는 0보다 더 커야 하고 입력 신호 길이의 2/3보다 더 크면 안됩니다.
+</nierror>
+<nierror code="-20661">
+Analysis:  AR 모델의 차수는 0보다 더 커야 하고 입력 신호 길이의 2/3보다 더 크면 안됩니다.
+</nierror>
+<nierror code="-20644">
+Analysis:  참조 번호에 저장된 2D 배열의 인덱스가 범위를 벗어납니다.
+</nierror>
+<nierror code="-20643">
+Analysis:  참조 번호가 이 작업을 지원하지 않습니다.
+</nierror>
+<nierror code="-20642">
+Analysis:  참조 번호가 유효하지 않습니다.
+</nierror>
+<nierror code="-20641">
+Analysis:  참조 번호를 생성하는데 실패하였습니다.
+</nierror>
+<nierror code="-20630">
+Analysis:  주파수 정보의 파라미터가 추가 계산에서 유효하지 않습니다.
+</nierror>
+<nierror code="-20629">
+Analysis:  윈도우 정보의 파라미터가 추가 계산에서 유효하지 않습니다.
+</nierror>
+<nierror code="-20628">
+Analysis:  커널의 차원이 0보다 커야 하고 2의 거듭제곱이어야 합니다. 커널의 열 크기가 2^(ceil(log2(Ls-1)))이어야 하고 Ls는 입력 신호의 길이입니다.
+</nierror>
+<nierror code="-20627">
+Analysis:  가우스 윈도우의 분산은 0보다 커야 합니다.
+</nierror>
+<nierror code="-20626">
+Analysis:  윈도우의 크기가 0보다 커야 합니다.
+</nierror>
+<nierror code="-20625">
+Analysis:  항의 개수는 반드시 0보다 커야 합니다.
+</nierror>
+<nierror code="-20624">
+Analysis:  오버샘플링 속도는 반드시 1보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20623">
+Analysis:  차수는 반드시 제로보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20622">
+Analysis:  시간 간격이 2의 거듭제곱이어야 합니다.
+</nierror>
+<nierror code="-20621">
+Analysis:  시간 간격이 제로보다 커야 합니다.
+</nierror>
+<nierror code="-20604">
+Analysis:  열거형 데이터 타입 파라미터의 선택이 유효하지 않습니다.
+</nierror>
+<nierror code="-20603">
+Analysis:  주파수 계급의 개수는 반드시 0보다 크고 2의 거듭제곱이어야 합니다.
+</nierror>
+<nierror code="-20602">
+Analysis:  샘플 속도는 반드시 제로보다 커야 합니다.
+</nierror>
+<nierror code="-20601">
+Analysis:  입력 신호가 비어 있습니다.
+</nierror>
+<nierror code="-20511">
+Analysis:  CVI가 요청된 상호 배제를 생성할 수 없었습니다.
+</nierror>
+<nierror code="-20510">
+Analysis:  CVI가 DLL에서 지정된 함수를 찾을 수 없었습니다.
+</nierror>
+<nierror code="-20509">
+Analysis:  CVI가 Spectral Measurement Toolset DLL을 로드할 수 없었습니다.
+</nierror>
+<nierror code="-20508">
+Analysis:  유효하지 않은 SMT 세션 핸들.
+</nierror>
+<nierror code="-20507">
+Analysis:  평균값 연산 타입을 맞지 않게 지정했습니다.
+</nierror>
+<nierror code="-20506">
+Analysis:  입력 스펙트럼 데이터의 타입이 맞지 않습니다.
+</nierror>
+<nierror code="-20505">
+Analysis:  FFT 계급 또는 RBW를 지정해야 합니다.
+</nierror>
+<nierror code="-20504">
+Analysis:  샘플링 주파수가 0보다 커야 합니다.
+</nierror>
+<nierror code="-20503">
+Analysis:  간격 버퍼가 입력 데이터에 의해 오버플로우되었습니다.
+</nierror>
+<nierror code="-20502">
+Analysis:  FFT 크기는 0보다 커야 합니다.
+</nierror>
+<nierror code="-20501">
+Analysis:  줌 전환율은 반드시 제로보다 커야 합니다.
+</nierror>
+<nierror code="-20337">
+Analysis:  지정된 타임스탬프가 리미트가 끝난 이후에 발생합니다.
+</nierror>
+<nierror code="-20336">
+Analysis:  리미트 스펙 클러스터에 있는 X 배열의 값이 점진적으로 증가하지 않습니다.
+</nierror>
+<nierror code="-20335">
+Analysis:  웨이브폼이 근접해 있지 않습니다.
+</nierror>
+<nierror code="-20334">
+Analysis:  웨이브폼의 타임스탬프가 가장 긴 웨이브폼 기간의 10배 이상만큼 분리되기 때문에 그 웨이브폼을 정렬할 수 없습니다.
+</nierror>
+<nierror code="-20333">
+Analysis:  2개의 웨이브폼 샘플이 같은 방향 위상으로 클럭되지 않으면 이들을 같은 dt로 정렬할 수 없습니다.
+</nierror>
+<nierror code="-20332">
+Analysis:  내부 에러: 스레드 속성의 개수가 0보다 작습니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20331">
+Analysis:  내부 에러: VI 블록다이어그램 호출에 대한 변화 때문에 파라미터 구조체 포인터가 널입니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20330">
+Analysis:  내부 에러: VI 블록다이어그램 호출에 대한 변화 때문에 결과 포인터가 널입니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20329">
+Analysis:  내부 에러: VI 블록다이어그램 호출에 대한 변화 때문에 커서 구조체 포인터가 널입니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20328">
+Analysis:  메모리 부족으로 측정 코드에서 중요한 섹션의 초기화 실패. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20327">
+Analysis:  메모리 부족으로 측정 코드에서 발생한 예외. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20326">
+Analysis:  상승 시간이나 하강 시간이 0 이므로 슬루 속도는 무한대입니다.
+</nierror>
+<nierror code="-20325">
+Analysis:  내부 에러: 유효하지 않은 측정 ID 번호. 보다 자세한 정보를 위해서 National Instruments의 기술 지원에 문의하십시오.
+</nierror>
+<nierror code="-20324">
+Analysis:  내부 에러: 두 개의 측정이 동일한 ID 번호를 공유합니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20323">
+Analysis:  에지 개수, 펄스 개수, 사이클 파라미터 값이 0보다 커야 합니다.
+</nierror>
+<nierror code="-20322">
+Analysis:  내부 에러: 속성 숫자가 유효한 파라미터를 참조하지 않습니다. 참조 레벨, 퍼센트 레벨 셋팅, 상태 셋팅 입력을 확인하십시오.
+</nierror>
+<nierror code="-20321">
+Analysis:  내부 에러: 측정 세션 핸들이 유효하지 않습니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20320">
+Analysis:  내부 에러: 요구된 측정을 이용할 수 없습니다. 문제가 지속되면, National Instruments 기술 지원에 연락하십시오.
+</nierror>
+<nierror code="-20319">
+Analysis:  웨이브폼의 주기가 너무 짧아서 측정을 수행할 수 없습니다.
+</nierror>
+<nierror code="-20318">
+Analysis:  결과가 숫자나 무한대가 아닙니다.
+</nierror>
+<nierror code="-20317">
+Analysis:  히스토그램 크기 파라미터 값이 0보다 작거나 같습니다.
+</nierror>
+<nierror code="-20316">
+Analysis:  적절하지 않은 퍼센트 메소드 파라미터. 방법 열거형 타입 입력을 확인하십시오.
+</nierror>
+<nierror code="-20315">
+Analysis:  웨이브폼 dt 파라미터는 0보다 작거나 같습니다.
+</nierror>
+<nierror code="-20314">
+Analysis:  적절하지 않은 참조 레벨 단위 파라미터. 참조 단위 입력을 확인하십시오.
+</nierror>
+<nierror code="-20313">
+Analysis:  참조 레벨이 요구조건을 만족하지 않습니다.
+</nierror>
+<nierror code="-20312">
+Analysis:  입력 웨이브폼 크기가 0입니다.
+</nierror>
+<nierror code="-20311">
+Analysis:  웨이브폼 측정에 대해 이용할 수 있는 메모리가 부족합니다.
+</nierror>
+<nierror code="-20310">
+Analysis:  웨이브폼은 이 측정을 수행하는데 충분한 에지를 가지고 있지 않습니다. 낮고 높은 참조 레벨의 크로싱으로서 에지를 정의합니다. 신호 길이, 참조 레벨, 참조 레벨 단위를 검사합니다.
+</nierror>
+<nierror code="-20309">
+Analysis:  웨이브폼의 진폭이 0이므로히스토그램 메소드를 사용할 수 없습니다.
+</nierror>
+<nierror code="-20308">
+Analysis:  웨이브폼이 이 측정을 수행하기에 충분한 시간에 중간 참조 레벨을 지나지 않았습니다. 신호 길이, 참조 레벨, 참조 레벨 단위를 검사합니다.
+</nierror>
+<nierror code="-20307">
+Analysis:  (샘플링 속도)/(샘플수)가 곱해지지 않은 주파수.
+</nierror>
+<nierror code="-20306">
+Analysis:  2개의 시간 신호 웨이브폼이 다른 dt를 가지고 있습니다.
+</nierror>
+<nierror code="-20305">
+Analysis:  2개의 시간 신호 웨이브폼이 다른 개수의 데이터 포인트를 가지고 있습니다.
+</nierror>
+<nierror code="-20304">
+Analysis:  시간 신호 웨이브폼 중에서 적어도 하나는 평균값 연산 프로세스를 계속하기 위한 정확한 dt를 가지고 있지 않습니다.
+</nierror>
+<nierror code="-20303">
+Analysis:  시간 신호 웨이브폼 중에서 적어도 하나는 평균값 연산 프로세스를 계속하기 위한 데이터 포인트의 정확한 개수를 가지고 있지 않습니다.
+</nierror>
+<nierror code="-20302">
+Analysis:  시간 신호 웨이브폼은 평균값 연산 프로세스를 계속하기 위한 정확한 dt를 가지고 있지 않습니다.
+</nierror>
+<nierror code="-20301">
+Analysis:  시간 신호 웨이브폼은 평균값 연산 프로세스를 계속하기 위한 데이터 포인트의 정확한 개수를 가지고 있지 않습니다.
+</nierror>
+<nierror code="-20207">
+Analysis:  상위 리미트가 하위 리미트보다 작습니다.
+</nierror>
+<nierror code="-20206">
+Analysis:  시프트: n은 음의 값입니다.
+</nierror>
+<nierror code="-20205">
+Analysis:  샘플 길이가 윈도우 길이보다 작습니다.
+</nierror>
+<nierror code="-20204">
+Analysis:  윈도우 길이는 양의 값이 아닙니다.
+</nierror>
+<nierror code="-20203">
+Analysis:  시간의 증분이 양의 값이 아닙니다.
+</nierror>
+<nierror code="-20202">
+Analysis:  샘플 길이가 음의 값입니다.
+</nierror>
+<nierror code="-20201">
+Analysis:  샘플 길이가 양의 값이 아닙니다.
+</nierror>
+<nierror code="-20165">
+Analysis:  초기 조건이 PDE 클래스 입력과 충돌합니다.
+</nierror>
+<nierror code="-20164">
+Analysis:  경계 조건이 PDE 클래스 입력과 충돌합니다.
+</nierror>
+<nierror code="-20163">
+Analysis:  영역이 PDE 클래스 입력과 충돌합니다.
+</nierror>
+<nierror code="-20162">
+Analysis:  이 PDE의 우변이 PDE 클래스 입력과 충돌합니다.
+</nierror>
+<nierror code="-20161">
+Analysis:  해당 식이 PDE 클래스 입력과 충돌합니다.
+</nierror>
+<nierror code="-20158">
+Analysis:  PDE의 초기 조건 크기가 영역에 있는 눈금의 크기와 호환되지 않습니다.
+</nierror>
+<nierror code="-20157">
+Analysis:  PDE의 경계 조건 크기가 영역에 있는 눈금의 크기와 호환되지 않습니다.
+</nierror>
+<nierror code="-20156">
+Analysis:  PDE의 우변 크기가 영역에 있는 눈금의 크기와 호환되지 않습니다.
+</nierror>
+<nierror code="-20155">
+Analysis:  다각형 영역에서 경계 포인트의 개수가 3보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20154">
+Analysis:  다각형 영역에서 눈금 포인트의 개수가 0입니다.
+</nierror>
+<nierror code="-20153">
+Analysis:  공간 포인트의 개수가 3보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20152">
+Analysis:  시간 포인트의 개수가 2보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20151">
+Analysis:  최종 또는 종료 포인트는 초기 또는 시작 포인트보다 커야 합니다.
+</nierror>
+<nierror code="-20145">
+Analysis:  각 독립 변수는 종속 변수와 같은 개수를 가지고 있어야 합니다.
+</nierror>
+<nierror code="-20144">
+Analysis:  보간 전환율은 반드시 데이터 크기보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20143">
+Analysis:  입력 값이 허용 가능한 영역 밖에 있습니다
+</nierror>
+<nierror code="-20142">
+Analysis:  보간(xi, yi, ...)의 영역 위치는 같은 차원과 크기를 가져야 합니다.
+</nierror>
+<nierror code="-20141">
+Analysis:  입력은 반드시 제로가 아니어야 합니다.
+</nierror>
+<nierror code="-20140">
+Analysis:  입력은 반드시 제로보다 커야 합니다.
+</nierror>
+<nierror code="-20131">
+Analysis:  위수(order)는 반드시 차수(degree)보다 작아야 합니다.
+</nierror>
+<nierror code="-20130">
+Analysis:  입력이 소수가 아닙니다.
+</nierror>
+<nierror code="-20129">
+Analysis:  입력 배열의 크기가 기수의 거듭제곱이 아닙니다.
+</nierror>
+<nierror code="-20128">
+Analysis:  아다마르 행렬 크기가 크기 요건을 충족하지 않습니다. 유효한 크기는 2^k, 12*2^k 또는 20*2^k입니다. 이때 k > 0입니다.
+</nierror>
+<nierror code="-20127">
+Analysis:  샘플의 개수가 알 수 없는 파라미터의 개수보다 작습니다.
+</nierror>
+<nierror code="-20126">
+Analysis:  분석 작업 공간에 지정된 루틴을 수행할 충분한 공간이 남아있지 않습니다.
+</nierror>
+<nierror code="-20125">
+Analysis:  분석 작업 공간을 잠금해제할 수 없습니다.
+</nierror>
+<nierror code="-20124">
+Analysis:  분석 작업 공간이 잠겼습니다.
+</nierror>
+<nierror code="-20123">
+Analysis:  분석 작업 공간이 비어 있지 않습니다.
+</nierror>
+<nierror code="-20122">
+Analysis:  분석 작업 공간이 비어 있습니다.
+</nierror>
+<nierror code="-20121">
+Analysis:  분석 작업 공간이 이미 활성화되어 있습니다.
+</nierror>
+<nierror code="-20120">
+Analysis:  분석 작업 공간의 크기가 이미 설정되었습니다.
+</nierror>
+<nierror code="-20119">
+Analysis:  샘플의 수가 3이 아닙니다.
+</nierror>
+<nierror code="-20118">
+Analysis:  입력이 1보다 크거나 또는 -1보다 작습니다.
+</nierror>
+<nierror code="-20117">
+Analysis:  유의성을 상실하였습니다.
+</nierror>
+<nierror code="-20116">
+Analysis:  가능한 해결을 찾을 수 없습니다.
+</nierror>
+<nierror code="-20115">
+Analysis:  FFT 크기는 0보다 커야 합니다.
+</nierror>
+<nierror code="-20114">
+Analysis:  [실수 다항식의 제로 카운터] VI에 연결된 시작값이 최종값보다 큽니다.
+</nierror>
+<nierror code="-20113">
+Analysis:  [실수 다항식의 제로 카운터] VI에 연결된 최종값이 근입니다.
+</nierror>
+<nierror code="-20112">
+Analysis:  [실수 다항식의 제로 카운터] VI에 연결된 시작값이 근입니다.
+</nierror>
+<nierror code="-20111">
+Analysis:  입력 다항식 계수가 모두 제로입니다.
+</nierror>
+<nierror code="-20108">
+Analysis:  입력 다각형은 볼록 또는 단순 다각형이 아닙니다.
+</nierror>
+<nierror code="-20107">
+Analysis:  범위를 벗어나는 값입니다. 유효한 범위는 [0, pi]입니다.
+</nierror>
+<nierror code="-20106">
+Analysis:  범위를 벗어나는 값입니다. 유효한 범위는 [0, pi/2]입니다.
+</nierror>
+<nierror code="-20105">
+Analysis:  범위를 벗어나는 값입니다.  유효한 범위는 [0, 1]입니다.
+</nierror>
+<nierror code="-20104">
+Analysis:  입력 파라미터가 적어도 하나의 NaN 원소를 가지고 있습니다.
+</nierror>
+<nierror code="-20103">
+Analysis:  차수는 반드시 제로보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20102">
+Analysis:  시프트는 다음을 만족해야 합니다: |시프트| < 샘플.
+</nierror>
+<nierror code="-20101">
+Analysis:  파라미터의 최대값은 파라미터의 최소값보다 커야 합니다.
+</nierror>
+<nierror code="-20099">
+Analysis:  AR 차수는 복소수 삼각함수의 개수보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20098">
+Analysis:  AR 차수는 샘플 수의 2/3보다 더 커서는 안됩니다.
+</nierror>
+<nierror code="-20097">
+Analysis:  복소수 삼각함수의 개수는 샘플 수의 2/3보다 커서는 안됩니다.
+</nierror>
+<nierror code="-20096">
+Analysis:  AR 차수는 > 0이어야 합니다.
+</nierror>
+<nierror code="-20095">
+Analysis:  복소수 삼각함수의 개수는 > 0이어야 합니다.
+</nierror>
+<nierror code="-20094">
+Analysis:  초기 조건이나 최종 조건 배열의 크기가 맞지 않습니다.
+</nierror>
+<nierror code="-20093">
+Analysis:  df는  > 0이어야 합니다.
+</nierror>
+<nierror code="-20092">
+Analysis:  이중 함수가 존재하지 않습니다.
+</nierror>
+<nierror code="-20091">
+Analysis:  Gabor 계수 배열이 올바른 차수를 가지고 있지 않습니다.
+</nierror>
+<nierror code="-20090">
+Analysis:  Gabor 스펙트로그램의 차수는 >= 0이어야 합니다.
+</nierror>
+<nierror code="-20089">
+Analysis:  오버샘플링 속도, N / dM이 >= 1이어야 합니다.
+</nierror>
+<nierror code="-20088">
+Analysis:  분석이나 종합 윈도우의 길이가 2의 거듭제곱인 주파수 구간의 수인 N으로 똑같이 나누어질 수 있어야 합니다.
+</nierror>
+<nierror code="-20087">
+Analysis:  분석이나 종합 윈도우의 길이가 Gabor 시간 샘플링 간격인 dM으로 똑같이 나누어질 수 있어야 합니다.
+</nierror>
+<nierror code="-20086">
+Analysis:  윈도우 길이는 > 2이고 2의 거듭제곱이어야 합니다.
+</nierror>
+<nierror code="-20085">
+Analysis:  입력 배열의 크기와 그 힐버트 변환이 같아야 합니다.
+</nierror>
+<nierror code="-20084">
+Analysis:  시간 증분은 (윈도우 길이)/4보다 커서는 안됩니다.
+</nierror>
+<nierror code="-20083">
+Analysis:  윈도우 길이는 > 4이고 2의 거듭제곱이어야 합니다.
+</nierror>
+<nierror code="-20082">
+Analysis:  시간 증분은 dM보다 커서는 안됩니다.
+</nierror>
+<nierror code="-20081">
+Analysis:  dN이나 시간 간격이 0보다 더 커야 합니다.
+</nierror>
+<nierror code="-20080">
+Analysis:  시간 증분은 (윈도우 길이)/16보다 더 커야 합니다.
+</nierror>
+<nierror code="-20079">
+Analysis:  시드가 유효하지 않습니다.
+</nierror>
+<nierror code="-20078">
+Analysis:  이 플랫폼은 이 기능을 지원하지 않습니다.
+</nierror>
+<nierror code="-20077">
+Analysis:  시간 포인트가 오름차순이 아닙니다.
+</nierror>
+<nierror code="-20076">
+Analysis:  리샘플 포인트는 입력 포인트 뒤에 오는 신호와 함께 계산될 수 없습니다.
+</nierror>
+<nierror code="-20075">
+Analysis:  필터 버퍼가 오버플로우됩니다.
+</nierror>
+<nierror code="-20074">
+Analysis:  고유값의 순서를 재설정하여 일부 복소수 값을 변경하였습니다.
+</nierror>
+<nierror code="-20073">
+Analysis:  고유값의 일부가 너무 가까워서 그 순서를 재설정할 수 없습니다.
+</nierror>
+<nierror code="-20072">
+Analysis:  입력 행렬의 로그값을 계산할 수 없습니다.
+</nierror>
+<nierror code="-20071">
+Analysis:  입력 행렬이 양의 정부호가 아닙니다.
+</nierror>
+<nierror code="-20070">
+Analysis:  행렬이 같은 크기를 가져야 합니다.
+</nierror>
+<nierror code="-20069">
+Analysis:  샘플수는 반드시 4보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20068">
+Analysis:  입력 파라미터는 Inf, NaN, DBL_MAX, 또는 DBL_MIN인 원소를 적어도 하나 가집니다.
+</nierror>
+<nierror code="-20067">
+Analysis:  입력 기본 주파수나 샘플링 속도가 0입니다.
+</nierror>
+<nierror code="-20066">
+Analysis:  IIR 필터 구조의 정보가 올바르지 않습니다.
+</nierror>
+<nierror code="-20065">
+Analysis:  벡터의 원소가 모두 0일 수는 없습니다.
+</nierror>
+<nierror code="-20064">
+Analysis:  이 함수의 내부 메모리 상태가 올바르게 초기화되지 않았습니다.
+</nierror>
+<nierror code="-20063">
+Analysis:  다항식의 계수가 유효하지 않습니다.
+</nierror>
+<nierror code="-20062">
+Analysis:  반복의 최대 개수가 초과되었습니다.
+</nierror>
+<nierror code="-20061">
+Analysis:  선택이 유효하지 않습니다.
+</nierror>
+<nierror code="-20060">
+Analysis:  0으로 나누기 에러.
+</nierror>
+<nierror code="-20059">
+Analysis:  음의 수 에러
+</nierror>
+<nierror code="-20058">
+Analysis:  차원이나 종속 변수의 유효하지 않은 수
+</nierror>
+<nierror code="-20057">
+Analysis:  베타 함수에 대한 파라미터는 0 < p < 1이어야 합니다.
+</nierror>
+<nierror code="-20056">
+Analysis:  분할표가 음의 수를 가집니다.
+</nierror>
+<nierror code="-20055">
+Analysis:  항목이나 샘플의 개수는 0보다 커야 합니다.
+</nierror>
+<nierror code="-20054">
+Analysis:  확률은 반드시 0보다 크거나 같고 1보다 작아야 합니다.
+</nierror>
+<nierror code="-20053">
+Analysis:  숫자는 0과 1사이여야 합니다.
+</nierror>
+<nierror code="-20052">
+Analysis:  자유도의 값은 반드시 0보다 크고 입력 시퀀스의 길이보다 작아야 합니다.
+</nierror>
+<nierror code="-20051">
+Analysis:  X 행렬의 첫번째 열에 있는 모든 값은 1이어야 합니다.
+</nierror>
+<nierror code="-20050">
+Analysis:  보간 함수는 요구된 값에 하나의 극점을 가집니다.
+</nierror>
+<nierror code="-20049">
+Analysis:  x 값은 구별되어야 합니다.
+</nierror>
+<nierror code="-20048">
+Analysis:  고정된 효과 모델이 필요할 때 임의의 효과 모델이 요청되었습니다.
+</nierror>
+<nierror code="-20047">
+Analysis:  데이터가 균형잡히지 않았습니다. 모든 셀은 같은 수의 측정을 가져야 합니다.
+</nierror>
+<nierror code="-20046">
+Analysis:  계산에 오버플로우가 있습니다.
+</nierror>
+<nierror code="-20045">
+Analysis:  데이터 포인트의 총 개수는 각 레벨과 셀 당 측정 개수를 곱한 값과 같아야 합니다.
+</nierror>
+<nierror code="-20044">
+Analysis:  일부 레벨의 전환율에서 아무런 측정도 이루어지지 않았습니다.
+</nierror>
+<nierror code="-20043">
+Analysis:  전환율의 레벨이 일부 데이터의 허용 범위 밖에 있습니다.
+</nierror>
+<nierror code="-20042">
+Analysis:  레벨의 개수가 범위를 벗어납니다.
+</nierror>
+<nierror code="-20041">
+Analysis:  입력 행렬이 특이 행렬이므로 이 방정식의 시스템을 풀 수 없습니다.
+</nierror>
+<nierror code="-20040">
+Analysis:  입력 행렬은 반드시 정방 행렬이어야 합니다.
+</nierror>
+<nierror code="-20039">
+Analysis:  첫번째 행렬의 열의 수가 두번째 행렬이나 벡터의 행의 수와 같지 않습니다.
+</nierror>
+<nierror code="-20038">
+Analysis:  간격의 개수는 > 0이어야 합니다.
+</nierror>
+<nierror code="-20037">
+Analysis:  Y 값 배열에서 데이터 포인트의 개수가 그 차수 값보다 더 큽니다.
+</nierror>
+<nierror code="-20036">
+Analysis:  Y값 배열의 원소는 0이어서는 안되고 모두 양의 값이거나 모두 음의 값이어야 합니다.
+</nierror>
+<nierror code="-20035">
+Analysis:  표준편차는 정규화된 값으로 0보다 더 커야 합니다.
+</nierror>
+<nierror code="-20034">
+Analysis:  계수의 개수가 이 필터에 대해서 짝수이어야 합니다.
+</nierror>
+<nierror code="-20033">
+Analysis:  계수의 개수가 이 필터에 대해서 홀수이어야 합니다.
+</nierror>
+<nierror code="-20032">
+Analysis:  필터의 왼쪽 계수는 다음을 만족해야 합니다: 왼쪽 계수 >= 0.
+필터의 오른쪽 계수는 다음을 만족해야 합니다: 오른쪽 계수 < 크기.
+</nierror>
+<nierror code="-20031">
+Analysis:  필터가 지정된 입력 값으로 디자인될 수 없습니다.
+</nierror>
+<nierror code="-20030">
+Analysis:  누출 계수, 누출, 구간 간격 파라미터 u가 다음을 만족해야 합니다: 0 <= 누출 <= u.
+</nierror>
+<nierror code="-20029">
+Analysis:  구간 간격 u는 다음을 만족해야 합니다: 0 <= u <= 0.1.
+</nierror>
+<nierror code="-20028">
+Analysis:  감쇠 값이 리플 진폭보다 더 커야 합니다.
+</nierror>
+<nierror code="-20027">
+Analysis:  최종값은 > 0이어야 합니다.
+</nierror>
+<nierror code="-20026">
+Analysis:  폭은 > 0이어야 합니다.
+</nierror>
+<nierror code="-20025">
+Analysis:  감쇠는 > 0이어야 합니다.
+</nierror>
+<nierror code="-20024">
+Analysis:  리플 크기는 > 0이어야 합니다.
+</nierror>
+<nierror code="-20023">
+Analysis:  다음 조건을 만족해야 합니다: 0 < f_low <= f_high <= fs/2.
+</nierror>
+<nierror code="-20022">
+Analysis:  부분제거 전환율은 아래를 만족해야 합니다: 0 < 부분제거 전환율 <= 샘플.
+</nierror>
+<nierror code="-20021">
+Analysis:  차수는 0보다 커야 합니다.
+</nierror>
+<nierror code="-20020">
+Analysis:  컷오프 주파수, fc는 다음을 만족해야 합니다: 0 <= fc <= fs/2.
+</nierror>
+<nierror code="-20019">
+Analysis:  상위 값 >= 하위 값이어야 합니다.
+</nierror>
+<nierror code="-20018">
+Analysis:  다음의 조건을 만족해야 합니다: 0 <= (인덱스 + 길이) < 샘플.
+</nierror>
+<nierror code="-20017">
+Analysis:  다음의 조건을 만족해야 합니다: 0 <= 인덱스 < 샘플.
+</nierror>
+<nierror code="-20016">
+Analysis:  dt는 > 0이어야 합니다.
+</nierror>
+<nierror code="-20015">
+Analysis:  dt는 >= 0이어야 합니다.
+</nierror>
+<nierror code="-20014">
+Analysis:  다음의 조건을 만족해야 합니다: 0 <= (지연 + 폭) < 샘플.
+</nierror>
+<nierror code="-20013">
+Analysis:  폭은 다음을 만족해야 합니다: 0 < 폭 < 샘플.
+</nierror>
+<nierror code="-20012">
+Analysis:  사이클의 개수는 0보다 커야 하고 샘플 개수보다 작거나 같아야 합니다.
+</nierror>
+<nierror code="-20011">
+Analysis:  주기 점유율은 0과 100과 같은 값이거나 그 사이에 있어야 합니다: 0 <=주기 점유율 <= 100.
+</nierror>
+<nierror code="-20010">
+Analysis:  최대 허용 변환 크기가 초과되었습니다.
+</nierror>
+<nierror code="-20009">
+Analysis:  입력 배열의 크기가 2의 거듭제곱이어야 합니다: 크기 = 2^m, 0 < m < 23.
+</nierror>
+<nierror code="-20008">
+Analysis:  입력 배열은 이 함수에 대한 정확한 데이터 값의 개수를 가지고 있지 않습니다.
+</nierror>
+<nierror code="-20007">
+Analysis:  샘플수는 반드시 3보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20006">
+Analysis:  샘플의 개수는 >= 2이어야 합니다.
+</nierror>
+<nierror code="-20005">
+Analysis:  샘플수는 반드시 1보다 크거나 같아야 합니다.
+</nierror>
+<nierror code="-20004">
+Analysis:  샘플의 개수는 >= 0이어야 합니다.
+</nierror>
+<nierror code="-20003">
+Analysis:  샘플의 개수는 > 0이어야 합니다.
+</nierror>
+<nierror code="-20002">
+Analysis:  입력 시퀀스는 같은 크기이어야 합니다.
+</nierror>
+<nierror code="-20001">
+Analysis:  지정된 루틴을 수행할만한 충분한 메모리가 없습니다.
+</nierror>
+<nierror code="20001">
+Analysis:  행렬이 부족한 계수를 가집니다.
+</nierror>
+<nierror code="20002">
+Analysis:  샘플의 개수는 반드시 0보다 커야 합니다.
+</nierror>
+<nierror code="20003">
+Analysis:  특이 행렬입니다.
+</nierror>
+<nierror code="20004">
+Analysis:  행렬이나 벡터가 같은 크기를 가지지 않습니다.
+</nierror>
+<nierror code="20005">
+Analysis:  LabVIEW는 일반화된 고유값의 순서를 다시 설정할 수 없습니다.
+</nierror>
+<nierror code="20006">
+Analysis:  계산 결과가 정확하지 않을 수 있습니다.
+</nierror>
+<nierror code="20007">
+Analysis:  입력이 유효하지 않은 콜레스키 인수분해입니다.
+</nierror>
+<nierror code="20008">
+Analysis:  행렬이 양의 정부호가 아닙니다.
+</nierror>
+<nierror code="20010">
+Analysis:  입력 배열의 크기는 지정된 조건을 만족하지 않습니다.
+</nierror>
+<nierror code="20011">
+Analysis:  입력 표준 편차가 유효하지 않습니다.
+</nierror>
+<nierror code="20012">
+Analysis:  입력 다항식이 비어 있습니다.
+</nierror>
+<nierror code="20020">
+Analysis:  일부 주파수가 나이퀴스트 기준을 어깁니다.
+</nierror>
+<nierror code="20021">
+Analysis:  상태 레벨의 측정이 정확하지 않을 수 있으며, 이로 인해 다른 측정이 부정확할 수 있습니다.
+</nierror>
+<nierror code="20030">
+Analysis:  입력 행렬은 Inf 또는 NaN 값을 가지는 원소를 최소 하나 이상 가지고 있습니다.
+</nierror>
+<nierror code="20031">
+Analysis:  최대 허용 차수가 초과되었습니다.
+</nierror>
+<nierror code="20307">
+Analysis:  주파수가 (샘플링 속도)/(샘플수)의 가장 근사한 배수로 강제 변환되었습니다.
+</nierror>
+<nierror code="20334">
+Analysis:  웨이브폼이 오버랩핑되어 있지 않습니다.
+</nierror>
+<nierror code="20351">
+Analysis:  평균값 연산 프로세스가 평균값 연산 파라미터의 변화에 응답하도록 자동으로 다시 시작되었습니다.
+</nierror>
+<nierror code="20352">
+Analysis:  현재와 이전 웨이브폼이 근접하지 않습니다.
+</nierror>
+<nierror code="20353">
+Analysis:  현재와 이전의 dt가 같지 않습니다.
+</nierror>
+</nidocument>

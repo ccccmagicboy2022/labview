@@ -1,0 +1,34 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="NI-Reports" displayname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41007">
+NI-Reports:  必须安装用于Microsoft Office的LabVIEW Report Generation工具包，才可创建该类型的报表。安装工具包后还必须激活许可证或者以试用版模式运行。
+</nierror>
+<nierror code="-41006">
+NI-Reports:  该平台不支持该类型的报表。
+</nierror>
+<nierror code="-41005">
+NI-Reports:  无效页边距。
+</nierror>
+<nierror code="-41004">
+NI-Reports:  打印错误
+</nierror>
+<nierror code="-41003">
+NI-Reports:  打开文件错误。
+</nierror>
+<nierror code="-41002">
+NI-Reports:  无效的打印机名称。
+</nierror>
+<nierror code="-41001">
+NI-Reports:  内存不足。
+</nierror>
+<nierror code="-41000">
+NI-Reports:  发生未知错误。
+</nierror>
+<nierror code="41000">
+NI-Reports:  尝试使用对当前报表类型没有任何影响的函数。
+</nierror>
+</nidocument>

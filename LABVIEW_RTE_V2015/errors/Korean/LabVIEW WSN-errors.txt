@@ -1,0 +1,163 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW WSN" displayname="LabVIEW WSN">
+</nifamily>
+</nicomment>
+<nierror code="-25399">
+LabVIEW WSN:  최근 LV WSN 에러. 되돌아 가십시오. 다른 곳으로 이동할 수 없습니다.
+</nierror>
+<nierror code="-25339">
+LabVIEW WSN:  이 함수를 호출하기 전에 시리얼 포트 수신기 전원을 켜야 새 데이터를 읽을 수 있습니다.
+</nierror>
+<nierror code="-25338">
+LabVIEW WSN:  이 디바이스는 시리얼 포트에서 지정된 바이트 수를 한 번에 읽거나 쓰는 것을 지원하지 않습니다.
+</nierror>
+<nierror code="-25337">
+LabVIEW WSN:  지정된 타임아웃 기간 안에 지정한 바이트 수를 읽거나 쓸 수 없습니다.
+</nierror>
+<nierror code="-25336">
+LabVIEW WSN:  이 디바이스는 지정된 시리얼 포트 설정을 지원하지 않습니다.
+</nierror>
+<nierror code="-25327">
+LabVIEW WSN:  사용자 RAM이 충분하지 않습니다.
+</nierror>
+<nierror code="-25326">
+LabVIEW WSN:  유효하지 않은 사용자 RAM 참조 번호.
+</nierror>
+<nierror code="-25325">
+LabVIEW WSN:  사용자 메모리 검증에 실패했습니다.
+</nierror>
+<nierror code="-25324">
+LabVIEW WSN:  사용자 메모리에 쓰는데 실패했습니다.
+</nierror>
+<nierror code="-25323">
+LabVIEW WSN:  해당 위치가 비어있지 않기 때문에 사용자 메모리에 쓰는데 실패했습니다.
+</nierror>
+<nierror code="-25322">
+LabVIEW WSN:  사용자 메모리가 경계를 넘어섰습니다. 동작이 사용자 메모리 섹터 밖의 위치를 지정했습니다.
+</nierror>
+<nierror code="-25321">
+LabVIEW WSN:  지정한 사용자 메모리 섹터를 지우는데 실패했습니다.
+</nierror>
+<nierror code="-25320">
+LabVIEW WSN:  널 포인터 예외.
+</nierror>
+<nierror code="-25313">
+LabVIEW WSN:  내부 에러: 하드웨어 오류.
+</nierror>
+<nierror code="-25312">
+LabVIEW WSN:  노드가 연결되어 있지 않습니다.
+</nierror>
+<nierror code="-25311">
+LabVIEW WSN:  유효하지 않은 인수.
+</nierror>
+<nierror code="-25310">
+LabVIEW WSN:  사용자 메시지를 잃어버렸습니다.
+</nierror>
+<nierror code="-25309">
+LabVIEW WSN:  무선 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25308">
+LabVIEW WSN:  플래쉬 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25307">
+LabVIEW WSN:  명령 큐 오버플로우: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25306">
+LabVIEW WSN:  디지털 출력 라인 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25305">
+LabVIEW WSN:  ADC 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25304">
+LabVIEW WSN:  CJC 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25303">
+LabVIEW WSN:  SPI 통신 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25302">
+LabVIEW WSN:  시리얼 수신 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25301">
+LabVIEW WSN:  시리얼 전송 실패: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25300">
+LabVIEW WSN:  내부 에러가 LabVIEW Wireless Sensor Network Module에서 발생하였습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25283">
+LabVIEW WSN:  노드 ID가 게이트웨이 노드 테이블에 존재하지 않습니다.
+</nierror>
+<nierror code="-25282">
+LabVIEW WSN:  유효하지 않은 메시지 참조.
+</nierror>
+<nierror code="-25281">
+LabVIEW WSN:  유효하지 않은 노드 참조.
+</nierror>
+<nierror code="-25280">
+LabVIEW WSN:  유효하지 않은 게이트웨이 참조.
+</nierror>
+<nierror code="-25254">
+LabVIEW WSN:  연결이 타임아웃되었습니다. 게이트웨이 연결이 안좋은 상태에 있을 수 있습니다.
+</nierror>
+<nierror code="-25253">
+LabVIEW WSN:  중복 인터페이스 등록: 내부 에러가 발생했습니다. ni.com/support의 National Instruments 기술 지원팀에 문의하십시오.
+</nierror>
+<nierror code="-25252">
+LabVIEW WSN:  게이트웨이에서 호환되지 않거나 손상된 데이터를 받았습니다.
+</nierror>
+<nierror code="-25251">
+LabVIEW WSN:  메모리 에러. 사용한 메모리 할당을 해제할 수 없습니다.
+</nierror>
+<nierror code="-25250">
+LabVIEW WSN:  메모리 할당에 실패했습니다.
+</nierror>
+<nierror code="-25230">
+LabVIEW WSN:  요청 처리기가 요청의 역직렬화(deserialize)에 실패했습니다. 프로토콜 버전이 호환되지 않거나 데이터가 손상되어 있을 때 이 에러가 발생할 수 있습니다.
+</nierror>
+<nierror code="-25229">
+LabVIEW WSN:  요청 처리기가 요청의 역직렬화(deserialize)에 실패했습니다. 프로토콜 버전이 호환되지 않을 때 이 에러가 발생할 수 있습니다.
+</nierror>
+<nierror code="-25228">
+LabVIEW WSN:  요청이 처리되지 않은 예외사항으로 인해 종료되었습니다.
+</nierror>
+<nierror code="-25227">
+LabVIEW WSN:  메모리 할당에 실패했습니다.
+</nierror>
+<nierror code="-25226">
+LabVIEW WSN:  클라이언트의 접근이 거부되었습니다.
+</nierror>
+<nierror code="-25225">
+LabVIEW WSN:  클라이언트가 연결을 종료하였습니다.
+</nierror>
+<nierror code="-25224">
+LabVIEW WSN:  네트워크 통신에 실패했습니다.
+</nierror>
+<nierror code="-25223">
+LabVIEW WSN:  연결이 타임아웃되었습니다.
+</nierror>
+<nierror code="-25222">
+LabVIEW WSN:  지정한 서비스에 연결할 수 없습니다.
+</nierror>
+<nierror code="-25221">
+LabVIEW WSN:  지정한 게이트웨이에 연결할 수 없습니다.
+</nierror>
+<nierror code="-25220">
+LabVIEW WSN:  일반 연결 에러.
+</nierror>
+<nierror code="-25200">
+LabVIEW WSN:  첫번째 LV WSN 에러
+</nierror>
+<nierror code="21100">
+LabVIEW WSN:  첫번째 LV WSN 경고
+</nierror>
+<nierror code="21240">
+LabVIEW WSN:  시리얼 포트 수신기가 라인에 브레이크 조건을 받았습니다.
+</nierror>
+<nierror code="21241">
+LabVIEW WSN:  지정된 종료 문자열이 감지되기 전에 시리얼 포트에서 지정된 바이트 수를 읽었습니다.
+</nierror>
+<nierror code="21299">
+LabVIEW WSN:  마지막 LV WSN 경고.
+</nierror>
+</nidocument>

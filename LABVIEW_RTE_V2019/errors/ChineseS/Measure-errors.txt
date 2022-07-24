@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Measure" familyname="Measure">
+</nifamily>
+</nicomment>
+<nierror code="-2101">
+测量: (Hex 0xFFFFF7CB) 一个模拟输出通道串表示多个模拟输出通道。Measure要求每个模拟输出通道串只包含一个模拟输出通道。
+</nierror>
+<nierror code="-2004">
+测量: (Hex 0xFFFFF82C) Excel内存不足。使用较小的范围。
+</nierror>
+<nierror code="-2003">
+测量: (Hex 0xFFFFF82D) 任务配置中指定的范围无效。
+</nierror>
+<nierror code="-2002">
+测量: (Hex 0xFFFFF82E) 任务配置中指定的工作表不存在。
+</nierror>
+<nierror code="-2001">
+测量: (Hex 0xFFFFF82F) 无法找到任务。
+</nierror>
+</nidocument>

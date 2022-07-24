@@ -1,0 +1,283 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="OS and Network Services" displayname="OS and Network Services">
+</nifamily>
+</nicomment>
+<nierror code="-1967370240">
+OS and Network Services:  (Hex 0x8ABC5000) 内部网络错误
+</nierror>
+<nierror code="-1967370239">
+OS and Network Services:  (Hex 0x8ABC5001) 执行所需的网络操作时出现内存不足的错误
+</nierror>
+<nierror code="-1967370238">
+OS and Network Services:  (Hex 0x8ABC5002) 程序超出PSP订阅处理限额
+</nierror>
+<nierror code="-1967370237">
+OS and Network Services:  (Hex 0x8ABC5003) 与服务器的连接已中断
+</nierror>
+<nierror code="-1967370236">
+OS and Network Services:  (Hex 0x8ABC5004) 网络传输缓冲区已满。
+</nierror>
+<nierror code="-1967370235">
+OS and Network Services:  (Hex 0x8ABC5005) 服务器不支持所需操作。
+</nierror>
+<nierror code="-1967370234">
+OS and Network Services:  (Hex 0x8ABC5006) 服务器无法绑定TCP端口。
+</nierror>
+<nierror code="-1967370233">
+OS and Network Services:  (Hex 0x8ABC5007) 网络层正在关闭，操作无法完成。
+</nierror>
+<nierror code="-1967370232">
+OS and Network Services:  (Hex 0x8ABC5008) 网络层无法定制异步操作。
+</nierror>
+<nierror code="-1967370231">
+OS and Network Services:  (Hex 0x8ABC5009) 服务器不支持所需的数据格式。
+</nierror>
+<nierror code="-1967370224">
+OS and Network Services:  (Hex 0x8ABC5010) 服务注册失败。已注册指定名称的服务。
+</nierror>
+<nierror code="-1967362047">
+OS and Network Services:  (Hex 0x8ABC7001) 安装的库版本错误。
+</nierror>
+<nierror code="-1967362046">
+OS and Network Services:  (Hex 0x8ABC7002) 客户端试图在未注册的库上调用函数。
+</nierror>
+<nierror code="-1967362045">
+OS and Network Services:  (Hex 0x8ABC7003) 操作超时。
+</nierror>
+<nierror code="-1967362044">
+OS and Network Services:  (Hex 0x8ABC7004) 语法错误。
+</nierror>
+<nierror code="-1967362043">
+OS and Network Services:  (Hex 0x8ABC7005) 栈溢出。
+</nierror>
+<nierror code="-1967362042">
+OS and Network Services:  (Hex 0x8ABC7006) 无法开始服务。
+</nierror>
+<nierror code="-1967362041">
+OS and Network Services:  (Hex 0x8ABC7007) 超出范围。
+</nierror>
+<nierror code="-1967362040">
+OS and Network Services:  (Hex 0x8ABC7008) 未找到对象
+</nierror>
+<nierror code="-1967362039">
+OS and Network Services:  (Hex 0x8ABC7009) 对象已存在。
+</nierror>
+<nierror code="-1967362038">
+OS and Network Services:  (Hex 0x8ABC700A) 未找到对象。请检查并确保指定的对象名称或URL存在，对象可能是一个计算机/进程/共享变量/Citadel数据库/NI域。
+</nierror>
+<nierror code="-1967362037">
+OS and Network Services:  (Hex 0x8ABC700B) 对象或集合非空。
+</nierror>
+<nierror code="-1967362036">
+OS and Network Services:  (Hex 0x8ABC700C) 客户端试图多次调用注册函数。
+</nierror>
+<nierror code="-1967362035">
+OS and Network Services:  (Hex 0x8ABC700D) 无效结果类型。
+</nierror>
+<nierror code="-1967362034">
+OS and Network Services:  (Hex 0x8ABC700E) 无效操作
+</nierror>
+<nierror code="-1967362033">
+OS and Network Services:  (Hex 0x8ABC700F) 无效参数。
+</nierror>
+<nierror code="-1967362032">
+OS and Network Services:  (Hex 0x8ABC7010) 初始化失败。
+</nierror>
+<nierror code="-1967362031">
+OS and Network Services:  (Hex 0x8ABC7011) 写入文件操作失败。
+</nierror>
+<nierror code="-1967362030">
+OS and Network Services:  (Hex 0x8ABC7012) 读取文件操作失败。
+</nierror>
+<nierror code="-1967362029">
+OS and Network Services:  (Hex 0x8ABC7013) 文件结束。
+</nierror>
+<nierror code="-1967362028">
+OS and Network Services:  (Hex 0x8ABC7014) 并串转换失败。
+</nierror>
+<nierror code="-1967362027">
+OS and Network Services:  (Hex 0x8ABC7015) 无法完成请求。连接失败。
+</nierror>
+<nierror code="-1967362026">
+OS and Network Services:  (Hex 0x8ABC7016) 操作已取消。
+</nierror>
+<nierror code="-1967362025">
+OS and Network Services:  (Hex 0x8ABC7017) 缓冲区溢出。
+</nierror>
+<nierror code="-1967362024">
+OS and Network Services:  (Hex 0x8ABC7018) 试图在Logos Classified Ads上加载服务时失败。
+</nierror>
+<nierror code="-1967362023">
+OS and Network Services:  (Hex 0x8ABC7019) 拒绝访问。
+</nierror>
+<nierror code="-1967362022">
+OS and Network Services:  (Hex 0x8ABC701A) 缓冲区下溢出。
+</nierror>
+<nierror code="-1967362021">
+OS and Network Services:  (Hex 0x8ABC701B) 文件已存在。
+</nierror>
+<nierror code="-1967362020">
+OS and Network Services:  (Hex 0x8ABC701C) 提供的引用句柄无效。
+</nierror>
+<nierror code="-1967362019">
+OS and Network Services:  (Hex 0x8ABC701D) 提供一个空引用句柄作为输入。
+</nierror>
+<nierror code="-1967362016">
+OS and Network Services:  (Hex 0x8ABC7020) 出现非预期的操作系统异常。
+</nierror>
+<nierror code="-1967362015">
+OS and Network Services:  (Hex 0x8ABC7021) 加载库失败。
+</nierror>
+<nierror code="-1967362014">
+OS and Network Services:  (Hex 0x8ABC7022) 未找到类。
+</nierror>
+<nierror code="-1967362013">
+OS and Network Services:  (Hex 0x8ABC7023) 未知值。
+</nierror>
+<nierror code="-1967362012">
+OS and Network Services:  (Hex 0x8ABC7024) 无效区域。
+</nierror>
+<nierror code="-1967362000">
+OS and Network Services:  (Hex 0x8ABC7030) 无效UTF8编码序列。
+</nierror>
+<nierror code="-1967361999">
+OS and Network Services:  (Hex 0x8ABC7031) Citadel超出共享内存。
+</nierror>
+<nierror code="-1967361998">
+OS and Network Services:  (Hex 0x8ABC7032) GUID字符串格式错误。
+</nierror>
+<nierror code="-1967361997">
+OS and Network Services:  (Hex 0x8ABC7033) 共享变量的数据类型不支持指定的属性值。关于支持的共享变量属性，请参考LabVIEW帮助。
+</nierror>
+<nierror code="-1967361996">
+OS and Network Services:  (Hex 0x8ABC7034) 无法转换。
+</nierror>
+<nierror code="-1967361995">
+OS and Network Services:  (Hex 0x8ABC7035) 检测到共享内存坏块。
+</nierror>
+<nierror code="-1967357951">
+OS and Network Services:  (Hex 0x8ABC8001) "网络变量引擎"中未配置，不能使用MXS。第一次运行该服务时应进行配置。出错通常是因为安装后未重启计算机。请确认 "National Instruments变量引擎" 服务已启动。
+</nierror>
+<nierror code="-1967357950">
+OS and Network Services:  (Hex 0x8ABC8002) MXS中未配置I\O服务器。配置应在 "网络变量引擎" 服务第一次启动时进行。请确认 "网络变量引擎" 服务已启动。
+</nierror>
+<nierror code="-1967357949">
+OS and Network Services:  (Hex 0x8ABC8003) 无法在Measurement & Automation Explorer找到网络变量引擎。确保网络变量引擎（安装网络发布的共享变量支持）位于RT终端并检查网络连接有效。
+</nierror>
+<nierror code="-1967345663">
+OS and Network Services:  (Hex 0x8ABCB001) 一般安全错误。
+</nierror>
+<nierror code="-1967345662">
+OS and Network Services:  (Hex 0x8ABCB002) 对等端不支持该版本。
+</nierror>
+<nierror code="-1967345661">
+OS and Network Services:  (Hex 0x8ABCB003) 帐户已锁定。
+</nierror>
+<nierror code="-1967345660">
+OS and Network Services:  (Hex 0x8ABCB004) Logos会话句柄超时或已被其他用户锁定。
+</nierror>
+<nierror code="-1967345659">
+OS and Network Services:  (Hex 0x8ABCB005) 指定用户不存在。
+</nierror>
+<nierror code="-1967345658">
+OS and Network Services:  (Hex 0x8ABCB006) 指定的组不存在。
+</nierror>
+<nierror code="-1967345657">
+OS and Network Services:  (Hex 0x8ABCB007) 重复的名称。
+</nierror>
+<nierror code="-1967345656">
+OS and Network Services:  (Hex 0x8ABCB008) 消息已损坏。
+</nierror>
+<nierror code="-1967345655">
+OS and Network Services:  (Hex 0x8ABCB009) 域服务器无法完成函数。
+</nierror>
+<nierror code="-1967345654">
+OS and Network Services:  (Hex 0x8ABCB00A) 无法删除内置主对象。
+</nierror>
+<nierror code="-1967345653">
+OS and Network Services:  (Hex 0x8ABCB00B) 密码无效。
+</nierror>
+<nierror code="-1967345652">
+OS and Network Services:  (Hex 0x8ABCB00C) 不是本地计算机。
+</nierror>
+<nierror code="-1967345651">
+OS and Network Services:  (Hex 0x8ABCB00D) 不是管理员。
+</nierror>
+<nierror code="-1967345650">
+OS and Network Services:  (Hex 0x8ABCB00E) 未定义域。
+</nierror>
+<nierror code="-1967345649">
+OS and Network Services:  (Hex 0x8ABCB00F) 域已经存在。
+</nierror>
+<nierror code="-1967345648">
+OS and Network Services:  (Hex 0x8ABCB010) 密码太短或太长。
+</nierror>
+<nierror code="-1967345647">
+OS and Network Services:  (Hex 0x8ABCB011) 机器拒绝访问。
+</nierror>
+<nierror code="-1967345646">
+OS and Network Services:  (Hex 0x8ABCB012) 请求的数据拒绝访问。
+</nierror>
+<nierror code="-1967345632">
+OS and Network Services:  (Hex 0x8ABCB020) 无法锁定帐户。
+</nierror>
+<nierror code="-1967345631">
+OS and Network Services:  (Hex 0x8ABCB021) 网络连接超时。
+</nierror>
+<nierror code="-1967345630">
+OS and Network Services:  (Hex 0x8ABCB022) 文件已损坏。
+</nierror>
+<nierror code="-1967345629">
+OS and Network Services:  (Hex 0x8ABCB023) 网络已断开。
+</nierror>
+<nierror code="-1967345628">
+OS and Network Services:  (Hex 0x8ABCB024) 未找到请求数据。
+</nierror>
+<nierror code="-1967345627">
+OS and Network Services:  (Hex 0x8ABCB025) 用户取消了操作。
+</nierror>
+<nierror code="-1967345626">
+OS and Network Services:  (Hex 0x8ABCB026) 试图向NI PSP服务定位器通告服务失败。
+</nierror>
+<nierror code="-1967345616">
+OS and Network Services:  (Hex 0x8ABCB030) 消息小于一个数据块。
+</nierror>
+<nierror code="-1967345615">
+OS and Network Services:  (Hex 0x8ABCB031) 无法生成随机数。
+</nierror>
+<nierror code="-1967345614">
+OS and Network Services:  (Hex 0x8ABCB032) 密码不匹配。
+</nierror>
+<nierror code="-1967345612">
+OS and Network Services:  (Hex 0x8ABCB034) 密码过短。
+</nierror>
+<nierror code="-1967345611">
+OS and Network Services:  (Hex 0x8ABCB035) 密码过长。
+</nierror>
+<nierror code="-1967345610">
+OS and Network Services:  (Hex 0x8ABCB036) 已添加域。
+</nierror>
+<nierror code="-1967345609">
+OS and Network Services:  (Hex 0x8ABCB037) 无其他主体。
+</nierror>
+<nierror code="180121600">
+OS and Network Services:  (Hex 0xABC7000) 网络变量引擎输入队列容量的90%已满。
+</nierror>
+<nierror code="180121601">
+OS and Network Services:  (Hex 0xABC7001) 网络变量引擎输入队列溢出。
+</nierror>
+<nierror code="180121602">
+OS and Network Services:  (Hex 0xABC7002) 用于变量读取的读取缓冲区为空。已返回上一个已知值。
+</nierror>
+<nierror code="180121603">
+OS and Network Services:  (Hex 0xABC7003) 用于变量的写入缓冲区已满。下一个写入操作将导致缓冲区溢出。
+</nierror>
+<nierror code="180121604">
+OS and Network Services:  (Hex 0xABC7004) 用于变量的写入缓冲区上溢。将丢失缓冲区中的最初值。
+</nierror>
+<nierror code="180121605">
+OS and Network Services:  (Hex 0xABC7005) 变量数据的写入速度已超过最大传输速度。可能导致数据丢失。
+</nierror>
+</nidocument>

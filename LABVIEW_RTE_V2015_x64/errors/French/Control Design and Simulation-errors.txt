@@ -1,0 +1,841 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Control Design and Simulation" displayname="Control Design and Simulation">
+</nifamily>
+</nicomment>
+<nierror code="-41813">
+Control Design and Simulation:  L'ensemble de points intérieurs dans l'ensemble stable de gains PID est vide. Soit le problème PID contient des inégalités linéaires impossibles à résoudre, soit la recherche numérique n'a pas une résolution suffisante.
+</nierror>
+<nierror code="-41812">
+Control Design and Simulation:  Les points intérieur de l'ensemble stable de gains PID sont impossibles.
+</nierror>
+<nierror code="-41811">
+Control Design and Simulation:  L'ensemble stable de gains PID est vide car l'intervalle K3 n'est pas possible.
+</nierror>
+<nierror code="-41804">
+Control Design and Simulation:  Le modèle en entrée doit être valide.
+</nierror>
+<nierror code="-41803">
+Control Design and Simulation:  Les modèles état-espace en entrée doivent être SISO.
+</nierror>
+<nierror code="-41802">
+Control Design and Simulation:  Les entrées de ce VI doivent être des modèles discrets sans délais temporels.  Incorporez des délais dans le modèle.
+</nierror>
+<nierror code="-41801">
+Control Design and Simulation:  Les entrées de ce VI doivent être des modèles discrets sans délais temporels.  Convertissez les modèles en entrée en forme discrète.
+</nierror>
+<nierror code="-41706">
+Control Design and Simulation:  Le nombre d'entrées et de sorties du premier modèle ne correspond pas à celui du second modèle.
+</nierror>
+<nierror code="-41705">
+Control Design and Simulation:  Le modèle de fonction Interconnexion parallèle avec transfert doit avoir le même retard de transport.
+</nierror>
+<nierror code="-41704">
+Control Design and Simulation:  Le nombre d'entrées (colonnes) du premier modèle n'est pas égal au nombre de sorties (lignes) du second.
+</nierror>
+<nierror code="-41703">
+Control Design and Simulation:  Le dénominateur ne peut pas être égal à zéro.
+</nierror>
+<nierror code="-41702">
+Control Design and Simulation:  Au moins une des attentes est inférieure à zéro.
+</nierror>
+<nierror code="-41701">
+Control Design and Simulation:  Le dénominateur doit avoir un élément.
+</nierror>
+<nierror code="-41700">
+Control Design and Simulation:  Le numérateur doit avoir un élément.
+</nierror>
+<nierror code="-41699">
+Control Design and Simulation:  La matrice R n'est pas fournie.
+</nierror>
+<nierror code="-41698">
+Control Design and Simulation:  La dimension de w ne correspond pas aux dimensions du modèle état-espace aléatoire.
+</nierror>
+<nierror code="-41697">
+Control Design and Simulation:  La dimension de v ne correspond pas aux dimensions du modèle état-espace aléatoire.
+</nierror>
+<nierror code="-41696">
+Control Design and Simulation:  La matrice de covariance croisée n'a pas des dimensions valides.
+</nierror>
+<nierror code="-41695">
+Control Design and Simulation:  La matrice de covariance croisée n'est pas valide.
+</nierror>
+<nierror code="-41694">
+Control Design and Simulation:  Le nombre de lignes de E{v} n'a pas des dimensions valides. La dimension de E{v} doit être égale au nombre de sorties.
+</nierror>
+<nierror code="-41693">
+Control Design and Simulation:  Le nombre de lignes de E{w} n'a pas des dimensions valides. La dimension de E{w} doit être égale au nombre de colonnes de G.
+</nierror>
+<nierror code="-41692">
+Control Design and Simulation:  Les dimensions de la matrice de covariance ne sont pas valides.
+</nierror>
+<nierror code="-41691">
+Control Design and Simulation:  La matrice de covariance n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41690">
+Control Design and Simulation:  N n'est pas valide.
+</nierror>
+<nierror code="-41689">
+Control Design and Simulation:  La paire (Ahat,B) ne peut pas être stabilisée.
+</nierror>
+<nierror code="-41688">
+Control Design and Simulation:  Les dimensions de la matrice R ne correspondent pas au nombre d'entrées ou de colonnes de la matrice B.
+</nierror>
+<nierror code="-41687">
+Control Design and Simulation:  La matrice R n'est pas définie positive.
+</nierror>
+<nierror code="-41686">
+Control Design and Simulation:  La matrice R n'est pas symétrique.
+</nierror>
+<nierror code="-41685">
+Control Design and Simulation:  La matrice Q n'est pas symétrique.
+</nierror>
+<nierror code="-41684">
+Control Design and Simulation:  La matrice de covariance n'est pas symétrique.
+</nierror>
+<nierror code="-41683">
+Control Design and Simulation:  Le contrôleur n'est pas en configuration "Standalone".
+</nierror>
+<nierror code="-41682">
+Control Design and Simulation:  La matrice Q n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41681">
+Control Design and Simulation:  Les rangées de gain ne sont pas égales au nombre de sorties.
+</nierror>
+<nierror code="-41680">
+Control Design and Simulation:  Les colonnes de gain ne sont pas égales au nombre d'entrées.
+</nierror>
+<nierror code="-41679">
+Control Design and Simulation:  Le modèle du système n'a pas d'entrée.
+</nierror>
+<nierror code="-41678">
+Control Design and Simulation:  L'indice spécifié dans le vecteur entrée, sortie ou état est supérieur à la dimension maximale du système.
+</nierror>
+<nierror code="-41677">
+Control Design and Simulation:  Matrice D non fournie.
+</nierror>
+<nierror code="-41676">
+Control Design and Simulation:  Matrice C non fournie.
+</nierror>
+<nierror code="-41675">
+Control Design and Simulation:  Matrice B non fournie.
+</nierror>
+<nierror code="-41674">
+Control Design and Simulation:  Matrice A non fournie.
+</nierror>
+<nierror code="-41673">
+Control Design and Simulation:  Le nombre de colonnes n'est pas le même dans les matrices R et Q de l'équation de Lyapunov.
+</nierror>
+<nierror code="-41672">
+Control Design and Simulation:  Le nombre de colonnes n'est pas le même dans les matrices R et Q de l'équation de Lyapunov.
+</nierror>
+<nierror code="-41671">
+Control Design and Simulation:  La matrice R n'est pas carrée dans l'équation de Lyapunov.
+</nierror>
+<nierror code="-41670">
+Control Design and Simulation:  La matrice P n'est pas carrée dans l'équation de Lyapunov.
+</nierror>
+<nierror code="-41669">
+Control Design and Simulation:  Ackermann valide uniquement pour une seule sortie.
+</nierror>
+<nierror code="-41668">
+Control Design and Simulation:  Le modèle de système n'est pas à une seule sortie.
+</nierror>
+<nierror code="-41667">
+Control Design and Simulation:  Le modèle de système n'est pas à une seule entrée.
+</nierror>
+<nierror code="-41666">
+Control Design and Simulation:  Le nombre de lignes de D n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41665">
+Control Design and Simulation:  Le nombre de colonnes de D n'est pas égal au nombre d'entrées.
+</nierror>
+<nierror code="-41664">
+Control Design and Simulation:  Le nombre de colonnes dans le gain du régulateur, K, n'est pas égal au nombre d'états.
+</nierror>
+<nierror code="-41663">
+Control Design and Simulation:  Le nombre de lignes dans le gain du régulateur, K, n'est pas égal au nombre d'entrées.
+</nierror>
+<nierror code="-41662">
+Control Design and Simulation:  Les rangées N ne sont pas égales à Nw.
+</nierror>
+<nierror code="-41661">
+Control Design and Simulation:  Le nombre de colonnes de N n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41660">
+Control Design and Simulation:  Les dimensions de R ne sont pas égales au nombre de sorties dans le modèle du système.
+</nierror>
+<nierror code="-41659">
+Control Design and Simulation:  Le nombre de lignes de N n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41658">
+Control Design and Simulation:  A est mal conditionnée. Vous ne pouvez pas calculer son inverse.
+</nierror>
+<nierror code="-41657">
+Control Design and Simulation:  Le modèle de système est marginalement stable.
+</nierror>
+<nierror code="-41656">
+Control Design and Simulation:  Le modèle de système n'est pas stable.
+</nierror>
+<nierror code="-41655">
+Control Design and Simulation:  La paire [A B] ou [A C] ne peut pas être contrôlée ou observée.
+</nierror>
+<nierror code="-41654">
+Control Design and Simulation:  Le nombre de lignes de H n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41653">
+Control Design and Simulation:  Le nombre de lignes de G n'est pas égal au nombre d'états dans le modèle de système.
+</nierror>
+<nierror code="-41652">
+Control Design and Simulation:  G et H doivent avoir le même nombre de colonnes.
+</nierror>
+<nierror code="-41651">
+Control Design and Simulation:  Les dimensions de Q sont différentes de la dimension du bruit du processus.
+</nierror>
+<nierror code="-41650">
+Control Design and Simulation:  Les dimensions de Q ne sont pas égales au nombre de sorties.
+</nierror>
+<nierror code="-41649">
+Control Design and Simulation:  La matrice de covariance de bruit composée, [G O; H I]*[Q N; N' R]*[G O; H I], n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41648">
+Control Design and Simulation:  La matrice de covariance de bruit n'est pas définie positive.
+</nierror>
+<nierror code="-41647">
+Control Design and Simulation:  Le nombre de colonnes du gain de Kalman, L, n'est pas égal au nombre de sorties dans le modèle de système.
+</nierror>
+<nierror code="-41646">
+Control Design and Simulation:  Le nombre de lignes du gain de Kalman, L, n'est pas égal au nombre d'états dans le modèle de système.
+</nierror>
+<nierror code="-41645">
+Control Design and Simulation:  Le nombre représentant le temps d'échantillonnage n'est pas le même.
+</nierror>
+<nierror code="-41644">
+Control Design and Simulation:  La matrice de Hamilton n'est pas carrée.
+</nierror>
+<nierror code="-41643">
+Control Design and Simulation:  Le modèle de système n'est pas observable.
+</nierror>
+<nierror code="-41642">
+Control Design and Simulation:  Le nombre de colonnes de N et le nombre d'entrées ou de colonnes de B sont différents.
+</nierror>
+<nierror code="-41641">
+Control Design and Simulation:  Le nombre de lignes de N et le nombre d'états/dimensions de A sont différents.
+</nierror>
+<nierror code="-41640">
+Control Design and Simulation:  La matrice R n'est pas carrée.
+</nierror>
+<nierror code="-41639">
+Control Design and Simulation:  La matrice de pondération de contrôle R doit être définie positive et avoir un nombre de dimensions égal au nombre d'entrées.
+</nierror>
+<nierror code="-41638">
+Control Design and Simulation:  La matrice Q n'est pas carrée.
+</nierror>
+<nierror code="-41637">
+Control Design and Simulation:  Les dimensions de Q ne sont pas égales aux dimensions de A, qui sont aussi le nombre d'états.
+</nierror>
+<nierror code="-41636">
+Control Design and Simulation:  Le nombre de colonnes de C n'est pas égal au nombre d'états.
+</nierror>
+<nierror code="-41635">
+Control Design and Simulation:  La matrice A n'est pas carrée.
+</nierror>
+<nierror code="-41634">
+Control Design and Simulation:  Le modèle de système n'est pas contrôlable.
+</nierror>
+<nierror code="-41633">
+Control Design and Simulation:  Le nombre de pôles de la boucle de rétroaction active (closed loop) ne correspond pas au nombre de colonnes de la matrice A.
+</nierror>
+<nierror code="-41632">
+Control Design and Simulation:  Ackermann valide uniquement pour une entrée
+</nierror>
+<nierror code="-41631">
+Control Design and Simulation:  Le nombre de lignes de B ne correspond pas aux dimensions de A, qui sont aussi le nombre d'états.
+</nierror>
+<nierror code="-41630">
+Control Design and Simulation:  Un ou plusieurs nombres complexe n'ont pas de complexe conjugué.
+</nierror>
+<nierror code="-41629">
+Control Design and Simulation:  La matrice Q n'est pas fournie.
+</nierror>
+<nierror code="-41628">
+Control Design and Simulation:  La paire (Ahat,B1) n'est pas stabilisable.
+</nierror>
+<nierror code="-41627">
+Control Design and Simulation:  La paire (C1, Ahat) est introuvable.
+</nierror>
+<nierror code="-41626">
+Control Design and Simulation:  Nbar n'est pas valide car la matrice [Qbar - Nbar.inv(Rbar).Nbar'] n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41625">
+Control Design and Simulation:  Rbar n'est pas définie positive.
+</nierror>
+<nierror code="-41624">
+Control Design and Simulation:  La matrice R n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41623">
+Control Design and Simulation:  La matrice de transformation n'est pas inversible.
+</nierror>
+<nierror code="-41578">
+Control Design and Simulation:  Le nombre de contraintes finales ne correspond pas au nombre de variables.
+</nierror>
+<nierror code="-41577">
+Control Design and Simulation:  Le nombre de contraintes initiales ne correspond pas au nombre de variables.
+</nierror>
+<nierror code="-41576">
+Control Design and Simulation:  La taille du vecteur du facteur de pondération ne correspond pas à la matrice de pondération.
+</nierror>
+<nierror code="-41575">
+Control Design and Simulation:  Une matrice de pondération non carrée a été spécifiée.
+</nierror>
+<nierror code="-41574">
+Control Design and Simulation:  La taille de la matrice de pondération de changement en entrée dans la fonction cost ne correspond pas au nombre d'entrées du modèle de contrôleur.
+</nierror>
+<nierror code="-41573">
+Control Design and Simulation:  La dimension de la matrice de pondération d'entrée ne correspond pas au nombre d'entrées.
+</nierror>
+<nierror code="-41572">
+Control Design and Simulation:  La taille de la matrice de pondération en sortie dans la fonction cost ne correspond pas au nombre de sorties du modèle de contrôleur.
+</nierror>
+<nierror code="-41571">
+Control Design and Simulation:  Les données de condition initiale ne correspondent pas aux dimensions des matrices système.
+</nierror>
+<nierror code="-41570">
+Control Design and Simulation:  Le vecteur de fréquence en entrée doit être supérieur à zéro.
+</nierror>
+<nierror code="-41569">
+Control Design and Simulation:  La fonction de transfert de la boucle de rétroaction active (closed loop) ne peut pas être calculée.
+</nierror>
+<nierror code="-41568">
+Control Design and Simulation:  Le vecteur de condition initiale ne correspond pas au nombre de sorties du modèle de système.
+</nierror>
+<nierror code="-41567">
+Control Design and Simulation:  La taille du vecteur de temps est trop grande.
+</nierror>
+<nierror code="-41566">
+Control Design and Simulation:  La fréquence initiale est supérieure à la fréquence finale. La fréquence initiale doit être inférieure à la fréquence finale.
+</nierror>
+<nierror code="-41565">
+Control Design and Simulation:  Le gain initial doit être inférieur au gain final.
+</nierror>
+<nierror code="-41564">
+Control Design and Simulation:  Le paramètre dB drop doit être négatif.
+</nierror>
+<nierror code="-41563">
+Control Design and Simulation:  Le vecteur de fréquences et le vecteur de réponse n'ont pas la même taille.
+</nierror>
+<nierror code="-41562">
+Control Design and Simulation:  La fréquence d'interpolation ne se situe pas dans la gamme des fréquences.
+</nierror>
+<nierror code="-41561">
+Control Design and Simulation:  La matrice de bruit blanc gaussien doit être une matrice semi-définie positive et avoir autant de lignes qu'il y a d'entrées dans le système.
+</nierror>
+<nierror code="-41560">
+Control Design and Simulation:  Le modèle du système a une covariance infinie en raison du débit direct.
+</nierror>
+<nierror code="-41559">
+Control Design and Simulation:  La matrice de covariance d'état contient des valeurs propres négatives.
+</nierror>
+<nierror code="-41558">
+Control Design and Simulation:  Le nombre d'entrées appliquées ne correspond au nombre d'entrées du modèle de système.
+</nierror>
+<nierror code="-41557">
+Control Design and Simulation:  Le nombre d'états initiaux ne correspond pas au nombre d'états du modèle de système.
+</nierror>
+<nierror code="-41556">
+Control Design and Simulation:  Toutes les waveforms doivent avoir les mêmes incrément de temps (dt) et temps initial (t0).
+</nierror>
+<nierror code="-41555">
+Control Design and Simulation:  L'incrément de temps (dt) et le temps d'échantillonnage du modèle de système discret doivent être égaux.
+</nierror>
+<nierror code="-41554">
+Control Design and Simulation:  L'incrément de temps (dt) doit être inférieur au temps final (tf).
+</nierror>
+<nierror code="-41553">
+Control Design and Simulation:  L'incrément de temps (dt) doit être supérieur à zéro.
+</nierror>
+<nierror code="-41552">
+Control Design and Simulation:  Le paramètre "initial time (t0)" doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41551">
+Control Design and Simulation:  Le temps final (tf) doit être supérieur au temps initial (t0).
+</nierror>
+<nierror code="-41550">
+Control Design and Simulation:  Le modèle du système en entrée doit être un modèle SISO (single-input single-output).
+</nierror>
+<nierror code="-41529">
+Control Design and Simulation:  La durée d'échantillonnage ne peut pas être non définie (-1).
+</nierror>
+<nierror code="-41528">
+Control Design and Simulation:  Débordement dans le calcul exponentiel matriciel.
+</nierror>
+<nierror code="-41527">
+Control Design and Simulation:  Le modèle a des pôles discrets à zéro.
+</nierror>
+<nierror code="-41526">
+Control Design and Simulation:  Le modèle a un pôle à 1 de multiplicité supérieure à 6.
+</nierror>
+<nierror code="-41525">
+Control Design and Simulation:  Le modèle a un pôle réel négatif de multiplicité supérieure à 2.
+</nierror>
+<nierror code="-41524">
+Control Design and Simulation:  Le temps d'échantillonnage doit être positif.
+</nierror>
+<nierror code="-41523">
+Control Design and Simulation:  Il y a une connexion répétée entre les modèles interconnectés.
+</nierror>
+<nierror code="-41522">
+Control Design and Simulation:  Le modèle de système doit être propre pour exécuter cette fonction.
+</nierror>
+<nierror code="-41521">
+Control Design and Simulation:  Le modèle de système a un retard.
+</nierror>
+<nierror code="-41520">
+Control Design and Simulation:  Le modèle de système est configuré avec un retard associé au transport.
+</nierror>
+<nierror code="-41519">
+Control Design and Simulation:  Le modèle de système est configuré avec un retard associé à la sortie.
+</nierror>
+<nierror code="-41518">
+Control Design and Simulation:  Le modèle de système est configuré avec un retard associé à l'entrée.
+</nierror>
+<nierror code="-41517">
+Control Design and Simulation:  Ce n'est pas un modèle de système du second ordre.
+</nierror>
+<nierror code="-41516">
+Control Design and Simulation:  Le modèle du système n'est pas carré.
+</nierror>
+<nierror code="-41515">
+Control Design and Simulation:  Tous les noms de variables doivent commencer par des lettres.
+</nierror>
+<nierror code="-41514">
+Control Design and Simulation:  Le temps d'échantillonnage sélectionné pour cette transformation produit un modèle de système qui n'est pas conditionné correctement.
+</nierror>
+<nierror code="-41513">
+Control Design and Simulation:  La fréquence doit être supérieure à zéro.
+</nierror>
+<nierror code="-41512">
+Control Design and Simulation:  L'ordre polynomial doit être supérieur à zéro.
+</nierror>
+<nierror code="-41511">
+Control Design and Simulation:  Le modèle de système doit être en continu.
+</nierror>
+<nierror code="-41510">
+Control Design and Simulation:  Le modèle de système doit être discret.
+</nierror>
+<nierror code="-41509">
+Control Design and Simulation:  La dimension du retard associé à la sortie ne correspond pas au nombre de sorties du modèle de système.
+</nierror>
+<nierror code="-41508">
+Control Design and Simulation:  La dimension du retard associé à l'entrée ne correspond pas au nombre d'entrées du modèle de système.
+</nierror>
+<nierror code="-41507">
+Control Design and Simulation:  Les dimensions des matrices de retard des E/S ne correspondent pas au nombre d'entrées et de sorties du modèle de système.
+</nierror>
+<nierror code="-41506">
+Control Design and Simulation:  Le retard dans le modèle de système discret doit être un entier.
+</nierror>
+<nierror code="-41505">
+Control Design and Simulation:  Le nombre d'entrées ou de sorties dépasse le nombre total d'entrées ou de sorties du modèle de système.
+</nierror>
+<nierror code="-41504">
+Control Design and Simulation:  Le nombre de sorties du modèle de système existant ne correspond pas au nombre de sorties du modèle de système fourni.
+</nierror>
+<nierror code="-41503">
+Control Design and Simulation:  Le nombre d'entrées du modèle de système existant ne correspond pas au nombre d'entrées du nouveau modèle de système.
+</nierror>
+<nierror code="-41502">
+Control Design and Simulation:  Le nombre d'états du modèle de système existant ne correspond pas au nombre d'états du modèle de système fourni.
+</nierror>
+<nierror code="-41501">
+Control Design and Simulation:  Le modèle du système est discret.
+</nierror>
+<nierror code="-41500">
+Control Design and Simulation:  Le temps d'échantillonnage ne peut pas être négatif.
+</nierror>
+<nierror code="-2391">
+Control Design and Simulation:  Impossible d'écrire le paramètre de modèle.
+</nierror>
+<nierror code="-2390">
+Control Design and Simulation:  Impossible de lire le paramètre de modèle.
+</nierror>
+<nierror code="-2389">
+Control Design and Simulation:  Impossible de lire ou d'écrire le paramètre de modèle spécifié car sa source est un terminal câblé. Pour lire ou écrire le paramètre, définissez sa source à <B>Configuration Dialog Box</B> ou supprimez le fil de liaison connecté au terminal.
+</nierror>
+<nierror code="-2388">
+Control Design and Simulation:  Aucun paramètre n'existe au chemin que vous avez spécifié. Assurez-vous de spécifier un chemin valide pour le paramètre.
+</nierror>
+<nierror code="-2387">
+Control Design and Simulation:  Vous avez configuré un paramètre de modèle qui se trouve dans la hiérarchie de modèle d'un VI qui n'est pas en cours d'exécution ou qui n'est pas réservé pour l'exécution. Si vous modifiez la hiérarchie de modèle où le paramètre de modèle se trouve, LabVIEW supprime la configuration. Pour garder la configuration, vérifiez que le VI contenant la hiérarchie de modèle est en cours d'exécution ou réservé pour l'exécution lorsque vous accédez au paramètre de modèle.
+</nierror>
+<nierror code="-2386">
+Control Design and Simulation:  La fonction Access Model Hierarchy n'est pas supportée sur la cible actuelle.
+</nierror>
+<nierror code="-2385">
+Control Design and Simulation:  La dimension du vecteur d'entrée de contrainte ne correspond pas à celle du vecteur de sortie implicite.
+</nierror>
+<nierror code="-2384">
+Control Design and Simulation:  Les dimensions du vecteur d'états initiaux et du vecteur de dérivées initiales ne correspondent pas.
+</nierror>
+<nierror code="-2383">
+Control Design and Simulation:  Il manque une fonction callback à la bibliothèque partagée pour la résolution d'ÉDO personnalisée.
+</nierror>
+<nierror code="-2382">
+Control Design and Simulation:  Le module LabVIEW Control Design and Simulation ne peut pas charger la bibliothèque partagée pour la résolution d'ÉDO personnalisée.
+</nierror>
+<nierror code="-2381">
+Control Design and Simulation:  L'ordre polynomial du numérateur et du dénominateur du modèle LTI ( (constant dans le temps linéaire) doit être supérieur à zéro.
+</nierror>
+<nierror code="-2380">
+Control Design and Simulation:  La dimension du modèle LTI (constant dans le temps) linéaire MIMO (plusieurs entrées, plusieurs sorties) doit être supérieure à zéro.
+</nierror>
+<nierror code="-2379">
+Control Design and Simulation:  Le temps final de la simulation ne peut pas être NaN.
+</nierror>
+<nierror code="-2378">
+Control Design and Simulation:  Le délai doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-2377">
+Control Design and Simulation:  Le module LabVIEW Control Design and Simulation ignore les propriétés de délai que vous spécifiez dans une fonction de transfert état-espace ou un type de données de modèle zéro-pôle-gain.
+</nierror>
+<nierror code="-2376">
+Control Design and Simulation:  Le délai de transport est configuré de manière non déterministe. Si le déterminisme est requis, vous devriez choisir une valeur finie pour le temps final de la simulation ou pour le délai maximum du bloc de délai de transport.
+</nierror>
+<nierror code="-2375">
+Control Design and Simulation:  L'option Auto Period de la page Timing Parameters de la boîte de dialogue Configure Simulation Parameters est sélectionnée. Cependant, la taille d'incrément n'est pas un multiple de la période de l'horloge source.
+</nierror>
+<nierror code="-2374">
+Control Design and Simulation:  La vitesse de variation négative doit être inférieure ou égale à la vitesse de variation positive.
+</nierror>
+<nierror code="-2373">
+Control Design and Simulation:  La version de LabVIEW que vous avez installée pour ce périphérique embarqué ne supporte que la source de cadencement à 1 kHz de la boucle de simulation.
+</nierror>
+<nierror code="-2372">
+Control Design and Simulation:  La table d'indice d'une table de correspondance (LUT) doit être non décroissante.
+</nierror>
+<nierror code="-2371">
+Control Design and Simulation:  La période d'échantillonnage discrète de chaque fonction discrète doit être un multiple entier de la taille de pas discrète globale de la simulation.
+</nierror>
+<nierror code="-2370">
+Control Design and Simulation:  Un modèle état-espace SISO (une entrée, une sortie) requiert une matrice B à une seule colonne, une matrice C à une seule ligne et une matrice D à un seul élément.
+</nierror>
+<nierror code="-2369">
+Control Design and Simulation:  Le modèle spécifié requiert un débit direct.  Ouvrez la boîte de dialogue de configuration de cette fonction et définissez le paramètre Feedthrough à Direct.
+</nierror>
+<nierror code="-2367">
+Control Design and Simulation:  La bibliothèque partagée qui correspond au modèle externe a renvoyé une erreur.
+</nierror>
+<nierror code="-2366">
+Control Design and Simulation:  La fonction External Model a renvoyé une erreur.
+</nierror>
+<nierror code="-2365">
+Control Design and Simulation:  L'ordre du modèle LTI (constant dans le temps) linéaire doit rester identique à celle de l'itération précédente.
+</nierror>
+<nierror code="-2364">
+Control Design and Simulation:  La dimension du modèle LTI (constant dans le temps) linéaire MIMO (plusieurs entrées, plusieurs sorties) doit rester identique à celle de l'itération précédente.
+</nierror>
+<nierror code="-2363">
+Control Design and Simulation:  Un modèle état-espace à débit indirect requiert une matrice D vide ou zéro.
+</nierror>
+<nierror code="-2362">
+Control Design and Simulation:  Le nombre de voies doit correspondre au nombre de contraintes d'inégalité.
+</nierror>
+<nierror code="-2361">
+Control Design and Simulation:  Le nombre de points de référence définis par l'utilisateur est insuffisant.
+</nierror>
+<nierror code="-2360">
+Control Design and Simulation:  Pour utiliser le solveur d'ÉDO Discrete States Only, le diagramme de simulation ne peut pas comporter de fonction continue.
+</nierror>
+<nierror code="-2359">
+Control Design and Simulation:  La taille de pas discrète doit être un multiple entier de la taille de pas continue.
+</nierror>
+<nierror code="-2358">
+Control Design and Simulation:  Une fonction discrète ne peut pas accepter de modèle continu.
+</nierror>
+<nierror code="-2357">
+Control Design and Simulation:  Une fonction continue ne peut pas accepter de modèle discret.
+</nierror>
+<nierror code="-2356">
+Control Design and Simulation:  Le paramètre sample period (sec) doit être -1 ou positif.  Si le paramètre sample period (sec) est positif, sample skew (sec) doit être supérieur ou égal à 0, et inférieur à sample period (sec).
+</nierror>
+<nierror code="-2355">
+Control Design and Simulation:  La valeur du paramètre Decimation de la fonction Collector doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-2354">
+Control Design and Simulation:  Le nombre d'éléments du tableau en entrée n'est pas égal au nombre de colonnes de la matrice de gain.
+</nierror>
+<nierror code="-2353">
+Control Design and Simulation:  Vous ne pouvez pas changer le délai maximum lorsque la simulation s'exécute.
+</nierror>
+<nierror code="-2352">
+Control Design and Simulation:  Le délai doit être inférieur ou égal au délai maximal spécifié.
+</nierror>
+<nierror code="-2351">
+Control Design and Simulation:  Le paramètre spécifié est un vecteur.  Entrez une valeur vecteur.
+</nierror>
+<nierror code="-2350">
+Control Design and Simulation:  Le paramètre spécifié est un scalaire.  Entrez une valeur scalaire.
+</nierror>
+<nierror code="-2349">
+Control Design and Simulation:  Le nom du paramètre n'est pas dans la liste des paramètres spécifiée.
+</nierror>
+<nierror code="-2348">
+Control Design and Simulation:  Le paramètre State Derivatives spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2347">
+Control Design and Simulation:  Le paramètre Outputs spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2346">
+Control Design and Simulation:  Le paramètre Inputs spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2345">
+Control Design and Simulation:  Le paramètre States spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2344">
+Control Design and Simulation:  Les paramètres spécifiés en sortie ne sont pas compatibles avec le sous-système spécifié.  Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2343">
+Control Design and Simulation:  Les paramètres spécifiés en entrée ne sont pas compatibles avec le sous-système spécifié.  Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2342">
+Control Design and Simulation:  Les paramètres d'état spécifiés ne sont pas compatibles avec le sous-système spécifié.  Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2341">
+Control Design and Simulation:  Le temps initial de la simulation ne peut pas être supérieur ou égal au temps final.
+</nierror>
+<nierror code="-2340">
+Control Design and Simulation:  Le linéariseur a détecté une erreur interne.
+</nierror>
+<nierror code="-2339">
+Control Design and Simulation:  Le solveur sélectionné ne peut pas traiter les fonctions implicites.
+</nierror>
+<nierror code="-2338">
+Control Design and Simulation:  Le solveur d'ÉDO a détecté une erreur interne.
+</nierror>
+<nierror code="-2337">
+Control Design and Simulation:  Vous ne pouvez linéariser que les sous-systèmes de simulation.
+</nierror>
+<nierror code="-2336">
+Control Design and Simulation:  Le diagramme de simulation a renvoyé NaN au solveur d'ÉDO.
+</nierror>
+<nierror code="-2335">
+Control Design and Simulation:  Le diagramme de simulation a renvoyé Inf au solveur d'ÉDO.
+</nierror>
+<nierror code="-2334">
+Control Design and Simulation:  Un débordement s'est produit dans la résolution d'équation différentielle ordinaire (ODE).
+</nierror>
+<nierror code="-2333">
+Control Design and Simulation:  La taille de pas doit être comprise entre les tailles de pas minimale et maximale.
+</nierror>
+<nierror code="-2332">
+Control Design and Simulation:  La taille de pas minimale doit être inférieure ou égale à la taille de pas maximale.
+</nierror>
+<nierror code="-2331">
+Control Design and Simulation:  Les tolérances absolue et relative ne peuvent pas être toutes les deux nulles.
+</nierror>
+<nierror code="-2330">
+Control Design and Simulation:  La taille de pas discrète doit être un multiple entier de la taille de pas.
+</nierror>
+<nierror code="-2329">
+Control Design and Simulation:  La taille de pas de simulation ne peut pas être zéro.
+</nierror>
+<nierror code="-2328">
+Control Design and Simulation:  Vous ne pouvez utiliser la boîte de dialogue Linearize Subsystem que sur les sous-systèmes de simulation.
+</nierror>
+<nierror code="-2327">
+Control Design and Simulation:  Vous ne pouvez utiliser la boîte de dialogue Linearize Subsystem que si vous avez créé un VI sous Poste de travail dans l'Explorateur de projet.
+</nierror>
+<nierror code="-2326">
+Control Design and Simulation:  Une erreur interne a eu lieu dans le module LabVIEW Control Design and Simulation. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-2325">
+Control Design and Simulation:  Le solveur d'ÉDO n'a pas convergé à la taille de pas minimale.
+</nierror>
+<nierror code="-2324">
+Control Design and Simulation:  Le solveur d'ÉDO ne peut pas se conformer à la tolérance d'erreur en utilisant la taille de pas minimale.
+</nierror>
+<nierror code="-2323">
+Control Design and Simulation:  La taille de pas de simulation doit être supérieure à zéro.
+</nierror>
+<nierror code="-2322">
+Control Design and Simulation:  Le délai discret doit être supérieur à 0 et inférieur ou égal au délai maximal. Si le délai maximal est égal à -1, le délai au départ de la simulation est utilisé comme délai maximal pendant la simulation.
+</nierror>
+<nierror code="-2321">
+Control Design and Simulation:  Le diviseur de la fréquence d'échantillonnage est un nombre négatif ou zéro. Vous devez spécifier un diviseur de fréquence d'échantillonnage supérieur à 0.
+</nierror>
+<nierror code="-2320">
+Control Design and Simulation:  Cette évaluation de solveur intermédiaire n'aurait pas du être exécutée.
+</nierror>
+<nierror code="-2319">
+Control Design and Simulation:  Les dimensions des tableaux pour la table de correspondance ne concordent pas.
+</nierror>
+<nierror code="-2318">
+Control Design and Simulation:  Les dimensions des vecteurs de paramètres de cette fonction ne concordent pas.
+</nierror>
+<nierror code="-2317">
+Control Design and Simulation:  Vous avez sélectionné un comportement de débit qui n'est pas cohérent avec la méthode d'intégration discrète spécifiée.
+</nierror>
+<nierror code="-2316">
+Control Design and Simulation:  L'ordre du numérateur doit être inférieur ou égal à l'ordre du dénominateur.
+</nierror>
+<nierror code="-2315">
+Control Design and Simulation:  Vous devez faire correspondre les entrées complexes de la fonction Zero-Pole-Gain à des complexes conjugués.
+</nierror>
+<nierror code="-2314">
+Control Design and Simulation:  Pour une fonction de transfert à comportement de débit indirect, l'ordre du numérateur doit être inférieur à celui du dénominateur.
+</nierror>
+<nierror code="-2313">
+Control Design and Simulation:  La taille du vecteur de condition initiale n'est pas correcte.
+</nierror>
+<nierror code="-2312">
+Control Design and Simulation:  La taille du vecteur en entrée est incorrecte pour le système MIMO.
+</nierror>
+<nierror code="-2311">
+Control Design and Simulation:  L'ordre du modèle doit rester le même que celui de l'itération précédente de la boucle de simulation.
+</nierror>
+<nierror code="-2310">
+Control Design and Simulation:  Les dimensions des matrices A, B, C et D ne sont pas cohérentes les unes avec les autres.
+</nierror>
+<nierror code="-2309">
+Control Design and Simulation:  La période pour cette fonction doit être supérieure à zéro.
+</nierror>
+<nierror code="-2308">
+Control Design and Simulation:  Le rapport cyclique doit être compris entre 0 et 100 %.
+</nierror>
+<nierror code="-2307">
+Control Design and Simulation:  Évaluation d'une résolution à une étape effectuée sur une sous-étape mineure.
+</nierror>
+<nierror code="-2306">
+Control Design and Simulation:  La fréquence pour cette fonction doit être supérieure à zéro.
+</nierror>
+<nierror code="-2305">
+Control Design and Simulation:  Le temps cible de la fonction Chirp Signal doit être supérieur au temps initial de simulation.
+</nierror>
+<nierror code="-2304">
+Control Design and Simulation:  La limite supérieure de la fonction Saturation doit être supérieure ou égale à la limite inférieure.
+</nierror>
+<nierror code="-2303">
+Control Design and Simulation:  Le point 'switch on' de la fonction Relay doit être supérieur ou égal au point 'switch off'.
+</nierror>
+<nierror code="-2302">
+Control Design and Simulation:  L'intervalle de quantification de la fonction Quantizer doit être supérieur à zéro.
+</nierror>
+<nierror code="-2301">
+Control Design and Simulation:  Simulation Model Converter n'a pas pu traduire correctement une expression.
+</nierror>
+<nierror code="-2300">
+Control Design and Simulation:  Référence de nœud SimX non valide.
+</nierror>
+<nierror code="2345">
+Control Design and Simulation:  La fonction Trim n'a pas pu implémenter une contrainte spécifique appliquée à la variable.
+</nierror>
+<nierror code="41500">
+Control Design and Simulation:  Ce VI ne prend pas en charge les modèles de systèmes avec attentes. Les informations relatives à l'attente ont été ignorées.
+</nierror>
+<nierror code="41501">
+Control Design and Simulation:  Le modèle de système est configuré avec un retard associé au transport.
+</nierror>
+<nierror code="41502">
+Control Design and Simulation:  Le modèle de système est configuré avec un retard associé à l'entrée.
+</nierror>
+<nierror code="41503">
+Control Design and Simulation:  Le modèle de système est configuré avec un retard associé à la sortie.
+</nierror>
+<nierror code="41504">
+Control Design and Simulation:  Les informations relatives à l'attente ont été ignorées.
+</nierror>
+<nierror code="41505">
+Control Design and Simulation:  Le modèle de système n'est pas propre.
+</nierror>
+<nierror code="41506">
+Control Design and Simulation:  Les retards fractionnaires du processus de discrétisation ont été ignorés.
+</nierror>
+<nierror code="41507">
+Control Design and Simulation:  Le second connecteur est ignoré.
+</nierror>
+<nierror code="41508">
+Control Design and Simulation:  Impossible de distribuer tous les éléments de la matrice de retard de transport.
+</nierror>
+<nierror code="41509">
+Control Design and Simulation:  Le modèle converti a un indice de conditionnement bas, ce qui peut indiquer une mauvaise conversion par cette méthode. Envisagez d'utiliser une autre méthode de conversion.
+</nierror>
+<nierror code="41510">
+Control Design and Simulation:  La conversion du modèle continu stable a produit un modèle équivalent discret instable.
+</nierror>
+<nierror code="41511">
+Control Design and Simulation:  La conversion du modèle discret stable a produit un modèle équivalent continu instable.
+</nierror>
+<nierror code="41550">
+Control Design and Simulation:  La marge de phase est infinie.
+</nierror>
+<nierror code="41551">
+Control Design and Simulation:  La marge de gain est infinie.
+</nierror>
+<nierror code="41552">
+Control Design and Simulation:  L'amplitude ne descend pas au-dessous de la valeur dB donnée.
+</nierror>
+<nierror code="41553">
+Control Design and Simulation:  Le temps final (tf) réel n'est pas le même que la valeur fournie.
+</nierror>
+<nierror code="41554">
+Control Design and Simulation:  "2-Norm" est infini puisque le modèle du système n'est pas stable.
+</nierror>
+<nierror code="41555">
+Control Design and Simulation:  La norme Infini est infinie car le système est marginalement stable.
+</nierror>
+<nierror code="41556">
+Control Design and Simulation:  Ce VI n'a pas tracé les racines en boucle fermée pour les grandes valeurs de gain.
+</nierror>
+<nierror code="41557">
+Control Design and Simulation:  La fréquence finale a été réduite à la fréquence de Nyquist du modèle de système discret.
+</nierror>
+<nierror code="41558">
+Control Design and Simulation:  L'incrément de temps (dt) fourni et des limites imposées à la taille du vecteur ont entrainé une réduction du temps final par rapport à sa valeur idéale.
+</nierror>
+<nierror code="41559">
+Control Design and Simulation:  Le paramètre d'incrément de temps (dt) utilisé n'est pas idéal.
+</nierror>
+<nierror code="41560">
+Control Design and Simulation:  Les conditions initiales ont été ignorées.
+</nierror>
+<nierror code="41561">
+Control Design and Simulation:  Les conditions initiales ont été ignorées.
+</nierror>
+<nierror code="41562">
+Control Design and Simulation:  Le modèle du système a une covariance infinie en raison du débit direct.
+</nierror>
+<nierror code="41627">
+Control Design and Simulation:  La paire (C1, Ahat) est introuvable.
+</nierror>
+<nierror code="41628">
+Control Design and Simulation:  La paire (Ahat,B1) n'est pas stabilisable.
+</nierror>
+<nierror code="41630">
+Control Design and Simulation:  Les matrices Q et/ou R sont proches de la norme zéro.
+</nierror>
+<nierror code="41631">
+Control Design and Simulation:  Le modèle de système n'a pas d'états spécifiés.
+</nierror>
+<nierror code="41632">
+Control Design and Simulation:  Le modèle de système n'a pas d'entrées spécifiées.
+</nierror>
+<nierror code="41633">
+Control Design and Simulation:  Le modèle de système n'a pas de sorties spécifiées.
+</nierror>
+<nierror code="41634">
+Control Design and Simulation:  Les sorties mesurées et les entrées connues ou manipulées sont ignorées.
+</nierror>
+<nierror code="41635">
+Control Design and Simulation:  Le seuil défini par l'utilisateur a été dépassé. Le module Control Design and Simulation n'a pas pu placer les pôles à l'emplacement spécifié.
+</nierror>
+<nierror code="41689">
+Control Design and Simulation:  La paire (Ahat,B) ne peut pas être stabilisée.
+</nierror>
+<nierror code="41729">
+Control Design and Simulation:  Ce VI a changé le dénominateur à 1 car le numérateur est 0.
+</nierror>
+<nierror code="41799">
+Control Design and Simulation:  Les entrées ou sorties non valides ont été ignorées pour produire les tracés.
+</nierror>
+</nidocument>

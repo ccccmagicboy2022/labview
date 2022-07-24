@@ -1,0 +1,1019 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Analysis" displayname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23096">
+Analysis:  过多的小数点。
+</nierror>
+<nierror code="-23095">
+Analysis:  无效的函数。
+</nierror>
+<nierror code="-23094">
+Analysis:  不完整的函数表达式。
+</nierror>
+<nierror code="-23093">
+Analysis:  不完整表达式。
+</nierror>
+<nierror code="-23092">
+Analysis:  变量输出问题。
+</nierror>
+<nierror code="-23091">
+Analysis:  变量或数值不一致。
+</nierror>
+<nierror code="-23090">
+Analysis:  包含多于一个变量。
+</nierror>
+<nierror code="-23089">
+Analysis:  包含变量。
+</nierror>
+<nierror code="-23088">
+Analysis:  错误的变量名。
+</nierror>
+<nierror code="-23087">
+Analysis:  公式中存在错误字母或未定义变量。
+</nierror>
+<nierror code="-23086">
+Analysis:  错误的函数调用。
+</nierror>
+<nierror code="-23085">
+Analysis:  错误的数字格式。
+</nierror>
+<nierror code="-23084">
+Analysis:  错误的小数点。
+</nierror>
+<nierror code="-23083">
+Analysis:  结尾处出现括号问题。
+</nierror>
+<nierror code="-23082">
+Analysis:  开始处出现括号问题。
+</nierror>
+<nierror code="-23081">
+Analysis:  括号问题。
+</nierror>
+<nierror code="-23055">
+Analysis:  参数超出[0,1)范围。
+</nierror>
+<nierror code="-23054">
+Analysis:  非唯一变量。
+</nierror>
+<nierror code="-23053">
+Analysis:  信号长度不是2的幂并且大于等于4。
+</nierror>
+<nierror code="-23052">
+Analysis:  信号长度不是一个大于5的质数。
+</nierror>
+<nierror code="-23051">
+Analysis:  信号长度不是2的幂。
+</nierror>
+<nierror code="-23050">
+Analysis:  信号长度不是数值的倍数。
+</nierror>
+<nierror code="-23049">
+Analysis:  无效窗口长度。
+</nierror>
+<nierror code="-23048">
+Analysis:  无效时间增量。
+</nierror>
+<nierror code="-23047">
+Analysis:  参数超出[0,100]范围。
+</nierror>
+<nierror code="-23046">
+Analysis:  空数组。
+</nierror>
+<nierror code="-23045">
+Analysis:  n < k
+</nierror>
+<nierror code="-23044">
+Analysis:  参数超出[0,1]范围。
+</nierror>
+<nierror code="-23043">
+Analysis:  参数超出(0,1]范围。
+</nierror>
+<nierror code="-23042">
+Analysis:  负参数。
+</nierror>
+<nierror code="-23041">
+Analysis:  不完全是两个变量。
+</nierror>
+<nierror code="-23040">
+Analysis:  导数超出范围。
+</nierror>
+<nierror code="-23039">
+Analysis:  参数问题。
+</nierror>
+<nierror code="-23038">
+Analysis:  表达式中无变量。
+</nierror>
+<nierror code="-23037">
+Analysis:  不完全是两个函数。
+</nierror>
+<nierror code="-23036">
+Analysis:  不同参数。
+</nierror>
+<nierror code="-23035">
+Analysis:  非正数值。
+</nierror>
+<nierror code="-23034">
+Analysis:  错误的条件系统
+</nierror>
+<nierror code="-23033">
+Analysis:  向量维数不同或为空向量。
+</nierror>
+<nierror code="-23032">
+Analysis:  资源不存在。
+</nierror>
+<nierror code="-23031">
+Analysis:  无有效点。
+</nierror>
+<nierror code="-23030">
+Analysis:  违反条件m >= n >= 0或矩阵导数的维数错误。
+</nierror>
+<nierror code="-23029">
+Analysis:  Levenberg Marquardt VI失败。
+</nierror>
+<nierror code="-23028">
+Analysis:  错误模型方程。
+</nierror>
+<nierror code="-23027">
+Analysis:  不完全是一个变量。
+</nierror>
+<nierror code="-23026">
+Analysis:  未找到最优。
+</nierror>
+<nierror code="-23025">
+Analysis:  无效的三个点(a,b,c)。
+</nierror>
+<nierror code="-23024">
+Analysis:  未找到根。
+</nierror>
+<nierror code="-23023">
+Analysis:  起始维数错误。
+</nierror>
+<nierror code="-23022">
+Analysis:  精度非正或delta x(h)非正。
+</nierror>
+<nierror code="-23021">
+Analysis:  两个函数值符号相同。
+</nierror>
+<nierror code="-23020">
+Analysis:  左边点大于右边点。
+</nierror>
+<nierror code="-23019">
+Analysis:  右边点是一个根。
+</nierror>
+<nierror code="-23018">
+Analysis:  左边点是一个根。
+</nierror>
+<nierror code="-23017">
+Analysis:  多根。
+</nierror>
+<nierror code="-23016">
+Analysis:  奇异特征向量矩阵。
+</nierror>
+<nierror code="-23015">
+Analysis:  空X0。
+</nierror>
+<nierror code="-23014">
+Analysis:  A和X0维数不同。
+</nierror>
+<nierror code="-23013">
+Analysis:  矩阵向量冲突。
+</nierror>
+<nierror code="-23012">
+Analysis:  精度非正。
+</nierror>
+<nierror code="-23011">
+Analysis:  步长非正。
+</nierror>
+<nierror code="-23010">
+Analysis:  错误输入，Cash Karp方法。
+</nierror>
+<nierror code="-23009">
+Analysis:  错误输入，Runge Kutta方法。
+</nierror>
+<nierror code="-23008">
+Analysis:  错误输入，欧拉方法。
+</nierror>
+<nierror code="-23007">
+Analysis:  不是图形文件。
+</nierror>
+<nierror code="-23006">
+Analysis:  不是有效路径。
+</nierror>
+<nierror code="-23005">
+Analysis:  负数距离。
+</nierror>
+<nierror code="-23004">
+Analysis:  颜色选板数量超出范围。
+</nierror>
+<nierror code="-23003">
+Analysis:  等高线数量超出范围。
+</nierror>
+<nierror code="-23002">
+Analysis:  函数、变量和坐标间存在矛盾。
+</nierror>
+<nierror code="-23001">
+Analysis:  解析器语法错误。
+</nierror>
+<nierror code="-23000">
+Analysis:  工程数学的起始错误代码。
+</nierror>
+<nierror code="-20999">
+Analysis:  严重算法错误。请联系National Instruments获取支持。
+</nierror>
+<nierror code="-20699">
+Analysis:  小波滤波器组的数据文件的格式无效。
+</nierror>
+<nierror code="-20698">
+Analysis:  无法打开小波滤波器组的数据文件。
+</nierror>
+<nierror code="-20697">
+Analysis:  小波数据包会话句柄或句柄必须引用完全树。
+</nierror>
+<nierror code="-20696">
+Analysis:  小波包句柄或会话无效或它指向的数据空间未包含必要信息。
+</nierror>
+<nierror code="-20695">
+Analysis:  小波系数的维数错误。
+</nierror>
+<nierror code="-20694">
+Analysis:  查找可选路径的科学参数无效。
+</nierror>
+<nierror code="-20693">
+Analysis:  趋势层次必须大于等于0且小于等于1.0。
+</nierror>
+<nierror code="-20692">
+Analysis:  时间步长必须大于零。
+</nierror>
+<nierror code="-20691">
+Analysis:  节点必须是接线端节点。
+</nierror>
+<nierror code="-20690">
+Analysis:  节点必须不是接线端节点。
+</nierror>
+<nierror code="-20689">
+Analysis:  路径或节点字符串必须包含0或1。
+</nierror>
+<nierror code="-20688">
+Analysis:  分析滤波器或合成滤波器必须大于零。
+</nierror>
+<nierror code="-20687">
+Analysis:  计算母小波所需的精确水平必须大于零。
+</nierror>
+<nierror code="-20686">
+Analysis:  移位必须为0或1。
+</nierror>
+<nierror code="-20685">
+Analysis:  移位必须不小于零并且小于降采样因子或插值因子。
+</nierror>
+<nierror code="-20684">
+Analysis:  内插因子必须大于等于2。
+</nierror>
+<nierror code="-20683">
+Analysis:  将采样因子必须大于等于2。
+</nierror>
+<nierror code="-20682">
+Analysis:  小波分解的刻度必须大于零。
+</nierror>
+<nierror code="-20681">
+Analysis:  选择的小波类型无效。
+</nierror>
+<nierror code="-20665">
+Analysis:  最大阶数必须大于初始阶数并且不大于输入信号长度的三分之二。
+</nierror>
+<nierror code="-20664">
+Analysis:  初始阶数必须小于1。
+</nierror>
+<nierror code="-20663">
+Analysis:  AR阶数必须大于等于复正弦曲线数。
+</nierror>
+<nierror code="-20662">
+Analysis:  复正弦函数的数量必须大于零并且不大于输入信号长度的三分之二。
+</nierror>
+<nierror code="-20661">
+Analysis:  AR模型的阶必须大于零并且不大于输入信号长度的三分之二。
+</nierror>
+<nierror code="-20644">
+Analysis:  引用句柄中储存的二维数组的索引超出范围。
+</nierror>
+<nierror code="-20643">
+Analysis:  引用句柄不支持该运算。
+</nierror>
+<nierror code="-20642">
+Analysis:  引用句柄无效。
+</nierror>
+<nierror code="-20641">
+Analysis:  创建引用句柄失败。
+</nierror>
+<nierror code="-20630">
+Analysis:  频率信息参数在深入计算时无效。
+</nierror>
+<nierror code="-20629">
+Analysis:  窗信息参数在深入计算时无效。
+</nierror>
+<nierror code="-20628">
+Analysis:  kernel的维数必须大于零并且时2的幂。kernel的列长必须满足2^(ceil(log2(Ls-1)))，这里Ls是输入信号的长度。
+</nierror>
+<nierror code="-20627">
+Analysis:  高斯窗的方差必须大于零。
+</nierror>
+<nierror code="-20626">
+Analysis:  窗大小必须大于零。
+</nierror>
+<nierror code="-20625">
+Analysis:  项数必须大于零。
+</nierror>
+<nierror code="-20624">
+Analysis:  过采样率必须大于等于1。
+</nierror>
+<nierror code="-20623">
+Analysis:  阶数必须大于等于零。
+</nierror>
+<nierror code="-20622">
+Analysis:  时间间隔必须为2的幂。
+</nierror>
+<nierror code="-20621">
+Analysis:  时间间隔必须大于零。
+</nierror>
+<nierror code="-20604">
+Analysis:  对枚举型数据类型参数的选择无效。
+</nierror>
+<nierror code="-20603">
+Analysis:  频率区间的数量必须大于零且为2的幂。
+</nierror>
+<nierror code="-20602">
+Analysis:  采样率必须大于零。
+</nierror>
+<nierror code="-20601">
+Analysis:  输入信号为空。
+</nierror>
+<nierror code="-20511">
+Analysis:  CVI无法创建需要的互斥量。
+</nierror>
+<nierror code="-20510">
+Analysis:  CVI在DLL中未找到指定的函数
+</nierror>
+<nierror code="-20509">
+Analysis:  CVI无法加载Spectral Measurement Toolset DLL
+</nierror>
+<nierror code="-20508">
+Analysis:  SMT会话句柄不正确。
+</nierror>
+<nierror code="-20507">
+Analysis:  指定的平均类型不正确。
+</nierror>
+<nierror code="-20506">
+Analysis:  输入频谱数据类型不正确。
+</nierror>
+<nierror code="-20505">
+Analysis:  必须指定FFT区间或RBM。
+</nierror>
+<nierror code="-20504">
+Analysis:  采样频率应大于零。
+</nierror>
+<nierror code="-20503">
+Analysis:  输入数据使得内部缓冲区溢出。
+</nierror>
+<nierror code="-20502">
+Analysis:  FFT大小必须大于零。
+</nierror>
+<nierror code="-20501">
+Analysis:  缩放因子必须大于零。
+</nierror>
+<nierror code="-20337">
+Analysis:  指定的时间标识超出了时限。
+</nierror>
+<nierror code="-20336">
+Analysis:  极限规范簇中所包含的X数组的值不是单调增加。
+</nierror>
+<nierror code="-20335">
+Analysis:  波形不连续。
+</nierror>
+<nierror code="-20334">
+Analysis:  由于用超过最长波形持续时间的10倍来分隔时间标识，因此无法对齐这些波形。
+</nierror>
+<nierror code="-20333">
+Analysis:  如果两个波形的采样不是用相位定时，将无法通过同一个dt对齐这两个波形。
+</nierror>
+<nierror code="-20332">
+Analysis:  内部错误：线程属性数小于零。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20331">
+Analysis:  内部错误：参数结构指针为空，这可能是因为调用VI程序框图的改动。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20330">
+Analysis:  内部错误：结果指针为空，这可能是因为调用VI程序框图的改动。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20329">
+Analysis:  内部错误：游标结构指针为空，这可能是因为调用VI程序框图的改动。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20328">
+Analysis:  在测量模式总初始化一个重要部分失败，这可能是因为低内存。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20327">
+Analysis:  测量模式中出现意外，这可能是因为内存太少。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20326">
+Analysis:  上升或下降时间为0，因而回转率为无穷。
+</nierror>
+<nierror code="-20325">
+Analysis:  内部错误：无效的测量ID号。请联系National Instruments技术支持获取更多信息。
+</nierror>
+<nierror code="-20324">
+Analysis:  内部错误：两个测量共享同一个ID号。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20323">
+Analysis:  边数、脉冲数或周期参数值必须大于零。
+</nierror>
+<nierror code="-20322">
+Analysis:  内部错误：属性数字不是指向一个有效的参数。检查<b>参考电平</b>、<b>百分比电平设置</b>和<b>状态设置</b>输入。
+</nierror>
+<nierror code="-20321">
+Analysis:  内部错误：测量会话句柄无效。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20320">
+Analysis:  内部错误：不存在请求的测量。如仍未解决该问题，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-20319">
+Analysis:  由于该波形的周期太短，无法执行该测量。
+</nierror>
+<nierror code="-20318">
+Analysis:  结果不是数值或是无穷大。
+</nierror>
+<nierror code="-20317">
+Analysis:  直方图大小参数值小于等于零。
+</nierror>
+<nierror code="-20316">
+Analysis:  非法百分比方法参数。检查<b>方法</b>枚举类型输入。
+</nierror>
+<nierror code="-20315">
+Analysis:  波形dt参数<= 0。
+</nierror>
+<nierror code="-20314">
+Analysis:  非法参考电平单位参数。检查<b>参考单位</b>输入。
+</nierror>
+<nierror code="-20313">
+Analysis:  参考电平无法满足要求。
+</nierror>
+<nierror code="-20312">
+Analysis:  输入波形的大小为0。
+</nierror>
+<nierror code="-20311">
+Analysis:  没有足够可用内存来进行波形测量。
+</nierror>
+<nierror code="-20310">
+Analysis:  由于波形未包含足够多的边，无法执行测量。边定义为波形与低参考电平、高参考电平交点之间的那段信号。请检查信号长度、参考电平和参考电平的单位。
+</nierror>
+<nierror code="-20309">
+Analysis:  波形的幅值为0，因而无法使用直方图记录方法。
+</nierror>
+<nierror code="-20308">
+Analysis:  由于波形未穿过中间参考电平足够多次，无法执行测量。请检查信号长度、参考电平和参考电平的单位。
+</nierror>
+<nierror code="-20307">
+Analysis:  频率不是（采样率）采样的倍数。
+</nierror>
+<nierror code="-20306">
+Analysis:  两个时间信号波形包含不同的dt。
+</nierror>
+<nierror code="-20305">
+Analysis:  两个时间信号波形包含不同数量的数据点。
+</nierror>
+<nierror code="-20304">
+Analysis:  至少一个时间信号波形不包括进行平均过程的正确的dt。
+</nierror>
+<nierror code="-20303">
+Analysis:  至少一个时间信号波形不包括进行平均过程的正确的数据点的数量。
+</nierror>
+<nierror code="-20302">
+Analysis:  时间信号波形不包括进行平均过程的正确的dt。
+</nierror>
+<nierror code="-20301">
+Analysis:  时间信号波形不包括进行平均过程的正确的数据点的数量。
+</nierror>
+<nierror code="-20207">
+Analysis:  上限小于下限。
+</nierror>
+<nierror code="-20206">
+Analysis:  移位：n为负数。
+</nierror>
+<nierror code="-20205">
+Analysis:  采样长度小于窗长。
+</nierror>
+<nierror code="-20204">
+Analysis:  窗长不为正。
+</nierror>
+<nierror code="-20203">
+Analysis:  时间增量不为正。
+</nierror>
+<nierror code="-20202">
+Analysis:  采样长度为负。
+</nierror>
+<nierror code="-20201">
+Analysis:  采样长度不为正。
+</nierror>
+<nierror code="-20165">
+Analysis:  初始条件与PDE类输入冲突。
+</nierror>
+<nierror code="-20164">
+Analysis:  边界条件与PDE类输入冲突。
+</nierror>
+<nierror code="-20163">
+Analysis:  域与PDE类输入冲突。
+</nierror>
+<nierror code="-20162">
+Analysis:  PDE右边与PDE类输入冲突。
+</nierror>
+<nierror code="-20161">
+Analysis:  方程与PDE类输入冲突。
+</nierror>
+<nierror code="-20158">
+Analysis:  PDE初始条件的大小与域上网格的大小不兼容。
+</nierror>
+<nierror code="-20157">
+Analysis:  PDE边界条件的大小与域上网格的大小不兼容。
+</nierror>
+<nierror code="-20156">
+Analysis:  PDE右边的大小与域上网格的大小不兼容。
+</nierror>
+<nierror code="-20155">
+Analysis:  在多边形域中，边界点的数量必须大于等于3。
+</nierror>
+<nierror code="-20154">
+Analysis:  在多边形域中，网格点的数量是0。
+</nierror>
+<nierror code="-20153">
+Analysis:  空间点的数量必须大于等于3。
+</nierror>
+<nierror code="-20152">
+Analysis:  时间点的数量必须大于等于2。
+</nierror>
+<nierror code="-20151">
+Analysis:  终结点（结束点）必须大于初始点（起始点）。
+</nierror>
+<nierror code="-20145">
+Analysis:  每个自变量都必须包含与应变量相同个数的值。
+</nierror>
+<nierror code="-20144">
+Analysis:  内插因子必须大于等于数据大小。
+</nierror>
+<nierror code="-20143">
+Analysis:  输入值不在可接受域的范围之内。
+</nierror>
+<nierror code="-20142">
+Analysis:  插值(xi, yi, ...)的域位置必须包含相同的维数和大小。
+</nierror>
+<nierror code="-20141">
+Analysis:  输入必须非零。
+</nierror>
+<nierror code="-20140">
+Analysis:  输入必须大于零。
+</nierror>
+<nierror code="-20131">
+Analysis:  阶数必须小于等于度数。
+</nierror>
+<nierror code="-20130">
+Analysis:  输入不是一个质数。
+</nierror>
+<nierror code="-20129">
+Analysis:  输入数组的大小不是基数的幂。
+</nierror>
+<nierror code="-20128">
+Analysis:  Hadamard矩阵的大小不满足要求。有效的矩阵大小是2^k、12*2^k、20*2^k，其中k > 0。
+</nierror>
+<nierror code="-20127">
+Analysis:  采样的数量小于未知参数的数量。
+</nierror>
+<nierror code="-20126">
+Analysis:  在分析工作区中执行指定程序所需空间不足。
+</nierror>
+<nierror code="-20125">
+Analysis:  分析工作区无法取消锁定。
+</nierror>
+<nierror code="-20124">
+Analysis:  分析工作区已被锁定。
+</nierror>
+<nierror code="-20123">
+Analysis:  分析工作区非空。
+</nierror>
+<nierror code="-20122">
+Analysis:  分析工作区为空。
+</nierror>
+<nierror code="-20121">
+Analysis:  分析工作区已被启用。
+</nierror>
+<nierror code="-20120">
+Analysis:  分析工作区已被设置。
+</nierror>
+<nierror code="-20119">
+Analysis:  采样数不等于3。
+</nierror>
+<nierror code="-20118">
+Analysis:  输入大于1或小于-1。
+</nierror>
+<nierror code="-20117">
+Analysis:  显著水平已丢失。
+</nierror>
+<nierror code="-20116">
+Analysis:  未找到可行的解决方案。
+</nierror>
+<nierror code="-20115">
+Analysis:  FFT大小必须大于零。
+</nierror>
+<nierror code="-20114">
+Analysis:  多项式实零点个数VI连线的起始值大于结束值。
+</nierror>
+<nierror code="-20113">
+Analysis:  多项式实零点个数VI连线的结束值是根。
+</nierror>
+<nierror code="-20112">
+Analysis:  多项式实零点个数VI连线的起始值是根。
+</nierror>
+<nierror code="-20111">
+Analysis:  输入多项式的系数为全零。
+</nierror>
+<nierror code="-20108">
+Analysis:  输入多边形不是凸多边形或简单多边形。
+</nierror>
+<nierror code="-20107">
+Analysis:  数值超出范围。有效范围[0,pi]。
+</nierror>
+<nierror code="-20106">
+Analysis:  数值超出范围。有效范围[0, pi/2]。
+</nierror>
+<nierror code="-20105">
+Analysis:  数值超出范围。有效范围[0,1]。
+</nierror>
+<nierror code="-20104">
+Analysis:  输入参数至少有一个元素的值为NaN。
+</nierror>
+<nierror code="-20103">
+Analysis:  阶数必须大于等于零。
+</nierror>
+<nierror code="-20102">
+Analysis:  移位必须满足|移位| < 采样。
+</nierror>
+<nierror code="-20101">
+Analysis:  参数的最大值必须大于参数的最小值。
+</nierror>
+<nierror code="-20099">
+Analysis:  AR阶数必须大于等于复正弦曲线数。
+</nierror>
+<nierror code="-20098">
+Analysis:  AR阶数不能大于采样数的三分之二。
+</nierror>
+<nierror code="-20097">
+Analysis:  复正弦曲线数不能大于采样数的三分之二。
+</nierror>
+<nierror code="-20096">
+Analysis:  AR阶数必须大于0。
+</nierror>
+<nierror code="-20095">
+Analysis:  复正弦曲线的数量必须大于0。
+</nierror>
+<nierror code="-20094">
+Analysis:  起始或最终数组的大小不正确。
+</nierror>
+<nierror code="-20093">
+Analysis:  df必须大于0。
+</nierror>
+<nierror code="-20092">
+Analysis:  双函数不存在。
+</nierror>
+<nierror code="-20091">
+Analysis:  Gabor系数数组的维数不正确。
+</nierror>
+<nierror code="-20090">
+Analysis:  Gabor谱图的阶数必须大于等于0。
+</nierror>
+<nierror code="-20089">
+Analysis:  过采样率N / dM必须大于等于1。
+</nierror>
+<nierror code="-20088">
+Analysis:  分析或合成窗口的长度必须按是2的幂被频率区间，N平均分配。
+</nierror>
+<nierror code="-20087">
+Analysis:  分析或合成窗口的长度必须被Gabor时间采样间隔，dM平均分配。
+</nierror>
+<nierror code="-20086">
+Analysis:  窗口长度必须大于2且为2的幂。
+</nierror>
+<nierror code="-20085">
+Analysis:  输入数组的大小及其Hilbert必须相同。
+</nierror>
+<nierror code="-20084">
+Analysis:  时间增量不能大于（窗口长度）/4。
+</nierror>
+<nierror code="-20083">
+Analysis:  窗口长度必须大于4且为2的幂。
+</nierror>
+<nierror code="-20082">
+Analysis:  时间增量不能大于dM。
+</nierror>
+<nierror code="-20081">
+Analysis:  dN或时间间隔必须大于零。
+</nierror>
+<nierror code="-20080">
+Analysis:  时间增量必须大于（窗口长度）/16。
+</nierror>
+<nierror code="-20079">
+Analysis:  无效的种子。
+</nierror>
+<nierror code="-20078">
+Analysis:  该平台不支持该功能。
+</nierror>
+<nierror code="-20077">
+Analysis:  时间点未按升序排列。
+</nierror>
+<nierror code="-20076">
+Analysis:  无法通过输入后的信号计算重采样点。
+</nierror>
+<nierror code="-20075">
+Analysis:  滤波器缓冲区溢出。
+</nierror>
+<nierror code="-20074">
+Analysis:  记录特征值改动了一些复数值。
+</nierror>
+<nierror code="-20073">
+Analysis:  不能记录特征值，特征值太接近。
+</nierror>
+<nierror code="-20072">
+Analysis:  不能计算输入矩阵的对数。
+</nierror>
+<nierror code="-20071">
+Analysis:  输入矩阵不是正定。
+</nierror>
+<nierror code="-20070">
+Analysis:  矩阵的大小相同。
+</nierror>
+<nierror code="-20069">
+Analysis:  采样数必须大于等于4。
+</nierror>
+<nierror code="-20068">
+Analysis:  输入参数至少有一个元素的值为Inf、NaN、DBL_MAX或DBL_MIN。
+</nierror>
+<nierror code="-20067">
+Analysis:  输入的基频或采样率等于零。
+</nierror>
+<nierror code="-20066">
+Analysis:  IIR滤波器结构中的信息不正确。
+</nierror>
+<nierror code="-20065">
+Analysis:  向量中的元素不能全部为零。
+</nierror>
+<nierror code="-20064">
+Analysis:  未正确初始化该函数的内部内存状态。
+</nierror>
+<nierror code="-20063">
+Analysis:  无效的多项式系数。
+</nierror>
+<nierror code="-20062">
+Analysis:  已超出循环的最大值。
+</nierror>
+<nierror code="-20061">
+Analysis:  选择无效。
+</nierror>
+<nierror code="-20060">
+Analysis:  除数不能为零。
+</nierror>
+<nierror code="-20059">
+Analysis:  负数错误
+</nierror>
+<nierror code="-20058">
+Analysis:  位数或依赖变量无效
+</nierror>
+<nierror code="-20057">
+Analysis:  beta函数的参数应0<p<1
+</nierror>
+<nierror code="-20056">
+Analysis:  列联表有一个负数。
+</nierror>
+<nierror code="-20055">
+Analysis:  类别数和采样数必须大于1。
+</nierror>
+<nierror code="-20054">
+Analysis:  概率必须大于等于0并小于1。
+</nierror>
+<nierror code="-20053">
+Analysis:  数值必须在0到1之间。
+</nierror>
+<nierror code="-20052">
+Analysis:  自由度必须大于0且小于输入序列的长度。
+</nierror>
+<nierror code="-20051">
+Analysis:  X矩阵的第一列的所有值必须为1。
+</nierror>
+<nierror code="-20050">
+Analysis:  内插函数在请求值处有一个极点。
+</nierror>
+<nierror code="-20049">
+Analysis:  x值必须不同。
+</nierror>
+<nierror code="-20048">
+Analysis:  需“固定性能”模型时应请求”随机性能“模型。
+</nierror>
+<nierror code="-20047">
+Analysis:  数据不平衡。所有单元都必须包含同样数量的观测。
+</nierror>
+<nierror code="-20046">
+Analysis:  计算中存在溢出。
+</nierror>
+<nierror code="-20045">
+Analysis:  数据点的总数必须等于每个层次和每个区域观测量的乘积。
+</nierror>
+<nierror code="-20044">
+Analysis:  对部分电平的因数进行0观测。
+</nierror>
+<nierror code="-20043">
+Analysis:  因数的电平已超出数据允许的范围。
+</nierror>
+<nierror code="-20042">
+Analysis:  电平数量已超出范围。
+</nierror>
+<nierror code="-20041">
+Analysis:  输入矩阵是奇异的，因此方程不可解。
+</nierror>
+<nierror code="-20040">
+Analysis:  输入矩阵必须为方阵。
+</nierror>
+<nierror code="-20039">
+Analysis:  第一个矩阵中列的数量不等于第二个矩阵或向量中行的数量。
+</nierror>
+<nierror code="-20038">
+Analysis:  间隔必须大于0。
+</nierror>
+<nierror code="-20037">
+Analysis:  Y值数组的数据点的数量必须大于阶次的值。
+</nierror>
+<nierror code="-20036">
+Analysis:  Y值数组的元素必须是非零的且全部为整数或复数。
+</nierror>
+<nierror code="-20035">
+Analysis:  进行归一化的标准差必须大于零。
+</nierror>
+<nierror code="-20034">
+Analysis:  该滤波器的系数的数量必须为偶数。
+</nierror>
+<nierror code="-20033">
+Analysis:  该滤波器的系数的数量必须为奇数。
+</nierror>
+<nierror code="-20032">
+Analysis:  滤波器的左阶数必须满足：左阶数≥0。
+滤波器的右阶数必须满足：右阶数<大小。
+</nierror>
+<nierror code="-20031">
+Analysis:  时间滤波器可通过指定输入值定义。
+</nierror>
+<nierror code="-20030">
+Analysis:  泄漏系数、泄漏以及步长参数u必须满足：0 <= leak <= u。
+</nierror>
+<nierror code="-20029">
+Analysis:  步长u必须满足：0 ≤ u ≤ 0.1。
+</nierror>
+<nierror code="-20028">
+Analysis:  衰减值必须大于波纹幅值。
+</nierror>
+<nierror code="-20027">
+Analysis:  最终值必须大于0。
+</nierror>
+<nierror code="-20026">
+Analysis:  宽度必须大于0。
+</nierror>
+<nierror code="-20025">
+Analysis:  衰减必须大于0。
+</nierror>
+<nierror code="-20024">
+Analysis:  波纹幅值必须大于0。
+</nierror>
+<nierror code="-20023">
+Analysis:  必须满足下列条件：0 < f_low <= f_high <= fs/2。
+</nierror>
+<nierror code="-20022">
+Analysis:  降采样因子必须满足：0 <降采样因子 <=采样。
+</nierror>
+<nierror code="-20021">
+Analysis:  阶次必须大于0。
+</nierror>
+<nierror code="-20020">
+Analysis:  截止频率fc必须满足：0 <= fc <= fs/2。
+</nierror>
+<nierror code="-20019">
+Analysis:  较高的值必须大于等于较低的值。
+</nierror>
+<nierror code="-20018">
+Analysis:  必须满足下列条件：0 ≤ (索引 + 长度) < 采样。
+</nierror>
+<nierror code="-20017">
+Analysis:  必须满足下列条件：0 <=索引 < 采样。
+</nierror>
+<nierror code="-20016">
+Analysis:  dt必须大于0。
+</nierror>
+<nierror code="-20015">
+Analysis:  dt必须大于等于0。
+</nierror>
+<nierror code="-20014">
+Analysis:  必须满足下列条件：0 <= (延迟 + 宽度) < 采样。
+</nierror>
+<nierror code="-20013">
+Analysis:  宽度必须满足：0 < 宽度 < 采样。
+</nierror>
+<nierror code="-20012">
+Analysis:  周期数必须大于0且小于等于采样数。
+</nierror>
+<nierror code="-20011">
+Analysis:  占空比必须等于或介于0到100：0 <= duty cycle <= 100。
+</nierror>
+<nierror code="-20010">
+Analysis:  已超出允许变换大小的最大值。
+</nierror>
+<nierror code="-20009">
+Analysis:  输入数组的大小必须为2的幂：大小= 2^m, 0 < m < 23。
+</nierror>
+<nierror code="-20008">
+Analysis:  输入数组所包含的数值数量不符合该函数要求。
+</nierror>
+<nierror code="-20007">
+Analysis:  采样数必须大于等于3。
+</nierror>
+<nierror code="-20006">
+Analysis:  采样数必须大于等于2。
+</nierror>
+<nierror code="-20005">
+Analysis:  采样数必须大于等于1。
+</nierror>
+<nierror code="-20004">
+Analysis:  采样数必须大于等于0。
+</nierror>
+<nierror code="-20003">
+Analysis:  采样数必须大于0。
+</nierror>
+<nierror code="-20002">
+Analysis:  输入序列大小必须相同。
+</nierror>
+<nierror code="-20001">
+Analysis:  无充足内存执行指定分支。
+</nierror>
+<nierror code="20001">
+Analysis:  不满秩矩阵。
+</nierror>
+<nierror code="20002">
+Analysis:  采样数必须大于等于零。
+</nierror>
+<nierror code="20003">
+Analysis:  奇异矩阵。
+</nierror>
+<nierror code="20004">
+Analysis:  矩阵或向量的大小不同。
+</nierror>
+<nierror code="20005">
+Analysis:  LabVIEW无法对广义特征值重新排序。
+</nierror>
+<nierror code="20006">
+Analysis:  计算结果可能不精确 。
+</nierror>
+<nierror code="20007">
+Analysis:  输入的Cholesky分解无效。
+</nierror>
+<nierror code="20008">
+Analysis:  矩阵不是正定的。
+</nierror>
+<nierror code="20010">
+Analysis:  输入数组的大小不满足指定条件。
+</nierror>
+<nierror code="20011">
+Analysis:  输入的标准差无效。
+</nierror>
+<nierror code="20012">
+Analysis:  输入多项式为空。
+</nierror>
+<nierror code="20020">
+Analysis:  某些频率违背Nyquist标准。
+</nierror>
+<nierror code="20021">
+Analysis:  状态电平测量可能不正确，导致其他测量结果也不正确。
+</nierror>
+<nierror code="20030">
+Analysis:  输入矩阵至少有一个元素的值为Inf或NaN。
+</nierror>
+<nierror code="20031">
+Analysis:  已超出允许阶数的最大值。
+</nierror>
+<nierror code="20307">
+Analysis:  将频率强制转换为“采样率/采样点”的最近倍数。
+</nierror>
+<nierror code="20334">
+Analysis:  波形没有重叠。
+</nierror>
+<nierror code="20351">
+Analysis:  平均过程自动重启，用于响应平均参数的改变。
+</nierror>
+<nierror code="20352">
+Analysis:  当前和此前的波形不连续。
+</nierror>
+<nierror code="20353">
+Analysis:  当前和此前的dt不等。
+</nierror>
+</nidocument>

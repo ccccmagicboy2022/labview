@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Scaling" lib="LabVIEW">
+	<var-prop name="Type" type="string" />
+	<var-prop name="RawMin" type="double"  />	
+	<var-prop name="RawMax" type="double" />	
+	<var-prop name="EngMin" type="double" />	
+	<var-prop name="EngMax" type="double" />
+  <var-prop name="EngUnit" type="string" />
+  <var-prop name="Coerce" type="boolean" />	
+	<var-prop name="Invert" type="boolean" />	
+	<var-prop name="InvertMask" type="uint" />
+	<var-prop name="SelectMask" type="uint" />
+	<var-prop name="CustomVI" type="string" />
+</var-prop-group>

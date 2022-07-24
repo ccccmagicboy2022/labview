@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="OS and Network Services" familyname="OS and Network Services">
+</nifamily>
+</nicomment>
+<nierror code="-1967370240">
+OSとネットワークサービス: (Hex 0x8ABC5000) 内部ネットワークエラー
+</nierror>
+<nierror code="-1967370239">
+OSとネットワークサービス: (Hex 0x8ABC5001) 要求されたネットワーク操作を実行中にメモリ不足エラーが発生しました。
+</nierror>
+<nierror code="-1967370238">
+OSとネットワークサービス: (Hex 0x8ABC5002) アプリケーションが使用可能なPSPサブスクリプションハンドルの数を超えました
+</nierror>
+<nierror code="-1967370237">
+OSとネットワークサービス: (Hex 0x8ABC5003) サーバへの接続が失われました
+</nierror>
+<nierror code="-1967370236">
+OSとネットワークサービス: (Hex 0x8ABC5004) ネットワーク送信バッファが満杯です。
+</nierror>
+<nierror code="-1967370235">
+OSとネットワークサービス: (Hex 0x8ABC5005) 要求された操作はサーバでサポートされていません。
+</nierror>
+<nierror code="-1967370234">
+OSとネットワークサービス: (Hex 0x8ABC5006) サーバはTCPポートをバインドできませんでした。
+</nierror>
+<nierror code="-1967370233">
+OSとネットワークサービス: (Hex 0x8ABC5007) ネットワーク層がシャットダウン中であるため、操作に失敗しました。
+</nierror>
+<nierror code="-1967370232">
+OSとネットワークサービス: (Hex 0x8ABC5008) ネットワーク層が非同期操作をスケジュールできませんでした
+</nierror>
+<nierror code="-1967370231">
+OSとネットワークサービス: (Hex 0x8ABC5009) サーバは要求されたデータ形式をサポートしていません。
+</nierror>
+<nierror code="-1967370224">
+OSとネットワークサービス: (Hex 0x8ABC5010) サービスの登録に失敗しました。指定された名前のサービスはすでに登録されています。
+</nierror>
+<nierror code="-1967362047">
+OSとネットワークサービス: (Hex 0x8ABC7001) インストールされたライブラリのバージョンが間違っています。
+</nierror>
+<nierror code="-1967362046">
+OSとネットワークサービス: (Hex 0x8ABC7002) クライアントが未登録のライブラリで関数を呼び出そうとしました。
+</nierror>
+<nierror code="-1967362045">
+OSとネットワークサービス: (Hex 0x8ABC7003) 操作がタイムアウトしました。
+</nierror>
+<nierror code="-1967362044">
+OSとネットワークサービス: (Hex 0x8ABC7004) 構文エラーです。
+</nierror>
+<nierror code="-1967362043">
+OSとネットワークサービス: (Hex 0x8ABC7005) スタックがオーバーフローしました。
+</nierror>
+<nierror code="-1967362042">
+OSとネットワークサービス: (Hex 0x8ABC7006) サービスを開始できません。
+</nierror>
+<nierror code="-1967362041">
+OSとネットワークサービス: (Hex 0x8ABC7007) 範囲外です。
+</nierror>
+<nierror code="-1967362040">
+OSとネットワークサービス: (Hex 0x8ABC7008) オブジェクトが見つかりません。
+</nierror>
+<nierror code="-1967362039">
+OSとネットワークサービス: (Hex 0x8ABC7009) オブジェクトはすでに存在します。
+</nierror>
+<nierror code="-1967362038">
+OSとネットワークサービス: (Hex 0x8ABC700A) オブジェクトが見つかりません。コンピュータ、プロセス、シェア変数、Citadelデータベース、またはNIドメインなど、オブジェクトの特定の名前またはURLが存在するかどうかを確認してください。
+</nierror>
+<nierror code="-1967362037">
+OSとネットワークサービス: (Hex 0x8ABC700B) オブジェクトまたはコレクションが空ではありません。
+</nierror>
+<nierror code="-1967362036">
+OSとネットワークサービス: (Hex 0x8ABC700C) クライアントが登録機能を2回以上呼び出そうとしました。
+</nierror>
+<nierror code="-1967362035">
+OSとネットワークサービス: (Hex 0x8ABC700D) 結果タイプが無効です。
+</nierror>
+<nierror code="-1967362034">
+OSとネットワークサービス: (Hex 0x8ABC700E) 操作が無効です
+</nierror>
+<nierror code="-1967362033">
+OSとネットワークサービス: (Hex 0x8ABC700F) 引数が無効です。
+</nierror>
+<nierror code="-1967362032">
+OSとネットワークサービス: (Hex 0x8ABC7010) 初期化に失敗しました。
+</nierror>
+<nierror code="-1967362031">
+OSとネットワークサービス: (Hex 0x8ABC7011) 書き込みファイルの操作に失敗しました。
+</nierror>
+<nierror code="-1967362030">
+OSとネットワークサービス: (Hex 0x8ABC7012) 読み取りファイルの操作に失敗しました。
+</nierror>
+<nierror code="-1967362029">
+OSとネットワークサービス: (Hex 0x8ABC7013) ファイルの終わりです。
+</nierror>
+<nierror code="-1967362028">
+OSとネットワークサービス: (Hex 0x8ABC7014) 非シリアル化に失敗しました。
+</nierror>
+<nierror code="-1967362027">
+OSとネットワークサービス: (Hex 0x8ABC7015) 要求を完了できません。接続できませんでした。
+</nierror>
+<nierror code="-1967362026">
+OSとネットワークサービス: (Hex 0x8ABC7016) 操作がキャンセルされました。
+</nierror>
+<nierror code="-1967362025">
+OSとネットワークサービス: (Hex 0x8ABC7017) バッファがオーバーフローしました。
+</nierror>
+<nierror code="-1967362024">
+OSとネットワークサービス: (Hex 0x8ABC7018) Logos分類広告にサービスを通知しようとしましたが失敗しました。
+</nierror>
+<nierror code="-1967362023">
+OSとネットワークサービス: (Hex 0x8ABC7019) アクセスが拒否されました。
+</nierror>
+<nierror code="-1967362022">
+OSとネットワークサービス: (Hex 0x8ABC701A) バッファがアンダーフローです。
+</nierror>
+<nierror code="-1967362021">
+OSとネットワークサービス: (Hex 0x8ABC701B) ファイルはすでに存在します。
+</nierror>
+<nierror code="-1967362020">
+OSとネットワークサービス: (Hex 0x8ABC701C) 渡されたRefnumは無効です。
+</nierror>
+<nierror code="-1967362019">
+OSとネットワークサービス: (Hex 0x8ABC701D) NullのRefnumが入力として渡されました。
+</nierror>
+<nierror code="-1967362016">
+OSとネットワークサービス: (Hex 0x8ABC7020) 予期しないOS例外が発生しました。
+</nierror>
+<nierror code="-1967362015">
+OSとネットワークサービス: (Hex 0x8ABC7021) ライブラリのロードに失敗しました。
+</nierror>
+<nierror code="-1967362014">
+OSとネットワークサービス: (Hex 0x8ABC7022) クラスは見つかりませんでした。
+</nierror>
+<nierror code="-1967362013">
+OSとネットワークサービス: (Hex 0x8ABC7023) 既知の値ではありません。
+</nierror>
+<nierror code="-1967362012">
+OSとネットワークサービス: (Hex 0x8ABC7024) ロケール情報が無効です。
+</nierror>
+<nierror code="-1967362000">
+OSとネットワークサービス: (Hex 0x8ABC7030) UTF8エンコーディングシーケンスが無効です。
+</nierror>
+<nierror code="-1967361999">
+OSとネットワークサービス: (Hex 0x8ABC7031) Citadelは共有メモリが足りなくなりました。
+</nierror>
+<nierror code="-1967361998">
+OSとネットワークサービス: (Hex 0x8ABC7032) 無効な形式のGUID文字列です。
+</nierror>
+<nierror code="-1967361997">
+OSとネットワークサービス: (Hex 0x8ABC7033) シェア変数データタイプでは、指定されたプロパティ値はサポートされません。サポートされるシェア変数プロパティを確認する方法については、『LabVIEWヘルプ』を参照してください。
+</nierror>
+<nierror code="-1967361996">
+OSとネットワークサービス: (Hex 0x8ABC7034) 変換できませんでした。
+</nierror>
+<nierror code="-1967361995">
+OSとネットワークサービス: (Hex 0x8ABC7035) 共有メモリに破損が検出されました。
+</nierror>
+<nierror code="-1967357951">
+OSとネットワークサービス: (Hex 0x8ABC8001) ネットワーク変数エンジンは、MXSを使用するように設定されていません。これは、初めてサービスを実行するときに発生します。このエラーは、インストール後にコンピュータを再起動しないと発生することがよくあります。「National Instruments Variable Engine」サービスが実行していることを確認してください。
+</nierror>
+<nierror code="-1967357950">
+OSとネットワークサービス: (Hex 0x8ABC8002) I\OサーバはMXSには設定されていません。「Network Variable Engine」サービスが初めて起動したときに起動します。「Network Variable Engine」サービスが実行していることを確認してください。
+</nierror>
+<nierror code="-1967357949">
+OSとネットワークサービス: (Hex 0x8ABC8003) Measurement & Automation Explorerにネットワーク変数エンジンをクエリすることができません。(ネットワーク共有変数のサポートをインストールする) ネットワーク変数エンジンがRTターゲットに存在し、ネットワーク接続が有効であることを確認してください。
+</nierror>
+<nierror code="-1967345663">
+OSとネットワークサービス: (Hex 0x8ABCB001) 一般セキュリティエラーです。
+</nierror>
+<nierror code="-1967345662">
+OSとネットワークサービス: (Hex 0x8ABCB002) バージョンがピアによってサポートされていません。
+</nierror>
+<nierror code="-1967345661">
+OSとネットワークサービス: (Hex 0x8ABCB003) アカウントはロックされています。
+</nierror>
+<nierror code="-1967345660">
+OSとネットワークサービス: (Hex 0x8ABCB004) Logosセッションがタイムアウトしたか、他のユーザによってロックアウトされています。
+</nierror>
+<nierror code="-1967345659">
+OSとネットワークサービス: (Hex 0x8ABCB005) 指定されたユーザは存在しません。
+</nierror>
+<nierror code="-1967345658">
+OSとネットワークサービス: (Hex 0x8ABCB006) 指定されたグループは存在しません。
+</nierror>
+<nierror code="-1967345657">
+OSとネットワークサービス: (Hex 0x8ABCB007) 名前が重複しています。
+</nierror>
+<nierror code="-1967345656">
+OSとネットワークサービス: (Hex 0x8ABCB008) メッセージが破損しています。
+</nierror>
+<nierror code="-1967345655">
+OSとネットワークサービス: (Hex 0x8ABCB009) ドメインサーバが関数を完了できませんでした。
+</nierror>
+<nierror code="-1967345654">
+OSとネットワークサービス: (Hex 0x8ABCB00A) ビルトインのプリンシパルを削除できません。
+</nierror>
+<nierror code="-1967345653">
+OSとネットワークサービス: (Hex 0x8ABCB00B) パスワードが無効です。
+</nierror>
+<nierror code="-1967345652">
+OSとネットワークサービス: (Hex 0x8ABCB00C) ローカルコンピュータではありません。
+</nierror>
+<nierror code="-1967345651">
+OSとネットワークサービス: (Hex 0x8ABCB00D) 管理者ではありません。
+</nierror>
+<nierror code="-1967345650">
+OSとネットワークサービス: (Hex 0x8ABCB00E) ドメインが定義されていません。
+</nierror>
+<nierror code="-1967345649">
+OSとネットワークサービス: (Hex 0x8ABCB00F) ドメインが既に存在します。
+</nierror>
+<nierror code="-1967345648">
+OSとネットワークサービス: (Hex 0x8ABCB010) パスワードが短すぎるか、長すぎます。
+</nierror>
+<nierror code="-1967345647">
+OSとネットワークサービス: (Hex 0x8ABCB011) マシンがアクセスを拒否されました。
+</nierror>
+<nierror code="-1967345646">
+OSとネットワークサービス: (Hex 0x8ABCB012) 要求されたデータが拒否されました。
+</nierror>
+<nierror code="-1967345632">
+OSとネットワークサービス: (Hex 0x8ABCB020) アカウントをロックできません。
+</nierror>
+<nierror code="-1967345631">
+OSとネットワークサービス: (Hex 0x8ABCB021) ネットワーク接続がタイムアウトになりました。
+</nierror>
+<nierror code="-1967345630">
+OSとネットワークサービス: (Hex 0x8ABCB022) ファイルが破損しています。
+</nierror>
+<nierror code="-1967345629">
+OSとネットワークサービス: (Hex 0x8ABCB023) ネットワークが接続解除されました。
+</nierror>
+<nierror code="-1967345628">
+OSとネットワークサービス: (Hex 0x8ABCB024) 要求されたデータが見つかりません。
+</nierror>
+<nierror code="-1967345627">
+OSとネットワークサービス: (Hex 0x8ABCB025) ユーザにより操作がキャンセルされました。
+</nierror>
+<nierror code="-1967345626">
+OSとネットワークサービス: (Hex 0x8ABCB026) NI PSP Server Locatorへのサービスの広告に失敗しました。
+</nierror>
+<nierror code="-1967345616">
+OSとネットワークサービス: (Hex 0x8ABCB030) メッセージのサイズが1ブロック以下です。
+</nierror>
+<nierror code="-1967345615">
+OSとネットワークサービス: (Hex 0x8ABCB031) 乱数を生成できませんでした。
+</nierror>
+<nierror code="-1967345614">
+OSとネットワークサービス: (Hex 0x8ABCB032) パスワードが一致しません。
+</nierror>
+<nierror code="-1967345612">
+OSとネットワークサービス: (Hex 0x8ABCB034) パスワードが短すぎます。
+</nierror>
+<nierror code="-1967345611">
+OSとネットワークサービス: (Hex 0x8ABCB035) パスワードが長すぎます。
+</nierror>
+<nierror code="-1967345610">
+OSとネットワークサービス: (Hex 0x8ABCB036) ドメインは既に追加されています。
+</nierror>
+<nierror code="-1967345609">
+OSとネットワークサービス: (Hex 0x8ABCB037) プリンシパルがこれ以上ありません。
+</nierror>
+<nierror code="180121600">
+OSとネットワークサービス: (Hex 0xABC7000) ネットワーク変数エンジンの入力キューの容量が90％です。
+</nierror>
+<nierror code="180121601">
+OSとネットワークサービス: (Hex 0xABC7001) ネットワーク変数エンジンの入力キューがオーバーフローしました。
+</nierror>
+<nierror code="180121602">
+OSとネットワークサービス: (Hex 0xABC7002) 変数読み取りのための読み取りバッファが空です。最新の既知の値が返されました。
+</nierror>
+<nierror code="180121603">
+OSとネットワークサービス: (Hex 0xABC7003) 変数の書き込みバッファが一杯です。次の書き込み操作によってバッファがオーバーフローする可能性があります。
+</nierror>
+<nierror code="180121604">
+OSとネットワークサービス: (Hex 0xABC7004) 変数の書き込みバッファがオーバーフローしました。バッファの最も古い値が破棄されました。
+</nierror>
+<nierror code="180121605">
+OSとネットワークサービス: (Hex 0xABC7005) 変数データは送信可能な速度より速く書き込まれています。これによってデータが損失する可能性があります。
+</nierror>
+</nidocument>

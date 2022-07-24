@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Industrial" lib="LabVIEW">
+	<var-prop name="EnableTimestamp" type="boolean" />
+	<var-prop name="Mode" type="int" />
+  <var-prop name="RSI" type="boolean" />
+	<var-prop name="ChannelIndex" type="uint" />
+	<var-prop name="AliasVariable" type="string" />
+	<var-prop name="IsNetworkPublished" type="boolean" />
+  <var-prop-enum name="IODirection">
+    <var-prop-enum-value>Input</var-prop-enum-value>
+    <var-prop-enum-value>Output</var-prop-enum-value>
+  </var-prop-enum>
+  <var-prop name="BufferingEnabled" type="boolean" />
+  <var-prop name="BufferSize" type="int" />
+</var-prop-group>

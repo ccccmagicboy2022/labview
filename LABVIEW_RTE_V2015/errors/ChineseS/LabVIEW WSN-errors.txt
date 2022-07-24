@@ -1,0 +1,163 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW WSN" displayname="LabVIEW WSN">
+</nifamily>
+</nicomment>
+<nierror code="-25399">
+LabVIEW WSN:  最后一个LV WSN错误。返回，无其它可选项。
+</nierror>
+<nierror code="-25339">
+LabVIEW WSN:  调用该函数之前，必须打开串口接收器电源，否则无法读取新数据。
+</nierror>
+<nierror code="-25338">
+LabVIEW WSN:  设备不支持一次性从串口读写指定数量的字节数。
+</nierror>
+<nierror code="-25337">
+LabVIEW WSN:  设定的超时时间范围内，无法读写指定数量的字节数。
+</nierror>
+<nierror code="-25336">
+LabVIEW WSN:  设备不支持当前设定的串口配置。
+</nierror>
+<nierror code="-25327">
+LabVIEW WSN:  用户RAM不足。
+</nierror>
+<nierror code="-25326">
+LabVIEW WSN:  无效的用户RAM引用句柄。
+</nierror>
+<nierror code="-25325">
+LabVIEW WSN:  用户内存验证失败。
+</nierror>
+<nierror code="-25324">
+LabVIEW WSN:  写入用户内存失败。
+</nierror>
+<nierror code="-25323">
+LabVIEW WSN:  写入用户内存失败：位置非空。
+</nierror>
+<nierror code="-25322">
+LabVIEW WSN:  超出用户内存范围。操作指定的位置不在用户内存扇区范围之内。
+</nierror>
+<nierror code="-25321">
+LabVIEW WSN:  擦除指定的用户内存扇区失败。
+</nierror>
+<nierror code="-25320">
+LabVIEW WSN:  Null指针异常。
+</nierror>
+<nierror code="-25313">
+LabVIEW WSN:  内部错误：硬件故障。
+</nierror>
+<nierror code="-25312">
+LabVIEW WSN:  无法连接节点
+</nierror>
+<nierror code="-25311">
+LabVIEW WSN:  无效参数。
+</nierror>
+<nierror code="-25310">
+LabVIEW WSN:  用户消息丢失。
+</nierror>
+<nierror code="-25309">
+LabVIEW WSN:  无线故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25308">
+LabVIEW WSN:  闪存故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25307">
+LabVIEW WSN:  命令队列溢出：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25306">
+LabVIEW WSN:  数据输出线故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25305">
+LabVIEW WSN:  ADC故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25304">
+LabVIEW WSN:  CJC故障：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25303">
+LabVIEW WSN:  SPI通信失败：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25302">
+LabVIEW WSN:  串行接收失败：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25301">
+LabVIEW WSN:  串行传输失败：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25300">
+LabVIEW WSN:  LabVIEW Wireless Sensor Network模块中发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25283">
+LabVIEW WSN:  节点ID未出现在网关的节点表中。
+</nierror>
+<nierror code="-25282">
+LabVIEW WSN:  无效消息引用。
+</nierror>
+<nierror code="-25281">
+LabVIEW WSN:  无效节点引用。
+</nierror>
+<nierror code="-25280">
+LabVIEW WSN:  无效网关引用。
+</nierror>
+<nierror code="-25254">
+LabVIEW WSN:  连接超时。可能原因：网关状态不佳。
+</nierror>
+<nierror code="-25253">
+LabVIEW WSN:  双重界面登录：发生内部错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-25252">
+LabVIEW WSN:  从网关接收的奥不兼容或损坏的数据。
+</nierror>
+<nierror code="-25251">
+LabVIEW WSN:  内存错误。无法释放已用内存。
+</nierror>
+<nierror code="-25250">
+LabVIEW WSN:  内存分配失败。
+</nierror>
+<nierror code="-25230">
+LabVIEW WSN:  请求处理器对请求解串失败。可能原因是协议版本不兼容，或数据已损坏。
+</nierror>
+<nierror code="-25229">
+LabVIEW WSN:  请求处理器对请求解串失败。可能原因是协议版本不兼容。
+</nierror>
+<nierror code="-25228">
+LabVIEW WSN:  发生未处理的异常，请求已中止。
+</nierror>
+<nierror code="-25227">
+LabVIEW WSN:  内存分配失败。
+</nierror>
+<nierror code="-25226">
+LabVIEW WSN:  客户端被拒绝访问。
+</nierror>
+<nierror code="-25225">
+LabVIEW WSN:  客户端放弃连接。
+</nierror>
+<nierror code="-25224">
+LabVIEW WSN:  网络通信失败。
+</nierror>
+<nierror code="-25223">
+LabVIEW WSN:  连接超时。
+</nierror>
+<nierror code="-25222">
+LabVIEW WSN:  无法连接命名服务。
+</nierror>
+<nierror code="-25221">
+LabVIEW WSN:  无法连接命名网关。
+</nierror>
+<nierror code="-25220">
+LabVIEW WSN:  一般连接错误。
+</nierror>
+<nierror code="-25200">
+LabVIEW WSN:  第一个LV WSN错误
+</nierror>
+<nierror code="21100">
+LabVIEW WSN:  第一个LV WSN警告
+</nierror>
+<nierror code="21240">
+LabVIEW WSN:  串口接收器收到线中断条件。
+</nierror>
+<nierror code="21241">
+LabVIEW WSN:  检测到设定的终止字符串之前，已从串口读取到设定数量的字节。
+</nierror>
+<nierror code="21299">
+LabVIEW WSN:  最后一个LV WSN警告。
+</nierror>
+</nidocument>

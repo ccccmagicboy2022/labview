@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="VarDlgInterface">
+        <xs:attribute name="class" use="optional" />
+        <xs:attribute name="iid" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="VarDlgPlugin">
+        <xs:sequence>
+            <xs:element name="vdlg-iface" type="VarDlgInterface" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" use="required"/>
+        <xs:attribute name="lib" use="required" />
+    </xs:complexType> 
+
+    <xs:element name="vdlg-plugin" type="VarDlgPlugin" />
+</xs:schema>

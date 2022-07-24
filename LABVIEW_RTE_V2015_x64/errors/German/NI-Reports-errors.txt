@@ -1,0 +1,34 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="NI-Reports" displayname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41007">
+NI-Reports:  Für die Erstellung dieses Protokolltyps ist das LabVIEW Report Generation Toolkit für Microsoft Office erforderlich.  Das Toolkit muss aktiviert sein oder im Evaluierungsmodus ausgeführt werden.
+</nierror>
+<nierror code="-41006">
+NI-Reports:  Dieser Protokolltyp wird auf der verwendeten Plattform nicht unterstützt.
+</nierror>
+<nierror code="-41005">
+NI-Reports:  Angabe der Ränder ungültig.
+</nierror>
+<nierror code="-41004">
+NI-Reports:  Druckerfehler.
+</nierror>
+<nierror code="-41003">
+NI-Reports:  Fehler beim Öffnen der Datei.
+</nierror>
+<nierror code="-41002">
+NI-Reports:  Unzulässiger Druckername
+</nierror>
+<nierror code="-41001">
+NI-Reports:  Nicht genügend Arbeitsspeicher.
+</nierror>
+<nierror code="-41000">
+NI-Reports:  Unbekannter Fehler.
+</nierror>
+<nierror code="41000">
+NI-Reports:  Die ausgewählte Funktion kann für den aktuellen Protokolltyp nicht verwendet werden.
+</nierror>
+</nidocument>

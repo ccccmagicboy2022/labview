@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Measure" familyname="Measure">
+</nifamily>
+</nicomment>
+<nierror code="-2101">
+Measure: (Hex 0xFFFFF7CB) 1つのアナログ出力チャンネル文字列が、複数のアナログ出力チャンネルを表しています。Measureでは、各アナログ出力チャンネル文字列に1つのアナログ出力チャンネルのみが含まれている必要があります。
+</nierror>
+<nierror code="-2004">
+Measure: (Hex 0xFFFFF82C) Excelのメモリが不足しています。より小さな範囲を使用してください。
+</nierror>
+<nierror code="-2003">
+Measure: (Hex 0xFFFFF82D) タスクの構成で指定された範囲が無効です。
+</nierror>
+<nierror code="-2002">
+Measure: (Hex 0xFFFFF82E) タスクの構成で指定されたワークシートが存在しません。
+</nierror>
+<nierror code="-2001">
+Measure: (Hex 0xFFFFF82F) タスクが見つかりません。
+</nierror>
+</nidocument>

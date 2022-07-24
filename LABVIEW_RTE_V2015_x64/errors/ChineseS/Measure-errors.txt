@@ -1,0 +1,22 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Measure" displayname="Measure">
+</nifamily>
+</nicomment>
+<nierror code="-2101">
+Measure:  一个模拟输出通道字符串代表多个模拟输出通道。测量需要每个模拟输出通道字符串只包含一个模拟输出通道。
+</nierror>
+<nierror code="-2004">
+Measure:  Excel不在内存中。使用较小的范围。
+</nierror>
+<nierror code="-2003">
+Measure:  任务配置中指定的范围无效。
+</nierror>
+<nierror code="-2002">
+Measure:  任务配置中指定的工作表不存在。
+</nierror>
+<nierror code="-2001">
+Measure:  无法查找任务。
+</nierror>
+</nidocument>

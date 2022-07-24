@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Security" lib="LabVIEW">
+	<var-prop name="__hidden__ACL" type="string" />
+</var-prop-group>

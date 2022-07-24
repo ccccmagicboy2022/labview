@@ -1,0 +1,163 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW WSN" displayname="LabVIEW WSN">
+</nifamily>
+</nicomment>
+<nierror code="-25399">
+LabVIEW WSN:  Letzter LV-WSN-Fehler. Zurück
+</nierror>
+<nierror code="-25339">
+LabVIEW WSN:  Die Versorgung des Empfängers des seriellen Ports muss vor dem Aufruf dieser Funktion aktiviert werden. Anderenfalls können keine neuen Daten gelesen werden.
+</nierror>
+<nierror code="-25338">
+LabVIEW WSN:  Dieses Gerät unterstützt nicht das gleichzeitige Empfangen oder Senden der gewünschten Anzahl Bytes am seriellen Port.
+</nierror>
+<nierror code="-25337">
+LabVIEW WSN:  Die gewünschte Anzahl Bytes konnte nicht innerhalb der angegebenen Zeit gesendet oder empfangen werden.
+</nierror>
+<nierror code="-25336">
+LabVIEW WSN:  Die gewünschte Konfiguration des seriellen Ports wird vom Gerät nicht unterstützt.
+</nierror>
+<nierror code="-25327">
+LabVIEW WSN:  Unzureichender Benutzer-RAM.
+</nierror>
+<nierror code="-25326">
+LabVIEW WSN:  Ungültige Benutzer-RAM-Referenz.
+</nierror>
+<nierror code="-25325">
+LabVIEW WSN:  Verifizierung des Benutzerspeichers schlug fehl.
+</nierror>
+<nierror code="-25324">
+LabVIEW WSN:  Schreiben in den Benutzerspeicher schlug fehl.
+</nierror>
+<nierror code="-25323">
+LabVIEW WSN:  Schreibvorgang in den Benutzerspeicher schlug fehl, da die Position nicht leer ist.
+</nierror>
+<nierror code="-25322">
+LabVIEW WSN:  Benutzerspeicher außerhalb des gültigen Bereichs. Die Operation verwies auf eine Position außerhalb des Benutzerspeicherbereichs.
+</nierror>
+<nierror code="-25321">
+LabVIEW WSN:  Gewünschter Benutzerspeicherbereich konnte nicht gelöscht werden.
+</nierror>
+<nierror code="-25320">
+LabVIEW WSN:  Nullzeigerausnahme.
+</nierror>
+<nierror code="-25313">
+LabVIEW WSN:  Interner Fehler: Hardware-Fehler.
+</nierror>
+<nierror code="-25312">
+LabVIEW WSN:  Der Knoten ist nicht verbunden.
+</nierror>
+<nierror code="-25311">
+LabVIEW WSN:  Ungültiges Argument.
+</nierror>
+<nierror code="-25310">
+LabVIEW WSN:  Verpasste Benutzernachricht.
+</nierror>
+<nierror code="-25309">
+LabVIEW WSN:  Funkverbindungsfehler: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25308">
+LabVIEW WSN:  Flash-Fehler: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25307">
+LabVIEW WSN:  Überlauf der Befehls-Queue: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25306">
+LabVIEW WSN:  Fehler bei der digitalen Ausgabe: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25305">
+LabVIEW WSN:  ADC-Fehler: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25304">
+LabVIEW WSN:  CJC-Fehler: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25303">
+LabVIEW WSN:  Fehler bei der SPI-Kommunikation: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25302">
+LabVIEW WSN:  Fehler beim seriellen Empfangen: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25301">
+LabVIEW WSN:  Fehler bei der seriellen Übertragung: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25300">
+LabVIEW WSN:  Im LabVIEW Wireless Sensor Network Module trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25283">
+LabVIEW WSN:  Die Knoten-ID befindet sich nicht in der Knotentabelle des Gateways.
+</nierror>
+<nierror code="-25282">
+LabVIEW WSN:  Ungültige Nachrichtenreferenz.
+</nierror>
+<nierror code="-25281">
+LabVIEW WSN:  Ungültige Knotenreferenz.
+</nierror>
+<nierror code="-25280">
+LabVIEW WSN:  Ungültige Gateway-Referenz.
+</nierror>
+<nierror code="-25254">
+LabVIEW WSN:  Verbindungs-Timeout. Gateway befindet sich eventuell in schlechtem Zustand.
+</nierror>
+<nierror code="-25253">
+LabVIEW WSN:  Doppelte Interface-Registrierung: Es trat ein interner Fehler auf. Wenden Sie sich an den technischen Support von National Instruments (ni.com/support).
+</nierror>
+<nierror code="-25252">
+LabVIEW WSN:  Gateway hat inkompatible oder fehlerhafte Daten empfangen.
+</nierror>
+<nierror code="-25251">
+LabVIEW WSN:  Speicherfehler. Verwendeter Speicher kann nicht neu zugewiesen werden.
+</nierror>
+<nierror code="-25250">
+LabVIEW WSN:  Speicherzuweisung fehlgeschlagen.
+</nierror>
+<nierror code="-25230">
+LabVIEW WSN:  Der Prozessor konnte eine Anfrage nicht deserialisieren. Dieser Fehler kann auftreten, wenn Protokollversionen nicht kompatibel oder Daten fehlerhaft sind.
+</nierror>
+<nierror code="-25229">
+LabVIEW WSN:  Der Prozessor konnte eine Anfrage nicht deserialisieren. Dieser Fehler kann auftreten, wenn Protokollversionen nicht kompatibel sind.
+</nierror>
+<nierror code="-25228">
+LabVIEW WSN:  Die Anfrage wurde aufgrund einer unbehandelten Ausnahme beendet.
+</nierror>
+<nierror code="-25227">
+LabVIEW WSN:  Speicherzuweisung fehlgeschlagen.
+</nierror>
+<nierror code="-25226">
+LabVIEW WSN:  Dem Client wurde der Zugriff verweigert.
+</nierror>
+<nierror code="-25225">
+LabVIEW WSN:  Verbindung durch Client abgebrochen.
+</nierror>
+<nierror code="-25224">
+LabVIEW WSN:  Netzwerkkommunikation schlug fehl.
+</nierror>
+<nierror code="-25223">
+LabVIEW WSN:  Verbindungs-Timeout.
+</nierror>
+<nierror code="-25222">
+LabVIEW WSN:  Keine Verbindung zum angegebenen Dienst möglich.
+</nierror>
+<nierror code="-25221">
+LabVIEW WSN:  Keine Verbindung zum angegebenen Gateway möglich.
+</nierror>
+<nierror code="-25220">
+LabVIEW WSN:  Allgemeiner Verbindungsfehler.
+</nierror>
+<nierror code="-25200">
+LabVIEW WSN:  Erster LV-WSN-Fehler
+</nierror>
+<nierror code="21100">
+LabVIEW WSN:  Erste LV-WSN-Warnung
+</nierror>
+<nierror code="21240">
+LabVIEW WSN:  Der Empfänger des seriellen Ports hat eine Unterbrechung (Break Condition) empfangen.
+</nierror>
+<nierror code="21241">
+LabVIEW WSN:  Die angeforderte Anzahl Bytes wurde vom seriellen Port gelesen, bevor der festgelegte End-String erfasst wurde.
+</nierror>
+<nierror code="21299">
+LabVIEW WSN:  Letzte LV-WSN-Warnung.
+</nierror>
+</nidocument>

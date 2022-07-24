@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-Reports" familyname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41031">
+NI-Reports: (Hex 0xFFFF5FB9) レポートファイルのファイル拡張子が、テンプレートファイルと異なります。
+</nierror>
+<nierror code="-41030">
+NI-Reports: (Hex 0xFFFF5FBA) このファイルのファイル拡張子は正しくありません。使用できるファイル拡張子は、.xlsxと.xlsmのみです。
+</nierror>
+<nierror code="-41029">
+NI-Reports: (Hex 0xFFFF5FBB) これは有効なExcelファイルではありません。
+</nierror>
+<nierror code="-41028">
+NI-Reports: (Hex 0xFFFF5FBC) Excelレポートに書き込むのに、無効な2D配列が使用されています。最大許容サイズは、16,384列、1,048,576行です。
+</nierror>
+<nierror code="-41027">
+NI-Reports: (Hex 0xFFFF5FBD) Excelレポートで無効な列名が使用されました。
+</nierror>
+<nierror code="-41026">
+NI-Reports: (Hex 0xFFFF5FBE) Excelレポートで無効なシート名が使用されました。
+</nierror>
+<nierror code="-41025">
+NI-Reports: (Hex 0xFFFF5FBF) Excelレポートで無効な範囲が使用されました。右下の行と列の値は、左上の値よりも大きくなければなりません。
+</nierror>
+<nierror code="-41024">
+NI-Reports: (Hex 0xFFFF5FC0) Excelレポートでレポートへの無効なリファレンスが使用されました。
+</nierror>
+<nierror code="-41023">
+NI-Reports: (Hex 0xFFFF5FC1) Excelレポートで空のパスが使用されました。
+</nierror>
+<nierror code="-41022">
+NI-Reports: (Hex 0xFFFF5FC2) Excelレポートで空のシート名が使用されました。
+</nierror>
+<nierror code="-41021">
+NI-Reports: (Hex 0xFFFF5FC3) Excelレポートで内部エラーが発生しました。
+</nierror>
+<nierror code="-41020">
+NI-Reports: (Hex 0xFFFF5FC4) Excelレポート機能によって無効なエラーコードが報告されました。
+</nierror>
+<nierror code="-41007">
+NI-Reports: (Hex 0xFFFF5FD1) このタイプのレポートを作成するには、LabVIEW Report Generation (レポート生成) ツールキット (Microsoft Office用) をインストールする必要があります。ツールキットは、ライセンスがアクティブ化されているか評価モードである必要があります。
+</nierror>
+<nierror code="-41006">
+NI-Reports: (Hex 0xFFFF5FD2) このタイプのレポートはこのプラットフォームでサポートされていません。
+</nierror>
+<nierror code="-41005">
+NI-Reports: (Hex 0xFFFF5FD3) 無効な余白設定
+</nierror>
+<nierror code="-41004">
+NI-Reports: (Hex 0xFFFF5FD4) プリンタエラー
+</nierror>
+<nierror code="-41003">
+NI-Reports: (Hex 0xFFFF5FD5) ファイルを開くときにエラーが発生しました。
+</nierror>
+<nierror code="-41002">
+NI-Reports: (Hex 0xFFFF5FD6) 無効なプリンタ名
+</nierror>
+<nierror code="-41001">
+NI-Reports: (Hex 0xFFFF5FD7) メモリ不足です。
+</nierror>
+<nierror code="-41000">
+NI-Reports: (Hex 0xFFFF5FD8) 不明なエラーが発生しました。
+</nierror>
+<nierror code="41000">
+NI-Reports: (Hex 0xA028) 現在のレポートタイプに有効でない関数を使用しようとしました。
+</nierror>
+</nidocument>

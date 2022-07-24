@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Shift_JIS" standalone="no"?>
+<NILVWSPostInstallerScript>
+	<VI name="Prompt for Credentials.vi">
+		<string name="Title">NI認証ログイン</string>
+		<string name="Username">ユーザ名</string>
+		<string name="Password">パスワード</string>
+		<string name="OK">OK</string>
+		<string name="Cancel">キャンセル</string>
+	</VI>
+	<VI name="install.vi">
+		<string name="Label">ウェブサービス%sをインストールしています</string>
+	</VI>
+	<VI name="uninstall.vi">
+		<string name="Label">ウェブサービス%sをアンインストールしています</string>
+	</VI>
+</NILVWSPostInstallerScript>

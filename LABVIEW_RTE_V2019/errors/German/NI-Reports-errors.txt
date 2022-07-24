@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-Reports" familyname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41031">
+NI-Reports: (Hex 0xFFFF5FB9) Die Dateierweiterung der Protokolldatei unterscheidet sich von der Vorlagendatei.
+</nierror>
+<nierror code="-41030">
+NI-Reports: (Hex 0xFFFF5FBA) Diese Datei hat die falsche Dateierweiterung. Sie dürfen nur die Dateierweiterungen .xlsx und .xlsm verwenden.
+</nierror>
+<nierror code="-41029">
+NI-Reports: (Hex 0xFFFF5FBB) Diese Datei ist keine gültige Excel-Datei.
+</nierror>
+<nierror code="-41028">
+NI-Reports: (Hex 0xFFFF5FBC) Ein ungültiges 2D-Array wird zum Schreiben bei der Excel-Protokollerstellung verwendet. Die maximal zulässige Größe beträgt 16.384 Spalten und 1.048.576 Zeilen.
+</nierror>
+<nierror code="-41027">
+NI-Reports: (Hex 0xFFFF5FBD) Bei der Excel-Protokollerstellung wurde ein ungültiger Spaltenname verwendet.
+</nierror>
+<nierror code="-41026">
+NI-Reports: (Hex 0xFFFF5FBE) Bei der Excel-Protokollerstellung wurde ein ungültiger Seitenname verwendet.
+</nierror>
+<nierror code="-41025">
+NI-Reports: (Hex 0xFFFF5FBF) Bei der Excel-Protokollerstellung wurde ein ungültiger Bereich verwendet. Die Werte von Zeile und Spalte für unten rechts müssen größer sein als die Werte für oben links.
+</nierror>
+<nierror code="-41024">
+NI-Reports: (Hex 0xFFFF5FC0) Bei der Excel-Protokollerstellung wurde eine ungültige Protokollreferenz verwendet.
+</nierror>
+<nierror code="-41023">
+NI-Reports: (Hex 0xFFFF5FC1) Bei der Excel-Protokollerstellung wurde ein leerer Pfad verwendet.
+</nierror>
+<nierror code="-41022">
+NI-Reports: (Hex 0xFFFF5FC2) Bei der Excel-Protokollerstellung wurde ein leerer Seitenname verwendet.
+</nierror>
+<nierror code="-41021">
+NI-Reports: (Hex 0xFFFF5FC3) Bei der Excel-Protokollerstellung ist ein interner Fehler aufgetreten.
+</nierror>
+<nierror code="-41020">
+NI-Reports: (Hex 0xFFFF5FC4) Von einer Excel-Protokollfunktion wurde ein ungültiger Fehlercode gemeldet.
+</nierror>
+<nierror code="-41007">
+NI-Reports: (Hex 0xFFFF5FD1) Für die Erstellung dieses Protokolltyps ist das LabVIEW Report Generation Toolkit für Microsoft Office erforderlich.  Das Toolkit muss aktiviert sein oder im Evaluierungsmodus ausgeführt werden.
+</nierror>
+<nierror code="-41006">
+NI-Reports: (Hex 0xFFFF5FD2) Dieser Protokolltyp wird auf der verwendeten Plattform nicht unterstützt.
+</nierror>
+<nierror code="-41005">
+NI-Reports: (Hex 0xFFFF5FD3) Angabe der Ränder ungültig.
+</nierror>
+<nierror code="-41004">
+NI-Reports: (Hex 0xFFFF5FD4) Druckerfehler.
+</nierror>
+<nierror code="-41003">
+NI-Reports: (Hex 0xFFFF5FD5) Fehler beim Öffnen der Datei.
+</nierror>
+<nierror code="-41002">
+NI-Reports: (Hex 0xFFFF5FD6) Unzulässiger Druckername
+</nierror>
+<nierror code="-41001">
+NI-Reports: (Hex 0xFFFF5FD7) Nicht genügend Arbeitsspeicher.
+</nierror>
+<nierror code="-41000">
+NI-Reports: (Hex 0xFFFF5FD8) Es ist ein unbekannter Fehler aufgetreten.
+</nierror>
+<nierror code="41000">
+NI-Reports: (Hex 0xA028) Die ausgewählte Funktion kann für den aktuellen Protokolltyp nicht verwendet werden.
+</nierror>
+</nidocument>

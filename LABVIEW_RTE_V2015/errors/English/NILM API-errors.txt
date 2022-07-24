@@ -1,0 +1,27 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - NILM API
+</nicomment>
+<nierror code="-48000">
+An unknown error occurred while attempting to activate the license.
+</nierror>
+<nierror code="-41801">
+License activation failed. Please contact National Instruments for support.
+</nierror>
+<nierror code="-41802">
+The specified license file is not present.
+</nierror>
+<nierror code="-41803">
+Activation canceled by user.
+</nierror>
+<nierror code="-41804">
+A server error occurred while attempting to activate the license.
+</nierror>
+<nierror code="-41805">
+A network connection error occurred while attempting to activate the license.
+</nierror>
+<nierror code="-41899">
+A supported version of NI License Manager was not found on the system.
+</nierror>
+</nidocument>

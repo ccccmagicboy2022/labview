@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-Reports" familyname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41031">
+NI-Reports: (Hex 0xFFFF5FB9) L'extension de fichier du fichier de rapport est différente du fichier modèle.
+</nierror>
+<nierror code="-41030">
+NI-Reports: (Hex 0xFFFF5FBA) L'extension du fichier n'est pas correcte. Vous ne pouvez utiliser que les extensions de fichier .xlsx et .xlsm.
+</nierror>
+<nierror code="-41029">
+NI-Reports: (Hex 0xFFFF5FBB) Ce fichier n'est pas un fichier Excel valide.
+</nierror>
+<nierror code="-41028">
+NI-Reports: (Hex 0xFFFF5FBC) Un tableau 2D non valide est utilisé pour écrire dans un rapport Excel. La taille maximale autorisée est de 16 384 colonnes et 1 048 576 lignes.
+</nierror>
+<nierror code="-41027">
+NI-Reports: (Hex 0xFFFF5FBD) Un nom de colonne non valide a été utilisé dans un rapport Excel.
+</nierror>
+<nierror code="-41026">
+NI-Reports: (Hex 0xFFFF5FBE) Un nom de feuille non valide a été utilisé dans un rapport Excel.
+</nierror>
+<nierror code="-41025">
+NI-Reports: (Hex 0xFFFF5FBF) Une plage non valide a été utilisée dans un rapport Excel. Les valeurs de ligne et de colonne en bas à droite doivent être plus grandes que les valeurs en haut à gauche.
+</nierror>
+<nierror code="-41024">
+NI-Reports: (Hex 0xFFFF5FC0) Une référence de rapport non valide a été utilisée dans un rapport Excel.
+</nierror>
+<nierror code="-41023">
+NI-Reports: (Hex 0xFFFF5FC1) Un chemin vide a été utilisé dans un rapport Excel.
+</nierror>
+<nierror code="-41022">
+NI-Reports: (Hex 0xFFFF5FC2) Un nom de feuille vide a été utilisé dans un rapport Excel.
+</nierror>
+<nierror code="-41021">
+NI-Reports: (Hex 0xFFFF5FC3) Une erreur interne est survenue dans un rapport Excel.
+</nierror>
+<nierror code="-41020">
+NI-Reports: (Hex 0xFFFF5FC4) Un code d'erreur non valide a été signalé par une fonction de rapport Excel.
+</nierror>
+<nierror code="-41007">
+NI-Reports: (Hex 0xFFFF5FD1) Le toolkit LabVIEW Report Generation for Microsoft Office doit être installé pour pouvoir créer ce type de rapport.  De plus, le toolkit doit avoir une licence activée ou être en mode d'évaluation.
+</nierror>
+<nierror code="-41006">
+NI-Reports: (Hex 0xFFFF5FD2) Ce type de rapport n'est pas supportée sur cette plate-forme.
+</nierror>
+<nierror code="-41005">
+NI-Reports: (Hex 0xFFFF5FD3) Marges non valides
+</nierror>
+<nierror code="-41004">
+NI-Reports: (Hex 0xFFFF5FD4) Erreur d'impression
+</nierror>
+<nierror code="-41003">
+NI-Reports: (Hex 0xFFFF5FD5) Erreur lors de l'ouverture du fichier
+</nierror>
+<nierror code="-41002">
+NI-Reports: (Hex 0xFFFF5FD6) Nom d'imprimante non valide
+</nierror>
+<nierror code="-41001">
+NI-Reports: (Hex 0xFFFF5FD7) Mémoire insuffisante.
+</nierror>
+<nierror code="-41000">
+NI-Reports: (Hex 0xFFFF5FD8) Une erreur inconnue s'est produite.
+</nierror>
+<nierror code="41000">
+NI-Reports: (Hex 0xA028) Vous avez tenté d'utiliser une fonction qui ne produit aucun effet avec le type de rapport actuellement utilisé.
+</nierror>
+</nidocument>

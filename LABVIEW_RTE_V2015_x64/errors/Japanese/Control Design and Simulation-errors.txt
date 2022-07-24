@@ -1,0 +1,841 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Control Design and Simulation" displayname="Control Design and Simulation">
+</nifamily>
+</nicomment>
+<nierror code="-41813">
+Control Design and Simulation:  PIDゲインのStable Set内で内点のセットが空です。PIDの問題例には、一次不等式の解を取得できない、または数値検索に十分な解像度がないなどが挙げられます。
+</nierror>
+<nierror code="-41812">
+Control Design and Simulation:  PIDゲインのStable Setの内点が実行不可能です。
+</nierror>
+<nierror code="-41811">
+Control Design and Simulation:  K3間隔が実行不可能なため、PIDゲインのStable Setが空です。
+</nierror>
+<nierror code="-41804">
+Control Design and Simulation:  入力モデルは適切である必要があります。
+</nierror>
+<nierror code="-41803">
+Control Design and Simulation:  入力状態の空間モデルは単一入力単一出力（SISO）である必要があります。
+</nierror>
+<nierror code="-41802">
+Control Design and Simulation:  このVIの入力は、遅延時間なしの離散モデルである必要があります。代わりにモデル内の遅延を組み込んでください。
+</nierror>
+<nierror code="-41801">
+Control Design and Simulation:  このVIの入力は、遅延時間なしの離散モデルである必要があります。入力モデルを離散形式に変換してください。
+</nierror>
+<nierror code="-41706">
+Control Design and Simulation:  １番目のモデルの入力/出力の数が、2番目のモデルの入力/出力の数と一致していません。
+</nierror>
+<nierror code="-41705">
+Control Design and Simulation:  伝達関数を使用した並行な相互接続には同じ移送遅延が必要です。
+</nierror>
+<nierror code="-41704">
+Control Design and Simulation:  最初のモデルの入力（列）数は2番目のモデルの出力（行）数と違います。
+</nierror>
+<nierror code="-41703">
+Control Design and Simulation:  分母にゼロは使用できません。
+</nierror>
+<nierror code="-41702">
+Control Design and Simulation:  少なくとも1つの遅延はゼロより小さいです。
+</nierror>
+<nierror code="-41701">
+Control Design and Simulation:  分母には1つの要素が必要です。
+</nierror>
+<nierror code="-41700">
+Control Design and Simulation:  分子には1つの要素が必要です。
+</nierror>
+<nierror code="-41699">
+Control Design and Simulation:  行列Rが指定されていません。
+</nierror>
+<nierror code="-41698">
+Control Design and Simulation:  wの次元は確率論的な状態空間モデルの次元と一致しません。
+</nierror>
+<nierror code="-41697">
+Control Design and Simulation:  vの次元は確率論的な状態空間モデルの次元と一致しません。
+</nierror>
+<nierror code="-41696">
+Control Design and Simulation:  相互共分散行列が、適切な次元ではありません。
+</nierror>
+<nierror code="-41695">
+Control Design and Simulation:  相互共分散行列が無効です。
+</nierror>
+<nierror code="-41694">
+Control Design and Simulation:  E{v}の行数は、適切な次元ではありません。E{v}次元は出力の数と等しくなければなりません。
+</nierror>
+<nierror code="-41693">
+Control Design and Simulation:  E{w}の行数は、適切な次元ではありません。E{w}の次元はGの列数と等しくなければなりません。
+</nierror>
+<nierror code="-41692">
+Control Design and Simulation:  共分散行列の次元が不適切です。
+</nierror>
+<nierror code="-41691">
+Control Design and Simulation:  共分散行列は正半定値ではありません。
+</nierror>
+<nierror code="-41690">
+Control Design and Simulation:  Nが無効です。
+</nierror>
+<nierror code="-41689">
+Control Design and Simulation:  ペア(Ahat, B)は安定していません。
+</nierror>
+<nierror code="-41688">
+Control Design and Simulation:  行列Rの次元が、行列Bの入力数/列数と一致しません。
+</nierror>
+<nierror code="-41687">
+Control Design and Simulation:  行列Rは正定値ではありません。
+</nierror>
+<nierror code="-41686">
+Control Design and Simulation:  行列Rは対称ではありません。
+</nierror>
+<nierror code="-41685">
+Control Design and Simulation:  行列Qは対称ではありません。
+</nierror>
+<nierror code="-41684">
+Control Design and Simulation:  共分散行列は対称ではありません。
+</nierror>
+<nierror code="-41683">
+Control Design and Simulation:  コントローラはスタンドアロンの構成ではありません。
+</nierror>
+<nierror code="-41682">
+Control Design and Simulation:  Matrix Q（行列Q）は正半定値ではありません。
+</nierror>
+<nierror code="-41681">
+Control Design and Simulation:  ゲイン行は出力の数と等しくありません。
+</nierror>
+<nierror code="-41680">
+Control Design and Simulation:  ゲイン列は入力の数と等しくありません。
+</nierror>
+<nierror code="-41679">
+Control Design and Simulation:  システムモデルに入力がありません。
+</nierror>
+<nierror code="-41678">
+Control Design and Simulation:  入力/出力/状態ベクトルで指定された指標が最大のシステムの次元よりも大きいです。
+</nierror>
+<nierror code="-41677">
+Control Design and Simulation:  行列Dが指定されていません。
+</nierror>
+<nierror code="-41676">
+Control Design and Simulation:  行列Cが指定されていません。
+</nierror>
+<nierror code="-41675">
+Control Design and Simulation:  行列Bが指定されていません。
+</nierror>
+<nierror code="-41674">
+Control Design and Simulation:  行列Aが指定されていません。
+</nierror>
+<nierror code="-41673">
+Control Design and Simulation:  リヤプノブ方程式で行列RおよびQの列数が一致しません。
+</nierror>
+<nierror code="-41672">
+Control Design and Simulation:  リヤプノブ方程式で行列PおよびQの行数が一致しません。
+</nierror>
+<nierror code="-41671">
+Control Design and Simulation:  リヤプノブ方程式で行列Rは二乗ではありません。
+</nierror>
+<nierror code="-41670">
+Control Design and Simulation:  リヤプノブ方程式で行列Pは二乗ではありません。
+</nierror>
+<nierror code="-41669">
+Control Design and Simulation:  アッカーマン(Ackermann)値は単一出力のみに有効です。
+</nierror>
+<nierror code="-41668">
+Control Design and Simulation:  システムモデルは単一出力ではありません。
+</nierror>
+<nierror code="-41667">
+Control Design and Simulation:  システムモデルは単一入力ではありません。
+</nierror>
+<nierror code="-41666">
+Control Design and Simulation:  Dの行数は出力の数と等しくありません。
+</nierror>
+<nierror code="-41665">
+Control Design and Simulation:  Dの列数は入力の数と等しくありません。
+</nierror>
+<nierror code="-41664">
+Control Design and Simulation:  レギュレータゲインKの列数は状態の数と等しくありません。
+</nierror>
+<nierror code="-41663">
+Control Design and Simulation:  レギュレータゲインKの行数は入力数と等しくありません。
+</nierror>
+<nierror code="-41662">
+Control Design and Simulation:  N行はNwと等しくありません。
+</nierror>
+<nierror code="-41661">
+Control Design and Simulation:  Nの列数は出力の数と等しくありません。
+</nierror>
+<nierror code="-41660">
+Control Design and Simulation:  Rの次元はシステムモデルの出力数と違います。
+</nierror>
+<nierror code="-41659">
+Control Design and Simulation:  Nの行数は出力の数と等しくありません。
+</nierror>
+<nierror code="-41658">
+Control Design and Simulation:  Aは不良です。逆算を計算することはできません。
+</nierror>
+<nierror code="-41657">
+Control Design and Simulation:  システムモデルはかろうじて安定しています。
+</nierror>
+<nierror code="-41656">
+Control Design and Simulation:  システムモデルは安定してません。
+</nierror>
+<nierror code="-41655">
+Control Design and Simulation:  ペア[A B]または[A C]は、制御可能/観測可能ではありません。
+</nierror>
+<nierror code="-41654">
+Control Design and Simulation:  Hの行数は出力の数と等しくありません。
+</nierror>
+<nierror code="-41653">
+Control Design and Simulation:  Gの行数はシステムモデルの状態の数と等しくありません。
+</nierror>
+<nierror code="-41652">
+Control Design and Simulation:  GとHの列数は同じである必要があります。
+</nierror>
+<nierror code="-41651">
+Control Design and Simulation:  Qの次元がプロセスノイズの次元と一致しません。
+</nierror>
+<nierror code="-41650">
+Control Design and Simulation:  Q次元は出力の数と等しくありません。
+</nierror>
+<nierror code="-41649">
+Control Design and Simulation:  複ノイズ共分散行列である[G O; H I]*[Q N; N' R]*[G O; H I]は、正半定値ではありません。
+</nierror>
+<nierror code="-41648">
+Control Design and Simulation:  共分散行列ノイズは正の定数ではありません。
+</nierror>
+<nierror code="-41647">
+Control Design and Simulation:  カルマンゲインの列数Lは、システムモデルの出力数と等しくありません。
+</nierror>
+<nierror code="-41646">
+Control Design and Simulation:  カルマンゲインの行数Lはシステムモデルの状態の数と等しくありません。
+</nierror>
+<nierror code="-41645">
+Control Design and Simulation:  サンプリング時間の数は同じではありません。
+</nierror>
+<nierror code="-41644">
+Control Design and Simulation:  ハミルトニアン行列は二乗ではありません。
+</nierror>
+<nierror code="-41643">
+Control Design and Simulation:  システムモデルは観測可能ではありません。
+</nierror>
+<nierror code="-41642">
+Control Design and Simulation:  Nの列数が、Bの入力数/列数と一致しません。
+</nierror>
+<nierror code="-41641">
+Control Design and Simulation:  Nの行数が、Aの状態の数/次元数と致しません。
+</nierror>
+<nierror code="-41640">
+Control Design and Simulation:  行列Rは二乗ではありません。
+</nierror>
+<nierror code="-41639">
+Control Design and Simulation:  制御重み付け行列Rは、正定値で、かつ入力数と同じ次元である必要があります。
+</nierror>
+<nierror code="-41638">
+Control Design and Simulation:  行列Qは二乗ではありません。
+</nierror>
+<nierror code="-41637">
+Control Design and Simulation:  Qの次元が状態の数であるAの次元と一致しません。
+</nierror>
+<nierror code="-41636">
+Control Design and Simulation:  Cの列数は状態の数と等しくありません。
+</nierror>
+<nierror code="-41635">
+Control Design and Simulation:  行列Aは二乗ではありません。
+</nierror>
+<nierror code="-41634">
+Control Design and Simulation:  システムモデルは制御可能ではありません。
+</nierror>
+<nierror code="-41633">
+Control Design and Simulation:  閉ループの極の数は、行列Aの列数と一致しません。
+</nierror>
+<nierror code="-41632">
+Control Design and Simulation:  アッカーマン(Ackermann)は単一入力のみに有効です。
+</nierror>
+<nierror code="-41631">
+Control Design and Simulation:  Bの行数が、状態の数であるAの次元と一致しません。
+</nierror>
+<nierror code="-41630">
+Control Design and Simulation:  1つ以上の複素数に複素共役がありません。
+</nierror>
+<nierror code="-41629">
+Control Design and Simulation:  行列Qが指定されていません。
+</nierror>
+<nierror code="-41628">
+Control Design and Simulation:  ペア(Ahat,B1)は安定していません。
+</nierror>
+<nierror code="-41627">
+Control Design and Simulation:  ペア(C1, Ahat)を検出できません。
+</nierror>
+<nierror code="-41626">
+Control Design and Simulation:  行列[Qbar - Nbar.inv(Rbar).Nbar']が正半定値ではないためNbarは無効です。
+</nierror>
+<nierror code="-41625">
+Control Design and Simulation:  Rbarは正定値ではありません。
+</nierror>
+<nierror code="-41624">
+Control Design and Simulation:  行列Rは正半定値ではありません。
+</nierror>
+<nierror code="-41623">
+Control Design and Simulation:  変換行列は反転可能ではありません。
+</nierror>
+<nierror code="-41578">
+Control Design and Simulation:  最終的な制約の数は変数の数と一致しません。
+</nierror>
+<nierror code="-41577">
+Control Design and Simulation:  初期の制約の数は変数の数と一致しません。
+</nierror>
+<nierror code="-41576">
+Control Design and Simulation:  重み付け要素ベクトルのサイズが重み付け行列に対応していません。
+</nierror>
+<nierror code="-41575">
+Control Design and Simulation:  方形ではない重み付け行列が指定されました。
+</nierror>
+<nierror code="-41574">
+Control Design and Simulation:  コスト関数の入力変更の重み付け行列のサイズは、コントローラモデルの入力数と一致していません。
+</nierror>
+<nierror code="-41573">
+Control Design and Simulation:  入力の重み付け行列の次元は入力の数と一致していません。
+</nierror>
+<nierror code="-41572">
+Control Design and Simulation:  コスト関数の出力の重み付け行列のサイズは、コントローラモデルの出力数と一致していません。
+</nierror>
+<nierror code="-41571">
+Control Design and Simulation:  初期状態データがシステム行列の次元と一致しません。
+</nierror>
+<nierror code="-41570">
+Control Design and Simulation:  入力周波数ベクトルはゼロより大きくなければなりません。
+</nierror>
+<nierror code="-41569">
+Control Design and Simulation:  閉ループ伝達関数を計算できません。
+</nierror>
+<nierror code="-41568">
+Control Design and Simulation:  初期状態ベクトルがシステムモデルの出力数と一致しません。
+</nierror>
+<nierror code="-41567">
+Control Design and Simulation:  時間ベクトルのサイズが大きすぎます。
+</nierror>
+<nierror code="-41566">
+Control Design and Simulation:  初期周波数は終了時周波数よりも大きいです。初期周波数は終了時周波数よりも小さくなければなりません。
+</nierror>
+<nierror code="-41565">
+Control Design and Simulation:  初期ゲインは最終ゲインよりも低くあるべきです。
+</nierror>
+<nierror code="-41564">
+Control Design and Simulation:  dBドロップは負でなければなりません。
+</nierror>
+<nierror code="-41563">
+Control Design and Simulation:  周波数ベクトルのサイズと応答ベクトルのサイズが同じではありません。
+</nierror>
+<nierror code="-41562">
+Control Design and Simulation:  補間周波数は周波数範囲内に位置しません。
+</nierror>
+<nierror code="-41561">
+Control Design and Simulation:  ガウスホワイトノイズ行列は、正半定行列で、かつシステムの入力数と同じ数の行が必要です。
+</nierror>
+<nierror code="-41560">
+Control Design and Simulation:  システムモデルには直接のフィードスルーにより無限の共分散があります。
+</nierror>
+<nierror code="-41559">
+Control Design and Simulation:  状態共分散行列に負の固有値があります。
+</nierror>
+<nierror code="-41558">
+Control Design and Simulation:  適用された入力の数はシステムモデル中の入力の数と一致しません。
+</nierror>
+<nierror code="-41557">
+Control Design and Simulation:  初期状態の数とシステムモデルの状態の数が一致しません。
+</nierror>
+<nierror code="-41556">
+Control Design and Simulation:  すべての波形には同じdtおよびt0が必要です。
+</nierror>
+<nierror code="-41555">
+Control Design and Simulation:  時間ステップ(dt)および離散システムモデルのサンプリング時間は等しくなければなりません。
+</nierror>
+<nierror code="-41554">
+Control Design and Simulation:  時間ステップ(dt)は最終時間(tf)よりも小さくなければなりません。
+</nierror>
+<nierror code="-41553">
+Control Design and Simulation:  時間ステップ(dt)は0より大きくなければなりません。
+</nierror>
+<nierror code="-41552">
+Control Design and Simulation:  初期時間(t0)は0以上でなければなりません。
+</nierror>
+<nierror code="-41551">
+Control Design and Simulation:  最終時間(tf)は初期時間(t0)より大きくなければなりません。
+</nierror>
+<nierror code="-41550">
+Control Design and Simulation:  入力システムモデルは単数入力単数出力(SISO)モデルでなくてはなりません。
+</nierror>
+<nierror code="-41529">
+Control Design and Simulation:  サンプリング時間を未定義にすることはできません。(-1)
+</nierror>
+<nierror code="-41528">
+Control Design and Simulation:  行列指数演算でのオーバーフローです。
+</nierror>
+<nierror code="-41527">
+Control Design and Simulation:  モデルにはゼロの位置で離散した極があります。
+</nierror>
+<nierror code="-41526">
+Control Design and Simulation:  モデルには位置が１で重複度が6より大きい極があります。
+</nierror>
+<nierror code="-41525">
+Control Design and Simulation:  モデルには重複度が2より大きい負の実数の極があります。
+</nierror>
+<nierror code="-41524">
+Control Design and Simulation:  サンプリング時間は正でなければなりません。
+</nierror>
+<nierror code="-41523">
+Control Design and Simulation:  相互接続されたモデル間に重複する接続が存在します。
+</nierror>
+<nierror code="-41522">
+Control Design and Simulation:  この関数を実行するには、システムモデルが適切でなければなりません。
+</nierror>
+<nierror code="-41521">
+Control Design and Simulation:  システムモデルに遅延があります。
+</nierror>
+<nierror code="-41520">
+Control Design and Simulation:  システムモデルには移送遅延があります。
+</nierror>
+<nierror code="-41519">
+Control Design and Simulation:  システムモデルに出力遅延があります。
+</nierror>
+<nierror code="-41518">
+Control Design and Simulation:  システムモデルに入力遅延があります。
+</nierror>
+<nierror code="-41517">
+Control Design and Simulation:  2次システムモデルではありません。
+</nierror>
+<nierror code="-41516">
+Control Design and Simulation:  システムモデルは方形ではありません。
+</nierror>
+<nierror code="-41515">
+Control Design and Simulation:  すべての変数の名前はアルファベット文字で始まる必要があります。
+</nierror>
+<nierror code="-41514">
+Control Design and Simulation:  この変換のサンプリング時間は不良なシステムモデルを生成します。
+</nierror>
+<nierror code="-41513">
+Control Design and Simulation:  周波数はゼロより大きくなければなりません。
+</nierror>
+<nierror code="-41512">
+Control Design and Simulation:  多項式の次数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41511">
+Control Design and Simulation:  システムモデルは連続である必要があります。
+</nierror>
+<nierror code="-41510">
+Control Design and Simulation:  システムモデルは離散である必要があります。
+</nierror>
+<nierror code="-41509">
+Control Design and Simulation:  出力遅延ベクトルの次元はシステムモデルの出力数と一致しません。
+</nierror>
+<nierror code="-41508">
+Control Design and Simulation:  入力遅延の次元はシステムモデルの入力の数と一致しません。
+</nierror>
+<nierror code="-41507">
+Control Design and Simulation:  I/O遅延行列の次元はシステムモデルの入力/出力の数と一致しません。
+</nierror>
+<nierror code="-41506">
+Control Design and Simulation:  離散システムモデルの遅延は整数である必要があります。
+</nierror>
+<nierror code="-41505">
+Control Design and Simulation:  入力/出力の数はシステムモデルの入力または出力の合計を超えています。
+</nierror>
+<nierror code="-41504">
+Control Design and Simulation:  既存のシステムモデルの出力の数は供給されたシステムモデルの出力の数と一致しません。
+</nierror>
+<nierror code="-41503">
+Control Design and Simulation:  既存のシステムモデルの入力の数は新しいシステムモデルの入力の数と一致しません。
+</nierror>
+<nierror code="-41502">
+Control Design and Simulation:  既存のシステムモデルの状態数は供給されたシステムモデルの状態数と一致しません。
+</nierror>
+<nierror code="-41501">
+Control Design and Simulation:  システムモデルは離散型です。
+</nierror>
+<nierror code="-41500">
+Control Design and Simulation:  サンプリング時間を負に設定することはできません。
+</nierror>
+<nierror code="-2391">
+Control Design and Simulation:  モデルパラメータを書き込めませんでした。
+</nierror>
+<nierror code="-2390">
+Control Design and Simulation:  モデルパラメータを読み取れませんでした。
+</nierror>
+<nierror code="-2389">
+Control Design and Simulation:  指定されたモデルパラメータは、ソースが配線された端子であるため読み取りまた書き込みできません。 パラメータを読み書きするには、ソースを<B>構成ダイアログボックス</B>に変更するか、端子のワイヤを削除してください。
+</nierror>
+<nierror code="-2388">
+Control Design and Simulation:  指定されたパスにはパラメータがありません。 有効なパラメータのパスが指定されていることを確認してください。
+</nierror>
+<nierror code="-2387">
+Control Design and Simulation:  実行されていない、もしくは実行用に予約されていないVIのモデル階層にあるモデルパラメータが構成されました。モデルパラメータがあるモデル階層を編集した場合、LabVIEWは構成を破棄します。構成を保持するには、モデルパラメータをアクセスするときに、モデル構想が含まれるVIが実行されているか実行用に予約されているかを確認してください。
+</nierror>
+<nierror code="-2386">
+Control Design and Simulation:  「Access Model Hierarchy」関数は、現在のターゲットでサポートされていません。
+</nierror>
+<nierror code="-2385">
+Control Design and Simulation:  制約入力ベクトルの次元が、間接出力ベクトルの次元と一致しません
+</nierror>
+<nierror code="-2384">
+Control Design and Simulation:  初期状態ベクトルの次元と初期微分係数ベクトルの次元が一致しません
+</nierror>
+<nierror code="-2383">
+Control Design and Simulation:  カスタムODEソルバーの共有ライブラリには、コールバック関数がありません。
+</nierror>
+<nierror code="-2382">
+Control Design and Simulation:  LabVIEW Control Design and Simulationモジュールは、カスタムODEソルバーの共有ライブラリをロードできません。
+</nierror>
+<nierror code="-2381">
+Control Design and Simulation:  線形時不変系（LTI)モデルの分母と分子の両方の多項式次数は、ゼロよりも大きくなければなりません。
+</nierror>
+<nierror code="-2380">
+Control Design and Simulation:  倍数入力倍数出力（MIMO）線形時不変系（LTI)モデルの次元は、ゼロよりも大きくなければなりません。
+</nierror>
+<nierror code="-2379">
+Control Design and Simulation:  シミュレーションの最後をNaNにはできません。
+</nierror>
+<nierror code="-2378">
+Control Design and Simulation:  遅延は0以上でなければなりません。
+</nierror>
+<nierror code="-2377">
+Control Design and Simulation:  LabVIEW Control Design and Simulationモジュールは、状態空間、伝達関数、または零点/極/ゲインモデルデータタイプで指定する遅延プロパティを無視します。
+</nierror>
+<nierror code="-2376">
+Control Design and Simulation:  移送遅延は、非確定性の方法で構成されています。確定性が求められる場合、シミュレーションの最終時間(final time)または移送遅延ブロックの最大遅延を有限値にしてください。
+</nierror>
+<nierror code="-2375">
+Control Design and Simulation:  Configure Simulation ParametersダイアログボックスのTiming ParametersページにあるAuto Periodチェックボックスには、チェックマークが含まれています。ただし、ステップサイズはソースクロックの周期の倍数ではありません。
+</nierror>
+<nierror code="-2374">
+Control Design and Simulation:  マイナススルーレートはプラススルーレート以下でなければなりません。
+</nierror>
+<nierror code="-2373">
+Control Design and Simulation:  組み込みデバイスのためにインストールしたLabVIEWのバージョンは、シミュレーションループの1kHzタイミングソースのみをサポートします。
+</nierror>
+<nierror code="-2372">
+Control Design and Simulation:  ルックアップテーブル（LUT）の指標テーブルは減少以外でなければなりません。
+</nierror>
+<nierror code="-2371">
+Control Design and Simulation:  各離散関数の離散サンプル周期は、シミュレーションの全離散ステップサイズの整数倍数でなければなりません。
+</nierror>
+<nierror code="-2370">
+Control Design and Simulation:  単一入力単一出力（SISO）状態空間モデルには一列のみのB行列、一行のみのC行列、および一要素のみのD行列が必要です。
+</nierror>
+<nierror code="-2369">
+Control Design and Simulation:  指定したモデルにはダイレクトフィードスルーが必要です。この関数の構成ダイアログボックスを開いてフィードスルーパラメータをダイレクトに設定してください。
+</nierror>
+<nierror code="-2367">
+Control Design and Simulation:  外部モデルに対応する共有ライブラリがエラーを返しました。
+</nierror>
+<nierror code="-2366">
+Control Design and Simulation:  外部モデル関数がエラーを返しました。
+</nierror>
+<nierror code="-2365">
+Control Design and Simulation:  倍数入力倍数出力（MIMO）線形時不変系（LTI)モデルの次数は、前の反復と同じでなければなりません。
+</nierror>
+<nierror code="-2364">
+Control Design and Simulation:  倍数入力倍数出力（MIMO）線形時不変系（LTI)モデルの次元は、前の反復と同じでなければなりません。
+</nierror>
+<nierror code="-2363">
+Control Design and Simulation:  間接フィードスルー付き状態空間モデルには空またはゼロD行列が必要です。
+</nierror>
+<nierror code="-2362">
+Control Design and Simulation:  チャンネル数は不等式制約数と一致していなければなりません。
+</nierror>
+<nierror code="-2361">
+Control Design and Simulation:  ユーザ定義の基準点の数が不十分です。
+</nierror>
+<nierror code="-2360">
+Control Design and Simulation:  Discrete States Only ODE（離散状態のみODE）ソルバ を使用するには、シミュレーションダイアグラムに連続関数が含まれていてはなりません。
+</nierror>
+<nierror code="-2359">
+Control Design and Simulation:  離散ステップサイズは連続ステップサイズの整数の倍数でなければなりません。
+</nierror>
+<nierror code="-2358">
+Control Design and Simulation:  離散関数は連続モデルを受け取ることができません。
+</nierror>
+<nierror code="-2357">
+Control Design and Simulation:  連続関数は離散モデルを受け取ることができません。
+</nierror>
+<nierror code="-2356">
+Control Design and Simulation:  サンプル周期(秒)は-1または正数である必要があります。サンプル周期(秒)が正の場合、サンプルスキュー(秒)は0以上でサンプル周期(秒)よりも小さい値である必要があります。
+</nierror>
+<nierror code="-2355">
+Control Design and Simulation:  コレクタ関数のデシメーションパラメータ値は1以上でなければなりません。
+</nierror>
+<nierror code="-2354">
+Control Design and Simulation:  入力配列にある要素数はゲイン行列の列数と同じではありません。
+</nierror>
+<nierror code="-2353">
+Control Design and Simulation:  シミュレーション実行中は最大遅延を変更できません。
+</nierror>
+<nierror code="-2352">
+Control Design and Simulation:  遅延は指定された最大遅延の値以下でなくてはなりません。
+</nierror>
+<nierror code="-2351">
+Control Design and Simulation:  指定されたパラメータはベクトルです。ベクトル値を入力してください。
+</nierror>
+<nierror code="-2350">
+Control Design and Simulation:  指定されたパラメータはスカラです。スカラ値を入力してください。
+</nierror>
+<nierror code="-2349">
+Control Design and Simulation:  パラメータ名は指定されたパラメータリストにありません。
+</nierror>
+<nierror code="-2348">
+Control Design and Simulation:  渡されたステート微分係数は指定されたサブシステムと互換性がありません。パラメータ名（ベクトルの場合はパラメータサイズ）がサブシステムと一致していることを確認してください。
+</nierror>
+<nierror code="-2347">
+Control Design and Simulation:  渡された出力パラメータは指定されたサブシステムと互換性がありません。パラメータ名（ベクトルの場合はパラメータサイズ）がサブシステムと一致していることを確認してください。
+</nierror>
+<nierror code="-2346">
+Control Design and Simulation:  渡された入力パラメータは指定されたサブシステムと互換性がありません。パラメータ名（ベクトルの場合はパラメータサイズ）がサブシステムと一致していることを確認してください。
+</nierror>
+<nierror code="-2345">
+Control Design and Simulation:  渡されたステートパラメータは指定されたサブシステムと互換性がありません。パラメータ名（ベクトルの場合はパラメータサイズ）がサブシステムと一致していることを確認してください。
+</nierror>
+<nierror code="-2344">
+Control Design and Simulation:  渡された出力パラメータは指定されたサブシステムと互換性がありません。パラメータ名（ベクトルの場合はパラメータサイズ）がサブシステムと一致していることを確認してください。
+</nierror>
+<nierror code="-2343">
+Control Design and Simulation:  渡された入力パラメータは指定されたサブシステムと互換性がありません。パラメータ名（ベクトルの場合はパラメータサイズ）がサブシステムと一致していることを確認してください。
+</nierror>
+<nierror code="-2342">
+Control Design and Simulation:  渡されたステートパラメータは指定されたサブシステムと互換性がありません。パラメータ名（ベクトルの場合はパラメータサイズ）がサブシステムと一致していることを確認してください。
+</nierror>
+<nierror code="-2341">
+Control Design and Simulation:  シミュレーションの初期時間は最終時間以上でなければなりません。
+</nierror>
+<nierror code="-2340">
+Control Design and Simulation:  線形性が内部エラーを検出しました。
+</nierror>
+<nierror code="-2339">
+Control Design and Simulation:  選択されたソルバーは陰関数を処理できません。
+</nierror>
+<nierror code="-2338">
+Control Design and Simulation:  ODEソルバーが内部エラーを検出しました。
+</nierror>
+<nierror code="-2337">
+Control Design and Simulation:  シミュレーションサブシステムのみを線形化できます。
+</nierror>
+<nierror code="-2336">
+Control Design and Simulation:  シミュレーションダイアグラムはODEソルバーに対してNaNを返しました。
+</nierror>
+<nierror code="-2335">
+Control Design and Simulation:  シミュレーションダイアグラムはODEソルバーにInfを返しました。
+</nierror>
+<nierror code="-2334">
+Control Design and Simulation:  ODEソルバーでオーバーフローが発生しました。
+</nierror>
+<nierror code="-2333">
+Control Design and Simulation:  ステップサイズは最小と最大ステップサイズの間でなければなりません。
+</nierror>
+<nierror code="-2332">
+Control Design and Simulation:  最小ステップサイズは最大ステップサイズ以下でなければなりません。
+</nierror>
+<nierror code="-2331">
+Control Design and Simulation:  絶対許容範囲と相対許容範囲は両方ともゼロにはできません。
+</nierror>
+<nierror code="-2330">
+Control Design and Simulation:  離散ステップサイズはステップサイズの整数倍でなければなりません。
+</nierror>
+<nierror code="-2329">
+Control Design and Simulation:  シミュレーションステップサイズをゼロにはできません。
+</nierror>
+<nierror code="-2328">
+Control Design and Simulation:  線形サブシステムダイアログボックスはシミュレーションサブシステムのみで使用できます。
+</nierror>
+<nierror code="-2327">
+Control Design and Simulation:  プロジェクトエクスプローラ中のマイ コンピュータの下にVIを作成した場合のみ、線形サブシステムダイアログボックスを使用できます。
+</nierror>
+<nierror code="-2326">
+Control Design and Simulation:  LabVIEW Control Design and Simulation（制御系設計/シミュレーション）モジュールで、内部エラーが発生しました。問題が解決しない場合は、ナショナルインスツルメンツ技術サポートにご連絡ください。
+</nierror>
+<nierror code="-2325">
+Control Design and Simulation:  ODEソルバーは最小ステップサイズに集まることができませんでした。
+</nierror>
+<nierror code="-2324">
+Control Design and Simulation:  ODEソルバーは最小ステップサイズを使用したエラー許容範囲に合わせることができません。
+</nierror>
+<nierror code="-2323">
+Control Design and Simulation:  シミュレーションステップサイズは0より大きくなければなりません。
+</nierror>
+<nierror code="-2322">
+Control Design and Simulation:  離散遅延は0以上で、最大遅延以下である必要があります。最大遅延が-1の場合、シミュレーション時にはシミュレーションの開始時の遅延が最大遅延として使用されます。
+</nierror>
+<nierror code="-2321">
+Control Design and Simulation:  サンプルレート除数は負またはゼロです。0以上のサンプルレート除数を指定する必要があります。
+</nierror>
+<nierror code="-2320">
+Control Design and Simulation:  この中間解決評価は実行されるべきではありません。
+</nierror>
+<nierror code="-2319">
+Control Design and Simulation:  ルックアップテーブルの配列の次元に一貫性がありません。
+</nierror>
+<nierror code="-2318">
+Control Design and Simulation:  この関数のパラメータベクトルの次元が一致しません。
+</nierror>
+<nierror code="-2317">
+Control Design and Simulation:  選択されたフィードスルー動作は指定された離散積分法と矛盾しています。
+</nierror>
+<nierror code="-2316">
+Control Design and Simulation:  分子の次数は、分母の次数以下である必要があります。
+</nierror>
+<nierror code="-2315">
+Control Design and Simulation:  零点/極/ゲイン関数にある複素入力は複素共役と一致しなければなりません。
+</nierror>
+<nierror code="-2314">
+Control Design and Simulation:  間接フィードスルー動作付き転送関数では、分子の次数は必ず分母の次数以下でなければなりません。
+</nierror>
+<nierror code="-2313">
+Control Design and Simulation:  初期状態ベクトルのサイズが間違っています。
+</nierror>
+<nierror code="-2312">
+Control Design and Simulation:  入力ベクトルのサイズはMIMOシステムに対して正確ではありません。
+</nierror>
+<nierror code="-2311">
+Control Design and Simulation:  シミュレーションループの前の反復からモデル順序を変更してはなりません。
+</nierror>
+<nierror code="-2310">
+Control Design and Simulation:  行列A、B、C、Dの次元は、それぞれ一致していません。
+</nierror>
+<nierror code="-2309">
+Control Design and Simulation:  この関数の周期は0より大きくなければなりません。
+</nierror>
+<nierror code="-2308">
+Control Design and Simulation:  デューティーサイクルは 0% ～ 100% でなければなりません。
+</nierror>
+<nierror code="-2307">
+Control Design and Simulation:  シングルステップソルバーをマイナーなサブステップで評価しています。
+</nierror>
+<nierror code="-2306">
+Control Design and Simulation:  この関数の周波数は0より大きくなければなりません。
+</nierror>
+<nierror code="-2305">
+Control Design and Simulation:  チャープ信号関数のターゲット時間はシミュレーション初期時間より大きくなければなりません。
+</nierror>
+<nierror code="-2304">
+Control Design and Simulation:  彩度関数の上限は下限以上でなければなりません。
+</nierror>
+<nierror code="-2303">
+Control Design and Simulation:  リレー関数のスイッチオンポイントはスイッチオフポイント以上でなければなりません。
+</nierror>
+<nierror code="-2302">
+Control Design and Simulation:  量子化関数の量子化間隔はゼロより大きくなければなりません。
+</nierror>
+<nierror code="-2301">
+Control Design and Simulation:  シミュレーションモデルコンバータは表現を正しく解析することができませんでした。
+</nierror>
+<nierror code="-2300">
+Control Design and Simulation:  無効なSimXノードリファレンスです。
+</nierror>
+<nierror code="2345">
+Control Design and Simulation:  「Trim」関数は変数に適用された特定の制約を満たしませんでした。
+</nierror>
+<nierror code="41500">
+Control Design and Simulation:  このVIは遅延付きシステムモデルをサポートしません。遅延情報が無視されました。
+</nierror>
+<nierror code="41501">
+Control Design and Simulation:  システムモデルには移送遅延があります。
+</nierror>
+<nierror code="41502">
+Control Design and Simulation:  システムモデルに入力遅延があります。
+</nierror>
+<nierror code="41503">
+Control Design and Simulation:  システムモデルに出力遅延があります。
+</nierror>
+<nierror code="41504">
+Control Design and Simulation:  遅延情報が無視されました。
+</nierror>
+<nierror code="41505">
+Control Design and Simulation:  システムモデルが不適切です。
+</nierror>
+<nierror code="41506">
+Control Design and Simulation:  離散化プロセスの断片的な遅延は無視されました。
+</nierror>
+<nierror code="41507">
+Control Design and Simulation:  2番目のコネクタは無視されました。
+</nierror>
+<nierror code="41508">
+Control Design and Simulation:  移送遅延行列のコンポーネントの全てを配布することができませんでした。
+</nierror>
+<nierror code="41509">
+Control Design and Simulation:  変換されたモデルの条件指標が低く、このメソッドが正確に変換しなかった可能性を示しています。別の変換方法を検討してください。
+</nierror>
+<nierror code="41510">
+Control Design and Simulation:  安定した連続モデルの変換の結果、不安定な離散-等価モデルになりました。
+</nierror>
+<nierror code="41511">
+Control Design and Simulation:  安定した離散型モデルの変換の結果、不安定な連続-等価モデルになりました。
+</nierror>
+<nierror code="41550">
+Control Design and Simulation:  位相余白は無限です。
+</nierror>
+<nierror code="41551">
+Control Design and Simulation:  ゲイン余白は無限です。
+</nierror>
+<nierror code="41552">
+Control Design and Simulation:  振幅が所定のdB値の下にドロップしません。
+</nierror>
+<nierror code="41553">
+Control Design and Simulation:  実際の最終時間(tf)は供給された値と違います。
+</nierror>
+<nierror code="41554">
+Control Design and Simulation:  システムモデルが安定していないため2ノルムは無限です。
+</nierror>
+<nierror code="41555">
+Control Design and Simulation:  無限ノルムはシステムモデルがかろうじて安定しているため、無限です。
+</nierror>
+<nierror code="41556">
+Control Design and Simulation:  このVIは、大きなゲイン値に対して閉ループのルートをプロットしませんでした。
+</nierror>
+<nierror code="41557">
+Control Design and Simulation:  終了時周波数は離散システムモデルのナイキスト周波数と同じ値に縮小されました。
+</nierror>
+<nierror code="41558">
+Control Design and Simulation:  指定されたステップ時間(dt)とベクトルサイズ制限により、最終時間はその理想値より減少する値に設定されました。
+</nierror>
+<nierror code="41559">
+Control Design and Simulation:  時間ステップ(dt)は理想的なものではありません。
+</nierror>
+<nierror code="41560">
+Control Design and Simulation:  初期状態が無視されました。
+</nierror>
+<nierror code="41561">
+Control Design and Simulation:  初期状態が無視されました。
+</nierror>
+<nierror code="41562">
+Control Design and Simulation:  システムモデルには離散フィードスルーにより無限の共分散があります。
+</nierror>
+<nierror code="41627">
+Control Design and Simulation:  ペア(C1, Ahat)を検出できません。
+</nierror>
+<nierror code="41628">
+Control Design and Simulation:  ペア(Ahat,B1)は安定していません。
+</nierror>
+<nierror code="41630">
+Control Design and Simulation:  行列Q/Rはゼロノルムに近いです。
+</nierror>
+<nierror code="41631">
+Control Design and Simulation:  状態モデルには指定された状態がありません。
+</nierror>
+<nierror code="41632">
+Control Design and Simulation:  システムモデルには指定された入力がありません。
+</nierror>
+<nierror code="41633">
+Control Design and Simulation:  システムモデルには指定された出力がありません。
+</nierror>
+<nierror code="41634">
+Control Design and Simulation:  測定された出力および既知/操作された入力は無視されます。
+</nierror>
+<nierror code="41635">
+Control Design and Simulation:  ユーザ定義しきい値は基準を越えています。Control Design and Simulationモジュールは要求された位置に極を配置できません。
+</nierror>
+<nierror code="41689">
+Control Design and Simulation:  ペア(Ahat, B)は安定していません。
+</nierror>
+<nierror code="41729">
+Control Design and Simulation:  このVIは、分子が0であるため、分母を1に変更しました。
+</nierror>
+<nierror code="41799">
+Control Design and Simulation:  プロットの生成では無効な入力または出力が無視されました。
+</nierror>
+</nidocument>

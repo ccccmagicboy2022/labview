@@ -1,0 +1,841 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Control Design and Simulation" familyname="Control Design and Simulation">
+</nifamily>
+</nicomment>
+<nierror code="-41813">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5CAB) L'ensemble de points intérieurs dans l'ensemble stable de gains PID est vide. Soit le problème PID contient des inégalités linéaires impossibles à résoudre, soit la recherche numérique n'a pas une résolution suffisante.
+</nierror>
+<nierror code="-41812">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5CAC) Les points intérieur de l'ensemble stable de gains PID sont impossibles.
+</nierror>
+<nierror code="-41811">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5CAD) L'ensemble stable de gains PID est vide car l'intervalle K3 n'est pas possible.
+</nierror>
+<nierror code="-41804">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5CB4) Le modèle en entrée doit être valide.
+</nierror>
+<nierror code="-41803">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5CB5) Les modèles état-espace en entrée doivent être SISO.
+</nierror>
+<nierror code="-41802">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5CB6) Les entrées de ce VI doivent être des modèles discrets sans délais temporels.  Incorporez des délais dans le modèle.
+</nierror>
+<nierror code="-41801">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5CB7) Les entrées de ce VI doivent être des modèles discrets sans délais temporels.  Convertissez les modèles en entrée en forme discrète.
+</nierror>
+<nierror code="-41706">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D16) Le nombre d'entrées et de sorties du premier modèle ne correspond pas à celui du second modèle.
+</nierror>
+<nierror code="-41705">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D17) Le modèle de fonction Interconnexion parallèle avec transfert doit avoir le même retard de transport.
+</nierror>
+<nierror code="-41704">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D18) Le nombre d'entrées (colonnes) du premier modèle n'est pas égal au nombre de sorties (lignes) du second.
+</nierror>
+<nierror code="-41703">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D19) Le dénominateur de la fonction de transfert ne peut pas être 0.
+</nierror>
+<nierror code="-41702">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D1A) Au moins une des attentes est inférieure à zéro.
+</nierror>
+<nierror code="-41701">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D1B) Le dénominateur doit avoir un élément.
+</nierror>
+<nierror code="-41700">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D1C) Le numérateur doit avoir un élément.
+</nierror>
+<nierror code="-41699">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D1D) La matrice R n'a pas été fournie.
+</nierror>
+<nierror code="-41698">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D1E) La dimension de w ne correspond pas aux dimensions du modèle état-espace aléatoire.
+</nierror>
+<nierror code="-41697">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D1F) La dimension de v ne correspond pas aux dimensions du modèle état-espace aléatoire.
+</nierror>
+<nierror code="-41696">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D20) La matrice de covariance croisée n'a pas des dimensions valides.
+</nierror>
+<nierror code="-41695">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D21) La matrice de covariance croisée n'est pas valide. Les matrices d'autocovariance composées et de covariance croisée doivent être semi-définies positives.
+</nierror>
+<nierror code="-41694">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D22) Le nombre de lignes de E{v} n'a pas des dimensions valides. La dimension de E{v} doit être égale au nombre de sorties.
+</nierror>
+<nierror code="-41693">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D23) Le nombre de lignes de E{w} n'a pas des dimensions valides. La dimension de E{w} doit être égale au nombre de colonnes de G.
+</nierror>
+<nierror code="-41692">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D24) Les dimensions de la matrice de covariance ne sont pas valides.
+</nierror>
+<nierror code="-41691">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D25) La matrice de covariance n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41690">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D26) N n'est pas valide. La matrice [Q N; N' R] doit être semi-définie positive.
+</nierror>
+<nierror code="-41689">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D27) La paire (Ahat, B) ne peut pas être stabilisée.
+</nierror>
+<nierror code="-41688">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D28) Les dimensions de la matrice R ne correspondent pas au nombre d'entrées ou de colonnes de la matrice B.
+</nierror>
+<nierror code="-41687">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D29) La matrice R n'est pas définie positive.
+</nierror>
+<nierror code="-41686">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D2A) La matrice R n'est pas symétrique.
+</nierror>
+<nierror code="-41685">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D2B) La matrice Q n'est pas symétrique.
+</nierror>
+<nierror code="-41684">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D2C) La matrice de covariance n'est pas symétrique.
+</nierror>
+<nierror code="-41683">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D2D) Le contrôleur n'est pas en configuration "Standalone".
+</nierror>
+<nierror code="-41682">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D2E) La matrice Q n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41681">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D2F) Le nombre de lignes du gain n'est pas égal au nombre de sortie du modèle de système.
+</nierror>
+<nierror code="-41680">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D30) Le nombre de colonnes du gain est différent du nombre d'entrées du système.
+</nierror>
+<nierror code="-41679">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D31) Le modèle du système n'a pas d'entrée.
+</nierror>
+<nierror code="-41678">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D32) L'indice spécifié dans le vecteur entrée, sortie ou état est supérieur à la dimension maximale du système.
+</nierror>
+<nierror code="-41677">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D33) La matrice-système D requise n'a pas été fournie.
+</nierror>
+<nierror code="-41676">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D34) La matrice-système C requise n'a pas été fournie.
+</nierror>
+<nierror code="-41675">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D35) La matrice-système B requise n'a pas été fournie.
+</nierror>
+<nierror code="-41674">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D36) La matrice-système A requise n'a pas été fournie.
+</nierror>
+<nierror code="-41673">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D37) Le nombre de colonnes doit être le même pour les matrices R et Q de l'équation de Lyapunov.
+</nierror>
+<nierror code="-41672">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D38) Le nombre de lignes doit être le même pour les matrices P et Q de l'équation de Lyapunov.
+</nierror>
+<nierror code="-41671">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D39) La matrice R n'est pas carrée dans l'équation de Lyapunov.
+</nierror>
+<nierror code="-41670">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D3A) La matrice P n'est pas carrée dans l'équation de Lyapunov.
+</nierror>
+<nierror code="-41669">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D3B) Ackermann n'est valide que pour les modèles de système à une sortie. Pour Observer Gain, C doit avoir une ligne.
+</nierror>
+<nierror code="-41668">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D3C) Le modèle de système n'est pas à une seule sortie.
+</nierror>
+<nierror code="-41667">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D3D) Le modèle de système n'est pas à une seule entrée.
+</nierror>
+<nierror code="-41666">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D3E) Le nombre de lignes de D n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41665">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D3F) Le nombre de colonnes de D n'est pas égal au nombre d'entrées.
+</nierror>
+<nierror code="-41664">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D40) Le nombre de colonnes dans le gain du régulateur, K, n'est pas égal au nombre d'états.
+</nierror>
+<nierror code="-41663">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D41) Le nombre de lignes dans le gain du régulateur, K, n'est pas égal au nombre d'entrées.
+</nierror>
+<nierror code="-41662">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D42) Le nombre de lignes de N ne correspond pas à la dimension du vecteur bruit w (Nw).
+</nierror>
+<nierror code="-41661">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D43) Le nombre de colonnes de N n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41660">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D44) Les dimensions de R ne sont pas égales au nombre de sorties dans le modèle du système.
+</nierror>
+<nierror code="-41659">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D45) Le nombre de lignes de N n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41658">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D46) A est mal conditionnée. Vous ne pouvez pas calculer son inverse.
+</nierror>
+<nierror code="-41657">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D47) Le modèle de système est marginalement stable.
+</nierror>
+<nierror code="-41656">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D48) Le modèle de système n'est pas stable.
+</nierror>
+<nierror code="-41655">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D49) La paire [A B] ou [A C] ne peut pas être contrôlée ou observée.
+</nierror>
+<nierror code="-41654">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D4A) Le nombre de lignes de H n'est pas égal au nombre de sorties.
+</nierror>
+<nierror code="-41653">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D4B) Le nombre de lignes de G n'est pas égal au nombre d'états dans le modèle de système.
+</nierror>
+<nierror code="-41652">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D4C) G et H doivent avoir le même nombre de colonnes.
+</nierror>
+<nierror code="-41651">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D4D) Les dimensions de Q sont différentes de la dimension du bruit du processus.
+</nierror>
+<nierror code="-41650">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D4E) Les dimensions de Q ne sont pas égales au nombre de sorties.
+</nierror>
+<nierror code="-41649">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D4F) La matrice de covariance de bruit composée, [G O; H I]*[Q N; N' R]*[G O; H I], n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41648">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D50) La matrice de covariance de bruit n'est pas définie positive.
+</nierror>
+<nierror code="-41647">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D51) Le nombre de colonnes du gain de Kalman, L, n'est pas égal au nombre de sorties dans le modèle de système.
+</nierror>
+<nierror code="-41646">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D52) Le nombre de lignes du gain de Kalman, L, n'est pas égal au nombre d'états dans le modèle de système.
+</nierror>
+<nierror code="-41645">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D53) Le nombre représentant le temps d'échantillonnage n'est pas le même.
+</nierror>
+<nierror code="-41644">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D54) La matrice de Hamilton n'est pas carrée.
+</nierror>
+<nierror code="-41643">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D55) Le modèle du système n'est pas observable si vous ne calculez pas la transformation matricielle T.
+</nierror>
+<nierror code="-41642">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D56) Le nombre de colonnes de N et le nombre d'entrées ou de colonnes de B sont différents.
+</nierror>
+<nierror code="-41641">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D57) Le nombre de lignes de N et le nombre d'états/dimensions de A sont différents.
+</nierror>
+<nierror code="-41640">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D58) La matrice R n'est pas carrée.
+</nierror>
+<nierror code="-41639">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D59) La matrice de pondération de contrôle R doit être définie positive et avoir un nombre de dimensions égal au nombre d'entrées.
+</nierror>
+<nierror code="-41638">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D5A) La matrice Q n'est pas carrée.
+</nierror>
+<nierror code="-41637">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D5B) Les dimensions de Q ne sont pas égales aux dimensions de A, qui sont aussi le nombre d'états.
+</nierror>
+<nierror code="-41636">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D5C) Le nombre de colonnes de C n'est pas égal au nombre d'états.
+</nierror>
+<nierror code="-41635">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D5D) La matrice A n'est pas carrée.
+</nierror>
+<nierror code="-41634">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D5E) Le modèle du système n'est pas contrôlable si vous ne calculez pas la transformation matricielle T.
+</nierror>
+<nierror code="-41633">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D5F) Le nombre de pôles de la boucle de rétroaction active (closed loop) ne correspond pas au nombre de colonnes de la matrice A.
+</nierror>
+<nierror code="-41632">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D60) Ackermann n'est valide que pour les modèles de système à une entrée. Pour le gain du régulateur, B doit avoir une colonne.
+</nierror>
+<nierror code="-41631">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D61) Le nombre de lignes de B ne correspond pas aux dimensions de A, qui sont aussi le nombre d'états.
+</nierror>
+<nierror code="-41630">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D62) Un ou plusieurs nombres complexe n'ont pas de complexe conjugué.
+</nierror>
+<nierror code="-41629">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D63) La matrice Q n'a pas été fournie.
+</nierror>
+<nierror code="-41628">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D64) La paire (Ahat, B1) ne peut pas être stabilisée.
+</nierror>
+<nierror code="-41627">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D65) La paire (C1, Ahat) est introuvable.
+</nierror>
+<nierror code="-41626">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D66) Nbar n'est pas valide car la matrice [Qbar - Nbar.inv(Rbar).Nbar'] n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41625">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D67) Rbar n'est pas définie positive.
+</nierror>
+<nierror code="-41624">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D68) La matrice R n'est pas semi-définie positive.
+</nierror>
+<nierror code="-41623">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D69) La matrice de transformation n'est pas inversible.
+</nierror>
+<nierror code="-41578">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D96) Le nombre de contraintes finales ne correspond pas au nombre de variables contraintes.
+</nierror>
+<nierror code="-41577">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D97) Le nombre de contraintes initiales ne correspond pas au nombre de variables contraintes.
+</nierror>
+<nierror code="-41576">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D98) La taille d'un vecteur du facteur de pondération ne correspond pas à celle de la matrice de pondération correspondante.
+</nierror>
+<nierror code="-41575">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D99) Au moins une des matrices de pondération de la fonction objectif n'est pas carrée.
+</nierror>
+<nierror code="-41574">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D9A) La taille de la matrice de pondération de changement en entrée dans la fonction cost ne correspond pas au nombre d'entrées du modèle de contrôleur.
+</nierror>
+<nierror code="-41573">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D9B) La taille de la matrice de pondération en entrée dans la fonction objectif ne correspond pas au nombre d'entrées du modèle de régulateur.
+</nierror>
+<nierror code="-41572">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D9C) La taille de la matrice de pondération en sortie dans la fonction cost ne correspond pas au nombre de sorties du modèle de contrôleur.
+</nierror>
+<nierror code="-41571">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D9D) Les conditions initiales utiliséees pour initialiser le contrôleur prédictif de modèle ne correspondent pas aux dimensions des matrices-systèmes de modèle dans le contrôleur.
+</nierror>
+<nierror code="-41570">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D9E) Le vecteur de fréquence en entrée doit être supérieur à zéro.
+</nierror>
+<nierror code="-41569">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5D9F) La fonction de transfert de la boucle de rétroaction active (closed loop) ne peut pas être calculée.
+</nierror>
+<nierror code="-41568">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA0) Le nombre d'éléments du vecteur de condition initiale ne correspond pas au nombre de sorties du modèle de système.
+</nierror>
+<nierror code="-41567">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA1) La taille du vecteur de temps est trop grande.
+</nierror>
+<nierror code="-41566">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA2) La fréquence initiale est supérieure à la fréquence finale. La fréquence initiale doit être inférieure à la fréquence finale.
+</nierror>
+<nierror code="-41565">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA3) Le gain initial doit être inférieur au gain final.
+</nierror>
+<nierror code="-41564">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA4) Le paramètre dB drop doit être négatif.
+</nierror>
+<nierror code="-41563">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA5) Le vecteur de fréquences et le vecteur de réponse n'ont pas la même taille.
+</nierror>
+<nierror code="-41562">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA6) La fréquence d'interpolation ne se situe pas dans la gamme des fréquences.
+</nierror>
+<nierror code="-41561">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA7) La matrice de bruit blanc gaussien doit être une matrice semi-définie positive et avoir autant de lignes qu'il y a d'entrées dans le système.
+</nierror>
+<nierror code="-41560">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA8) Le modèle du système a une covariance infinie en raison du débit direct.
+</nierror>
+<nierror code="-41559">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DA9) La matrice de covariance d'état contient des valeurs propres négatives.
+</nierror>
+<nierror code="-41558">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DAA) Le nombre d'entrées appliquées ne correspond au nombre d'entrées du modèle de système.
+</nierror>
+<nierror code="-41557">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DAB) Le nombre d'états initiaux ne correspond pas au nombre d'états du modèle de système.
+</nierror>
+<nierror code="-41556">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DAC) Toutes les waveforms doivent avoir les mêmes incrément de temps (dt) et temps initial (t0).
+</nierror>
+<nierror code="-41555">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DAD) L'incrément de temps (dt) et le temps d'échantillonnage du modèle de système discret doivent être égaux.
+</nierror>
+<nierror code="-41554">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DAE) L'incrément de temps (dt) doit être inférieur au temps final (tf).
+</nierror>
+<nierror code="-41553">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DAF) L'incrément de temps (dt) doit être supérieur à zéro.
+</nierror>
+<nierror code="-41552">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DB0) Le paramètre "initial time (t0)" doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41551">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DB1) Le temps final (tf) doit être supérieur au temps initial (t0).
+</nierror>
+<nierror code="-41550">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DB2) Le modèle du système en entrée doit être un modèle SISO (single-input single-output).
+</nierror>
+<nierror code="-41529">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DC7) La durée d'échantillonnage ne peut pas être non définie (-1).
+</nierror>
+<nierror code="-41528">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DC8) Débordement dans le calcul exponentiel matriciel.
+</nierror>
+<nierror code="-41527">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DC9) Le modèle a des pôles discrets à zéro.
+</nierror>
+<nierror code="-41526">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DCA) Le modèle a un pôle à 1 de multiplicité supérieure à 6.
+</nierror>
+<nierror code="-41525">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DCB) Le modèle a un pôle réel négatif de multiplicité supérieure à 2.
+</nierror>
+<nierror code="-41524">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DCC) La durée d'échantillonnage doit être supérieure à 0.
+</nierror>
+<nierror code="-41523">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DCD) Il y a une connexion répétée entre les modèles interconnectés.
+</nierror>
+<nierror code="-41522">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DCE) Le modèle de système doit être propre pour exécuter cette fonction.
+</nierror>
+<nierror code="-41521">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DCF) Le modèle de système a un retard.
+</nierror>
+<nierror code="-41520">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD0) Le modèle de système est configuré avec un retard associé au transport.
+</nierror>
+<nierror code="-41519">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD1) Le modèle de système est configuré avec un retard associé à la sortie.
+</nierror>
+<nierror code="-41518">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD2) Le modèle de système est configuré avec un retard associé à l'entrée.
+</nierror>
+<nierror code="-41517">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD3) Le modèle de système doit être un modèle de système de deuxième ordre.
+</nierror>
+<nierror code="-41516">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD4) Le modèle du système n'est pas carré.
+</nierror>
+<nierror code="-41515">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD5) Tous les noms de variables doivent commencer par des lettres.
+</nierror>
+<nierror code="-41514">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD6) Le temps d'échantillonnage sélectionné pour cette transformation produit un modèle de système qui n'est pas conditionné correctement.
+</nierror>
+<nierror code="-41513">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD7) La fréquence doit être supérieure à zéro.
+</nierror>
+<nierror code="-41512">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD8) L'ordre du polynôme doit être supérieur à zéro.
+</nierror>
+<nierror code="-41511">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DD9) Le modèle de système doit être en continu.
+</nierror>
+<nierror code="-41510">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DDA) Le modèle de système doit être discret.
+</nierror>
+<nierror code="-41509">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DDB) La dimension du retard associé à la sortie ne correspond pas au nombre de sorties du modèle de système.
+</nierror>
+<nierror code="-41508">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DDC) La dimension du retard associé à l'entrée ne correspond pas au nombre d'entrées du modèle de système.
+</nierror>
+<nierror code="-41507">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DDD) Les dimensions des matrices de retard des E/S ne correspondent pas au nombre d'entrées et de sorties du modèle de système.
+</nierror>
+<nierror code="-41506">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DDE) Le retard dans le modèle de système discret doit être un entier.
+</nierror>
+<nierror code="-41505">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DDF) Le nombre d'entrées ou de sorties dépasse le nombre total d'entrées ou de sorties du modèle de système.
+</nierror>
+<nierror code="-41504">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DE0) Le nombre de sorties du modèle de système existant ne correspond pas au nombre de sorties du modèle de système fourni. Les dimensions des matrices C et D de chaque modèle de système doivent être compatibles.
+</nierror>
+<nierror code="-41503">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DE1) Le nombre d'entrées du modèle de système existant ne correspond pas au nombre d'entrées du nouveau modèle de système. Les dimensions des matrices B et D de chaque modèle de système doivent être compatibles.
+</nierror>
+<nierror code="-41502">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DE2) Le nombre d'états du modèle de système existant ne correspond pas au nombre d'états du modèle de système fourni. Les dimensions de la matrice A de chaque modèle de système doivent être compatibles.
+</nierror>
+<nierror code="-41501">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DE3) Le modèle du système est discret.
+</nierror>
+<nierror code="-41500">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFF5DE4) Le temps d'échantillonnage ne peut pas être négatif.
+</nierror>
+<nierror code="-2391">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6A9) Impossible d'écrire le paramètre de modèle.
+</nierror>
+<nierror code="-2390">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6AA) Impossible de lire le paramètre de modèle.
+</nierror>
+<nierror code="-2389">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6AB) Impossible de lire ou d'écrire le paramètre de modèle spécifié car sa source est un terminal câblé. Pour lire ou écrire le paramètre, définissez sa source à <B>Configuration Dialog Box</B> ou supprimez le fil de liaison connecté au terminal.
+</nierror>
+<nierror code="-2388">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6AC) Aucun paramètre n'existe au chemin que vous avez spécifié. Assurez-vous de spécifier un chemin valide pour le paramètre.
+</nierror>
+<nierror code="-2387">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6AD) Vous avez configuré un paramètre de modèle qui se trouve dans la hiérarchie de modèle d'un VI qui n'est pas en cours d'exécution ou qui n'est pas réservé pour l'exécution. Si vous modifiez la hiérarchie de modèle où le paramètre de modèle se trouve, LabVIEW supprime la configuration. Pour garder la configuration, vérifiez que le VI contenant la hiérarchie de modèle est en cours d'exécution ou réservé pour l'exécution lorsque vous accédez au paramètre de modèle.
+</nierror>
+<nierror code="-2386">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6AE) La fonction Access Model Hierarchy n'est pas supportée sur la cible actuelle.
+</nierror>
+<nierror code="-2385">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6AF) La dimension du vecteur d'entrée de contrainte ne correspond pas à celle du vecteur de sortie implicite.
+</nierror>
+<nierror code="-2384">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B0) Les dimensions du vecteur d'états initiaux et du vecteur de dérivées initiales ne correspondent pas.
+</nierror>
+<nierror code="-2383">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B1) Il manque une fonction callback à la bibliothèque partagée pour la résolution d'ÉDO personnalisée.
+</nierror>
+<nierror code="-2382">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B2) Le module LabVIEW Control Design and Simulation ne peut pas charger la bibliothèque partagée pour la résolution d'ÉDO personnalisée.
+</nierror>
+<nierror code="-2381">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B3) L'ordre polynomial du numérateur et du dénominateur du modèle LTI ( (constant dans le temps linéaire) doit être supérieur à zéro.
+</nierror>
+<nierror code="-2380">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B4) La dimension du modèle LTI (constant dans le temps) linéaire MIMO (plusieurs entrées, plusieurs sorties) doit être supérieure à zéro.
+</nierror>
+<nierror code="-2379">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B5) Le temps final de la simulation ne peut pas être NaN.
+</nierror>
+<nierror code="-2378">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B6) Le délai doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-2377">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B7) Le module LabVIEW Control Design and Simulation ignore les propriétés de délai que vous spécifiez dans une fonction de transfert état-espace ou un type de données de modèle zéro-pôle-gain.
+</nierror>
+<nierror code="-2376">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B8) Le délai de transport est configuré de manière non déterministe. Si le déterminisme est requis, vous devriez choisir une valeur finie pour le temps final de la simulation ou pour le délai maximum du bloc de délai de transport.
+</nierror>
+<nierror code="-2375">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6B9) L'option Auto Period de la page Timing Parameters de la boîte de dialogue Configure Simulation Parameters est sélectionnée. Cependant, la taille d'incrément n'est pas un multiple de la période de l'horloge source.
+</nierror>
+<nierror code="-2374">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6BA) La vitesse de variation négative doit être inférieure ou égale à la vitesse de variation positive.
+</nierror>
+<nierror code="-2373">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6BB) La version de LabVIEW que vous avez installée pour ce périphérique embarqué ne supporte que la source de cadencement à 1 kHz de la boucle de simulation.
+</nierror>
+<nierror code="-2372">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6BC) La table d'indice d'une table de correspondance (LUT) doit être non décroissante.
+</nierror>
+<nierror code="-2371">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6BD) La période d'échantillonnage discrète de chaque fonction discrète doit être un multiple entier de la taille de pas discrète globale de la simulation.
+</nierror>
+<nierror code="-2370">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6BE) Un modèle état-espace SISO (une entrée, une sortie) requiert une matrice B à une seule colonne, une matrice C à une seule ligne et une matrice D à un seul élément.
+</nierror>
+<nierror code="-2369">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6BF) Le modèle spécifié requiert un débit direct.  Ouvrez la boîte de dialogue de configuration de cette fonction et définissez le paramètre Feedthrough à Direct.
+</nierror>
+<nierror code="-2367">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C1) La bibliothèque partagée qui correspond au modèle externe a renvoyé une erreur.
+</nierror>
+<nierror code="-2366">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C2) La fonction External Model a renvoyé une erreur.
+</nierror>
+<nierror code="-2365">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C3) L'ordre du modèle LTI (constant dans le temps) linéaire doit rester identique à celle de l'itération précédente.
+</nierror>
+<nierror code="-2364">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C4) La dimension du modèle LTI (constant dans le temps) linéaire MIMO (plusieurs entrées, plusieurs sorties) doit rester identique à celle de l'itération précédente.
+</nierror>
+<nierror code="-2363">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C5) Un modèle état-espace à débit indirect requiert une matrice D vide ou zéro.
+</nierror>
+<nierror code="-2362">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C6) Le nombre de voies doit correspondre au nombre de contraintes d'inégalité.
+</nierror>
+<nierror code="-2361">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C7) Le nombre de points de référence définis par l'utilisateur est insuffisant.
+</nierror>
+<nierror code="-2360">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C8) Pour utiliser le solveur d'ÉDO Discrete States Only, le diagramme de simulation ne peut pas comporter de fonction continue.
+</nierror>
+<nierror code="-2359">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6C9) La taille de pas discrète doit être un multiple entier de la taille de pas continue.
+</nierror>
+<nierror code="-2358">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6CA) Une fonction discrète ne peut pas accepter de modèle continu.
+</nierror>
+<nierror code="-2357">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6CB) Une fonction continue ne peut pas accepter de modèle discret.
+</nierror>
+<nierror code="-2356">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6CC) Le paramètre sample period (sec) doit être -1 ou positif.  Si le paramètre sample period (sec) est positif, sample skew (sec) doit être supérieur ou égal à 0, et inférieur à sample period (sec).
+</nierror>
+<nierror code="-2355">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6CD) La valeur du paramètre Decimation de la fonction Collector doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-2354">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6CE) Le nombre d'éléments du tableau en entrée n'est pas égal au nombre de colonnes de la matrice de gain.
+</nierror>
+<nierror code="-2353">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6CF) Vous ne pouvez pas changer le délai maximum lorsque la simulation s'exécute.
+</nierror>
+<nierror code="-2352">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D0) "delay" doit être inférieur ou égal au délai maximal spécifié.
+</nierror>
+<nierror code="-2351">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D1) Le paramètre spécifié est un vecteur.  Entrez une valeur vecteur.
+</nierror>
+<nierror code="-2350">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D2) Le paramètre spécifié est un scalaire.  Entrez une valeur scalaire.
+</nierror>
+<nierror code="-2349">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D3) Le nom du paramètre n'est pas dans la liste des paramètres spécifiée.
+</nierror>
+<nierror code="-2348">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D4) Le paramètre State Derivatives spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2347">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D5) Le paramètre Outputs spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2346">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D6) Le paramètre Inputs spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2345">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D7) Le paramètre States spécifié n'est pas compatible avec le sous-système spécifié. Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2344">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D8) Les paramètres spécifiés en sortie ne sont pas compatibles avec le sous-système spécifié.  Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2343">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6D9) Les paramètres spécifiés en entrée ne sont pas compatibles avec le sous-système spécifié.  Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2342">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6DA) Les paramètres d'état spécifiés ne sont pas compatibles avec le sous-système spécifié.  Vérifiez que les noms des paramètres (et leurs tailles, s'il s'agit de vecteurs), correspondent à ceux du sous-système.
+</nierror>
+<nierror code="-2341">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6DB) Le temps initial de la simulation ne peut pas être supérieur ou égal au temps final.
+</nierror>
+<nierror code="-2340">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6DC) Le linéariseur a détecté une erreur interne.
+</nierror>
+<nierror code="-2339">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6DD) Le solveur sélectionné ne peut pas traiter les fonctions implicites.
+</nierror>
+<nierror code="-2338">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6DE) Le solveur d'ÉDO a détecté une erreur interne.
+</nierror>
+<nierror code="-2337">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6DF) Vous ne pouvez linéariser que les sous-systèmes de simulation.
+</nierror>
+<nierror code="-2336">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E0) Le diagramme de simulation a renvoyé NaN au solveur d'ÉDO.
+</nierror>
+<nierror code="-2335">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E1) Le diagramme de simulation a renvoyé Inf au solveur d'ÉDO.
+</nierror>
+<nierror code="-2334">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E2) Un débordement s'est produit dans la résolution d'équation différentielle ordinaire (ODE).
+</nierror>
+<nierror code="-2333">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E3) La taille de pas doit être comprise entre les tailles de pas minimale et maximale.
+</nierror>
+<nierror code="-2332">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E4) La taille de pas minimale doit être inférieure ou égale à la taille de pas maximale.
+</nierror>
+<nierror code="-2331">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E5) Les tolérances absolue et relative ne peuvent pas être toutes les deux nulles.
+</nierror>
+<nierror code="-2330">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E6) La taille de pas discrète doit être un multiple entier de la taille de pas.
+</nierror>
+<nierror code="-2329">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E7) La taille de pas de simulation ne peut pas être zéro.
+</nierror>
+<nierror code="-2328">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E8) Vous ne pouvez utiliser la boîte de dialogue Linearize Subsystem que sur les sous-systèmes de simulation.
+</nierror>
+<nierror code="-2327">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6E9) Vous ne pouvez utiliser la boîte de dialogue Linearize Subsystem que si vous avez créé un VI sous Poste de travail dans l'Explorateur de projet.
+</nierror>
+<nierror code="-2326">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6EA) Une erreur interne a eu lieu dans le module LabVIEW Control Design and Simulation. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-2325">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6EB) Le solveur d'ÉDO n'a pas convergé à la taille de pas minimale.
+</nierror>
+<nierror code="-2324">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6EC) Le solveur d'ÉDO ne peut pas se conformer à la tolérance d'erreur en utilisant la taille de pas minimale.
+</nierror>
+<nierror code="-2323">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6ED) La taille de pas de simulation doit être supérieure à zéro.
+</nierror>
+<nierror code="-2322">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6EE) Le délai discret doit être supérieur à 0 et inférieur ou égal au délai maximal. Si le délai maximal est -1, le délai au départ de la simulation est utilisé comme délai maximal pendant la simulation.
+</nierror>
+<nierror code="-2321">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6EF) Le diviseur de la fréquence d'échantillonnage est un nombre négatif ou zéro. Vous devez spécifier un diviseur de fréquence d'échantillonnage supérieur à 0.
+</nierror>
+<nierror code="-2320">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F0) Cette évaluation de solveur intermédiaire n'aurait pas du être exécutée.
+</nierror>
+<nierror code="-2319">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F1) Les dimensions des tableaux pour la table de correspondance ne concordent pas.
+</nierror>
+<nierror code="-2318">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F2) Les dimensions des vecteurs de paramètres de cette fonction ne concordent pas.
+</nierror>
+<nierror code="-2317">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F3) Vous avez sélectionné un comportement de débit qui n'est pas cohérent avec la méthode d'intégration discrète spécifiée.
+</nierror>
+<nierror code="-2316">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F4) L'ordre du numérateur doit être inférieur ou égal à l'ordre du dénominateur.
+</nierror>
+<nierror code="-2315">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F5) Vous devez faire correspondre les entrées complexes de la fonction Zero-Pole-Gain à des complexes conjugués.
+</nierror>
+<nierror code="-2314">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F6) Pour une fonction de transfert à comportement de débit indirect, l'ordre du numérateur doit être inférieur à celui du dénominateur.
+</nierror>
+<nierror code="-2313">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F7) La taille du vecteur de condition initiale n'est pas correcte.
+</nierror>
+<nierror code="-2312">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F8) La taille du vecteur en entrée est incorrecte pour le système MIMO.
+</nierror>
+<nierror code="-2311">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6F9) L'ordre du modèle doit rester le même que celui de l'itération précédente de la boucle de simulation.
+</nierror>
+<nierror code="-2310">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6FA) Les dimensions des matrices A, B, C et D ne sont pas cohérentes les unes avec les autres.
+</nierror>
+<nierror code="-2309">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6FB) La période pour cette fonction doit être supérieure à zéro.
+</nierror>
+<nierror code="-2308">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6FC) Le rapport cyclique doit être compris entre 0 et 100 %.
+</nierror>
+<nierror code="-2307">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6FD) Évaluation d'une résolution à une étape effectuée sur une sous-étape mineure.
+</nierror>
+<nierror code="-2306">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6FE) La fréquence pour cette fonction doit être supérieure à zéro.
+</nierror>
+<nierror code="-2305">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF6FF) Le temps cible de la fonction Chirp Signal doit être supérieur au temps initial de simulation.
+</nierror>
+<nierror code="-2304">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF700) La limite supérieure de la fonction Saturation doit être supérieure ou égale à la limite inférieure.
+</nierror>
+<nierror code="-2303">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF701) Le point 'switch on' de la fonction Relay doit être supérieur ou égal au point 'switch off'.
+</nierror>
+<nierror code="-2302">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF702) L'intervalle de quantification de la fonction Quantizer doit être supérieur à zéro.
+</nierror>
+<nierror code="-2301">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF703) Simulation Model Converter n'a pas pu traduire correctement une expression.
+</nierror>
+<nierror code="-2300">
+Conception et simulation de systèmes de contrôle: (Hex 0xFFFFF704) Référence de nœud SimX non valide.
+</nierror>
+<nierror code="2345">
+Conception et simulation de systèmes de contrôle: (Hex 0x929) La fonction Trim n'a pas pu implémenter une contrainte spécifique appliquée à la variable.
+</nierror>
+<nierror code="41500">
+Conception et simulation de systèmes de contrôle: (Hex 0xA21C) Ce VI ne prend pas en charge les modèles de systèmes avec attentes. Les informations relatives à l'attente ont été ignorées.
+</nierror>
+<nierror code="41501">
+Conception et simulation de systèmes de contrôle: (Hex 0xA21D) Le modèle de système est configuré avec un retard associé au transport.
+</nierror>
+<nierror code="41502">
+Conception et simulation de systèmes de contrôle: (Hex 0xA21E) Le modèle de système est configuré avec un retard associé à l'entrée.
+</nierror>
+<nierror code="41503">
+Conception et simulation de systèmes de contrôle: (Hex 0xA21F) Le modèle de système est configuré avec un retard associé à la sortie.
+</nierror>
+<nierror code="41504">
+Conception et simulation de systèmes de contrôle: (Hex 0xA220) Les informations relatives à l'attente ont été ignorées.
+</nierror>
+<nierror code="41505">
+Conception et simulation de systèmes de contrôle: (Hex 0xA221) Le modèle de système n'est pas propre.
+</nierror>
+<nierror code="41506">
+Conception et simulation de systèmes de contrôle: (Hex 0xA222) Les retards fractionnaires du processus de discrétisation ont été ignorés.
+</nierror>
+<nierror code="41507">
+Conception et simulation de systèmes de contrôle: (Hex 0xA223) Le deuxième connecteur est ignoré car le deuxième modèle de système n'est pas défini.
+</nierror>
+<nierror code="41508">
+Conception et simulation de systèmes de contrôle: (Hex 0xA224) Certains composants de la matrice de délai de transport n'ont pas pu être distribués. La matrice de délai de transport résiduelle contient des éléments autre que 0.
+</nierror>
+<nierror code="41509">
+Conception et simulation de systèmes de contrôle: (Hex 0xA225) Le modèle converti a un indice de conditionnement bas, ce qui peut indiquer une mauvaise conversion par cette méthode. Envisagez d'utiliser une autre méthode de conversion.
+</nierror>
+<nierror code="41510">
+Conception et simulation de systèmes de contrôle: (Hex 0xA226) La conversion du modèle continu stable a produit un modèle équivalent discret instable. La fréquence correspondante doit être inférieure à pi/T pour pouvoir convertir un modèle continu stable en modèle équivalent discret stable.
+</nierror>
+<nierror code="41511">
+Conception et simulation de systèmes de contrôle: (Hex 0xA227) La conversion du modèle discret stable a produit un modèle équivalent continu instable. La fréquence correspondante doit être inférieure à pi/T pour pouvoir convertir un modèle discret stable en modèle équivalent continu stable.
+</nierror>
+<nierror code="41550">
+Conception et simulation de systèmes de contrôle: (Hex 0xA24E) La marge de phase est infinie.
+</nierror>
+<nierror code="41551">
+Conception et simulation de systèmes de contrôle: (Hex 0xA24F) La marge de gain est infinie.
+</nierror>
+<nierror code="41552">
+Conception et simulation de systèmes de contrôle: (Hex 0xA250) L'amplitude ne descend pas au-dessous de la valeur dB donnée.
+</nierror>
+<nierror code="41553">
+Conception et simulation de systèmes de contrôle: (Hex 0xA251) Le temps final (tf) réel n'est pas le même que la valeur fournie.
+</nierror>
+<nierror code="41554">
+Conception et simulation de systèmes de contrôle: (Hex 0xA252) "2-Norm" est infini puisque le modèle de système n'est pas stable.
+</nierror>
+<nierror code="41555">
+Conception et simulation de systèmes de contrôle: (Hex 0xA253) La norme Infini est infinie car le système est marginalement stable.
+</nierror>
+<nierror code="41556">
+Conception et simulation de systèmes de contrôle: (Hex 0xA254) Ce VI n'a pas tracé les racines en boucle fermée pour les grandes valeurs de gain.
+</nierror>
+<nierror code="41557">
+Conception et simulation de systèmes de contrôle: (Hex 0xA255) La fréquence finale a été réduite à la fréquence de Nyquist du modèle de système discret.
+</nierror>
+<nierror code="41558">
+Conception et simulation de systèmes de contrôle: (Hex 0xA256) L'incrément de temps (dt) spécifié et les limites imposées à la taille du vecteur ont entrainé une réduction du temps final par rapport à sa valeur idéale.
+</nierror>
+<nierror code="41559">
+Conception et simulation de systèmes de contrôle: (Hex 0xA257) Le paramètre d'incrément de temps (dt) utilisé n'est pas idéal.
+</nierror>
+<nierror code="41560">
+Conception et simulation de systèmes de contrôle: (Hex 0xA258) Les conditions initiales ont été ignorées.
+</nierror>
+<nierror code="41561">
+Conception et simulation de systèmes de contrôle: (Hex 0xA259) Les conditions initiales ont été ignorées.
+</nierror>
+<nierror code="41562">
+Conception et simulation de systèmes de contrôle: (Hex 0xA25A) Le modèle du système a une covariance infinie en raison du débit direct.
+</nierror>
+<nierror code="41627">
+Conception et simulation de systèmes de contrôle: (Hex 0xA29B) La paire (C1, Ahat) est introuvable.
+</nierror>
+<nierror code="41628">
+Conception et simulation de systèmes de contrôle: (Hex 0xA29C) La paire (Ahat, B1) ne peut pas être stabilisée.
+</nierror>
+<nierror code="41630">
+Conception et simulation de systèmes de contrôle: (Hex 0xA29E) Les matrices Q et/ou R sont proches de la norme zéro.
+</nierror>
+<nierror code="41631">
+Conception et simulation de systèmes de contrôle: (Hex 0xA29F) Le modèle de système n'a pas d'états spécifiés.
+</nierror>
+<nierror code="41632">
+Conception et simulation de systèmes de contrôle: (Hex 0xA2A0) Le modèle de système n'a pas d'entrées spécifiées.
+</nierror>
+<nierror code="41633">
+Conception et simulation de systèmes de contrôle: (Hex 0xA2A1) Le modèle de système n'a pas de sorties spécifiées.
+</nierror>
+<nierror code="41634">
+Conception et simulation de systèmes de contrôle: (Hex 0xA2A2) Les sorties mesurées et les entrées connues ou manipulées sont ignorées.
+</nierror>
+<nierror code="41635">
+Conception et simulation de systèmes de contrôle: (Hex 0xA2A3) Le seuil défini par l'utilisateur a été dépassé. Le module Control Design and Simulation n'a pas pu placer les pôles à l'emplacement spécifié.
+</nierror>
+<nierror code="41689">
+Conception et simulation de systèmes de contrôle: (Hex 0xA2D9) La paire (Ahat, B) ne peut pas être stabilisée.
+</nierror>
+<nierror code="41729">
+Conception et simulation de systèmes de contrôle: (Hex 0xA301) Ce VI a changé le dénominateur à 1 car le numérateur est 0.
+</nierror>
+<nierror code="41799">
+Conception et simulation de systèmes de contrôle: (Hex 0xA347) Les entrées ou sorties non valides ont été ignorées pour produire les tracés.
+</nierror>
+</nidocument>

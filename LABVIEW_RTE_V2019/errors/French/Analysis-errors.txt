@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Analysis" familyname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23100">
+Analyse: (Hex 0xFFFFA5C4) Le membre de droite de l'équation ou de l'inéquation n'est pas une constante.
+</nierror>
+<nierror code="-23099">
+Analyse: (Hex 0xFFFFA5C5) La formule n'est pas linéaire homogène.
+</nierror>
+<nierror code="-23098">
+Analyse: (Hex 0xFFFFA5C6) La formule doit inclure ">=" ou "<=".
+</nierror>
+<nierror code="-23097">
+Analyse: (Hex 0xFFFFA5C7) La formule doit inclure l'un des symboles suivants: "=" ">=" "<=" ">" "<".
+</nierror>
+<nierror code="-23096">
+Analyse: (Hex 0xFFFFA5C8) Trop de séparateurs décimaux
+</nierror>
+<nierror code="-23095">
+Analyse: (Hex 0xFFFFA5C9) Pas une fonction valide.
+</nierror>
+<nierror code="-23094">
+Analyse: (Hex 0xFFFFA5CA) Expression de fonction incomplète.
+</nierror>
+<nierror code="-23093">
+Analyse: (Hex 0xFFFFA5CB) Expression incomplète
+</nierror>
+<nierror code="-23092">
+Analyse: (Hex 0xFFFFA5CC) Problème au niveau des variables en sortie
+</nierror>
+<nierror code="-23091">
+Analyse: (Hex 0xFFFFA5CD) Incohérence au niveau des variables ou des nombres
+</nierror>
+<nierror code="-23090">
+Analyse: (Hex 0xFFFFA5CE) Contient plus d'une variable
+</nierror>
+<nierror code="-23089">
+Analyse: (Hex 0xFFFFA5CF) Contient des variables
+</nierror>
+<nierror code="-23088">
+Analyse: (Hex 0xFFFFA5D0) Mauvais nom de variable
+</nierror>
+<nierror code="-23087">
+Analyse: (Hex 0xFFFFA5D1) La formule contient une mauvaise lettre ou une variable non définie.
+</nierror>
+<nierror code="-23086">
+Analyse: (Hex 0xFFFFA5D2) Appel de fonction incorrecte
+</nierror>
+<nierror code="-23085">
+Analyse: (Hex 0xFFFFA5D3) Format de nombre incorrect
+</nierror>
+<nierror code="-23084">
+Analyse: (Hex 0xFFFFA5D4) Séparateur décimal incorrect
+</nierror>
+<nierror code="-23083">
+Analyse: (Hex 0xFFFFA5D5) Problème de parenthèse à la fin.
+</nierror>
+<nierror code="-23082">
+Analyse: (Hex 0xFFFFA5D6) Problème de parenthèse au début.
+</nierror>
+<nierror code="-23081">
+Analyse: (Hex 0xFFFFA5D7) Problème de parenthèse.
+</nierror>
+<nierror code="-23055">
+Analyse: (Hex 0xFFFFA5F1) Argument hors gamme [0,1).
+</nierror>
+<nierror code="-23054">
+Analyse: (Hex 0xFFFFA5F2) Variables non uniques.
+</nierror>
+<nierror code="-23053">
+Analyse: (Hex 0xFFFFA5F3) La longueur du signal n'est pas une puissance de deux supérieure ou égale à 4.
+</nierror>
+<nierror code="-23052">
+Analyse: (Hex 0xFFFFA5F4) La longueur du signal n'est pas un nombre premier supérieur ou égal à 5.
+</nierror>
+<nierror code="-23051">
+Analyse: (Hex 0xFFFFA5F5) La longueur du signal n'est pas n'est pas une puissance de deux.
+</nierror>
+<nierror code="-23050">
+Analyse: (Hex 0xFFFFA5F6) La longueur du signal n'est pas un multiple du nombre.
+</nierror>
+<nierror code="-23049">
+Analyse: (Hex 0xFFFFA5F7) Longueur de fenêtre non valide.
+</nierror>
+<nierror code="-23048">
+Analyse: (Hex 0xFFFFA5F8) Incrément de temps non valide.
+</nierror>
+<nierror code="-23047">
+Analyse: (Hex 0xFFFFA5F9) L'argument se trouve en dehors de la gamme [0,100].
+</nierror>
+<nierror code="-23046">
+Analyse: (Hex 0xFFFFA5FA) Tableau vide.
+</nierror>
+<nierror code="-23045">
+Analyse: (Hex 0xFFFFA5FB) n < k
+</nierror>
+<nierror code="-23044">
+Analyse: (Hex 0xFFFFA5FC) Argument hors gamme [0;1].
+</nierror>
+<nierror code="-23043">
+Analyse: (Hex 0xFFFFA5FD) Argument hors gamme (0;1].
+</nierror>
+<nierror code="-23042">
+Analyse: (Hex 0xFFFFA5FE) Argument négatif.
+</nierror>
+<nierror code="-23041">
+Analyse: (Hex 0xFFFFA5FF) Pas exactement deux variables.
+</nierror>
+<nierror code="-23040">
+Analyse: (Hex 0xFFFFA600) Dérivée hors gamme.
+</nierror>
+<nierror code="-23039">
+Analyse: (Hex 0xFFFFA601) Problème dans le paramètre.
+</nierror>
+<nierror code="-23038">
+Analyse: (Hex 0xFFFFA602) Pas de variables dans l'expression.
+</nierror>
+<nierror code="-23037">
+Analyse: (Hex 0xFFFFA603) Pas exactement deux fonctions.
+</nierror>
+<nierror code="-23036">
+Analyse: (Hex 0xFFFFA604) Paramètres différents.
+</nierror>
+<nierror code="-23035">
+Analyse: (Hex 0xFFFFA605) Nombre non positif.
+</nierror>
+<nierror code="-23034">
+Analyse: (Hex 0xFFFFA606) Système inapproprié.
+</nierror>
+<nierror code="-23033">
+Analyse: (Hex 0xFFFFA607) Les vecteurs n'ont pas les mêmes dimensions ou sont vides.
+</nierror>
+<nierror code="-23032">
+Analyse: (Hex 0xFFFFA608) Le maximum n'existe pas.
+</nierror>
+<nierror code="-23031">
+Analyse: (Hex 0xFFFFA609) Pas de point valide.
+</nierror>
+<nierror code="-23030">
+Analyse: (Hex 0xFFFFA60A) La condition m >= n >= 0 n'est pas respectée ou la matrice des dérivées n'a pas la bonne dimension.
+</nierror>
+<nierror code="-23029">
+Analyse: (Hex 0xFFFFA60B) Le VI Levenberg Marquardt a échoué.
+</nierror>
+<nierror code="-23028">
+Analyse: (Hex 0xFFFFA60C) Mauvaise équation modèle.
+</nierror>
+<nierror code="-23027">
+Analyse: (Hex 0xFFFFA60D) Pas exactement une variable.
+</nierror>
+<nierror code="-23026">
+Analyse: (Hex 0xFFFFA60E) Aucun optimum trouvé.
+</nierror>
+<nierror code="-23025">
+Analyse: (Hex 0xFFFFA60F) Triplet (a,b,c) non valide.
+</nierror>
+<nierror code="-23024">
+Analyse: (Hex 0xFFFFA610) Aucune racine trouvée.
+</nierror>
+<nierror code="-23023">
+Analyse: (Hex 0xFFFFA611) Mauvaise dimension de départ.
+</nierror>
+<nierror code="-23022">
+Analyse: (Hex 0xFFFFA612) Précision ou delta x(h) non positif.
+</nierror>
+<nierror code="-23021">
+Analyse: (Hex 0xFFFFA613) Les deux valeurs de fonction ont le même signe.
+</nierror>
+<nierror code="-23020">
+Analyse: (Hex 0xFFFFA614) Le point gauche est supérieur au point droit.
+</nierror>
+<nierror code="-23019">
+Analyse: (Hex 0xFFFFA615) Le point droit est une racine.
+</nierror>
+<nierror code="-23018">
+Analyse: (Hex 0xFFFFA616) Le point gauche est une racine.
+</nierror>
+<nierror code="-23017">
+Analyse: (Hex 0xFFFFA617) Racines multiples.
+</nierror>
+<nierror code="-23016">
+Analyse: (Hex 0xFFFFA618) Matrice de vecteurs propres singulière.
+</nierror>
+<nierror code="-23015">
+Analyse: (Hex 0xFFFFA619) X0 vide.
+</nierror>
+<nierror code="-23014">
+Analyse: (Hex 0xFFFFA61A) A et X0 ont des dimensions différentes.
+</nierror>
+<nierror code="-23013">
+Analyse: (Hex 0xFFFFA61B) Conflit vecteur matrice.
+</nierror>
+<nierror code="-23012">
+Analyse: (Hex 0xFFFFA61C) Précision non positive.
+</nierror>
+<nierror code="-23011">
+Analyse: (Hex 0xFFFFA61D) Incrément non positif.
+</nierror>
+<nierror code="-23010">
+Analyse: (Hex 0xFFFFA61E) Mauvaise entrée, méthode de Cash Karp.
+</nierror>
+<nierror code="-23009">
+Analyse: (Hex 0xFFFFA61F) Mauvaise entrée, méthode de Runge Kutta.
+</nierror>
+<nierror code="-23008">
+Analyse: (Hex 0xFFFFA620) Mauvaise entrée, méthode d'Euler.
+</nierror>
+<nierror code="-23007">
+Analyse: (Hex 0xFFFFA621) Pas un fichier de graphes.
+</nierror>
+<nierror code="-23006">
+Analyse: (Hex 0xFFFFA622) Chemin non valide.
+</nierror>
+<nierror code="-23005">
+Analyse: (Hex 0xFFFFA623) Distance négative.
+</nierror>
+<nierror code="-23004">
+Analyse: (Hex 0xFFFFA624) Nombre de palettes de couleurs hors gamme.
+</nierror>
+<nierror code="-23003">
+Analyse: (Hex 0xFFFFA625) Nombre de contours hors gamme.
+</nierror>
+<nierror code="-23002">
+Analyse: (Hex 0xFFFFA626) Différence entre la fonction, les variables et les coordonnées.
+</nierror>
+<nierror code="-23001">
+Analyse: (Hex 0xFFFFA627) Erreur de syntaxe de l'analyseur.
+</nierror>
+<nierror code="-23000">
+Analyse: (Hex 0xFFFFA628) Début des codes erreur du relatifs au toolkit G Math.
+</nierror>
+<nierror code="-20999">
+Analyse: (Hex 0xFFFFADF9) Échec d'algorithme grave. Appelez le support technique de National Instruments.
+</nierror>
+<nierror code="-20699">
+Analyse: (Hex 0xFFFFAF25) Le format du fichier de données pour la banque de filtres à ondelettes n'est pas valide.
+</nierror>
+<nierror code="-20698">
+Analyse: (Hex 0xFFFFAF26) Impossible d'ouvrir le fichier de données pour la banque de filtres à ondelettes.
+</nierror>
+<nierror code="-20697">
+Analyse: (Hex 0xFFFFAF27) Le handle ou la session sur le paquet d'ondelettes doit faire référence à un arbre complet.
+</nierror>
+<nierror code="-20696">
+Analyse: (Hex 0xFFFFAF28) La session ou le handle sur le paquet d'ondelettes n'est pas valide ou l'espace de données auquel il fait référence ne contient pas les informations nécessaires.
+</nierror>
+<nierror code="-20695">
+Analyse: (Hex 0xFFFFAF29) Dimensions des coefficients d'ondelette non valides
+</nierror>
+<nierror code="-20694">
+Analyse: (Hex 0xFFFFAF2A) Paramètre optionnel non valide pour trouver le chemin optimal.
+</nierror>
+<nierror code="-20693">
+Analyse: (Hex 0xFFFFAF2B) Le niveau de tendance doit être compris entre 0 et 1,0 (bornes incluses).
+</nierror>
+<nierror code="-20692">
+Analyse: (Hex 0xFFFFAF2C) L'incrément de temps doit être supérieur à 0.
+</nierror>
+<nierror code="-20691">
+Analyse: (Hex 0xFFFFAF2D) Le noeud doit être un noeud de terminal.
+</nierror>
+<nierror code="-20690">
+Analyse: (Hex 0xFFFFAF2E) Le nœud doit être un nœud de terminal.
+</nierror>
+<nierror code="-20689">
+Analyse: (Hex 0xFFFFAF2F) Le chemin ou la chaîne du nœud ne peut contenir que des 0 ou des 1.
+</nierror>
+<nierror code="-20688">
+Analyse: (Hex 0xFFFFAF30) Les longueurs des filtres d'analyse ou de synthèse doivent être supérieures à 0.
+</nierror>
+<nierror code="-20687">
+Analyse: (Hex 0xFFFFAF31) Le niveau de décomposition (refinement level) du calcul de l'ondelette mère doit être supérieur à zéro.
+</nierror>
+<nierror code="-20686">
+Analyse: (Hex 0xFFFFAF32) Le décalage (shift) doit être 0 ou1.
+</nierror>
+<nierror code="-20685">
+Analyse: (Hex 0xFFFFAF33) Le décalage ne peut pas être inférieur à 0, au facteur de décimation et au facteur d'interpolation.
+</nierror>
+<nierror code="-20684">
+Analyse: (Hex 0xFFFFAF34) Le facteur d'interpolation doit être supérieur ou égal à 2.
+</nierror>
+<nierror code="-20683">
+Analyse: (Hex 0xFFFFAF35) Le facteur de décimation doit être supérieur ou égal à 2.
+</nierror>
+<nierror code="-20682">
+Analyse: (Hex 0xFFFFAF36) L'échelle de la décomposition en ondelettes doit être supérieur à 0.
+</nierror>
+<nierror code="-20681">
+Analyse: (Hex 0xFFFFAF37) Le type d'ondelette sélectionné n'est pas valide.
+</nierror>
+<nierror code="-20665">
+Analyse: (Hex 0xFFFFAF47) L'ordre le plus grand doit être supérieur à l'ordre initial et inférieur ou égal à deux tiers de la longueur du signal en entrée.
+</nierror>
+<nierror code="-20664">
+Analyse: (Hex 0xFFFFAF48) L'ordre initial ne peut pas être inférieur à 1.
+</nierror>
+<nierror code="-20663">
+Analyse: (Hex 0xFFFFAF49) L'ordre AR doit être supérieur ou égal au nombre de sinusoïdes complexes.
+</nierror>
+<nierror code="-20662">
+Analyse: (Hex 0xFFFFAF4A) Le nombre de sinusoïdes complexes doit être supérieur à 0 et inférieur ou égal à deux tiers de la longueur du signal en entrée.
+</nierror>
+<nierror code="-20661">
+Analyse: (Hex 0xFFFFAF4B) L'ordre du modèle AR doit être supérieur à 0, et inférieur ou égal aux deux tiers de la longueur du signal en entrée.
+</nierror>
+<nierror code="-20644">
+Analyse: (Hex 0xFFFFAF5C) L'indice du tableau 2D spécifié par le refnum est hors gamme.
+</nierror>
+<nierror code="-20643">
+Analyse: (Hex 0xFFFFAF5D) Le refnum ne supporte pas cette opération.
+</nierror>
+<nierror code="-20642">
+Analyse: (Hex 0xFFFFAF5E) Le refnum n'est pas valide.
+</nierror>
+<nierror code="-20641">
+Analyse: (Hex 0xFFFFAF5F) Impossible de créer le refnum.
+</nierror>
+<nierror code="-20630">
+Analyse: (Hex 0xFFFFAF6A) Les paramètres d'informations sur la fréquence ne permettent pas un calcul plus approfondi.
+</nierror>
+<nierror code="-20629">
+Analyse: (Hex 0xFFFFAF6B) Les paramètres d'informations sur la fenêtre ne permettent pas un calcul plus approfondi.
+</nierror>
+<nierror code="-20628">
+Analyse: (Hex 0xFFFFAF6C) Les dimensions du noyau (kernel) doivent être supérieurs à 0 et des puissances de 2. La taille de colonne du noyau doit être 2^(ceil(log2(Ls-1))), Ls représentant la longueur du signal en entrée.
+</nierror>
+<nierror code="-20627">
+Analyse: (Hex 0xFFFFAF6D) La variance de la fenêtre gaussienne doit être supérieure à 0.
+</nierror>
+<nierror code="-20626">
+Analyse: (Hex 0xFFFFAF6E) La taille de la fenêtre doit être supérieure à 0.
+</nierror>
+<nierror code="-20625">
+Analyse: (Hex 0xFFFFAF6F) Le nombre de termes doit être supérieur à 0.
+</nierror>
+<nierror code="-20624">
+Analyse: (Hex 0xFFFFAF70) La fréquence de suréchantillonnage doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-20623">
+Analyse: (Hex 0xFFFFAF71) Le paramètre d'ordre doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-20622">
+Analyse: (Hex 0xFFFFAF72) L'intervalle de temps doit être une puissance de 2.
+</nierror>
+<nierror code="-20621">
+Analyse: (Hex 0xFFFFAF73) L'intervalle de temps doit être supérieur à 0.
+</nierror>
+<nierror code="-20604">
+Analyse: (Hex 0xFFFFAF84) Le paramètre de type de données d'énumération sélectionné n'est pas valide.
+</nierror>
+<nierror code="-20603">
+Analyse: (Hex 0xFFFFAF85) Le nombre d'intervalles de fréquence (frequency bins) doit être une puissance de 2 supérieure à zéro.
+</nierror>
+<nierror code="-20602">
+Analyse: (Hex 0xFFFFAF86) La fréquence d'échantillonnage doit être supérieure à 0.
+</nierror>
+<nierror code="-20601">
+Analyse: (Hex 0xFFFFAF87) Le signal en entrée est vide.
+</nierror>
+<nierror code="-20511">
+Analyse: (Hex 0xFFFFAFE1) CVI n'a pas pu créer le mutex requis.
+</nierror>
+<nierror code="-20510">
+Analyse: (Hex 0xFFFFAFE2) CVI n'a pas trouvé la fonction spécifiée dans la DLL.
+</nierror>
+<nierror code="-20509">
+Analyse: (Hex 0xFFFFAFE3) CVI n'a pas pu charger la DLL Spectral Measurement Toolset
+</nierror>
+<nierror code="-20508">
+Analyse: (Hex 0xFFFFAFE4) Handle de session SMT non valide.
+</nierror>
+<nierror code="-20507">
+Analyse: (Hex 0xFFFFAFE5) Le type de moyennage spécifié est incorrect.
+</nierror>
+<nierror code="-20506">
+Analyse: (Hex 0xFFFFAFE6) Données de spectre d'entrée de type incorrect.
+</nierror>
+<nierror code="-20505">
+Analyse: (Hex 0xFFFFAFE7) Vous devez spécifier soit la résolution de la FFT (nombre de bins), soit la bande passante temps réel (RBW).
+</nierror>
+<nierror code="-20504">
+Analyse: (Hex 0xFFFFAFE8) La fréquence d'échantillonnage doit être supérieure à 0.
+</nierror>
+<nierror code="-20503">
+Analyse: (Hex 0xFFFFAFE9) Les données en entrée ont fait déborder le buffer interne.
+</nierror>
+<nierror code="-20502">
+Analyse: (Hex 0xFFFFAFEA) La taille de la FFT doit être supérieure à 0.
+</nierror>
+<nierror code="-20501">
+Analyse: (Hex 0xFFFFAFEB) Le facteur de zoom doit être supérieur à 0.
+</nierror>
+<nierror code="-20337">
+Analyse: (Hex 0xFFFFB08F) L'horodatage spécifié survient après la limite de fin.
+</nierror>
+<nierror code="-20336">
+Analyse: (Hex 0xFFFFB090) Les valeurs du tableau X qui sont contenues dans le cluster Spécification de limite n'ont pas une croissance monotone.
+</nierror>
+<nierror code="-20335">
+Analyse: (Hex 0xFFFFB091) Les waveforms ne sont pas contiguës.
+</nierror>
+<nierror code="-20334">
+Analyse: (Hex 0xFFFFB092) Impossible d'aligner des waveforms qui sont séparées en temps par plus de 10 fois la plus longue waveform.
+</nierror>
+<nierror code="-20333">
+Analyse: (Hex 0xFFFFB093) Impossible d'aligner deux waveforms ayant le même dt si leurs échantillons ne sont pas cadencés en phase.
+</nierror>
+<nierror code="-20332">
+Analyse: (Hex 0xFFFFB094) Erreur interne : l'attribut de nombre de threads est négatif. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20331">
+Analyse: (Hex 0xFFFFB095) Erreur interne : le pointeur 'parameter struct' est Null, peut-être à cause de modifications sur le diagramme du VI appelant. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20330">
+Analyse: (Hex 0xFFFFB096) Erreur interne : le pointeur résultant est Null, peut-être à cause de modifications sur le diagramme du VI appelant. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20329">
+Analyse: (Hex 0xFFFFB097) Erreur interne : le pointeur vers 'cursor struct' est Null, peut-être à cause de modifications sur le diagramme du VI appelant. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20328">
+Analyse: (Hex 0xFFFFB098) Échec d'initialisation d'une section critique du code de mesure, peut-être en raison d'un manque de mémoire. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20327">
+Analyse: (Hex 0xFFFFB099) Une exception s'est produite dans le code de mesure, peut-être en raison d'un manque de mémoire. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20326">
+Analyse: (Hex 0xFFFFB09A) La vitesse de variation est infinie car le temps de chute ou de montée est zéro.
+</nierror>
+<nierror code="-20325">
+Analyse: (Hex 0xFFFFB09B) Erreur interne : numéro d'ID de mesure non valide. Contactez le support technique de National Instruments pour obtenir plus d'informations.
+</nierror>
+<nierror code="-20324">
+Analyse: (Hex 0xFFFFB09C) Erreur interne : deux mesures partagent le même numéro d'ID. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20323">
+Analyse: (Hex 0xFFFFB09D) Le paramètre de nombre de fronts, périodes, impulsions doit être supérieur à zéro.
+</nierror>
+<nierror code="-20322">
+Analyse: (Hex 0xFFFFB09E) Erreur interne : le numéro d'attribut ne correspond pas à un paramètre valide. Vérifiez les entrées <b>niveaux de référence</b>, <b>paramètres des niveaux en %</b> et <b>paramètres d'état</b>.
+</nierror>
+<nierror code="-20321">
+Analyse: (Hex 0xFFFFB09F) Erreur interne : le handle de session de mesure n'est pas valide. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20320">
+Analyse: (Hex 0xFFFFB0A0) Erreur interne : la mesure demandée n'est pas disponible. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-20319">
+Analyse: (Hex 0xFFFFB0A1) La période de la waveform est trop courte pour réaliser la mesure.
+</nierror>
+<nierror code="-20318">
+Analyse: (Hex 0xFFFFB0A2) Le résultat n'est pas un nombre (NaN) ou est infini.
+</nierror>
+<nierror code="-20317">
+Analyse: (Hex 0xFFFFB0A3) Le paramètre de taille d'histogramme est inférieur ou égal à zéro.
+</nierror>
+<nierror code="-20316">
+Analyse: (Hex 0xFFFFB0A4) Paramètre "percent method" non valide. Vérifiez l'entrée de type énumération <b>method</b>.
+</nierror>
+<nierror code="-20315">
+Analyse: (Hex 0xFFFFB0A5) Le paramètre dt de la waveform est inférieur ou égal à 0.
+</nierror>
+<nierror code="-20314">
+Analyse: (Hex 0xFFFFB0A6) Paramètre d'unités de niveau de référence illégal. Vérifiez l'entrée <b>ref units</b>.
+</nierror>
+<nierror code="-20313">
+Analyse: (Hex 0xFFFFB0A7) Les niveaux de référence ne remplissent pas les conditions requises.
+</nierror>
+<nierror code="-20312">
+Analyse: (Hex 0xFFFFB0A8) La taille de la waveform en entrée est zéro.
+</nierror>
+<nierror code="-20311">
+Analyse: (Hex 0xFFFFB0A9) La mémoire est insuffisante pour effectuer la mesure sur la waveform.
+</nierror>
+<nierror code="-20310">
+Analyse: (Hex 0xFFFFB0AA) La waveform ne comportait pas suffisamment de fronts pour permettre cette mesure. Un front existe si le signal franchit les deux niveaux de référence bas et haut. Veuillez vérifier la force du signal, les niveaux de référence et leurs unités.
+</nierror>
+<nierror code="-20309">
+Analyse: (Hex 0xFFFFB0AB) L'amplitude de la waveform est zéro. La méthode par histogramme ne peut pas être utilisée.
+</nierror>
+<nierror code="-20308">
+Analyse: (Hex 0xFFFFB0AC) La waveform n'a pas traversé le niveau de référence moyen assez de fois pour que cette mesure puisse être effectuée. Veuillez vérifier la force du signal, les niveaux de référence et leurs unités.
+</nierror>
+<nierror code="-20307">
+Analyse: (Hex 0xFFFFB0AD) La fréquence n'est pas un multiple de (Fréquence d'échantillonnage)/nb d'échantillons.
+</nierror>
+<nierror code="-20306">
+Analyse: (Hex 0xFFFFB0AE) Les deux waveforms temporelles ont des échantillonnages (dt) différents.
+</nierror>
+<nierror code="-20305">
+Analyse: (Hex 0xFFFFB0AF) Les deux waveforms temporelles contiennent un nombre de points différent.
+</nierror>
+<nierror code="-20304">
+Analyse: (Hex 0xFFFFB0B0) Au moins une des waveforms temporelles ne contient pas le dt correct pour que le processus de moyennage puisse continuer.
+</nierror>
+<nierror code="-20303">
+Analyse: (Hex 0xFFFFB0B1) Au moins une des waveforms temporelles ne contient pas le nombre de points correct pour continuer le processus de moyennage.
+</nierror>
+<nierror code="-20302">
+Analyse: (Hex 0xFFFFB0B2) La waveform temporelle ne contient pas le dt correct pour continuer le processus de moyennage.
+</nierror>
+<nierror code="-20301">
+Analyse: (Hex 0xFFFFB0B3) La waveform temporelle ne contient pas le nombre de points correct pour continuer le processus de moyennage.
+</nierror>
+<nierror code="-20207">
+Analyse: (Hex 0xFFFFB111) La limite supérieure est inférieure à la limite inférieure.
+</nierror>
+<nierror code="-20206">
+Analyse: (Hex 0xFFFFB112) Décalages : n est négatif.
+</nierror>
+<nierror code="-20205">
+Analyse: (Hex 0xFFFFB113) La longueur de l'échantillon est inférieure à celle de la fenêtre.
+</nierror>
+<nierror code="-20204">
+Analyse: (Hex 0xFFFFB114) La longueur de fenêtre est négative.
+</nierror>
+<nierror code="-20203">
+Analyse: (Hex 0xFFFFB115) L'incrément de temps est négatif.
+</nierror>
+<nierror code="-20202">
+Analyse: (Hex 0xFFFFB116) La longueur de l'échantillon est négative.
+</nierror>
+<nierror code="-20201">
+Analyse: (Hex 0xFFFFB117) La longueur de l'échantillon n'est pas valide.
+</nierror>
+<nierror code="-20167">
+Analyse: (Hex 0xFFFFB139) Les éléments du tableau de valeurs de Y doivent être soit tous positifs, soit tous négatifs.
+</nierror>
+<nierror code="-20166">
+Analyse: (Hex 0xFFFFB13A) Le nombre d'observations dans chaque cellule doit être supérieur ou égal à 2.
+</nierror>
+<nierror code="-20165">
+Analyse: (Hex 0xFFFFB13B) La condition initiale est en conflit avec l'entrée de classe de l'ÉDP.
+</nierror>
+<nierror code="-20164">
+Analyse: (Hex 0xFFFFB13C) La condition aux limites est en conflit avec l'entrée de classe de l'ÉDP.
+</nierror>
+<nierror code="-20163">
+Analyse: (Hex 0xFFFFB13D) Le domaine est en conflit avec l'entrée de classe de l'ÉDP.
+</nierror>
+<nierror code="-20162">
+Analyse: (Hex 0xFFFFB13E) Le membre de droite de l'ÉDP est en conflit avec l'entrée de classe de l'ÉDP.
+</nierror>
+<nierror code="-20161">
+Analyse: (Hex 0xFFFFB13F) L'équation est en conflit avec l'entrée de classe de l'ÉDP.
+</nierror>
+<nierror code="-20158">
+Analyse: (Hex 0xFFFFB142) La taille de la condition initiale de l'ÉDP n'est pas compatible avec celle de la grille sur le domaine.
+</nierror>
+<nierror code="-20157">
+Analyse: (Hex 0xFFFFB143) La taille de la condition aux limites de l'ÉDP n'est pas compatible avec celle de la grille sur le domaine.
+</nierror>
+<nierror code="-20156">
+Analyse: (Hex 0xFFFFB144) La taille du membre de droite de l'ÉDP n'est pas compatible avec celle de la grille sur le domaine.
+</nierror>
+<nierror code="-20155">
+Analyse: (Hex 0xFFFFB145) Le nombre de points de limite doit être supérieur ou égal à 3 sur le domaine polygonal.
+</nierror>
+<nierror code="-20154">
+Analyse: (Hex 0xFFFFB146) Le nombre de points de grille est 0 sur le domaine polygonal.
+</nierror>
+<nierror code="-20153">
+Analyse: (Hex 0xFFFFB147) Le nombre de points d'espace doit être supérieur ou égal à 3.
+</nierror>
+<nierror code="-20152">
+Analyse: (Hex 0xFFFFB148) Le nombre de points de temps doit être supérieur ou égal à 2.
+</nierror>
+<nierror code="-20151">
+Analyse: (Hex 0xFFFFB149) Le point final doit être supérieur au point initial.
+</nierror>
+<nierror code="-20145">
+Analyse: (Hex 0xFFFFB14F) Chaque variable indépendante doit contenir le même nombre de valeurs que la variable dépendante.
+</nierror>
+<nierror code="-20144">
+Analyse: (Hex 0xFFFFB150) La taille d'interpolation doit être supérieure ou égale à la taille des données.
+</nierror>
+<nierror code="-20143">
+Analyse: (Hex 0xFFFFB151) Une valeur en entrée se trouve en dehors du domaine acceptable
+</nierror>
+<nierror code="-20142">
+Analyse: (Hex 0xFFFFB152) Les emplacements de domaine pour l'interpolation (xi, yi, ...) doivent avoir les mêmes dimensions et la même taille.
+</nierror>
+<nierror code="-20141">
+Analyse: (Hex 0xFFFFB153) L'entrée doit être non nulle.
+</nierror>
+<nierror code="-20140">
+Analyse: (Hex 0xFFFFB154) L'entrée doit être supérieure à zéro.
+</nierror>
+<nierror code="-20132">
+Analyse: (Hex 0xFFFFB15C) Les waveforms en entrée ont des t0 différents.
+</nierror>
+<nierror code="-20131">
+Analyse: (Hex 0xFFFFB15D) L'ordre doit être inférieur ou égal au degré.
+</nierror>
+<nierror code="-20130">
+Analyse: (Hex 0xFFFFB15E) L'entrée n'est pas un nombre premier.
+</nierror>
+<nierror code="-20129">
+Analyse: (Hex 0xFFFFB15F) La taille du tableau en entrée n'est pas une puissance de la base.
+</nierror>
+<nierror code="-20128">
+Analyse: (Hex 0xFFFFB160) La taille de la matrice de Hadamard n'est pas valide. La taille valide est 2^k, 12*2^k, ou 20*2^k, k étant supérieur à 0.
+</nierror>
+<nierror code="-20127">
+Analyse: (Hex 0xFFFFB161) Le nombre d'échantillons est inférieur au nombre de paramètres inconnus.
+</nierror>
+<nierror code="-20126">
+Analyse: (Hex 0xFFFFB162) Il ne reste pas assez d'espace pour effectuer le sous-programme spécifié dans l'espace de travail d'analyse.
+</nierror>
+<nierror code="-20125">
+Analyse: (Hex 0xFFFFB163) L'espace de travail d'analyse ne peut pas être déverrouillé.
+</nierror>
+<nierror code="-20124">
+Analyse: (Hex 0xFFFFB164) L'espace de travail pour l'analyse a été verrouillé.
+</nierror>
+<nierror code="-20123">
+Analyse: (Hex 0xFFFFB165) L'espace de travail pour l'analyse n'est pas vide.
+</nierror>
+<nierror code="-20122">
+Analyse: (Hex 0xFFFFB166) L'espace de travail pour l'analyse est vide.
+</nierror>
+<nierror code="-20121">
+Analyse: (Hex 0xFFFFB167) L'espace de travail pour l'analyse a déjà été activé.
+</nierror>
+<nierror code="-20120">
+Analyse: (Hex 0xFFFFB168) La taille de l'espace de travail pour l'analyse n'a pas été définie.
+</nierror>
+<nierror code="-20119">
+Analyse: (Hex 0xFFFFB169) Le nombre d'échantillons n'est pas égal à 3.
+</nierror>
+<nierror code="-20118">
+Analyse: (Hex 0xFFFFB16A) L'entrée est supérieure à 1 ou inférieure à -1.
+</nierror>
+<nierror code="-20117">
+Analyse: (Hex 0xFFFFB16B) La signification a été perdue.
+</nierror>
+<nierror code="-20116">
+Analyse: (Hex 0xFFFFB16C) Aucune solution acceptable n'a été trouvée.
+</nierror>
+<nierror code="-20115">
+Analyse: (Hex 0xFFFFB16D) La taille de la FFT doit être supérieure à zéro.
+</nierror>
+<nierror code="-20114">
+Analyse: (Hex 0xFFFFB16E) La valeur de départ câblée au VI Compter les zéros d'un polynôme réel est supérieure à la valeur de fin.
+</nierror>
+<nierror code="-20113">
+Analyse: (Hex 0xFFFFB16F) La valeur de fin câblée au VI "Compter les zéros d'un polynôme réel" est une racine.
+</nierror>
+<nierror code="-20112">
+Analyse: (Hex 0xFFFFB170) La valeur de départ câblée au VI "Compter les zéros d'un polynôme réel" est une racine.
+</nierror>
+<nierror code="-20111">
+Analyse: (Hex 0xFFFFB171) Les coefficients du polynôme d'entrée sont tous zéro.
+</nierror>
+<nierror code="-20108">
+Analyse: (Hex 0xFFFFB174) Le polygone en entrée n'est pas convexe ou simple.
+</nierror>
+<nierror code="-20107">
+Analyse: (Hex 0xFFFFB175) Le nombre est hors gamme. La gamme valide est [0; pi].
+</nierror>
+<nierror code="-20106">
+Analyse: (Hex 0xFFFFB176) Le nombre est hors gamme. La gamme valide est [0; pi/2].
+</nierror>
+<nierror code="-20105">
+Analyse: (Hex 0xFFFFB177) Le nombre est hors gamme.  La gamme valide est [0; 1].
+</nierror>
+<nierror code="-20104">
+Analyse: (Hex 0xFFFFB178) Les paramètres d'entrée possèdent au moins un élément NaN.
+</nierror>
+<nierror code="-20103">
+Analyse: (Hex 0xFFFFB179) Le paramètre d'ordre doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-20102">
+Analyse: (Hex 0xFFFFB17A) Les décalages doivent vérifier : |décalages| < nb d'échantillons.
+</nierror>
+<nierror code="-20101">
+Analyse: (Hex 0xFFFFB17B) La valeur maximale du paramètre doit être supérieure à la valeur minimale du paramètre.
+</nierror>
+<nierror code="-20099">
+Analyse: (Hex 0xFFFFB17D) L'ordre AR doit être supérieur ou égal au nombre de sinusoïdes complexes.
+</nierror>
+<nierror code="-20098">
+Analyse: (Hex 0xFFFFB17E) L'ordre AR ne doit pas être supérieur à 2/3 du nombre d'échantillons.
+</nierror>
+<nierror code="-20097">
+Analyse: (Hex 0xFFFFB17F) Le nombre de sinusoïdes complexes ne doit pas être supérieur à 2/3 du nombre d'échantillons.
+</nierror>
+<nierror code="-20096">
+Analyse: (Hex 0xFFFFB180) L'ordre AR doit être supérieur à 0.
+</nierror>
+<nierror code="-20095">
+Analyse: (Hex 0xFFFFB181) Le nombre de sinusoïdes complexes doit être supérieur à 0.
+</nierror>
+<nierror code="-20094">
+Analyse: (Hex 0xFFFFB182) La taille du tableau de conditions initiale ou finale n'est pas correct.
+</nierror>
+<nierror code="-20093">
+Analyse: (Hex 0xFFFFB183) df doit être supérieur à 0.
+</nierror>
+<nierror code="-20092">
+Analyse: (Hex 0xFFFFB184) La fonction duale n'existe pas.
+</nierror>
+<nierror code="-20091">
+Analyse: (Hex 0xFFFFB185) Le tableau de coefficients de Gabor n'a pas une dimension correcte.
+</nierror>
+<nierror code="-20090">
+Analyse: (Hex 0xFFFFB186) L'ordre du spectogramme de Gabor doit être >= 0.
+</nierror>
+<nierror code="-20089">
+Analyse: (Hex 0xFFFFB187) La fréquence de suréchantillonnage, N / dM, doit être >= 1.
+</nierror>
+<nierror code="-20088">
+Analyse: (Hex 0xFFFFB188) La longueur de la fenêtre d'analyse ou de synthèse doit être un multiple du nombre d'intervalles de fréquence, N, qui lui même doit être une puissance de 2.
+</nierror>
+<nierror code="-20087">
+Analyse: (Hex 0xFFFFB189) La longueur de la fenêtre d'analyse ou de synthèse doit être un multiple de l'intervalle de temps d'échantillonnage de Gabor; dM.
+</nierror>
+<nierror code="-20086">
+Analyse: (Hex 0xFFFFB18A) La longueur de la fenêtre doit être supérieure à 2 et une puissance de 2.
+</nierror>
+<nierror code="-20085">
+Analyse: (Hex 0xFFFFB18B) La taille du tableau en entrée et celle de sa transformée de Hilbert doivent être égales.
+</nierror>
+<nierror code="-20084">
+Analyse: (Hex 0xFFFFB18C) L'incrément de temps ne doit pas être supérieur à (longueur de la fenêtre)/4.
+</nierror>
+<nierror code="-20083">
+Analyse: (Hex 0xFFFFB18D) La longueur de la fenêtre doit être > 4 et une puissance de 2.
+</nierror>
+<nierror code="-20082">
+Analyse: (Hex 0xFFFFB18E) L'incrément de temps ne doit pas être supérieur à dM.
+</nierror>
+<nierror code="-20081">
+Analyse: (Hex 0xFFFFB18F) dN ou l'intervalle de temps doit être supérieur à zéro.
+</nierror>
+<nierror code="-20080">
+Analyse: (Hex 0xFFFFB190) L'incrément de temps doit être supérieur à (longueur de la fenêtre)/16.
+</nierror>
+<nierror code="-20079">
+Analyse: (Hex 0xFFFFB191) La valeur de départ n'est pas valide.
+</nierror>
+<nierror code="-20078">
+Analyse: (Hex 0xFFFFB192) Cette fonctionnalité n'est pas supportée sur cette plate-forme.
+</nierror>
+<nierror code="-20077">
+Analyse: (Hex 0xFFFFB193) Les points temporels ne sont pas dans l'ordre croissant.
+</nierror>
+<nierror code="-20076">
+Analyse: (Hex 0xFFFFB194) Le point de ré-échantillonnage ne peut pas être recalculé lorsque le signal est derrière celui de l'entrée.
+</nierror>
+<nierror code="-20075">
+Analyse: (Hex 0xFFFFB195) Le buffer de filtre a débordé.
+</nierror>
+<nierror code="-20074">
+Analyse: (Hex 0xFFFFB196) La réorganisation des valeurs propres a modifié certaines valeurs complexes.
+</nierror>
+<nierror code="-20073">
+Analyse: (Hex 0xFFFFB197) Les valeurs propres ne peuvent pas être ré-ordonnées car certaines sont trop proches.
+</nierror>
+<nierror code="-20072">
+Analyse: (Hex 0xFFFFB198) Le logarithme de la matrice d'entrée ne peut pas être calculé.
+</nierror>
+<nierror code="-20071">
+Analyse: (Hex 0xFFFFB199) La matrice d'entrée n'est pas définie positive.
+</nierror>
+<nierror code="-20070">
+Analyse: (Hex 0xFFFFB19A) Les matrices doivent avoir la même taille.
+</nierror>
+<nierror code="-20069">
+Analyse: (Hex 0xFFFFB19B) Le nombre d'échantillons doit être supérieur ou égal à 4.
+</nierror>
+<nierror code="-20068">
+Analyse: (Hex 0xFFFFB19C) La matrice en entrée a au moins un élément dont la valeur est Inf, NaN, DBL_MAX ou DBL_MIN
+</nierror>
+<nierror code="-20067">
+Analyse: (Hex 0xFFFFB19D) La fréquence fondamentale d'entrée ou la fréquence d'échantillonnage est égale à zéro
+</nierror>
+<nierror code="-20066">
+Analyse: (Hex 0xFFFFB19E) Les informations dans la structure du filtre RII sont incorrectes.
+</nierror>
+<nierror code="-20065">
+Analyse: (Hex 0xFFFFB19F) Les éléments du vecteur ne peuvent pas être tous nuls.
+</nierror>
+<nierror code="-20064">
+Analyse: (Hex 0xFFFFB1A0) L'état de la mémoire interne de cette fonction n'a pas été initialisé correctement.
+</nierror>
+<nierror code="-20063">
+Analyse: (Hex 0xFFFFB1A1) Les coefficients du polynôme ne sont pas valides.
+</nierror>
+<nierror code="-20062">
+Analyse: (Hex 0xFFFFB1A2) Le nombre maximum d'itérations a été dépassé.
+</nierror>
+<nierror code="-20061">
+Analyse: (Hex 0xFFFFB1A3) La sélection n'est pas valide.
+</nierror>
+<nierror code="-20060">
+Analyse: (Hex 0xFFFFB1A4) Erreur de division par zéro.
+</nierror>
+<nierror code="-20059">
+Analyse: (Hex 0xFFFFB1A5) Erreur de nombre négatif.
+</nierror>
+<nierror code="-20058">
+Analyse: (Hex 0xFFFFB1A6) Nombre de dimensions ou de variables dépendantes non valide.
+</nierror>
+<nierror code="-20057">
+Analyse: (Hex 0xFFFFB1A7) Le paramètre de la fonction bêta doit vérifier : 0 < p < 1.
+</nierror>
+<nierror code="-20056">
+Analyse: (Hex 0xFFFFB1A8) La table de contingence contient un nombre négatif.
+</nierror>
+<nierror code="-20055">
+Analyse: (Hex 0xFFFFB1A9) Le nombre de catégories ou d'échantillons doit être supérieur à 1.
+</nierror>
+<nierror code="-20054">
+Analyse: (Hex 0xFFFFB1AA) La probabilité doit être supérieure ou égale à zéro et inférieure à 1.
+</nierror>
+<nierror code="-20053">
+Analyse: (Hex 0xFFFFB1AB) Le nombre doit être compris entre 0 et 1.
+</nierror>
+<nierror code="-20052">
+Analyse: (Hex 0xFFFFB1AC) Le degré de liberté doit être supérieur à zéro mais inférieur à la longueur de la séquence en entrée.
+</nierror>
+<nierror code="-20051">
+Analyse: (Hex 0xFFFFB1AD) Tous les éléments de la première colonne de la matrice X doivent être égaux à 1.
+</nierror>
+<nierror code="-20050">
+Analyse: (Hex 0xFFFFB1AE) La fonction d'interpolation contient un pôle à la valeur requise.
+</nierror>
+<nierror code="-20049">
+Analyse: (Hex 0xFFFFB1AF) Les valeurs des x doivent être distinctes.
+</nierror>
+<nierror code="-20048">
+Analyse: (Hex 0xFFFFB1B0) Le modèle 'Random Effect' a été demandé alors que le modèle 'Fixed Effect' est nécessaire.
+</nierror>
+<nierror code="-20047">
+Analyse: (Hex 0xFFFFB1B1) Les données ne sont pas équilibrées. Toutes les cellules doivent contenir le même nombre d'observations.
+</nierror>
+<nierror code="-20046">
+Analyse: (Hex 0xFFFFB1B2) Il y a un dépassement dans le calcul.
+</nierror>
+<nierror code="-20045">
+Analyse: (Hex 0xFFFFB1B3) Le nombre total de points de données doit être égal au résultat de la multiplication de chaque niveau par le nombre d'observations par cellule.
+</nierror>
+<nierror code="-20044">
+Analyse: (Hex 0xFFFFB1B4) Aucune observation n'a été faite pour certains niveaux d'un facteur.
+</nierror>
+<nierror code="-20043">
+Analyse: (Hex 0xFFFFB1B5) Le niveau des facteurs se situe à l'extérieur de la gamme autorisée pour certaines données.
+</nierror>
+<nierror code="-20042">
+Analyse: (Hex 0xFFFFB1B6) Le nombre de niveaux est hors gamme.
+</nierror>
+<nierror code="-20041">
+Analyse: (Hex 0xFFFFB1B7) Le système d'équations ne peut pas être résolu car la matrice d'entrée est singulière.
+</nierror>
+<nierror code="-20040">
+Analyse: (Hex 0xFFFFB1B8) La matrice d'entrée doit être une matrice carrée.
+</nierror>
+<nierror code="-20039">
+Analyse: (Hex 0xFFFFB1B9) Le nombre de colonnes de la première matrice n'est pas égal au nombre de lignes ou de vecteurs de la seconde matrice.
+</nierror>
+<nierror code="-20038">
+Analyse: (Hex 0xFFFFB1BA) Le nombre d'intervalles doit être > 0.
+</nierror>
+<nierror code="-20037">
+Analyse: (Hex 0xFFFFB1BB) Le nombre de points de données du tableau de valeurs de Y doit être supérieur à la valeur de l'ordre.
+</nierror>
+<nierror code="-20036">
+Analyse: (Hex 0xFFFFB1BC) Les éléments du tableau de valeurs de X doivent être soit tous positifs, soit tous négatifs.
+</nierror>
+<nierror code="-20035">
+Analyse: (Hex 0xFFFFB1BD) L'écart-type doit être supérieur à zéro pour que la normalisation soit possible.
+</nierror>
+<nierror code="-20034">
+Analyse: (Hex 0xFFFFB1BE) Le nombre de coefficients du filtre doit être pair.
+</nierror>
+<nierror code="-20033">
+Analyse: (Hex 0xFFFFB1BF) Le nombre de coefficients du filtre doit être impair.
+</nierror>
+<nierror code="-20032">
+Analyse: (Hex 0xFFFFB1C0) Le rang de gauche du filtre doit être supérieur ou égal à 0.
+Le rang de droite du filtre doit être supérieur à taille.
+</nierror>
+<nierror code="-20031">
+Analyse: (Hex 0xFFFFB1C1) Le filtre ne peut pas être réalisé avec les paramètres d'entrée spécifiés.
+</nierror>
+<nierror code="-20030">
+Analyse: (Hex 0xFFFFB1C2) Le coefficient de perte, leak, et le paramètre de taille d'incrément, u, doivent être tels que : 0 <= leak <= u.
+</nierror>
+<nierror code="-20029">
+Analyse: (Hex 0xFFFFB1C3) Le paramètre de taille d'incrément, u, doit être tel que 0 <= u <= 0,1.
+</nierror>
+<nierror code="-20028">
+Analyse: (Hex 0xFFFFB1C4) La valeur d'atténuation doit être supérieure à l'amplitude d'ondulation.
+</nierror>
+<nierror code="-20027">
+Analyse: (Hex 0xFFFFB1C5) La valeur finale doit être > 0.
+</nierror>
+<nierror code="-20026">
+Analyse: (Hex 0xFFFFB1C6) La largeur doit être > 0.
+</nierror>
+<nierror code="-20025">
+Analyse: (Hex 0xFFFFB1C7) L'atténuation doit être > 0.
+</nierror>
+<nierror code="-20024">
+Analyse: (Hex 0xFFFFB1C8) L'amplitude d'ondulation doit être > 0.
+</nierror>
+<nierror code="-20023">
+Analyse: (Hex 0xFFFFB1C9) Les conditions suivantes doivent être respectées : 0 < f_basse <= f_haute <= fé/2.
+</nierror>
+<nierror code="-20022">
+Analyse: (Hex 0xFFFFB1CA) Le facteur de décimation doit être tel que 0 < facteur de décimation <= nb d'échantillons.
+</nierror>
+<nierror code="-20021">
+Analyse: (Hex 0xFFFFB1CB) L'ordre doit être supérieur à 0.
+</nierror>
+<nierror code="-20020">
+Analyse: (Hex 0xFFFFB1CC) La fréquence de coupure, fc, doit être telle que 0 <= fc <= fé/2.
+</nierror>
+<nierror code="-20019">
+Analyse: (Hex 0xFFFFB1CD) La valeur supérieure doit être supérieure ou égale à la valeur inférieure.
+</nierror>
+<nierror code="-20018">
+Analyse: (Hex 0xFFFFB1CE) La condition suivante doit être respectée : 0 <= (indice + longueur) < nb d'échantillons.
+</nierror>
+<nierror code="-20017">
+Analyse: (Hex 0xFFFFB1CF) La condition suivante doit être respectée : 0 <= indice < nb d'échantillons.
+</nierror>
+<nierror code="-20016">
+Analyse: (Hex 0xFFFFB1D0) dt doit être > 0.
+</nierror>
+<nierror code="-20015">
+Analyse: (Hex 0xFFFFB1D1) dt doit être >= 0.
+</nierror>
+<nierror code="-20014">
+Analyse: (Hex 0xFFFFB1D2) La condition suivante doit être respectée : 0 <= (délai + largeur) < nb d'échantillons.
+</nierror>
+<nierror code="-20013">
+Analyse: (Hex 0xFFFFB1D3) La largeur doit vérifier : 0 < largeur < nb d'échantillons.
+</nierror>
+<nierror code="-20012">
+Analyse: (Hex 0xFFFFB1D4) Le nombre de périodes doit être > 0 et <= au nombre d'échantillons.
+</nierror>
+<nierror code="-20011">
+Analyse: (Hex 0xFFFFB1D5) Le rapport cyclique doit être tel que 0 <= rapport cyclique <= 100.
+</nierror>
+<nierror code="-20010">
+Analyse: (Hex 0xFFFFB1D6) Le maximum autorisé pour la taille de la transformée a été dépassé.
+</nierror>
+<nierror code="-20009">
+Analyse: (Hex 0xFFFFB1D7) La taille du tableau en entrée doit être une puissance de 2 : taille = 2^m, 0 < m < 23.
+</nierror>
+<nierror code="-20008">
+Analyse: (Hex 0xFFFFB1D8) Les tableaux en entrée ne contiennent pas un nombre de données valide pour cette fonction.
+</nierror>
+<nierror code="-20007">
+Analyse: (Hex 0xFFFFB1D9) Le nombre d'échantillons doit être supérieur ou égal à 3.
+</nierror>
+<nierror code="-20006">
+Analyse: (Hex 0xFFFFB1DA) Le nombre d'échantillons doit être >= 2.
+</nierror>
+<nierror code="-20005">
+Analyse: (Hex 0xFFFFB1DB) Le nombre d'échantillons doit être supérieur ou égal à 1.
+</nierror>
+<nierror code="-20004">
+Analyse: (Hex 0xFFFFB1DC) Le nombre d'échantillons doit être >= 0.
+</nierror>
+<nierror code="-20003">
+Analyse: (Hex 0xFFFFB1DD) Le nombre d'échantillons doit être > 0.
+</nierror>
+<nierror code="-20002">
+Analyse: (Hex 0xFFFFB1DE) Les séquences en entrée doivent avoir la même taille.
+</nierror>
+<nierror code="-20001">
+Analyse: (Hex 0xFFFFB1DF) Il n'y a pas assez de mémoire pour effectuer la routine spécifiée.
+</nierror>
+<nierror code="20001">
+Analyse: (Hex 0x4E21) La matrice n'est pas de plein rang.
+</nierror>
+<nierror code="20002">
+Analyse: (Hex 0x4E22) Le nombre d'échantillons doit être supérieur à 0.
+</nierror>
+<nierror code="20003">
+Analyse: (Hex 0x4E23) La matrice est singulière.
+</nierror>
+<nierror code="20004">
+Analyse: (Hex 0x4E24) Les matrices ou les vecteurs n'ont pas la même taille.
+</nierror>
+<nierror code="20005">
+Analyse: (Hex 0x4E25) LabVIEW ne peut pas réordonner les valeurs propres généralisées.
+</nierror>
+<nierror code="20006">
+Analyse: (Hex 0x4E26) Le résultat du calcul n'est peut-être pas juste.
+</nierror>
+<nierror code="20007">
+Analyse: (Hex 0x4E27) L'entrée n'est pas une factorisation de Cholesky valide.
+</nierror>
+<nierror code="20008">
+Analyse: (Hex 0x4E28) La matrice n'est pas définie positive.
+</nierror>
+<nierror code="20010">
+Analyse: (Hex 0x4E2A) Les tailles des tableaux en entrée ne répondent pas aux conditions spécifiées.
+</nierror>
+<nierror code="20011">
+Analyse: (Hex 0x4E2B) L'écart-type en entrée n'est pas valide.
+</nierror>
+<nierror code="20012">
+Analyse: (Hex 0x4E2C) Le polynôme en entrée est vide.
+</nierror>
+<nierror code="20020">
+Analyse: (Hex 0x4E34) Certaines fréquences ne respectent pas le critère de Nyquist.
+</nierror>
+<nierror code="20021">
+Analyse: (Hex 0x4E35) La mesure du niveau d'état risque de ne pas être juste, auquel cas les autres mesures ne seront pas justes.
+</nierror>
+<nierror code="20030">
+Analyse: (Hex 0x4E3E) La matrice en entrée a au moins un élément dont la valeur est Inf ou NaN.
+</nierror>
+<nierror code="20031">
+Analyse: (Hex 0x4E3F) Le maximum autorisé pour l'ordre a été dépassé.
+</nierror>
+<nierror code="20307">
+Analyse: (Hex 0x4F53) La fréquence a été contrainte vers le multiple le plus proche de (fréq. d'éch)/échantillons.
+</nierror>
+<nierror code="20334">
+Analyse: (Hex 0x4F6E) Les deux waveforms n'ont pas de partie temporelle commune.
+</nierror>
+<nierror code="20351">
+Analyse: (Hex 0x4F7F) Le processus de moyennage a été redémarré automatiquement pour tenir compte d'une modification dans les paramètres de moyennage.
+</nierror>
+<nierror code="20352">
+Analyse: (Hex 0x4F80) La waveform actuelle et la waveform précédente ne sont pas contiguës.
+</nierror>
+<nierror code="20353">
+Analyse: (Hex 0x4F81) Le dt actuel et le dt précédent ne sont pas égaux.
+</nierror>
+<nierror code="20354">
+Analyse: (Hex 0x4F82) L'algorithme s'arrête car le nombre maximal d'itérations est atteint.
+</nierror>
+</nidocument>

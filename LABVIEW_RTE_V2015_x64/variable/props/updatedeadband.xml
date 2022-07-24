@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Update Deadband" lib="LabVIEW">
+    <var-prop name="User Deadband" type="string" />
+    <var-prop name="Source Deadband" type="string" />
+</var-prop-group>

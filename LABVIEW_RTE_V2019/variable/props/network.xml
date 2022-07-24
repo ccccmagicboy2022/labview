@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<var-prop-group name="Network" lib="LabVIEW">
+    <var-prop name="UseBuffering" type="boolean" />
+    <var-prop name="BuffSize" type="int" />
+    <var-prop name="ElemSize" type="int" />
+    <var-prop name="UseBinding" type="boolean" />
+    <var-prop-enum name="AccessType">
+        <var-prop-enum-value>read only</var-prop-enum-value>
+        <var-prop-enum-value>write only</var-prop-enum-value>
+        <var-prop-enum-value>read/write</var-prop-enum-value>
+    </var-prop-enum>
+    <var-prop name="URL" type="string" />
+    <var-prop name="ProjectPath" type="string" />
+    <var-prop name="PointsPerWaveform" type="int" />
+    <var-prop name="ProjectBinding" type="boolean" />
+    <var-prop name="SingleWriter" type="boolean" />
+    <var-prop name="OnScan" type="boolean" />
+</var-prop-group>

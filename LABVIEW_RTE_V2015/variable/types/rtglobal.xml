@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<var-type name="RTGlobal" id="ni.variable.RTGlobal" lib="LabVIEW">
+  <var-cxt>My Computer</var-cxt>
+  <var-cxt>RT</var-cxt>
+  <var-cxt>CE</var-cxt>
+  <var-cxt>WES</var-cxt>
+  <var-property-groups required="Global, Real-Time Features" optional="Description" />
+  <var-mapping mapped="ni.variable.SingleProcess">
+    <var-attr id="ni.variable.Timestamped" default-value="false" mutable="true">
+        <var-attr-manager lib="LabVIEW" />
+    </var-attr>
+  </var-mapping>
+</var-type>

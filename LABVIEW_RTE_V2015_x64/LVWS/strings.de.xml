@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<NILVWSPostInstallerScript>
+	<VI name="Prompt for Credentials.vi">
+		<string name="Title">NI-Anmeldung</string>
+		<string name="Username">Benutzername</string>
+		<string name="Password">Passwort</string>
+		<string name="OK">OK</string>
+		<string name="Cancel">Abbrechen</string>
+	</VI>
+	<VI name="install.vi">
+		<string name="Label">Webdienst %s installieren</string>
+	</VI>
+	<VI name="uninstall.vi">
+		<string name="Label">Webdienst %s deinstallieren</string>
+	</VI>
+</NILVWSPostInstallerScript>

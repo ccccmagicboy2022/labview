@@ -1,0 +1,163 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW WSN" displayname="LabVIEW WSN">
+</nifamily>
+</nicomment>
+<nierror code="-25399">
+LabVIEW WSN:  最後のLV WSNエラーです。引き返せ、パダワン、他に行く場所はないぞ。
+</nierror>
+<nierror code="-25339">
+LabVIEW WSN:  新しいデータを読み取るには、この関数を呼び出す前にシリアルポートレシーバの電源を投入してください。
+</nierror>
+<nierror code="-25338">
+LabVIEW WSN:  デバイスでは、指定されたバイト数をシリアルポートから一度に読み取りまたは書き込みできません。
+</nierror>
+<nierror code="-25337">
+LabVIEW WSN:  指定されたバイト数は指定されたタイムアウト時間内に読み取りまたは書き込みできません。
+</nierror>
+<nierror code="-25336">
+LabVIEW WSN:  指定されたシリアルポート構成はこのデバイスでサポートされていません。
+</nierror>
+<nierror code="-25327">
+LabVIEW WSN:  十分なユーザRAMがありません。
+</nierror>
+<nierror code="-25326">
+LabVIEW WSN:  RAM refnumが無効です。
+</nierror>
+<nierror code="-25325">
+LabVIEW WSN:  ユーザメモリの確認に失敗しました。
+</nierror>
+<nierror code="-25324">
+LabVIEW WSN:  ユーザメモリに書き込むことができませんでした。
+</nierror>
+<nierror code="-25323">
+LabVIEW WSN:  ユーザメモリは空き領域がないため、書き込むことができませんでした。
+</nierror>
+<nierror code="-25322">
+LabVIEW WSN:  ユーザメモリが境界外です。操作はユーザメモリのセクタ外の場所を指定しました。
+</nierror>
+<nierror code="-25321">
+LabVIEW WSN:  指定されたユーザメモリセクタを消去できませんでした。
+</nierror>
+<nierror code="-25320">
+LabVIEW WSN:  Nullポインタの例外です。
+</nierror>
+<nierror code="-25313">
+LabVIEW WSN:  内部エラー: ハードウェア障害。
+</nierror>
+<nierror code="-25312">
+LabVIEW WSN:  ノードは接続されていません。
+</nierror>
+<nierror code="-25311">
+LabVIEW WSN:  無効な引数です。
+</nierror>
+<nierror code="-25310">
+LabVIEW WSN:  ユーザメッセージが失われました。
+</nierror>
+<nierror code="-25309">
+LabVIEW WSN:  無線障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25308">
+LabVIEW WSN:  フラッシュ障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25307">
+LabVIEW WSN:  コマンドキューのオーバーフロー: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25306">
+LabVIEW WSN:  デジタル出力ライン障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25305">
+LabVIEW WSN:  ADC障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25304">
+LabVIEW WSN:  CJC障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25303">
+LabVIEW WSN:  SPI通信障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25302">
+LabVIEW WSN:  シリアル受信障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25301">
+LabVIEW WSN:  シリアル転送障害: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25300">
+LabVIEW WSN:  LabVIEWワイヤレスセンサネットワークモジュールで内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25283">
+LabVIEW WSN:  ノードIDは、ゲートウェイのノードテーブルに存在しません。
+</nierror>
+<nierror code="-25282">
+LabVIEW WSN:  メッセージリファレンスが無効です。
+</nierror>
+<nierror code="-25281">
+LabVIEW WSN:  ノードリファレンスが無効です。
+</nierror>
+<nierror code="-25280">
+LabVIEW WSN:  ゲートウェイリファレンスが無効です。
+</nierror>
+<nierror code="-25254">
+LabVIEW WSN:  接続タイムアウトです。ゲートウェイは不良な状態の可能性があります。
+</nierror>
+<nierror code="-25253">
+LabVIEW WSN:  インタフェースの二重登録: 内部エラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-25252">
+LabVIEW WSN:  ゲートウェイから互換性がない、または破損したデータを受信しました。
+</nierror>
+<nierror code="-25251">
+LabVIEW WSN:  メモリエラーです。使用されているメモリを解放できません。
+</nierror>
+<nierror code="-25250">
+LabVIEW WSN:  メモリの割り当てに失敗しました。
+</nierror>
+<nierror code="-25230">
+LabVIEW WSN:  プロセッサは、要求のシリアル化解除に失敗しました。このエラーは、プロトコルのバージョンに互換性がないか、またはデータが破損していると発生する場合があります。
+</nierror>
+<nierror code="-25229">
+LabVIEW WSN:  プロセッサは、要求のシリアル化解除に失敗しました。このエラーは、プロトコルのバージョンに互換性がない時に発生する場合があります。
+</nierror>
+<nierror code="-25228">
+LabVIEW WSN:  未処理の例外により、要求は拒否されました。
+</nierror>
+<nierror code="-25227">
+LabVIEW WSN:  メモリの割り当てに失敗しました。
+</nierror>
+<nierror code="-25226">
+LabVIEW WSN:  クライアントのアクセスは拒否されました。
+</nierror>
+<nierror code="-25225">
+LabVIEW WSN:  クライアントは接続を中断しました。
+</nierror>
+<nierror code="-25224">
+LabVIEW WSN:  ネットワーク通信に失敗しました。
+</nierror>
+<nierror code="-25223">
+LabVIEW WSN:  接続タイムアウトです。
+</nierror>
+<nierror code="-25222">
+LabVIEW WSN:  指名サービスに接続できません。
+</nierror>
+<nierror code="-25221">
+LabVIEW WSN:  指名ゲートウェイに接続できません。
+</nierror>
+<nierror code="-25220">
+LabVIEW WSN:  一般接続エラー。
+</nierror>
+<nierror code="-25200">
+LabVIEW WSN:  最初のLV WSNエラー
+</nierror>
+<nierror code="21100">
+LabVIEW WSN:  最初のLV WSN警告です
+</nierror>
+<nierror code="21240">
+LabVIEW WSN:  シリアルポートレシーバは、行内の改行を受信しました。
+</nierror>
+<nierror code="21241">
+LabVIEW WSN:  指定されたバイト数は、指定された終端文字が検出される前にシリアルポートから読み取られました。
+</nierror>
+<nierror code="21299">
+LabVIEW WSN:  最後のLV WSN警告です。
+</nierror>
+</nidocument>

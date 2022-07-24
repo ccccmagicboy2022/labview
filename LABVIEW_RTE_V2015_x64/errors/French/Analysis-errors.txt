@@ -1,0 +1,1019 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Analysis" displayname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23096">
+Analysis:  Trop de séparateurs décimaux
+</nierror>
+<nierror code="-23095">
+Analysis:  Pas une fonction valide.
+</nierror>
+<nierror code="-23094">
+Analysis:  Expression de fonction incomplète.
+</nierror>
+<nierror code="-23093">
+Analysis:  Expression incomplète
+</nierror>
+<nierror code="-23092">
+Analysis:  Problème au niveau des variables en sortie
+</nierror>
+<nierror code="-23091">
+Analysis:  Incohérence au niveau des variables ou des nombres
+</nierror>
+<nierror code="-23090">
+Analysis:  Contient plus d'une variable
+</nierror>
+<nierror code="-23089">
+Analysis:  Contient des variables
+</nierror>
+<nierror code="-23088">
+Analysis:  Mauvais nom de variable
+</nierror>
+<nierror code="-23087">
+Analysis:  La formule contient une mauvaise lettre ou une variable non définie.
+</nierror>
+<nierror code="-23086">
+Analysis:  Appel de fonction incorrecte
+</nierror>
+<nierror code="-23085">
+Analysis:  Format de nombre incorrect
+</nierror>
+<nierror code="-23084">
+Analysis:  Séparateur décimal incorrect
+</nierror>
+<nierror code="-23083">
+Analysis:  Problème de parenthèse à la fin.
+</nierror>
+<nierror code="-23082">
+Analysis:  Problème de parenthèse au début.
+</nierror>
+<nierror code="-23081">
+Analysis:  Problème de parenthèse.
+</nierror>
+<nierror code="-23055">
+Analysis:  Argument hors gamme [0,1).
+</nierror>
+<nierror code="-23054">
+Analysis:  Variables non uniques.
+</nierror>
+<nierror code="-23053">
+Analysis:  La longueur du signal n'est pas une puissance de deux supérieure ou égale à 4.
+</nierror>
+<nierror code="-23052">
+Analysis:  La longueur du signal n'est pas un nombre premier supérieur ou égal à 5.
+</nierror>
+<nierror code="-23051">
+Analysis:  La longueur du signal n'est pas n'est pas une puissance de deux.
+</nierror>
+<nierror code="-23050">
+Analysis:  La longueur du signal n'est pas un multiple du nombre.
+</nierror>
+<nierror code="-23049">
+Analysis:  Longueur de fenêtre non valide.
+</nierror>
+<nierror code="-23048">
+Analysis:  Incrément de temps non valide.
+</nierror>
+<nierror code="-23047">
+Analysis:  L'argument se trouve en dehors de la gamme [0,100].
+</nierror>
+<nierror code="-23046">
+Analysis:  Tableau vide.
+</nierror>
+<nierror code="-23045">
+Analysis:  n<k
+</nierror>
+<nierror code="-23044">
+Analysis:  Argument hors gamme [0,1].
+</nierror>
+<nierror code="-23043">
+Analysis:  Argument hors gamme (0,1].
+</nierror>
+<nierror code="-23042">
+Analysis:  Argument négatif.
+</nierror>
+<nierror code="-23041">
+Analysis:  Pas exactement deux variables.
+</nierror>
+<nierror code="-23040">
+Analysis:  Dérivée hors gamme.
+</nierror>
+<nierror code="-23039">
+Analysis:  Problème dans le paramètre.
+</nierror>
+<nierror code="-23038">
+Analysis:  Pas de variables dans l'expression.
+</nierror>
+<nierror code="-23037">
+Analysis:  Pas exactement deux fonctions.
+</nierror>
+<nierror code="-23036">
+Analysis:  Paramètres différents.
+</nierror>
+<nierror code="-23035">
+Analysis:  Nombre non positif.
+</nierror>
+<nierror code="-23034">
+Analysis:  Système inapproprié.
+</nierror>
+<nierror code="-23033">
+Analysis:  Les vecteurs n'ont pas les mêmes dimensions ou sont vides.
+</nierror>
+<nierror code="-23032">
+Analysis:  Le maximum n'existe pas.
+</nierror>
+<nierror code="-23031">
+Analysis:  Pas de point valide.
+</nierror>
+<nierror code="-23030">
+Analysis:  La condition m >= n >= 0 n'est pas respectée ou la matrice des dérivées n'a pas la bonne dimension.
+</nierror>
+<nierror code="-23029">
+Analysis:  Le VI Levenberg Marquardt a échoué.
+</nierror>
+<nierror code="-23028">
+Analysis:  Mauvaise équation modèle.
+</nierror>
+<nierror code="-23027">
+Analysis:  Pas exactement une variable.
+</nierror>
+<nierror code="-23026">
+Analysis:  Aucun optimum trouvé.
+</nierror>
+<nierror code="-23025">
+Analysis:  Triplet (a,b,c) non valide.
+</nierror>
+<nierror code="-23024">
+Analysis:  Aucune racine trouvée.
+</nierror>
+<nierror code="-23023">
+Analysis:  Mauvaise dimension de départ.
+</nierror>
+<nierror code="-23022">
+Analysis:  Précision ou delta x(h) non positif.
+</nierror>
+<nierror code="-23021">
+Analysis:  Les deux valeurs de fonction ont le même signe.
+</nierror>
+<nierror code="-23020">
+Analysis:  Le point gauche est supérieur au point droit.
+</nierror>
+<nierror code="-23019">
+Analysis:  Le point droit est une racine.
+</nierror>
+<nierror code="-23018">
+Analysis:  Le point gauche est une racine.
+</nierror>
+<nierror code="-23017">
+Analysis:  Racines multiples.
+</nierror>
+<nierror code="-23016">
+Analysis:  Matrice de vecteurs propres singulière.
+</nierror>
+<nierror code="-23015">
+Analysis:  X0 vide.
+</nierror>
+<nierror code="-23014">
+Analysis:  A et X0 ont des dimensions différentes.
+</nierror>
+<nierror code="-23013">
+Analysis:  Conflit vecteur matrice.
+</nierror>
+<nierror code="-23012">
+Analysis:  Précision non positive.
+</nierror>
+<nierror code="-23011">
+Analysis:  Incrément non positif.
+</nierror>
+<nierror code="-23010">
+Analysis:  Mauvaise entrée, méthode de Cash Karp.
+</nierror>
+<nierror code="-23009">
+Analysis:  Mauvaise entrée, méthode de Runge Kutta.
+</nierror>
+<nierror code="-23008">
+Analysis:  Mauvaise entrée, méthode d'Euler.
+</nierror>
+<nierror code="-23007">
+Analysis:  Pas un fichier de graphes.
+</nierror>
+<nierror code="-23006">
+Analysis:  Chemin non valide.
+</nierror>
+<nierror code="-23005">
+Analysis:  Distance négative.
+</nierror>
+<nierror code="-23004">
+Analysis:  Nombre de palettes de couleurs hors gamme.
+</nierror>
+<nierror code="-23003">
+Analysis:  Nombre de contours hors gamme.
+</nierror>
+<nierror code="-23002">
+Analysis:  Différence entre la fonction, les variables et les coordonnées.
+</nierror>
+<nierror code="-23001">
+Analysis:  Erreur de syntaxe de l'analyseur.
+</nierror>
+<nierror code="-23000">
+Analysis:  Début des codes erreur du relatifs au toolkit G Math.
+</nierror>
+<nierror code="-20999">
+Analysis:  Échec d'algorithme grave. Appelez le support technique de National Instruments.
+</nierror>
+<nierror code="-20699">
+Analysis:  Le format du fichier de données pour la banque de filtres à ondelettes n'est pas valide.
+</nierror>
+<nierror code="-20698">
+Analysis:  Impossible d'ouvrir le fichier de données pour la banque de filtres à ondelettes.
+</nierror>
+<nierror code="-20697">
+Analysis:  Le handle ou la session sur le paquet d'ondelettes doit faire référence à un arbre complet.
+</nierror>
+<nierror code="-20696">
+Analysis:  La session ou le handle sur le paquet d'ondelettes n'est pas valide ou l'espace de données auquel il fait référence ne contient pas les informations nécessaires.
+</nierror>
+<nierror code="-20695">
+Analysis:  Dimensions des coefficients d'ondelette non valides
+</nierror>
+<nierror code="-20694">
+Analysis:  Paramètre optionnel non valide pour trouver le chemin optimal.
+</nierror>
+<nierror code="-20693">
+Analysis:  Le niveau de tendance doit être compris entre 0 et 1,0 (bornes incluses).
+</nierror>
+<nierror code="-20692">
+Analysis:  L'incrément de temps doit être supérieur à 0.
+</nierror>
+<nierror code="-20691">
+Analysis:  Le noeud doit être un noeud de terminal.
+</nierror>
+<nierror code="-20690">
+Analysis:  Le nœud doit être un nœud de terminal.
+</nierror>
+<nierror code="-20689">
+Analysis:  Le chemin ou la chaîne du nœud ne peut contenir que des 0 ou des 1.
+</nierror>
+<nierror code="-20688">
+Analysis:  Les longueurs des filtres d'analyse ou de synthèse doivent être supérieures à 0.
+</nierror>
+<nierror code="-20687">
+Analysis:  Le niveau de décomposition (refinement level) du calcul de l'ondelette mère doit être supérieur à zéro.
+</nierror>
+<nierror code="-20686">
+Analysis:  Le décalage (shift) doit être 0 ou 1.
+</nierror>
+<nierror code="-20685">
+Analysis:  Le décalage ne peut pas être inférieur à 0, au facteur de décimation et au facteur d'interpolation.
+</nierror>
+<nierror code="-20684">
+Analysis:  Le facteur d'interpolation doit être supérieur ou égal à 2.
+</nierror>
+<nierror code="-20683">
+Analysis:  Le facteur de décimation doit être supérieur ou égal à 2.
+</nierror>
+<nierror code="-20682">
+Analysis:  L'échelle de la décomposition en ondelettes doit être supérieur à 0.
+</nierror>
+<nierror code="-20681">
+Analysis:  Le type d'ondelette sélectionné n'est pas valide.
+</nierror>
+<nierror code="-20665">
+Analysis:  L'ordre le plus grand doit être supérieur à l'ordre initial et inférieur ou égal à deux tiers de la longueur du signal en entrée.
+</nierror>
+<nierror code="-20664">
+Analysis:  L'ordre initial ne peut pas être inférieur à 1.
+</nierror>
+<nierror code="-20663">
+Analysis:  L'ordre AR doit être supérieur ou égal au nombre de sinusoïdes complexes.
+</nierror>
+<nierror code="-20662">
+Analysis:  Le nombre de sinusoïdes complexes doit être supérieur à 0 et inférieur ou égal à deux tiers de la longueur du signal en entrée.
+</nierror>
+<nierror code="-20661">
+Analysis:  Le nombre de sinusoïdes complexes doit être supérieur à 0 et inférieur ou égal à deux tiers de la longueur du signal en entrée.
+</nierror>
+<nierror code="-20644">
+Analysis:  L'indice du tableau 2D spécifié par le refnum est hors gamme.
+</nierror>
+<nierror code="-20643">
+Analysis:  Le refnum ne supporte pas cette opération.
+</nierror>
+<nierror code="-20642">
+Analysis:  Le refnum n'est pas valide.
+</nierror>
+<nierror code="-20641">
+Analysis:  Impossible de créer le refnum.
+</nierror>
+<nierror code="-20630">
+Analysis:  Les paramètres d'informations sur la fréquence ne permettent pas un calcul plus approfondi.
+</nierror>
+<nierror code="-20629">
+Analysis:  Les paramètres d'informations sur la fenêtre ne permettent pas un calcul plus approfondi.
+</nierror>
+<nierror code="-20628">
+Analysis:  Les dimensions du noyau (kernel) doivent être supérieurs à 0 et des puissances de 2. La taille de colonne du noyau doit être 2^(ceil(log2(Ls-1))), Ls représentant la longueur du signal en entrée.
+</nierror>
+<nierror code="-20627">
+Analysis:  La variance de la fenêtre gaussienne doit être supérieure à 0.
+</nierror>
+<nierror code="-20626">
+Analysis:  La taille de la fenêtre doit être supérieure à 0.
+</nierror>
+<nierror code="-20625">
+Analysis:  Le nombre de termes doit être supérieur à 0.
+</nierror>
+<nierror code="-20624">
+Analysis:  La fréquence de suréchantillonnage doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-20623">
+Analysis:  Le paramètre "order" doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-20622">
+Analysis:  L'intervalle de temps doit être une puissance de 2.
+</nierror>
+<nierror code="-20621">
+Analysis:  L'intervalle de temps doit être supérieur à 0.
+</nierror>
+<nierror code="-20604">
+Analysis:  Le paramètre de type de données d'énumération sélectionné n'est pas valide.
+</nierror>
+<nierror code="-20603">
+Analysis:  Le nombre d'intervalles de fréquence (frequency bins) doit être une puissance de 2 supérieure à zéro.
+</nierror>
+<nierror code="-20602">
+Analysis:  La fréquence d'échantillonnage doit être supérieure à 0.
+</nierror>
+<nierror code="-20601">
+Analysis:  Le signal en entrée est vide.
+</nierror>
+<nierror code="-20511">
+Analysis:  CVI n'a pas pu créer le mutex requis.
+</nierror>
+<nierror code="-20510">
+Analysis:  CVI n'a pas trouvé la fonction spécifiée dans la DLL.
+</nierror>
+<nierror code="-20509">
+Analysis:  CVI n'a pas pu chargé la DLL Spectral Measurement Toolset
+</nierror>
+<nierror code="-20508">
+Analysis:  Handle de session SMT non valide.
+</nierror>
+<nierror code="-20507">
+Analysis:  Le type de moyennage spécifié est incorrect.
+</nierror>
+<nierror code="-20506">
+Analysis:  Données de spectre d'entrée de type incorrect.
+</nierror>
+<nierror code="-20505">
+Analysis:  Vous devez spécifier soit la résolution de la FFT (nombre de bins), soit la bande passante temps réel (RBW).
+</nierror>
+<nierror code="-20504">
+Analysis:  La fréquence d'échantillonnage doit être supérieure à 0.
+</nierror>
+<nierror code="-20503">
+Analysis:  Les données en entrée ont fait déborder le buffer interne.
+</nierror>
+<nierror code="-20502">
+Analysis:  La taille de la FFT doit être supérieure à 0.
+</nierror>
+<nierror code="-20501">
+Analysis:  Le facteur de zoom doit être supérieur à 0.
+</nierror>
+<nierror code="-20337">
+Analysis:  L'horodatage spécifié survient passé la fin de la limite.
+</nierror>
+<nierror code="-20336">
+Analysis:  Les valeurs du tableau X qui sont contenues dans le cluster Limit Specification n'ont pas une croissance monotone.
+</nierror>
+<nierror code="-20335">
+Analysis:  Les waveforms ne sont pas contiguës.
+</nierror>
+<nierror code="-20334">
+Analysis:  Impossible d'aligner des waveforms qui sont séparées en temps par plus de 10 fois la plus longue waveform.
+</nierror>
+<nierror code="-20333">
+Analysis:  Impossible d'aligner deux waveforms ayant le même dt si leurs échantillons ne sont pas cadencés en phase.
+</nierror>
+<nierror code="-20332">
+Analysis:  Erreur interne : l'attribut de nombre de threads est négatif. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20331">
+Analysis:  Erreur interne : le parameter struct pointer est Null, peut-être à cause de modifications sur le diagramme du VI appelant. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20330">
+Analysis:  Erreur interne : le pointeur résultant est Null, peut-être à cause de modifications sur le diagramme du VI appelant. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20329">
+Analysis:  Erreur interne : cursor struct pointer est Null, peut-être à cause de modifications sur le diagramme du VI appelant. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20328">
+Analysis:  Échec d'initialisation d'une section critique du code de mesure, peut-être en raison d'un manque de mémoire. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20327">
+Analysis:  Une exception s'est produite dans le code de mesure, peut-être en raison d'un manque de mémoire. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20326">
+Analysis:  La vitesse de variation est infinie car le temps de chute ou de montée est zéro.
+</nierror>
+<nierror code="-20325">
+Analysis:  Erreur interne : numéro d'ID de mesure non valide. Contactez le support technique de National Instruments pour obtenir plus d'informations.
+</nierror>
+<nierror code="-20324">
+Analysis:  Erreur interne : deux mesures partagent le même numéro d'ID. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20323">
+Analysis:  Le paramètre de nombre de fronts, périodes, impulsions doit être supérieur à zéro.
+</nierror>
+<nierror code="-20322">
+Analysis:  Erreur interne : le numéro d'attribut ne correspond pas à un paramètre valide. Vérifiez les entrées <b>niveaux de référence</b>, <b>paramètres des niveaux en %</b> et <b>paramètres d'état</b>.
+</nierror>
+<nierror code="-20321">
+Analysis:  Erreur interne : le handle de session de mesure n'est pas valide. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20320">
+Analysis:  Erreur interne : la mesure demandée n'est pas disponible. Si le problème persiste, veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-20319">
+Analysis:  La période de la waveform est trop courte pour réaliser la mesure.
+</nierror>
+<nierror code="-20318">
+Analysis:  Le résultat n'est pas un nombre (NaN) ou est infini.
+</nierror>
+<nierror code="-20317">
+Analysis:  Le paramètre de taille d'histogramme est inférieur ou égal à zéro.
+</nierror>
+<nierror code="-20316">
+Analysis:  Paramètre "percent method" non valide. Vérifiez l'entrée de type énumération <b>method</b>.
+</nierror>
+<nierror code="-20315">
+Analysis:  Le paramètre dt de la waveform est inférieur ou égal à 0.
+</nierror>
+<nierror code="-20314">
+Analysis:  Paramètre d'unités de niveau de référence illégal. Vérifiez l'entrée <b>ref units</b>.
+</nierror>
+<nierror code="-20313">
+Analysis:  Les niveaux de référence ne remplissent pas les conditions requises.
+</nierror>
+<nierror code="-20312">
+Analysis:  La taille de la waveform en entrée est zéro.
+</nierror>
+<nierror code="-20311">
+Analysis:  La mémoire est insuffisante pour effectuer la mesure sur la waveform.
+</nierror>
+<nierror code="-20310">
+Analysis:  La waveform ne comportait pas suffisamment de fronts pour permettre cette mesure. Un front se définit comme étant le croisement des deux niveaux de référence bas et haut. Veuillez vérifier la force du signal, les niveaux de référence et leurs unités.
+</nierror>
+<nierror code="-20309">
+Analysis:  L'amplitude de la waveform est zéro. La méthode par histogramme ne peut pas être utilisée.
+</nierror>
+<nierror code="-20308">
+Analysis:  La waveform n'a pas traversé le niveau de référence moyen assez de fois pour que cette mesure puisse être effectuée. Veuillez vérifier la force du signal, les niveaux de référence et leurs unités.
+</nierror>
+<nierror code="-20307">
+Analysis:  La fréquence n'est pas un multiple de (Fréquence d'échantillonnage)/nb d'échantillons.
+</nierror>
+<nierror code="-20306">
+Analysis:  Les deux waveforms temporelles ont des échantillonnages (dt) différents.
+</nierror>
+<nierror code="-20305">
+Analysis:  Les deux waveforms temporelles contiennent un nombre de points différent.
+</nierror>
+<nierror code="-20304">
+Analysis:  Au moins une des waveforms temporelles ne contient pas le dt correct pour que le processus de moyennage puisse continuer.
+</nierror>
+<nierror code="-20303">
+Analysis:  Au moins une des waveforms temporelles ne contient pas le nombre de points correct pour continuer le processus de moyennage.
+</nierror>
+<nierror code="-20302">
+Analysis:  La waveform temporelle ne contient pas le dt correct pour continuer le processus de moyennage.
+</nierror>
+<nierror code="-20301">
+Analysis:  La waveform temporelle ne contient pas le nombre de points correct pour continuer le processus de moyennage.
+</nierror>
+<nierror code="-20207">
+Analysis:  La limite supérieure est inférieure à la limite inférieure.
+</nierror>
+<nierror code="-20206">
+Analysis:  Décalages : n est négatif.
+</nierror>
+<nierror code="-20205">
+Analysis:  La longueur de l'échantillon est inférieure à celle de la fenêtre.
+</nierror>
+<nierror code="-20204">
+Analysis:  La longueur de fenêtre est négative.
+</nierror>
+<nierror code="-20203">
+Analysis:  L'incrément de temps est négatif.
+</nierror>
+<nierror code="-20202">
+Analysis:  La longueur de l'échantillon est négative.
+</nierror>
+<nierror code="-20201">
+Analysis:  La longueur de l'échantillon n'est pas valide.
+</nierror>
+<nierror code="-20165">
+Analysis:  La condition initiale est en conflit avec l'entrée de classe de l'EDP.
+</nierror>
+<nierror code="-20164">
+Analysis:  La condition aux limites est en conflit avec l'entrée de classe de l'EDP.
+</nierror>
+<nierror code="-20163">
+Analysis:  Le domaine est en conflit avec l'entrée de classe de l'EDP.
+</nierror>
+<nierror code="-20162">
+Analysis:  Le membre de droite de l'EDP est en conflit avec l'entrée de classe de l'EDP.
+</nierror>
+<nierror code="-20161">
+Analysis:  L'équation est en conflit avec l'entrée de classe de l'EDP.
+</nierror>
+<nierror code="-20158">
+Analysis:  La taille de la condition initiale de l'EDP n'est pas compatible avec celle de la grille sur le domaine.
+</nierror>
+<nierror code="-20157">
+Analysis:  La taille de la condition aux limites de l'EDP n'est pas compatible avec celle de la grille sur le domaine.
+</nierror>
+<nierror code="-20156">
+Analysis:  La taille du membre de droite de l'EDP n'est pas compatible avec celle de la grille sur le domaine.
+</nierror>
+<nierror code="-20155">
+Analysis:  Le nombre de points de limite doit être supérieur ou égal à 3 sur le domaine polygonal.
+</nierror>
+<nierror code="-20154">
+Analysis:  Le nombre de points de grille est 0 sur le domaine polygonal.
+</nierror>
+<nierror code="-20153">
+Analysis:  Le nombre de points d'espace doit être supérieur ou égal à 3.
+</nierror>
+<nierror code="-20152">
+Analysis:  Le nombre de points de temps doit être supérieur ou égal à 2.
+</nierror>
+<nierror code="-20151">
+Analysis:  Le point final doit être supérieur au point initial.
+</nierror>
+<nierror code="-20145">
+Analysis:  Chaque variable indépendante doit contenir le même nombre de valeurs que la variable dépendante.
+</nierror>
+<nierror code="-20144">
+Analysis:  La taille d'interpolation doit être supérieure ou égale à la taille des données.
+</nierror>
+<nierror code="-20143">
+Analysis:  Une valeur en entrée se trouve en dehors du domaine acceptable
+</nierror>
+<nierror code="-20142">
+Analysis:  Les emplacements de domaine pour l'interpolation (xi, yi, ...) doivent avoir les mêmes dimensions et la même taille.
+</nierror>
+<nierror code="-20141">
+Analysis:  L'entrée doit être non nulle.
+</nierror>
+<nierror code="-20140">
+Analysis:  L'entrée doit être supérieure à zéro.
+</nierror>
+<nierror code="-20131">
+Analysis:  L'ordre doit être inférieur ou égal au degré.
+</nierror>
+<nierror code="-20130">
+Analysis:  L'entrée n'est pas un nombre premier.
+</nierror>
+<nierror code="-20129">
+Analysis:  La taille du tableau en entrée n'est pas une puissance de la base.
+</nierror>
+<nierror code="-20128">
+Analysis:  La taille de la matrice de Hadamard n'est pas valide. La taille valide est 2^k, 12*2^k, ou 20*2^k, k étant supérieur à 0.
+</nierror>
+<nierror code="-20127">
+Analysis:  Le nombre d'échantillons est inférieur au nombre de paramètres inconnus.
+</nierror>
+<nierror code="-20126">
+Analysis:  Il ne reste pas assez d'espace pour effectuer le sous-programme spécifié dans l'espace de travail d'analyse.
+</nierror>
+<nierror code="-20125">
+Analysis:  L'espace de travail d'analyse ne peut pas être déverrouillé.
+</nierror>
+<nierror code="-20124">
+Analysis:  L'espace de travail pour l'analyse a été verrouillé.
+</nierror>
+<nierror code="-20123">
+Analysis:  L'espace de travail pour l'analyse n'est pas vide.
+</nierror>
+<nierror code="-20122">
+Analysis:  L'espace de travail pour l'analyse est vide.
+</nierror>
+<nierror code="-20121">
+Analysis:  L'espace de travail pour l'analyse a déjà été activé.
+</nierror>
+<nierror code="-20120">
+Analysis:  La taille de l'espace de travail pour l'analyse n'a pas été définie.
+</nierror>
+<nierror code="-20119">
+Analysis:  Le nombre d'échantillons n'est pas égal à 3.
+</nierror>
+<nierror code="-20118">
+Analysis:  L'entrée est supérieure à 1 ou inférieure à -1.
+</nierror>
+<nierror code="-20117">
+Analysis:  La signification a été perdue.
+</nierror>
+<nierror code="-20116">
+Analysis:  Aucune solution acceptable n'a été trouvée.
+</nierror>
+<nierror code="-20115">
+Analysis:  La taille de la FFT doit être supérieure à zéro.
+</nierror>
+<nierror code="-20114">
+Analysis:  La valeur de départ câblée au VI Compter les zéros d'un polynôme réel est supérieure à la valeur de fin.
+</nierror>
+<nierror code="-20113">
+Analysis:  La valeur de fin câblée au VI "Compter les zéros d'un polynôme réel" est une racine.
+</nierror>
+<nierror code="-20112">
+Analysis:  La valeur de départ câblée au VI "Compter les zéros d'un polynôme réel" est une racine.
+</nierror>
+<nierror code="-20111">
+Analysis:  Les coefficients du polynôme d'entrée sont tous zéro.
+</nierror>
+<nierror code="-20108">
+Analysis:  Le polygone en entrée n'est pas convexe ou simple.
+</nierror>
+<nierror code="-20107">
+Analysis:  Le nombre est hors gamme. La gamme valide est [0; pi].
+</nierror>
+<nierror code="-20106">
+Analysis:  Le nombre est hors gamme. La gamme valide est [0; pi/2].
+</nierror>
+<nierror code="-20105">
+Analysis:  Le nombre est hors gamme.  La gamme valide est [0; 1].
+</nierror>
+<nierror code="-20104">
+Analysis:  Les paramètres d'entrée possèdent au moins un élément NaN.
+</nierror>
+<nierror code="-20103">
+Analysis:  Le paramètre "order" doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-20102">
+Analysis:  Les décalages doivent vérifier : |décalages| < nb d'échantillons.
+</nierror>
+<nierror code="-20101">
+Analysis:  La valeur maximale du paramètre doit être supérieure à la valeur minimale du paramètre.
+</nierror>
+<nierror code="-20099">
+Analysis:  L'ordre AR doit être supérieur ou égal au nombre de sinusoïdes complexes.
+</nierror>
+<nierror code="-20098">
+Analysis:  L'ordre AR ne doit pas être supérieur à 2/3 du nombre d'échantillons.
+</nierror>
+<nierror code="-20097">
+Analysis:  Le nombre de sinusoïdes complexes ne doit pas être supérieur à 2/3 du nombre d'échantillons.
+</nierror>
+<nierror code="-20096">
+Analysis:  L'ordre AR doit être supérieur à 0.
+</nierror>
+<nierror code="-20095">
+Analysis:  Le nombre de sinusoïdes complexes doit être supérieur à 0.
+</nierror>
+<nierror code="-20094">
+Analysis:  La taille du tableau de conditions initiale ou finale n'est pas correct.
+</nierror>
+<nierror code="-20093">
+Analysis:  df doit être supérieur à 0.
+</nierror>
+<nierror code="-20092">
+Analysis:  La fonction duale n'existe pas.
+</nierror>
+<nierror code="-20091">
+Analysis:  Le tableau de coefficients de Gabor n'a pas une dimension correcte.
+</nierror>
+<nierror code="-20090">
+Analysis:  L'ordre du spectogramme de Gabor doit être >= 0.
+</nierror>
+<nierror code="-20089">
+Analysis:  La fréquence de suréchantillonnage, N / dM, doit être >= 1.
+</nierror>
+<nierror code="-20088">
+Analysis:  La longueur de la fenêtre d'analyse ou de synthèse doit être un multiple du nombre d'intervalles de fréquence, N, qui lui même doit être une puissance de 2.
+</nierror>
+<nierror code="-20087">
+Analysis:  La longueur de la fenêtre d'analyse ou de synthèse doit être un multiple de l'intervalle de temps d'échantillonnage de Gabor; dM.
+</nierror>
+<nierror code="-20086">
+Analysis:  La longueur de la fenêtre doit être supérieure à 2 et une puissance de 2.
+</nierror>
+<nierror code="-20085">
+Analysis:  La taille du tableau en entrée et celle de sa transformée de Hilbert doivent être égales.
+</nierror>
+<nierror code="-20084">
+Analysis:  L'incrément de temps ne doit pas être supérieur à (longueur de la fenêtre)/4.
+</nierror>
+<nierror code="-20083">
+Analysis:  La longueur de la fenêtre doit être > 4 et une puissance de 2.
+</nierror>
+<nierror code="-20082">
+Analysis:  L'incrément de temps ne doit pas être supérieur à dM.
+</nierror>
+<nierror code="-20081">
+Analysis:  dN ou l'intervalle de temps doit être supérieur à zéro.
+</nierror>
+<nierror code="-20080">
+Analysis:  L'incrément de temps doit être supérieur à (longueur de la fenêtre)/16.
+</nierror>
+<nierror code="-20079">
+Analysis:  La valeur de départ n'est pas valide.
+</nierror>
+<nierror code="-20078">
+Analysis:  Cette fonctionnalité n'est pas supportée sur cette plate-forme.
+</nierror>
+<nierror code="-20077">
+Analysis:  Les points temporels ne sont pas dans l'ordre croissant.
+</nierror>
+<nierror code="-20076">
+Analysis:  Le point de ré-échantillonnage ne peut pas être recalculé lorsque le signal est derrière celui de l'entrée.
+</nierror>
+<nierror code="-20075">
+Analysis:  Le buffer de filtre a débordé.
+</nierror>
+<nierror code="-20074">
+Analysis:  La réorganisation des valeurs propres a modifié certaines valeurs complexes.
+</nierror>
+<nierror code="-20073">
+Analysis:  Les valeurs propres ne peuvent pas être ré-ordonnées car certaines sont trop proches.
+</nierror>
+<nierror code="-20072">
+Analysis:  Le logarithme de la matrice d'entrée ne peut pas être calculé.
+</nierror>
+<nierror code="-20071">
+Analysis:  La matrice d'entrée n'est pas définie positive.
+</nierror>
+<nierror code="-20070">
+Analysis:  Les matrices doivent avoir la même taille.
+</nierror>
+<nierror code="-20069">
+Analysis:  Le nombre d'échantillons doit être supérieur ou égal à 4.
+</nierror>
+<nierror code="-20068">
+Analysis:  La matrice en entrée a au moins un élément dont la valeur est Inf, NaN, DBL_MAX ou DBL_MIN
+</nierror>
+<nierror code="-20067">
+Analysis:  La fréquence fondamentale d'entrée ou la fréquence d'échantillonnage est égale à zéro
+</nierror>
+<nierror code="-20066">
+Analysis:  Les informations dans la structure du filtre IIR sont incorrectes.
+</nierror>
+<nierror code="-20065">
+Analysis:  Les éléments du vecteur ne peuvent pas être tous nuls.
+</nierror>
+<nierror code="-20064">
+Analysis:  L'état de la mémoire interne de cette fonction n'a pas été initialisé correctement.
+</nierror>
+<nierror code="-20063">
+Analysis:  Les coefficients du polynôme ne sont pas valides.
+</nierror>
+<nierror code="-20062">
+Analysis:  Le nombre maximum d'itérations a été dépassé.
+</nierror>
+<nierror code="-20061">
+Analysis:  La sélection n'est pas valide.
+</nierror>
+<nierror code="-20060">
+Analysis:  Erreur de division par zéro.
+</nierror>
+<nierror code="-20059">
+Analysis:  Erreur de nombre négatif.
+</nierror>
+<nierror code="-20058">
+Analysis:  Nombre de dimensions ou de variables dépendantes non valide.
+</nierror>
+<nierror code="-20057">
+Analysis:  Le paramètre de la fonction bêta doit vérifier : 0 < p < 1.
+</nierror>
+<nierror code="-20056">
+Analysis:  La table de contingence contient un nombre négatif.
+</nierror>
+<nierror code="-20055">
+Analysis:  Le nombre de catégories ou d'échantillons doit être supérieur à 1.
+</nierror>
+<nierror code="-20054">
+Analysis:  La probabilité doit être supérieure ou égale à zéro et inférieure à 1.
+</nierror>
+<nierror code="-20053">
+Analysis:  Le nombre doit être compris entre 0 et 1.
+</nierror>
+<nierror code="-20052">
+Analysis:  Le degré de liberté doit être supérieur à zéro mais inférieur à la longueur de la séquence en entrée.
+</nierror>
+<nierror code="-20051">
+Analysis:  Tous les éléments de la première colonne de la matrice X doivent être égaux à 1.
+</nierror>
+<nierror code="-20050">
+Analysis:  La fonction d'interpolation contient un pôle à la valeur requise.
+</nierror>
+<nierror code="-20049">
+Analysis:  Les valeurs des x doivent être distinctes.
+</nierror>
+<nierror code="-20048">
+Analysis:  Le modèle 'Random Effect' a été demandé alors que le modèle 'Fixed Effect' est nécessaire.
+</nierror>
+<nierror code="-20047">
+Analysis:  Les données ne sont pas équilibrées. Chaque cellule doit contenir le même nombre d'observations.
+</nierror>
+<nierror code="-20046">
+Analysis:  Il y a un dépassement dans le calcul.
+</nierror>
+<nierror code="-20045">
+Analysis:  Le nombre total de points de données doit être égal au résultat de la multiplication de chaque niveau par le nombre d'observations par cellule.
+</nierror>
+<nierror code="-20044">
+Analysis:  Aucune observation n'a été faite pour certains niveaux d'un facteur.
+</nierror>
+<nierror code="-20043">
+Analysis:  Le niveau des facteurs se situe à l'extérieur de la gamme autorisée pour certaines données.
+</nierror>
+<nierror code="-20042">
+Analysis:  Le nombre de niveaux est hors gamme.
+</nierror>
+<nierror code="-20041">
+Analysis:  Le système d'équations ne peut pas être résolu car la matrice d'entrée est singulière.
+</nierror>
+<nierror code="-20040">
+Analysis:  La matrice d'entrée doit être une matrice carrée.
+</nierror>
+<nierror code="-20039">
+Analysis:  Le nombre de colonnes de la première matrice n'est pas égal au nombre de lignes ou de vecteurs de la seconde matrice.
+</nierror>
+<nierror code="-20038">
+Analysis:  Le nombre d'intervalles doit être > 0.
+</nierror>
+<nierror code="-20037">
+Analysis:  Le nombre de points de données du tableau de valeurs de Y doit être supérieur à la valeur de l'ordre.
+</nierror>
+<nierror code="-20036">
+Analysis:  Les éléments du tableau de valeurs de Y doivent être non nuls et doivent être soit tous positifs soit tous négatifs.
+</nierror>
+<nierror code="-20035">
+Analysis:  L'écart-type doit être supérieur à zéro pour que la normalisation soit possible.
+</nierror>
+<nierror code="-20034">
+Analysis:  Le nombre de coefficients du filtre doit être pair.
+</nierror>
+<nierror code="-20033">
+Analysis:  Le nombre de coefficients du filtre doit être impair.
+</nierror>
+<nierror code="-20032">
+Analysis:  Le rang de gauche du filtre doit être supérieur ou égal à 0.
+Le rang de droite du filtre doit être supérieur à taille.
+</nierror>
+<nierror code="-20031">
+Analysis:  Le filtre ne peut pas être réalisé avec les paramètres d'entrée spécifiés.
+</nierror>
+<nierror code="-20030">
+Analysis:  Le coefficient de perte, leak, et le paramètre de taille d'incrément, u, doivent être tels que : 0 <= leak <= u.
+</nierror>
+<nierror code="-20029">
+Analysis:  Le paramètre de taille d'incrément, u, doit être tel que 0 <= u <= 0,1.
+</nierror>
+<nierror code="-20028">
+Analysis:  La valeur d'atténuation doit être supérieure à l'amplitude d'ondulation.
+</nierror>
+<nierror code="-20027">
+Analysis:  La valeur finale doit être > 0.
+</nierror>
+<nierror code="-20026">
+Analysis:  La largeur doit être > 0.
+</nierror>
+<nierror code="-20025">
+Analysis:  L'atténuation doit être > 0.
+</nierror>
+<nierror code="-20024">
+Analysis:  L'amplitude d'ondulation doit être > 0.
+</nierror>
+<nierror code="-20023">
+Analysis:  Les conditions suivantes doivent être respectées : 0 < f_basse <= f_haute <= fé/2.
+</nierror>
+<nierror code="-20022">
+Analysis:  Le facteur de décimation doit être tel que 0 < facteur de décimation <= nb d'échantillons.
+</nierror>
+<nierror code="-20021">
+Analysis:  L'ordre doit être supérieur à 0.
+</nierror>
+<nierror code="-20020">
+Analysis:  La fréquence de coupure, fc, doit être telle que 0 <= fc <= fé/2.
+</nierror>
+<nierror code="-20019">
+Analysis:  La valeur supérieure doit être supérieure ou égale à la valeur inférieure.
+</nierror>
+<nierror code="-20018">
+Analysis:  La condition suivante doit être respectée : 0 <= (indice + longueur) < nb d'échantillons.
+</nierror>
+<nierror code="-20017">
+Analysis:  La condition suivante doit être respectée : 0 <= indice < nb d'échantillons.
+</nierror>
+<nierror code="-20016">
+Analysis:  dt doit être > 0.
+</nierror>
+<nierror code="-20015">
+Analysis:  dt doit être >= 0.
+</nierror>
+<nierror code="-20014">
+Analysis:  La condition suivante doit être respectée : 0 <= (délai + largeur) < nb d'échantillons.
+</nierror>
+<nierror code="-20013">
+Analysis:  La largeur doit vérifier : 0 < largeur < nb d'échantillons.
+</nierror>
+<nierror code="-20012">
+Analysis:  Le nombre de périodes doit être > 0 et <= au nombre d'échantillons.
+</nierror>
+<nierror code="-20011">
+Analysis:  Le rapport cyclique doit être tel que 0 <= rapport cyclique <= 100.
+</nierror>
+<nierror code="-20010">
+Analysis:  Le maximum autorisé pour la taille de la transformée a été dépassé.
+</nierror>
+<nierror code="-20009">
+Analysis:  La taille du tableau en entrée doit être une puissance de 2 : taille = 2^m, 0 < m < 23.
+</nierror>
+<nierror code="-20008">
+Analysis:  Les tableaux en entrée ne contiennent pas un nombre de données valide pour cette fonction.
+</nierror>
+<nierror code="-20007">
+Analysis:  Le nombre d'échantillons doit être supérieur ou égal à 3.
+</nierror>
+<nierror code="-20006">
+Analysis:  Le nombre d'échantillons doit être >= 2.
+</nierror>
+<nierror code="-20005">
+Analysis:  Le nombre d'échantillons doit être supérieur ou égal à 1.
+</nierror>
+<nierror code="-20004">
+Analysis:  Le nombre d'échantillons doit être >= 0.
+</nierror>
+<nierror code="-20003">
+Analysis:  Le nombre d'échantillons doit être > 0.
+</nierror>
+<nierror code="-20002">
+Analysis:  Les séquences en entrée doivent avoir la même taille.
+</nierror>
+<nierror code="-20001">
+Analysis:  Il n'y a pas assez de mémoire pour effectuer la routine spécifiée.
+</nierror>
+<nierror code="20001">
+Analysis:  La matrice n'est pas de plein rang.
+</nierror>
+<nierror code="20002">
+Analysis:  Le nombre d'échantillons doit être supérieur à zéro.
+</nierror>
+<nierror code="20003">
+Analysis:  La matrice est singulière.
+</nierror>
+<nierror code="20004">
+Analysis:  Les matrices ou les vecteurs n'ont pas la même taille.
+</nierror>
+<nierror code="20005">
+Analysis:  LabVIEW ne peut pas réordonner les valeurs propres généralisées.
+</nierror>
+<nierror code="20006">
+Analysis:  Le résultat du calcul n'est peut-être pas juste.
+</nierror>
+<nierror code="20007">
+Analysis:  L'entrée n'est pas une factorisation de Cholesky valide.
+</nierror>
+<nierror code="20008">
+Analysis:  La matrice n'est pas définie positive.
+</nierror>
+<nierror code="20010">
+Analysis:  Les tailles des tableaux en entrée ne répondent pas aux conditions spécifiées.
+</nierror>
+<nierror code="20011">
+Analysis:  L'écart-type en entrée n'est pas valide.
+</nierror>
+<nierror code="20012">
+Analysis:  Le polynôme en entrée est vide.
+</nierror>
+<nierror code="20020">
+Analysis:  Certaines fréquences ne respectent pas le critère de Nyquist.
+</nierror>
+<nierror code="20021">
+Analysis:  La mesure du niveau d'état risque de ne pas être juste, auquel cas les autres mesures ne seront pas justes.
+</nierror>
+<nierror code="20030">
+Analysis:  La matrice en entrée a au moins un élément dont la valeur est Inf ou NaN.
+</nierror>
+<nierror code="20031">
+Analysis:  Le maximum autorisé pour l'ordre a été dépassé.
+</nierror>
+<nierror code="20307">
+Analysis:  La fréquence a été contrainte vers le multiple le plus proche de (fréq. d'éch)/échantillons.
+</nierror>
+<nierror code="20334">
+Analysis:  Les deux waveforms n'ont pas de partie temporelle commune.
+</nierror>
+<nierror code="20351">
+Analysis:  Le processus de moyennage a été redémarré automatiquement pour tenir compte d'une modification dans les paramètres de moyennage.
+</nierror>
+<nierror code="20352">
+Analysis:  La waveform actuelle et la waveform précédente ne sont pas contiguës.
+</nierror>
+<nierror code="20353">
+Analysis:  Le dt actuel et le dt précédent ne sont pas égaux.
+</nierror>
+</nidocument>

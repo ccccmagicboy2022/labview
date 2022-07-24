@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<NILVWSPostInstallerScript>
+	<VI name="Prompt for Credentials.vi">
+		<string name="Title">Ouverture de session NI-Auth</string>
+		<string name="Username">Nom d&apos;utilisateur</string>
+		<string name="Password">Mot de passe</string>
+		<string name="OK">OK</string>
+		<string name="Cancel">Annuler</string>
+	</VI>
+	<VI name="install.vi">
+		<string name="Label">Installation du service Web %s</string>
+	</VI>
+	<VI name="uninstall.vi">
+		<string name="Label">Désinstallation du service Web %s</string>
+	</VI>
+</NILVWSPostInstallerScript>
